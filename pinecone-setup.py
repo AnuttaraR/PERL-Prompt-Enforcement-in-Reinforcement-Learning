@@ -126,10 +126,10 @@ def upsert_to_pinecone(new_data):
 def retrieve_context(query):
     xq = embed_model.encode(query).tolist()
 
-    res = index.query(xq, top_k=3, include_metadata=True)
+    res = index.query(vector=xq, top_k=3, include_metadata=True)
 
     contexts = [
-        x['metadata']['text'] for x in res['matches']
+        x['metadata'] for x in res['matches']
     ]
 
     return contexts
@@ -147,10 +147,10 @@ def delete_database(index):
 
 # Streamlit app
 def main():
-    st.title("")
+    st.title("PromptEnforce - Basic Pinecone Retrieval")
 
     query_option = st.radio("Select Query Option:",
-                            ["Upload Documents", "Delete Database"])
+                            ["Upload Documents", "Delete Database", "Get Vectors"])
 
     if query_option == "Upload Documents":
 
@@ -184,8 +184,22 @@ def main():
         else:
             st.write("There are no vectors in the database")
 
+    elif query_option == "Get Vectors":
+
+        query = st.text_input("Write your query: ")
+
+        get_vectors_button = st.button("Get Relevant Vectors")
+
+        if get_vectors_button:
+            st.subheader("Here are the contexts retrieved from pinecone:")
+
+            contexts = retrieve_context(query)
+            st.json(contexts)
+
+
+
 
 if __name__ == "__main__":
     main()
 
-# streamlit run app.py
+# streamlit run pinecone-setup.py
