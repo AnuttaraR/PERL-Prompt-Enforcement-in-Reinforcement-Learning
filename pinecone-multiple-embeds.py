@@ -16,6 +16,7 @@ from pathlib import Path
 from os import listdir
 from os.path import isfile, join
 from transformers import AutoModel, AutoTokenizer
+from transformers.utils.import_utils import is_torch_npu_available
 
 from huggingface_hub import login
 
@@ -199,9 +200,13 @@ def get_vector_count(model_name):
     return vector_count
 
 
-def delete_database(model_name):
+def delete_database(model_name, metadata):
     index = pc.Index(PINECONE_INDEX_NAMES[model_name])
-    index.delete(delete_all=True)
+    index.delete(
+        filter={
+            "k_ownership_source": {"$eq": metadata}
+        }
+    )
 
 
 # Streamlit app
@@ -227,12 +232,13 @@ def main():
 
     elif query_option == "Delete Database":
         vec_num = get_vector_count(model_option)
+        select_metadata = st.text_input("Enter metadata of database: ")
         if vec_num != 0:
-            st.write("Are you sure you want to delete the database?")
+            st.write("Are you sure you want to delete this collection of data?")
             confirmation = st.button("Yes")
             if confirmation:
-                delete_database(model_option)
-                st.write("Database has been cleared of all vectors")
+                delete_database(model_option, select_metadata)
+                st.write(f"Database has been cleared of all vectors of {select_metadata}")
         else:
             st.write("There are no vectors in the database")
 
@@ -249,3 +255,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# streamlit run pinecone-multiple-embeds.py
