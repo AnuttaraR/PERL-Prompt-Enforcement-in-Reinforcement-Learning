@@ -1,0 +1,33 @@
+==================================================
+PPO MODEL PERFORMANCE SUMMARY
+==================================================
+
+TRAINING SUMMARY
+- Episodes completed: 1000
+- Average reward (last 100 episodes): 1.2985
+- Question type counts:
+  * what: 372 questions
+    Average reward: 1.9175
+  * how: 321 questions
+    Average reward: 0.9450
+  * if_can: 307 questions
+    Average reward: 1.2664
+
+TEST SUMMARY
+- Overall average reward: 0.3039
+- Performance by question type:
+  * what questions (27 examples):
+    - Average reward: 0.3961
+    - Average BERTScore: 0.8585
+    - Average ROUGE-L: 0.2872
+    - Average METEOR: 0.2812
+  * how questions (13 examples):
+    - Average reward: 0.1716
+    - Average BERTScore: 0.8356
+    - Average ROUGE-L: 0.2217
+    - Average METEOR: 0.2462
+  * if_can questions (20 examples):
+    - Average reward: 0.2652
+    - Average BERTScore: 0.8583
+    - Average ROUGE-L: 0.2992
+    - Average METEOR: 0.3750

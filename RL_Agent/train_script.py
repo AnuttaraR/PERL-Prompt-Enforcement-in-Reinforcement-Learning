@@ -102,14 +102,38 @@ def plot_training_curves(rewards, actor_losses, critic_losses, qt_rewards, outpu
 
 
 def save_metrics(metrics, output_dir):
-    """Save metrics to JSON file"""
+    """Save metrics to JSON file with proper serialization"""
     os.makedirs(output_dir, exist_ok=True)
 
-    metrics_file = f"{output_dir}/metrics.json"
+    metrics_file = f"{output_dir}/evaluation_metrics.json"
     logger.info(f"Saving metrics to {metrics_file}")
 
+    # Helper function to convert non-serializable objects
+    def convert_for_json(obj):
+        if isinstance(obj, np.ndarray):
+            return obj.tolist()
+        if isinstance(obj, (np.int64, np.int32, np.int8)):
+            return int(obj)
+        if isinstance(obj, (np.float64, np.float32, np.float16)):
+            return float(obj)
+        if torch.is_tensor(obj):
+            return obj.item() if obj.numel() == 1 else obj.tolist()
+        return obj
+
+    # Special handling for nested dictionaries and arrays
+    def process_json_structure(obj):
+        if isinstance(obj, dict):
+            return {str(k): process_json_structure(v) for k, v in obj.items()}
+        elif isinstance(obj, list):
+            return [process_json_structure(item) for item in obj]
+        else:
+            return convert_for_json(obj)
+
+    # Process the entire metrics structure
+    processed_metrics = process_json_structure(metrics)
+
     with open(metrics_file, 'w') as f:
-        json.dump(metrics, f, indent=2)
+        json.dump(processed_metrics, f, indent=2)
 
     logger.info(f"Metrics saved successfully")
 

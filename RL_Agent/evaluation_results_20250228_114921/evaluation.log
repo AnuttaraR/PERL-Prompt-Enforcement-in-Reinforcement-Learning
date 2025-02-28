@@ -1,0 +1,49 @@
+2025-02-28 11:49:21,489 - evaluate_model - INFO - ==================================================
+2025-02-28 11:49:21,489 - evaluate_model - INFO - Starting evaluation of model at best_ppo_model
+2025-02-28 11:49:21,489 - evaluate_model - INFO - Test data: C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/test_data.json
+2025-02-28 11:49:21,490 - evaluate_model - INFO - Device: cpu
+2025-02-28 11:49:21,504 - evaluate_model - INFO - Loaded test dataset with 60 examples
+2025-02-28 11:49:21,504 - evaluate_model - INFO - Input dimension: 512
+2025-02-28 11:49:21,512 - evaluate_model - INFO - Successfully loaded model from best_ppo_model
+2025-02-28 11:49:21,520 - evaluate_model - INFO - Starting evaluation on test dataset...
+2025-02-28 12:14:36,355 - evaluate_model - INFO - Evaluation completed in 1514.83s (25.25 minutes)
+2025-02-28 12:14:36,355 - evaluate_model - INFO - Saving metrics to evaluation_results_20250228_114921/evaluation_metrics.json
+2025-02-28 12:14:36,358 - evaluate_model - INFO - Metrics saved successfully
+2025-02-28 12:14:36,358 - evaluate_model - INFO - 
+Evaluation Summary:
+2025-02-28 12:14:36,358 - evaluate_model - INFO - Question Type: what
+2025-02-28 12:14:36,358 - evaluate_model - INFO -   Samples: 27
+2025-02-28 12:14:36,358 - evaluate_model - INFO -   Avg Reward: 0.396
+2025-02-28 12:14:36,358 - evaluate_model - INFO -   Avg BERTScore: 0.859
+2025-02-28 12:14:36,358 - evaluate_model - INFO -   Avg ROUGE-L: 0.287
+2025-02-28 12:14:36,359 - evaluate_model - INFO -   Avg METEOR: 0.281
+2025-02-28 12:14:36,359 - evaluate_model - INFO - Question Type: how
+2025-02-28 12:14:36,359 - evaluate_model - INFO -   Samples: 13
+2025-02-28 12:14:36,359 - evaluate_model - INFO -   Avg Reward: 0.172
+2025-02-28 12:14:36,359 - evaluate_model - INFO -   Avg BERTScore: 0.836
+2025-02-28 12:14:36,359 - evaluate_model - INFO -   Avg ROUGE-L: 0.222
+2025-02-28 12:14:36,359 - evaluate_model - INFO -   Avg METEOR: 0.246
+2025-02-28 12:14:36,359 - evaluate_model - INFO - Question Type: if_can
+2025-02-28 12:14:36,359 - evaluate_model - INFO -   Samples: 20
+2025-02-28 12:14:36,359 - evaluate_model - INFO -   Avg Reward: 0.265
+2025-02-28 12:14:36,359 - evaluate_model - INFO -   Avg BERTScore: 0.858
+2025-02-28 12:14:36,359 - evaluate_model - INFO -   Avg ROUGE-L: 0.299
+2025-02-28 12:14:36,359 - evaluate_model - INFO -   Avg METEOR: 0.375
+2025-02-28 12:14:36,359 - evaluate_model - INFO - 
+Overall Average Reward: 0.304
+2025-02-28 12:14:36,359 - evaluate_model - INFO - 
+Top Actions Used by Question Type:
+2025-02-28 12:14:36,360 - evaluate_model - INFO - what questions:
+2025-02-28 12:14:36,360 - evaluate_model - INFO -   - Convert the 'what' question into a comparative format (e.g., 'what is X compared to Y').: 100.0%
+2025-02-28 12:14:36,360 - evaluate_model - INFO - how questions:
+2025-02-28 12:14:36,360 - evaluate_model - INFO -   - Transform the 'how' question into a numbered step-by-step request format.: 92.3%
+2025-02-28 12:14:36,360 - evaluate_model - INFO -   - Add a request for implementation timeline to the 'how' question.: 7.7%
+2025-02-28 12:14:36,360 - evaluate_model - INFO - if_can questions:
+2025-02-28 12:14:36,360 - evaluate_model - INFO -   - Add a request for statistical likelihood in the 'if/can' question.: 100.0%
+2025-02-28 12:14:36,360 - evaluate_model - INFO - 
+Total evaluation time: 1514.87s (25.25 minutes)
+2025-02-28 12:14:36,360 - evaluate_model - INFO - Results saved to evaluation_results_20250228_114921
+2025-02-28 12:14:36,360 - evaluate_model - INFO - ==================================================
+2025-02-28 12:14:36,360 - evaluate_model - INFO - Running PPO analysis on evaluation metrics...
+2025-02-28 12:14:36,361 - evaluate_model - INFO - Running command: C:\Users\USER\PycharmProjects\fyp-rnd\venv\Scripts\python.exe C:\Users\USER\PycharmProjects\fyp-rnd\RL_Agent\ppo_analysis.py --metrics_file evaluation_results_20250228_114921\evaluation_metrics.json --output_dir evaluation_results_20250228_114921\analysis
+2025-02-28 12:14:44,993 - evaluate_model - ERROR - Error running analysis: Command '['C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\venv\\Scripts\\python.exe', 'C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\ppo_analysis.py', '--metrics_file', 'evaluation_results_20250228_114921\\evaluation_metrics.json', '--output_dir', 'evaluation_results_20250228_114921\\analysis']' returned non-zero exit status 1.

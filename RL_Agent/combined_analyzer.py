@@ -4,7 +4,6 @@ import sys
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-from sklearn.manifold import TSNE
 import pandas as pd
 import argparse
 import logging
@@ -19,16 +18,18 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler(os.path.join("C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/logs", "ppo_analysis.log"), encoding='utf-8'),
+        logging.FileHandler(
+            os.path.join("C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/logs", "combined_analysis.log"),
+            encoding='utf-8'),
         logging.StreamHandler(sys.stdout)
     ]
 )
-logger = logging.getLogger("ppo_analysis")
+logger = logging.getLogger("combined_analysis")
 
 
-def load_metrics(metrics_file):
-    """Load metrics from JSON file"""
-    logger.info(f"Loading metrics from {metrics_file}")
+def load_training_metrics(metrics_file):
+    """Load training metrics from JSON file"""
+    logger.info(f"Loading training metrics from {metrics_file}")
     start_time = time.time()
 
     try:
@@ -36,44 +37,79 @@ def load_metrics(metrics_file):
             metrics = json.load(f)
 
         load_time = time.time() - start_time
-        logger.info(f"Metrics loaded successfully in {load_time:.2f}s")
-
-        # Check if this is an evaluation metrics file (without training data)
-        if "training" not in metrics and any(qt in metrics for qt in ["what", "how", "if_can"]):
-            logger.info("Detected evaluation metrics format - converting to standard format")
-
-            # Restructure evaluation metrics to match expected format
-            question_types = [key for key in metrics.keys() if key != "action_selections"]
-
-            converted_metrics = {
-                "test": {}
-            }
-
-            # Move data from question type keys to test structure
-            for qt in question_types:
-                converted_metrics["test"][qt] = metrics[qt]
-
-            # Add action selections if available
-            if "action_selections" in metrics:
-                converted_metrics["test"]["action_selections"] = metrics["action_selections"]
-
-            metrics = converted_metrics
-            logger.info(f"Converted metrics structure with {len(question_types)} question types")
+        logger.info(f"Training metrics loaded successfully in {load_time:.2f}s")
 
         # Log some basic stats about the metrics
         if "training" in metrics:
             episodes = len(metrics["training"].get("episode_rewards", []))
             logger.info(f"Training data contains {episodes} episodes")
 
-        if "test" in metrics:
-            qt_counts = {qt: len(data.get("rewards", [])) for qt, data in metrics["test"].items()
-                         if qt != "action_selections" and "rewards" in data}
-            logger.info(f"Test data contains question counts: {qt_counts}")
-
         return metrics
     except Exception as e:
-        logger.error(f"Error loading metrics file: {e}")
+        logger.error(f"Error loading training metrics file: {e}")
         raise
+
+
+def load_evaluation_metrics(metrics_file):
+    """Load evaluation metrics from JSON file and convert to expected format"""
+    logger.info(f"Loading evaluation metrics from {metrics_file}")
+    start_time = time.time()
+
+    try:
+        with open(metrics_file, 'r') as f:
+            eval_metrics = json.load(f)
+
+        load_time = time.time() - start_time
+        logger.info(f"Evaluation metrics loaded successfully in {load_time:.2f}s")
+
+        # Restructure evaluation metrics to match expected format
+        converted_metrics = {"test": {}}
+
+        # Get all question types (excluding action_selections)
+        question_types = [key for key in eval_metrics.keys() if key != "action_selections"]
+
+        # Move data from question type keys to test structure
+        for qt in question_types:
+            converted_metrics["test"][qt] = eval_metrics[qt]
+
+        # Add action selections if available
+        if "action_selections" in eval_metrics:
+            converted_metrics["test"]["action_selections"] = eval_metrics["action_selections"]
+
+        logger.info(f"Converted evaluation metrics with {len(question_types)} question types")
+
+        # Log question type counts
+        qt_counts = {qt: len(converted_metrics["test"][qt].get("rewards", [])) for qt in question_types}
+        logger.info(f"Evaluation data contains question counts: {qt_counts}")
+
+        return converted_metrics
+    except Exception as e:
+        logger.error(f"Error loading evaluation metrics file: {e}")
+        raise
+
+
+def merge_metrics(training_metrics, evaluation_metrics):
+    """Merge training and evaluation metrics into a single structure"""
+    logger.info("Merging training and evaluation metrics")
+
+    merged_metrics = {}
+
+    # Add training data if available
+    if "training" in training_metrics:
+        merged_metrics["training"] = training_metrics["training"]
+
+    # Add test data from evaluation metrics
+    if "test" in evaluation_metrics:
+        merged_metrics["test"] = evaluation_metrics["test"]
+
+    # Add config and timing from training metrics if available
+    if "config" in training_metrics:
+        merged_metrics["config"] = training_metrics["config"]
+
+    if "timing" in training_metrics:
+        merged_metrics["timing"] = training_metrics["timing"]
+
+    return merged_metrics
 
 
 def plot_reward_comparison(metrics, output_dir):
@@ -165,6 +201,11 @@ def plot_learning_curves(metrics, output_dir):
     logger.info("Generating learning curves")
     start_time = time.time()
 
+    # Check if we have training metrics
+    if "training" not in metrics:
+        logger.warning("No training data available, skipping learning curves")
+        return
+
     # Extract training metrics
     train_metrics = metrics["training"]
 
@@ -223,8 +264,18 @@ def plot_question_type_progression(metrics, output_dir):
     logger.info("Generating question type progression plot")
     start_time = time.time()
 
+    # Check if we have training metrics
+    if "training" not in metrics:
+        logger.warning("No training data available, skipping question type progression")
+        return
+
     # Extract training metrics
     train_metrics = metrics["training"]
+
+    if "question_type_rewards" not in train_metrics:
+        logger.warning("No question type reward data available, skipping progression plot")
+        return
+
     question_type_rewards = train_metrics["question_type_rewards"]
 
     # Define window size for smoothing
@@ -355,7 +406,7 @@ def generate_summary_report(metrics, output_dir):
         # Overall metrics
         all_rewards = []
         for qt, qt_data in test_metrics.items():
-            if "rewards" in qt_data:
+            if qt != "action_selections" and "rewards" in qt_data:
                 all_rewards.extend(qt_data["rewards"])
 
         if all_rewards:
@@ -364,7 +415,7 @@ def generate_summary_report(metrics, output_dir):
         # Per question type metrics
         report_lines.append("- Performance by question type:")
         for qt, qt_data in test_metrics.items():
-            if "rewards" not in qt_data:
+            if qt == "action_selections" or "rewards" not in qt_data:
                 continue
 
             rewards = qt_data["rewards"]
@@ -410,10 +461,13 @@ def generate_summary_report(metrics, output_dir):
 
 
 def main():
-    parser = argparse.ArgumentParser(description='Analyze PPO model performance')
-    parser.add_argument('--metrics_file', type=str, required=True,
-                        help='Path to metrics JSON file')
-    parser.add_argument('--output_dir', type=str, default='analysis',
+    parser = argparse.ArgumentParser(
+        description='Analyze PPO model performance with combined training and evaluation metrics')
+    parser.add_argument('--training_metrics', type=str, required=True,
+                        help='Path to training metrics JSON file')
+    parser.add_argument('--evaluation_metrics', type=str, required=True,
+                        help='Path to evaluation metrics JSON file')
+    parser.add_argument('--output_dir', type=str, default='combined_analysis',
                         help='Output directory for analysis plots')
     parser.add_argument('--interactive', action='store_true',
                         help='Show plots interactively instead of saving to files')
@@ -430,23 +484,28 @@ def main():
     logger.addHandler(file_handler)
 
     logger.info("=" * 50)
-    logger.info(f"Starting PPO model analysis")
-    logger.info(f"Metrics file: {args.metrics_file}")
+    logger.info(f"Starting combined PPO model analysis")
+    logger.info(f"Training metrics file: {args.training_metrics}")
+    logger.info(f"Evaluation metrics file: {args.evaluation_metrics}")
     logger.info(f"Output directory: {args.output_dir}")
     total_start_time = time.time()
 
     # Load metrics
-    metrics = load_metrics(args.metrics_file)
+    training_metrics = load_training_metrics(args.training_metrics)
+    evaluation_metrics = load_evaluation_metrics(args.evaluation_metrics)
+
+    # Merge metrics
+    combined_metrics = merge_metrics(training_metrics, evaluation_metrics)
 
     # Generate plots
-    plot_reward_comparison(metrics, args.output_dir)
-    plot_score_comparison(metrics, args.output_dir)
-    plot_learning_curves(metrics, args.output_dir)
-    plot_question_type_progression(metrics, args.output_dir)
-    plot_action_distribution(metrics, args.output_dir)
+    plot_reward_comparison(combined_metrics, args.output_dir)
+    plot_score_comparison(combined_metrics, args.output_dir)
+    plot_learning_curves(combined_metrics, args.output_dir)
+    plot_question_type_progression(combined_metrics, args.output_dir)
+    plot_action_distribution(combined_metrics, args.output_dir)
 
     # Generate summary report
-    generate_summary_report(metrics, args.output_dir)
+    generate_summary_report(combined_metrics, args.output_dir)
 
     total_time = time.time() - total_start_time
     logger.info(f"Analysis completed in {total_time:.2f}s ({total_time / 60:.2f} minutes)")

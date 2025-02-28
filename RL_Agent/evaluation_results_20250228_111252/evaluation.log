@@ -1,0 +1,10 @@
+2025-02-28 11:12:52,215 - evaluate_model - INFO - ==================================================
+2025-02-28 11:12:52,215 - evaluate_model - INFO - Starting evaluation of model at best_ppo_model
+2025-02-28 11:12:52,215 - evaluate_model - INFO - Test data: C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/test_data.json
+2025-02-28 11:12:52,215 - evaluate_model - INFO - Device: cpu
+2025-02-28 11:12:52,236 - evaluate_model - INFO - Loaded test dataset with 60 examples
+2025-02-28 11:12:52,236 - evaluate_model - INFO - Input dimension: 512
+2025-02-28 11:12:52,252 - evaluate_model - INFO - Successfully loaded model from best_ppo_model
+2025-02-28 11:12:52,253 - evaluate_model - INFO - Starting evaluation on test dataset...
+2025-02-28 11:35:00,631 - evaluate_model - INFO - Evaluation completed in 1328.38s (22.14 minutes)
+2025-02-28 11:35:00,632 - evaluate_model - INFO - Saving metrics to evaluation_results_20250228_111252/evaluation_metrics.json
