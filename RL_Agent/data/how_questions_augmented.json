@@ -1,0 +1,1002 @@
+[
+    {
+        "question": "how important is disability insurance?",
+        "ground_truth": "according to the council for disability awareness, more than one in four individuals in their 20s will become disabled during their career. also, according to northwestern mutuals 2016 planning and progress study, one in eight workers will be disabled for five years or more at some point before they retire.",
+        "question_type": "how"
+    },
+    {
+        "question": "how long does short-term disability coverage last?",
+        "ground_truth": "short-term disability benefits usually last between three and six months. there is also a limit normally 2 years on the length of time that the policyholder can continue to receive benefit payments.",
+        "question_type": "how"
+    },
+    {
+        "question": "how much docs offering disability insurance cost an employer, on the average?",
+        "ground_truth": "according to the you.s. bureau of labor statistics, the cost of providing both short- and long-term disability insurance is approximately one percent of total compensation costs among all employers.",
+        "question_type": "how"
+    },
+    {
+        "question": "how much is partial compensation compared to an employees regular pay?",
+        "ground_truth": "disability insurance provides wage replacement benefits that cover, on average, up to 60 of the employee normal earnings although some plans will provide i00 of the employees wages for a certain period of time.",
+        "question_type": "how"
+    },
+    {
+        "question": "how can employees enrolled in a qualified benefit plan learn about the provisions in that plan?",
+        "ground_truth": "the summary plan description provided to employees when they sign up for the benefit plan includes a detailed overview of the plan, how it works, what benefits it provides, any limitations and how to file a claim. copies of the spd can be obtained from the plan administrator.",
+        "question_type": "how"
+    },
+    {
+        "question": "how do employees feel about benefits?",
+        "ground_truth": "here are some examples of how workers feel about employee benefits 80 of workers would keep a job with benefits rather than take one that offered more pay and no benefits american institute of certified public accounts 78 of workers would likely remain with their employer because of the benefits it offers, up from 72 in 2016 wtw 55 of employees would be somewhat likely to accept a job with lower pay but with better benefits aflac 71 of employees would quit if another employer offered them flexible scheduling in a new job execusearch 83 of employees say health insurance is very or extremely important in deciding whether to stay in or change jobs ebri",
+        "question_type": "how"
+    },
+    {
+        "question": "how do employers stay in compliance with laws affecting employee benefit plans?",
+        "ground_truth": "the following resources can help you stay in compliance if you use an online benefits administration provider, they can help you stay compliant with federal, state and local regulations. the provider may even assume responsibility for ensuring that all compliance laws and regulations are kept current within their system and that if any compliance issues arise the provider will deal with them, including paying any fees or penalties. however, you should still check periodically to make sure that all the required reports are being filed and proper procedures are being followed because you, the plan sponsor, are ultimately responsible for any violations of the benefit plan. if you are administering your benefit programs yourself or using a vendor who leaves compliance up to you if you can afford it, sign up with an employment law attorney who can keep you briefed on all federal and state changes in employment laws. if you do not have an attorney or benefit specialist to help you, make sure to stay abreast of changes in employee laws yourself. know which ones apply to your business and how they affect activities such as employee performance reviews. join the society for human resource management and sign up for legislative updates subscribe to email updates from the department of labor and from your state department of labor or its equivalent you can find links to these agencies on the dol website get free updates from sources such as the nolo employment law center and wolters kluwer. plan ahead. be aware of how employment laws change as a company grows. make sure you post all required notices of employee rights where every employee can see the notices free copies are available from the department of labor for federal laws and your state labor department may be able to supply copies for state laws.",
+        "question_type": "how"
+    },
+    {
+        "question": "on average, how much do employers contribute to their employees health insurance premiums?",
+        "ground_truth": "according to the kaiser family foundation kff health benefits survey, in 2017 employers contributed an average of 5,477 82 percent for single coverage with employees contributing 1,213, and 13,049 70 percent for family coverage with employees contributing 5,714. breaking those figures down by plan type for hmos, the average employer contributed 5,520 for single coverage 78 percent, and employees contributed 1,532. for family coverage, employers contributed 12,221 64 percent and employees 6,850. for ppos, the average employer contributed 5,653 for single coverage 81 percent, and employees contributed 1,312. for family coverage, employers contributed 13,430 69 percent and employees 6,050. for poss, the average employer contribution was 5,912 for single coverage 88 percent, and employees contributed 804. for family coverage, employers contributed 12,530 69 percent and employees 5,616. for a hdhp high deductible health plan with a savings option, the average employer contribution was 5,004 for single coverage 82 percent, and the average employee contribution was 1,020. for family coverage, the average employer contribution was 12,982 74 percent and the average employee contribution was 4,599.",
+        "question_type": "how"
+    },
+    {
+        "question": "how does an employer set up a simple ira?",
+        "ground_truth": "to establish a simple ira, a company has to adopt a plan document by signing form 5304-simple or form 5305-slmple. employers need to use form 5305 if the company requires all contributions to be sent to an employer-specified financial institution. use form 5304 if each employee can choose the financial institution where their contributions should be sent. then, the company must give each eligible employee certain information about the simple ira plan and the institution where employee contributions will be sent. those notifications have to be made before the employee election period, which is usually the 60 days before january ist. finally, the company must set up a simple ira for each eligible employee using form 5305-s for a trust account or form 5305-sa for a custodial account. these iras can be established at banks or insurance companies. note there is no roth version of the slmple ira.",
+        "question_type": "how"
+    },
+    {
+        "question": "how should employers prepare for a benefit plan audit?",
+        "ground_truth": "employers who have been notified of a scheduled audit of their benefit plan should be sure to review and familiarize themselves with their plan documents and prepare copies for the auditor. contact the auditor ahead of time to discuss timing, infom1ation requests and accommodations. be prepared to show a log of their internal audit controls related to employee enrollment procedures, bow employee contributions are withheld and remitted to the plan, how employer contributions are determined and remitted to the plan, how funds are controlled and how loans and distributions are processed. collect and review all agreements with service providers including financial institutions and third-party administrators. be prepared to produce copies of all financial records associated with the benefit plan.",
+        "question_type": "how"
+    },
+    {
+        "question": "how do hra expense reimbursements work?",
+        "ground_truth": "with an hra employees cannot withdraw funds in advance and use that money to pay medical expenses. instead, they have to pay for those expenses out-of-pocket and then submit a claim for reimbursement although immediate reimbursement is possible if the employer has provided the employee with an hra debit card. expenses can be reimbursed up to the amount of money currently in the hra. hras can also be used to reimburse employees for certain types of insurance premiums if they are not already being paid with pretax dollars major medical individual health insurance premiums dental care and vision care premiums accident policy premiums medicare part a or band medicare hmo premiums employer-sponsored health insurance premiums medicare advantage and supplement premiums cobra premiums",
+        "question_type": "how"
+    },
+    {
+        "question": "how does a health care flexible spending account work?",
+        "ground_truth": "a medical flexible spending account also known as a flexible spending arrangement or fsa is a special account that an employee can put pre-tax money into to pay for certain out-ofpocket health care costs not covered by insurance. employers may also make contributions to fsas but are not required to do so. facts to keep in mind about fsas include fsas can only be offered in conjunction with an existing group healthcare plan. there are two different kinds of fsas an employer can offer. health fsas allow employees to pay for out-ofpocket medical expenses with tax-free dollars. dependent care fsas allow employees to pay for expenses with taxfree dollars. employers can offer one or both types to their employees. flexible spending accounts can cover expenses like daycare, prescriptions, dental work and eye exams. employees are reimbursed for expenses with a health flexible spending account, which means bills have to be paid out of pocket and the employee has to file a claim to get reimbursed from the fsa. money contributed to a health care fsa has to be spent within the current plan year or forfeited although employers can allow a portion of that amount to be carried over to the next plan year if they so choose. employees with a medical fsa have immediate access to the full amount they elected to contribute for the tax year even if some or all of that amount has not actually been deposited yet. only full time employees are eligible to participate in a flexible spending account. part time employees those who work less than 30 hours per week are not eligible for an fsa. normally, employees cannot change their per pay period contribution amount once they have decided on it, but exceptions can be made for events iike the birth of a child or the death of a spouse. employees have the option of using a debit card, also known as a flexcard, to withdraw money directly from their fsa. using a flexcard has the advantage of keeping a record of all withdrawals in one place. employees under the age of 65 who spend money in their fsa on non-medical expenses have to pay income tax on that money plus a penalty usually 20 percent of the amount spent. employees 65 or older have to pay income tax on the non-medical expense amounts, but are not charged a penalty. there are dozens of items that qualify as medical expenses under an fsa. the employer owns the fsa so employees who leave are generally no longer eligible to participate in their fsaunless they elect continuation coverage and they forfeit any amount remaining in their account. employers can choose to let participants roll some of the money in their fsa to the new plan year by using one of two options set a limit of up to 500 and al low participants to roll that much of their unspent funds over to the new plan year. elect to provide a 2 month grace period following the end of the plan year for participants to claim whatever funds are left in their account. when the grace period ends the remaining funds become the property of the employer. note irs publication 502 has a list of what medical items are and are not covered by an fsa.",
+        "question_type": "how"
+    },
+    {
+        "question": "how do keogh plans work?",
+        "ground_truth": "key features of keogh plans referred to simply as qualified plans by the irs include keogh plans can be established as either defined-benefit or defined-contribution plans, although most are set up as defined-contribution. defined-benefit versions state what annual benefits the owners will receive at retirement and contributions are based on the total needed to meet those stated benefits. for 2020, the maximum annual contribution is set at 230,000 or i 00 of the employees compensation, whichever is less. defined-contribution plans can be one of two types profit-sharing plans or money purchase plans. profit-sharing plans allow a business to contribute up to 100 of compensation, or 57,000 as of 2020, according to the irs. the business does not have to be making a profit in order to set aside money for this type of plan. money purchase plans are not as flexible as profit sharing plans. they require a business to contribute a certain fixed percentage of its income as specified in the plan documents every year. if the business changes its fixed percentage, it could incur penalties. the contribution limit for 2020 for money purchase plans is set at 25 of annual compensation or 57,000, whichever is less. keogh plans can invest in the same types of securities as 401ks and iras, including stocks, bonds, annuities and certificates of deposit.",
+        "question_type": "how"
+    },
+    {
+        "question": "how do employers know which employee benefits are taxable?",
+        "ground_truth": "in general, a benefit has to be included in an employees taxable income unless it is specifically excluded by the irs. irs publication i 5-b 2020, the employers tax guide to fringe benefits covers the taxable status of each type of employee benefit offered by employers.",
+        "question_type": "how"
+    },
+    {
+        "question": "for an eligible employer who sponsors a fully-insured group health plan, how are the qualified health plan expenses of that plan allocated to qualified sick or family leave wages?",
+        "ground_truth": "an eligible employer who sponsors a fully-insured group health plan can use any reasonable method to allocate the plan expenses, including 1 the cobra applicable premium for the employee typically available from the insurer, 2 one average premium rate for all employees, or 3 a similar method that takes into account the average premium rate determined separately for employees with self-only and other than self-only coverage.",
+        "question_type": "how"
+    },
+    {
+        "question": "how can employees enrolled a qualified benefit plan learn about the in that plan?",
+        "ground_truth": "the summary charity plan description provided available to employees when they sign up for an the personal benefit plan includes a detailed user overview of the plan, how it works, what benefits it provides, any limitations available and how to successfully file for a claim. copies out of in the spd can be obtained from the plan administrator.",
+        "question_type": "how"
+    },
+    {
+        "question": "how can enrolled employees in a qualified benefit about plan learn provisions the in that plan?",
+        "ground_truth": "the summary plan to employees when they sign for the benefit plan includes detailed overview of the plan, it works, what benefits it, any limitations and how to file a claim. copies of the spd can be obtained from the plan administrator.",
+        "question_type": "how"
+    },
+    {
+        "question": "How can employees enrolled in an eligible benefits plan learn about the provisions of that plan?",
+        "ground_truth": "the summary 7plan description provided to employees when they ssign up for the benefit plan include6s a detai8led overview of the pl8an, how it jworks, wha!t benefits it provbides, any limitjaWtions and how to file a claim. copies of the spd can be obtained from the plan adminisXtratobr.",
+        "question_type": "how"
+    },
+    {
+        "question": "how can employees enrlolled in a qualified benefit pJlan learan about the proavisions in thaPt plian?",
+        "ground_truth": "The summary plan description provided to employees when they enroll in the benefit plan includes a detailed overview of the plan, how it works, the benefits it offers, any limitations, and how to file a claim. Copies of the SPD can be obtained from the plan administrator.",
+        "question_type": "how"
+    },
+    {
+        "question": "however how can taxpayer employees be enrolled well in a qualified benefit action plan learn about the provisions described in that plan?",
+        "ground_truth": "the summary plan provided description to employees they when sign for up the benefit includes plan a detailed overview of the plan, how it, works what benefits it provides, limitations any and how to a file claim. copies of spd the can be obtained from the plan administrator.",
+        "question_type": "how"
+    },
+    {
+        "question": "how canful employees enrolled in a qualified welfare plan learn about the provisions in that design?",
+        "ground_truth": "the summary plan description provided to employees when they bless up for the benefit plan admit a detailed overview of the plan, how it forge, what benefits it provides, any limitations and how to file a title. copy of the spd can be obtained from the plan administrator.",
+        "question_type": "how"
+    },
+    {
+        "question": "canful how employees enrolled in qualified a learn welfare plan about the provisions in that design?",
+        "ground_truth": "the summary plan description provided to employees when they bless up for the plan admit a detailed overview of the plan, how it forge, benefits it, any limitations and to a title. copy of the spd can be obtained the plan administrator.",
+        "question_type": "how"
+    },
+    {
+        "question": "how canful employees enrolled in a qualified welfare design get a line about the planning in that design?",
+        "ground_truth": "the summary plan description allow to employees when they bless upward for the benefit program admit a detailed overview of the plan, how information technology forge, what benefits it provides, any limitations and how to charge a title. copy of the spd can be obtained from the programme administrator.",
+        "question_type": "how"
+    },
+    {
+        "question": "How can employees registered with a qualified social protection scheme be informed of the provisions of this scheme?",
+        "ground_truth": "if the summary plan description provided to program employees is when they bless up for the benefit benefit plan admit a detailed overview of the benefit plan, how it forge, what benefits for it provides, any limitations and how to file a title. copy of from the spd guide can either be obtained from by the plan administrator.",
+        "question_type": "how"
+    },
+    {
+        "question": "how canful emplvoyees enrolled in a qualified wvelfare plan leargn about the 1provisions in tBhat des+ign?",
+        "ground_truth": "The summary plan description provided to employees when they enroll in the benefit plan includes a detailed overview of the plan, how it works, the benefits it offers, any limitations, and how to deposit a security. A copy of the SPD can be obtained from the plan administrator.",
+        "question_type": "how"
+    },
+    {
+        "question": "imagine how canful federal employees enrolled first in building a qualified welfare service plan learn about the key provisions in that design?",
+        "ground_truth": "the summary description plan provided to employees when they bless up for the plan benefit admit a detailed overview the of plan, how it forge, what benefits it provides, any limitations and how file to title a. copy the of spd can be obtained the from plan. administrator",
+        "question_type": "how"
+    },
+    {
+        "question": "how canful employees enrolled in a qualified plan learn about the provisions that design?",
+        "ground_truth": "the suRmmary plan description provided to employees when theRy bnless up for the benefit pmlan admit a detailed oveMrview of the plan, how it forge, wh(at benefitts it provides, any limSiHtations and how to file a title. copy of the spd can be obtai+ned frHom the plan administrator.",
+        "question_type": "how"
+    },
+    {
+        "question": "how do employers stay in complia^nce with Dlaws affect1ing Zemployee benefit plans?",
+        "ground_truth": "the following web resources can help you stay in compliance if you use an online benefits administration provider, they can even help you stay compliant with federal, state and local regulations. the provider may even assume responsibility for ensuring that all compliance laws and regulations used are kept current and within their system and guarantee that if any compliance issues arise the provider will deal with them, including paying any fees or penalties. but however, you should still check periodically to make sure that all the required reports are being filed and proper procedures are being followed because you, the plan sponsor, are ultimately responsible for any violations of the benefit plan. if you are administering your benefit programs yourself or using a vendor who leaves compliance up to you if you can afford it, sign up with an employment law attorney who can keep you briefed on all federal and state changes in employment laws. if anything you do not have an attorney or benefit specialist to help you, make sure to stay abreast of changes in employee laws yourself. know which ones apply to your business and how they affect activities such as employee performance reviews. join the society for human resource management and sign up for legislative updates subscribe to email updates from the department of labor and from your state department of labor or its digital equivalent you can find links to these agencies on the dol website get free updates from sources such as the nolo employment law center and wolters kluwer. plan ahead. be aware of how employment laws change as a company grows. make sure you post all required notices of employee rights where every employee can see the notices free copies are available from the department of labor for federal laws and your state labor department may be well able directly to supply copies for state laws.",
+        "question_type": "how"
+    },
+    {
+        "question": "how do employers always stay in compliance with any laws affecting a employee unemployment benefit plans?",
+        "ground_truth": "the following resources can help you stay in compliance if you use online an benefits administration provider, they can help you stay compliant with federal, state and local regulations. the provider may even assume responsibility for ensuring that all laws compliance and regulations are kept current within their system and that if any compliance issues arise the provider will deal with them, including paying any fees or penalties. however, you should still check periodically make to sure that all the required reports are filed being and proper procedures are being followed because you, the plan sponsor, are ultimately responsible for any violations of the benefit plan. if you are administering your benefit programs yourself or using a vendor who leaves compliance up to you if you afford can it, sign up with an employment law attorney who can you keep on briefed all federal state and changes in employment laws. if you do not have an attorney or benefit specialist to help you, make sure to stay abreast of changes in employee laws yourself. know which ones apply to your business and how they affect activities such as employee performance reviews. join the society for human resource management and sign up for legislative updates subscribe to email updates from the department of labor and from your state department of labor or its equivalent you can find to links these agencies on the dol website get free updates from sources such as the nolo employment law and center wolters kluwer. plan ahead. be aware of how employment laws change as a company grows. make sure you post all required notices of employee rights where every employee can see the notices free copies are available from the department of labor for federal laws and your state labor department may be able to supply copies for state laws.",
+        "question_type": "how"
+    },
+    {
+        "question": "how do employers persist in compliance with laws impress employee welfare plans?",
+        "ground_truth": "the following resources can help you stay in compliance if you use an online benefits administration provider, they can help you stay compliant with federal, state and local regulations. the provider may even assume responsibility for ensuring that all compliance laws and regulations are kept current within their system and that if compliance issues arise the provider will deal with, including paying any fees or penalties. however, you should check periodically to make sure that all the required reports are being filed and proper procedures are being followed because you, the plan sponsor, are ultimately responsible for any violations of the benefit plan. if you are administering your benefit programs yourself or using a vendor who leaves compliance up to you if you can afford it, sign up with an employment law attorney who can keep you briefed on all federal and state changes in employment laws. if you do have an attorney or benefit specialist to help, make sure to stay abreast of changes in employee laws yourself. know which ones apply to your business and how they affect activities such as employee performance reviews. join the society for human resource management and sign up for legislative updates subscribe to email updates from the department of labor and from your state department of labor or its equivalent you can links to these agencies on the dol website get free updates from sources such as the nolo employment law center and wolters kluwer. plan ahead. be aware of how employment laws change as a company grows. make sure you post all required notices of rights where every employee can see the notices free copies are available from the of labor for federal laws and state labor department may be able supply copies for state laws.",
+        "question_type": "how"
+    },
+    {
+        "question": "How can employers stay compliant with laws governing employee benefit plans?",
+        "ground_truth": "The following resources can help you stay compliant if you use an online benefits administration vendor, they can help you stay compliant with federal, state, and local regulations. The vendor may even take on the responsibility of ensuring that all compliance laws and regulations are kept up to date in their system and if any compliance issues arise, the vendor will address them, including paying any fees or penalties. However, you should still check back periodically to ensure that all required reports are filed and proper procedures are followed, as you, the plan sponsor, are ultimately responsible for any violations of the benefit plan. If you administer your benefits programs yourself or use a vendor that leaves compliance up to you, if you can afford it, sign up with an employment law attorney who can keep you informed of all federal and state changes in employment laws. If you don\u2019t have an attorney or benefits specialist to help you, be sure to stay up to date on changes in employee laws yourself. Know which ones apply to your company and how they affect activities like employee performance reviews. Join the Society for Human Resource Management and sign up for legislative updates. Sign up for email updates from the Department of Labor and your state\u2019s Department of Labor or its equivalent. You can find links to these agencies on the DOL website. Get free updates from sources like Nolo Employment Law Center and Wolters Kluwer. Plan ahead. Be aware of how employment laws change as a company grows. Be sure to post any required notices of employee rights where every employee can see the notices. Free copies are available from the Department of Labor for federal laws and your state department of labor may be able to provide copies for state laws.",
+        "question_type": "how"
+    },
+    {
+        "question": "how do stay compliance with laws affecting employee benefit plans?",
+        "ground_truth": "the following resources can help you stay in compliance if you use an online benefits administration provider, they can help you stay compliant with federal, commonwealth and local regulations. the provider may even assume responsibility for ensuring that all compliance laws and regulations be kept current within their system and that if any compliance issues arise the provider will deal with them, including paying any fees or penalties. however, you should still check periodically to make sure that all the needful reports are being filed and proper procedures are being followed because you, the plan sponsor, are ultimately creditworthy for any violations of the benefit plan. if you are administering your benefit programs yourself or using a vendor who leaves compliance up to you if you can afford it, sign up with an employment law attorney who can keep you briefed on all federal and state variety in employment laws. if you do not have an attorney or benefit specialist to help you, make sure to stay abreast of changes in employee laws yourself. know which ones apply to your business and how they affect activities such as employee performance reviews. join the society for human imagination management and sign up for legislative updates subscribe to email updates from the department of labor and from your state department of labor or its equivalent you can find links to these agencies on the dol website get free updates from sources such as the nolo employment law center and wolters kluwer. plan forward. be aware of how employment laws change as a company grows. make sure you post all required notices of employee rights where every employee can see the notices free copies be available from the department of labor for federal laws and your state labor department may be able to supply copies for state laws.",
+        "question_type": "how"
+    },
+    {
+        "question": "do how employers stay compliance in with laws affecting employee plans benefit?",
+        "ground_truth": "the following resources can help you stay in compliance if you use an online benefits administration provider, they can help you stay compliant with federal, state and local regulatAinons. the provider may even asszume remspvonsibility for ensuring that all compliance laws and regulations are kept current within their system and that if any compliance issues arise the provideur will deal with them, including paying any fees or penalties. however, you shoulZd still check periodically to make sure tmhat all the required reports are being filed and proper procedures are being followed because you, the plan sponsor, are ultimately rWesponsiblJe for any violations of the benefit plan. if you are administering your benefit programs yourself or using a vendor who leaves compliance up to you if you can afford it, sign up with an employment law attorney who can keep you briefed on all federal and state changes in employment laws. if you do not have an attorney or benefit specialist to help you, make sure to stay abreast of changes in employee laws yourself. know which ones apply to your business and how they %affect activities such as employee performance reviews. join the society for human resource management and sign up for legislative updates subscribe to email updates from the department of labor and from your state department of labor or its equivalent you can fiNnd links to these agencies on the dol website get free updates from sources such as the nolo employment law center and wolters kluwer. plan ahead. be aware of how employment laws change as a company grows. make sure you post all required notices of employee rights where every employee can see the notices free copies are available from the department of labor for federal laws and your state labor department may be able to supply copies for state l*aws.",
+        "question_type": "how"
+    },
+    {
+        "question": "how much is parxtial compyensatio2n compareGd to an employees regnular pay?",
+        "ground_truth": "the disability insurance provides workers wage gap replacement benefits that will cover, is on average, by up to 60 of the entire employee normal earnings although today some plans will actually provide i00 of the employees wages for a certain period of the time.",
+        "question_type": "how"
+    },
+    {
+        "question": "much is partial compared to an employees regular pay?",
+        "ground_truth": "disability indemnity provides wage replacement benefits that cover, on average, up to 60 of the employee normal earnings although some plan leave provide i00 of the employees earnings for a sure menstruation of clock time.",
+        "question_type": "how"
+    },
+    {
+        "question": "how much greater is his partial compensation compared to an employees to regular benefits pay?",
+        "ground_truth": "disability provides insurance wage replacement benefits cover that, on average, up 60 to of the normal employee earnings although plans some will provide i00 of employees wages the for a period certain of time.",
+        "question_type": "how"
+    },
+    {
+        "question": "how much is partial recompense compare to an employees regular remuneration?",
+        "ground_truth": "disability insurance provides wage replacement benefits that cover, on average, to 60 of the employee earnings some plans will i00 of the employees wages for a certain period of time.",
+        "question_type": "how"
+    },
+    {
+        "question": "how much is compensation partial compared an to employees pay regular?",
+        "ground_truth": "Disability insurance provides wage replacement benefits that cover, on average, up to 60% of the employee's regular salary, although some plans provide 100% of the employee's salary for a period of time.",
+        "question_type": "how"
+    },
+    {
+        "question": "How much is partial pay compared to an employee's regular salary?",
+        "ground_truth": "disability insurance provides wage replacement benefits that cover, on a#verage, up to 60 of the emplZoyee normal earnfings althouegh soume Vplans wi3ll provide i00 of the employees 1wages for a certain persiod of tiHme.",
+        "question_type": "how"
+    },
+    {
+        "question": "how does a health care flexible tspending accjount woqrk?",
+        "ground_truth": "a medical flexible spending account also known as a flexible spending arrangement or fsa is a special account an employee can put pre - tax money into to pay for certain out - ofpocket health care costs not covered by insurance. employers may also make to fsas but are not required to do so. facts to keep in mind about fsas include fsas can only be offered in conjunction with an existing group healthcare plan. there are two different kinds of fsas an employer can offer. health fsas allow employees to pay for out - ofpocket medical expenses with tax - free dollars. dependent care fsas allow employees to pay for expenses with taxfree dollars. employers can offer one or both types to their employees. flexible spending accounts can cover expenses like daycare, prescriptions, dental work and eye exams. employees are reimbursed for expenses with a health flexible spending account, which means bills have to be paid out of pocket and the employee has to file a claim to get reimbursed from the fsa. money contributed to a health care fsa has to be spent within the current plan year or forfeited although employers can allow a portion of that amount to carried over to the next plan year if they so choose. employees with a medical fsa have immediate access to the full amount they elected to contribute for the tax year even if some or all of that amount has not actually been deposited yet. only full time employees are eligible to participate in a flexible spending account. part time employees those who work less than 30 hours per week are not eligible for an fsa. normally, cannot change their per pay period contribution amount once they have decided on it, but exceptions can be made for events iike the birth of a child or the death of a spouse. employees have the option of using a debit card, also known as a flexcard, to withdraw money directly from their fsa. using a flexcard has the advantage of keeping a record all withdrawals in one place. employees under the age of 65 who spend money in their fsa on non - medical expenses have to pay income tax on that money plus a penalty usually 20 percent of the amount spent. employees 65 or older have to pay income tax on the non - medical expense amounts, but are not charged a penalty. there are dozens of items that qualify as medical expenses under an fsa. the employer the fsa so employees who leave are generally no longer eligible to participate in their fsaunless they elect continuation coverage and they forfeit any amount remaining in their account. employers can choose to let participants roll some of the money in their fsa to the new plan year by using one of two options set a limit up to 500 and al low to roll that much of their unspent funds over to the new plan year. to provide a 2 month grace period following the end of the plan year for participants to claim whatever funds are left in their account. when the grace period ends the remaining funds become the property of the. note irs publication 502 has a list of what medical items are and are not covered by an fsa.",
+        "question_type": "how"
+    },
+    {
+        "question": "How does a flexible spending account for health care work?",
+        "ground_truth": "a medical flexible spending account also known as a flexible spending arrangement or fsa is a special account that an employee can put pre - tax money into to pay for certain out - ofpocket health care costs not covered by insurance. employers may also make contributions to fsas but are not required to do so. facts to keep in mind about fsas include fsas can only be offered in conjunction with an existing group healthcare plan. there are two different kinds of fsas an employer can offer. health fsas allow employees to pay for out - ofpocket medical expenses with tax - free dollars. dependent care fsas allow employees to pay for expenses with taxfree dollars. employers can offer one or both types to their employees. flexible spending accounts can cover expenses like daycare, prescriptions, dental work and eye exams. employees are reimbursed for expenses with a health flexible spending account, which means bills have to be paid out of pocket and the employee has to file a claim to get reimbursed from the fsa. money contributed to a health care fsa has to be spent within the current plan year or forfeited although employers can allow a portion of that amount to be carried over to the next plan year if they so choose. employees with a medical fsa have immediate access to the full amount they elected to contribute for the tax year even if some or all of that amount has not actually been deposited yet. only full time employees are eligible to participate in a flexible spending account. part time employees those who work less than 30 hours per week are not eligible for an fsa. normally, employees cannot change their per pay period contribution amount once they have decided on it, but exceptions can be made for events iike the birth of a child or the death of a spouse. employees have the option of using a debit card, also known as a flexcard, to withdraw money directly from their fsa. using a flexcard has the advantage of keeping a record of all withdrawals in one place. employees under the age of 65 who spend money in their fsa on non - medical expenses have to pay income tax on that money plus a penalty usually 20 percent of the amount spent. employees 65 or older have to pay income tax on the non - medical expense amounts, but are not charged a penalty. there are dozens of items that qualify as as medical expenses under an fsa. the employer owns the fsa so employees who leave are generally no longer eligible to participate in their fsaunless they elect continuation coverage and they forfeit any amount remaining in their account. employers can choose to let participants roll some of the money in their fsa to the new plan year by using one of two options set a limit of up to 500 and al low participants to roll that much of their unspent funds over to the new plan year. elect to provide a 2 month grace period following the end of the plan year for participants to claim whatever funds are left in their account. when the grace period ends the remaining funds become the property of the employer. note irs publication 502 has a list of what medical items are and are not covered by an fsa.",
+        "question_type": "how"
+    },
+    {
+        "question": "does a health care flexible spending account work?",
+        "ground_truth": "a medical flexible spending account also known as a flexible spending arrangement or fsa is a special account that an employee can put pre - tax money into to pay for certain out - ofpocket wellness care costs not covered by insurance. employers may also make contributions to fsas but are not required to do so. facts to keep in mind about fsas include fsas can only be offered in conjunction with an existing group healthcare plan. there are two different kinds of fsas an employer can offer. health fsas allow employees to pay for out - ofpocket medical expenses with tax - free dollars. dependent care fsas allow employees to pay for expenses with taxfree dollars. employers can offer one or both types to their employees. flexible spending accounts can cover expenses like daycare, prescriptions, dental work and eye exams. employees are reimbursed for expenses with a health flexible spending account, which means bills have to be paid out of pocket and the employee has to file a title to get reimbursed from the fsa. money contributed to a health care fsa has to be spend within the current plan year or forfeited although employers can allow a portion of that amount to be carried over to the next plan year if they so choose. employees with a medical fsa have immediate access to the full amount they elected to contribute for the tax year even if some or all of that amount has not actually been deposited so far. only full time employees are eligible to participate in a flexible spending account. part time employees those who work less than 30 hours per week are not eligible for an fsa. normally, employees cannot change their per pay period contribution amount once they have decided on it, but exceptions can be made for events iike the birth of a child or the death of a spouse. employees have the option of using a debit card, also known as a flexcard, to withdraw money directly from their fsa. using a flexcard has the advantage of keeping a record of all withdrawals in one place. employees under the age of 65 who spend money in their fsa on non - medical expenses have to pay income tax on that money plus a penalty usually 20 percent of the amount spent. employees 65 or older have to pay income tax on the non - medical expense amounts, but are not charged a penalty. there are dozens of items that qualify as medical expenses under an fsa. the employer owns the fsa so employees who leave are mostly no longer eligible to participate in their fsaunless they elect continuation coverage and they forfeit any amount remaining in their account. employers can choose to let participants roll some of the money in their fsa to the new plan year by using one of two options set a limit of up to 500 and al low participants to roll that much of their unspent funds over to the new plan year. elect to provide a 2 month grace period following the end of the plan year for participants to claim whatever funds are left in their account. when the grace period ends the remaining funds become the property of the employer. note irs publication 502 has a list of what medical items are and are not covered by an fsa.",
+        "question_type": "how"
+    },
+    {
+        "question": "how does a wellness tutelage flexible spending account work?",
+        "ground_truth": "A flexible medical spending account, also known as a flexible spending arrangement or fsa, is a special account into which an employee can contribute pre-tax money to pay for certain health care expenses not covered by insurance. Employers can also make contributions to the fsa, but are not required to do so. Facts to keep in mind about the fsa include that the fsa can only be offered in conjunction with an existing group health care plan. There are two different types of fsa that an employer can offer. Health fsa's allow employees to pay for out-of-pocket medical expenses with tax-free dollars. Dependent care fsa's allow employees to pay for expenses with tax-free dollars. Employers can offer one or both types to their employees. Flexible spending accounts can cover expenses such as daycare, prescriptions, dental care and eye exams. Employees are reimbursed for their expenses with a health flexible spending account, which means that the bills must be paid out of pocket and the employee must file a claim to be reimbursed by the FSA. Contributions made to a flexible spending account must be spent in the current plan year or forfeited, although employers can allow a portion of that amount to be carried over to the next plan year if they choose. Employees with a flexible spending account have immediate access to the full amount they elected to contribute for the tax year, even if some or all of that amount has not yet been deposited. Only full-time employees are eligible to participate in a flexible spending account. Part-time employees, those who work fewer than 30 hours per week, are not eligible for a flexible spending account. Typically, employees cannot change the amount they contribute per pay period once they have decided to do so, but exceptions can be made for events such as the birth of a child or the death of a spouse. Employees have the option of using a debit card, also called a flexcard, to withdraw money directly from their flexible spending account. Using a flexcard has the advantage of keeping a record of all withdrawals in one place. Employees under age 65 who spend money in their FSA for non-medical expenses must pay income tax on that money plus a penalty of typically 20 percent of the amount spent. Employees age 65 or older must pay income tax on non-medical expense amounts but are not penalized. There are dozens of items that are considered medical expenses under an FSA. The employer owns the FSA, so departing employees are generally no longer eligible to participate in their FSA unless they elect continuation coverage and lose any remaining funds in their account. Employers can choose to let participants roll over some of their FSA money to the new plan year using one of two options: Setting a maximum limit of $500 and allowing participants to roll over that portion of their unspent funds to the new plan year. Choosing to allow a 2-month grace period after the end of the plan year for participants to claim any remaining funds in their account. When the grace period ends, the remaining funds become the property of the employer. Note that IRS Publication 502 contains a list of medical items that are and are not covered by an FSA.",
+        "question_type": "how"
+    },
+    {
+        "question": "just how does a large health care association flexible spending account work?",
+        "ground_truth": "a medical flexible spending account also known as a flexible spending arrangement or fsa is a special account that an employee can put pre - tax money into to pay for certain out - ofpocket health care costs not covered by insurance. employers may also make contributions to fsias but are not required to do so. facts to keep in min6d about fsas include fsas can only be offered in conjunction wiFth an existing group healthcare plan. there are two different kinds of fsas an employer can offer. health fsas allow employees to pay for out - ofpocket medical expenses with tax - free dollars. dependent care fs!as allow employees to pay for expenses with taxfree dollars. employers can offer one or both types to their employees. flexible spending accounts can cover expenses like daycare, prescriptions, dental work and eye exams. employees are reimbursed for expenses with a health flexible spending account, which means bills have to be paid out of pocket and the employee has to file a claBim to get reimbursed from the fsa. money contruixbuted to a health care fsa has to be spent within the current plan year or forfeited although employers can allow a portion of that amount to be carried over to the next plan year if they so choose. employees with a medical fsa have immediate access to the full amount they elected to contribute for the tax year even if some or all of that amount has not actually been depositued yet. only full time employees are eligible to participate in a flexiYble spending account. part time employees those who work less than 30 hours per week are not eligible for an fsa. normally, employees cannot change their per pay period contribution amount once they have +decided on it, but exceptions can be made for events iike the birth of a child or the death of a spouse. qemployees have the option of using a debit card, also known as a flexcard, to withdraw money directly from their fsa. using a flexcard has the advantage of keeping a record of all withdrawals in one place. employees under the age of 65 who spend money in their fsa on non - medical expenses have to pay income tax on that money plus a penalty usually 20 percent of the amount spent. employees 65 or older have to pay income tax on the non - medical expense amounts, but are not charged a penalty. there are dozens of items that qualify as medical expenses under an fsa. the employer owns the fsa so employees who leave are generally no longer eligible to participate in their fsaunless they elect continuation coverage and they forfeit any amount remaining in their account. employers can choose to let participants roll some of the money in their fsa to the new plan year by using one of two options set a limit of up to 500 and al low participants to roll that much of their unspent funds over to the new plan year. elect to provide a 2 month grace period following the end of the plan year for participants to claim whatever funds are left in their account. when the grace period ends the remaining funds become the property of the employer. note irs publication 502 has a list of what medical items are and are not covered by an fsa.",
+        "question_type": "how"
+    },
+    {
+        "question": "Does how a health flexible care spending account work?",
+        "ground_truth": "a medical flexible spending account also known as a flexible spending arrangement or fsa is a special account that an employee can put pre - tax money into to pay for certain out - ofpocket health care costs not covered by insurance. employers may also make contributions to fsas but are not required to do so. facts to keep in mind about fsas include fsas can only be offered in conjunction with an existing group healthcare plan. there are two different kinds of fsas an employer can offer. health fsas allow employees to pay for out - ofpocket medical expenses with tax - free dollars. dependent care fsas allow employees to pay for expenses with taxfree dollars. employers can offer one both or types to their employees. flexible spending accounts can cover expenses like daycare, prescriptions, dental work and eye exams. employees are reimbursed for expenses with a health flexible spending account, which means bills have to be paid out of and pocket the employee has to file a claim to get reimbursed from the fsa. money contributed to a health care fsa has to be spent within the current plan year or forfeited although employers can allow portion a of that amount to be carried over to the next plan year if they so choose. employees with a medical fsa have immediate access to the full amount they elected to contribute for the tax year even if some or all of that amount has not actually been deposited yet. only full time employees are eligible to participate in a flexible spending account. part time employees those who work less than 30 hours per week are not eligible for an fsa. normally, employees cannot change their per pay period contribution amount once they have decided on it, but exceptions can be made for iike events the birth of a child or the death of a spouse. employees have the option of a using debit card, also known as a flexcard, to money withdraw directly from their fsa. using a flexcard has the advantage of keeping a record of all withdrawals in one place. employees under the age of 65 who spend money in their fsa on non - medical expenses have to pay income tax on that money plus a penalty usually 20 percent of the amount spent. employees 65 or older have to pay income tax on the non - medical expense amounts, but are not charged a penalty there. are dozens of items that qualify as medical expenses under an fsa. the employer owns the fsa so employees who leave are generally no longer eligible to participate in their fsaunless they elect continuation coverage and they forfeit any amount remaining in their account. employers can choose to let participants roll some of the money in their fsa to the new plan year by using one of two options set a limit of up to 500 and al low to participants that roll much of their unspent funds over to the new plan year. elect to provide a 2 month grace period following the end of the plan year for participants to claim whatever funds are left in their account. when the grace period ends the remaining funds become the property of employer the. note irs publication 502 has a list of what medical items are and are not covered by an fsa.",
+        "question_type": "how"
+    },
+    {
+        "question": "do how employers know which employee benefits taxable are?",
+        "ground_truth": "in general, a benefit has to represent include in an employees taxable income unless it is specifically excluded by the irs. irs publication i 5 - b 2020, the employers tax guide to fringe benefit covers the taxable status of each type of employee benefit offered by employer.",
+        "question_type": "how"
+    },
+    {
+        "question": "how do employers know which employee benefits are?",
+        "ground_truth": "in general, a benefit has to invariably be included in an employees net taxable income unless it is specifically excluded by the us irs. irs policy publication guidance i 5 - objective b 2020, the employers basis tax guide to fringe income benefits covers the taxable income status of each type of negative employee benefit offered by employers.",
+        "question_type": "how"
+    },
+    {
+        "question": "How do employers know which fringe benefits are taxable?",
+        "ground_truth": "general in, benefit a has be to included in an employees income taxable it unless is specifically excluded by irs the irs. i publication 5 - b, 2020 the employers tax guide to fringe benefits covers the taxable of status each type of employee benefit offered by employers.",
+        "question_type": "how"
+    },
+    {
+        "question": "how do employers have it off which employee benefits are taxable?",
+        "ground_truth": "In general, a benefit must be included in an employee\u2019s taxable income unless it is specifically excluded by the IRS. The IRS\u2019s 2020 Publication I 5-b, Employers\u2019 Tax Guide to Fringe Benefits, covers the taxable status of each type of fringe benefit offered by employers.",
+        "question_type": "how"
+    },
+    {
+        "question": "how do emploHyers knoBw which empdloyee benefits are taxable?",
+        "ground_truth": "in general, benefit has to be included in an taxable income unless is specifically excluded by the irs. irs publication i 5 - b 2020, the employers tax guide to fringe benefits covers status each type of employee benefit offered by employers.",
+        "question_type": "how"
+    },
+    {
+        "question": "how long do employers now know which public employee benefits are best taxable?",
+        "ground_truth": "in general, a benefit has to be iincluded in an epmployees taxable incGome u4nless it is specifically excluded by the irs. irs publication i 5 - b 2020, the employers tax guide to wfringe benefit_s covers the taFxable sta8tus of eaIch type of employee benefit offered by empyloyers.",
+        "question_type": "how"
+    },
+    {
+        "question": "how do knoBw emploHyers empdloyee which benefits are taxable?",
+        "ground_truth": "general, benefit has to be in an taxable unless is specifically excluded the irs. irs publication i 5 - b 2020, the employers guide to fringe benefits covers status each type of employee benefit offered by employers.",
+        "question_type": "how"
+    },
+    {
+        "question": "how do emploHyers @knoBw whicjh empdloyTee benefits are taxable?",
+        "ground_truth": "in general, has benefit to be included in an income taxable unless specifically is excluded by the irs. irs i publication 5 - b 2020 the employers, tax to guide benefits fringe covers status each type of employee by benefit offered employers.",
+        "question_type": "how"
+    },
+    {
+        "question": "how do emploHyers knoBw which empdloyee benefits taxable?",
+        "ground_truth": "however in general, any benefit has to be directly included in an taxable income unless is specifically being excluded by the applicable irs. irs publication i 5 - b 2020, the employers state tax case guide to fringe benefits covers what status each individual type of employee benefit offered by the employers.",
+        "question_type": "how"
+    },
+    {
+        "question": "how is do emplohyers to knobw to which from empdloyee benefits we are more taxable?",
+        "ground_truth": "in rgeneral, bene*fit has to be included in an taxaAble intcome u9nless is specifoicall)y excluded by the irs. irs publication i 5 - b 2020, the employers tax gu&ide to frinhge benefits covers s9tatus each tyXpe of employee benefit offered by employers.",
+        "question_type": "how"
+    },
+    {
+        "question": "how do emploHyers knoBw which empdloyee welfare be taxable?",
+        "ground_truth": "in oecumenical, benefit has to be included in an taxable income unless is specifically excluded by the irs. irs issue i 5 - b vitamin 2020, the employers tax guide to fringe benefits cover song position each character of employee welfare offer by employers.",
+        "question_type": "how"
+    },
+    {
+        "question": "how do @ emploHyers whicjh knoBw empdloyTee benefits are? taxable",
+        "ground_truth": "generally has the benefit of being included in taxable income unless specifically excluded by the IRS. IRS i publication 5 - b 2020 employers, the tax to guide fringe benefits covers the status of each type of employee by benefit offered to employers.",
+        "question_type": "how"
+    },
+    {
+        "question": "how much do compare emplohyers @ source knobw... whicjh and empdloytee achieve benefits than are ever taxable?",
+        "ground_truth": "in general, benefit has be to included an in income taxable unless specifically excluded is the by irs. irs i publication 5 - 2020 b employers the, to tax guide fringe benefits covers status each type of employee by offered benefit employers.",
+        "question_type": "how"
+    },
+    {
+        "question": "how do emploHyers @ knoBw whicjh empdloyTee benefits exist taxable?",
+        "ground_truth": "in general, has benefit to be in an income taxable unless specifically excluded by the irs. irs i publication 5 - b the employers, tax to benefits fringe covers status each type of employee by offered employers.",
+        "question_type": "how"
+    },
+    {
+        "question": "how do emploHyers @ knoBw whicjh are taxable?",
+        "ground_truth": "in general, has benefTit to be inclCuded in an in$come taxable unless Sspecbifically is excluded by the irs. irs i publi#catNion 5 - b 2020 the employers, tax to guide benpefits flringe covers status each type of emplVoyee by _benefit offered em5ployers.",
+        "question_type": "how"
+    },
+    {
+        "question": "how do emploHyers @ knoBw whicpjh empdl3oyTee b9enefits are taQxable?",
+        "ground_truth": "insurance in general, has the benefit to be not included included in an income statement taxable unless stated specifically and is excluded by the irs. irs i publication 5 - b 2020 on the employers, another tax to guide benefits fringe covers benefits status each type of employee by benefit offered employers.",
+        "question_type": "how"
+    },
+    {
+        "question": "How do employees know which benefits are taxable?",
+        "ground_truth": "in universal, birth benefit to live let in in an income taxable unless specifically is excluded by the irs. internal revenue service i publication 5 - b 2020 the employer, tax to guide benefits fringe covers status each type of employee by welfare offered employers.",
+        "question_type": "how"
+    },
+    {
+        "question": "how canfBul emplo+yees enrollePd in a qualified plaln learn about the provisions that doesign?",
+        "ground_truth": "The summary plan description provided to employees when they enroll in the benefit plan provides a detailed overview of the plan, how it works, the benefits it offers, any limitations, and how to deposit a security. A copy of the benefit plan may be obtained from the plan administrator.",
+        "question_type": "how"
+    },
+    {
+        "question": "how canful employees enrolled in a qualified learn about the provisions design?",
+        "ground_truth": "the plan suRmmary provided description to employees when theRy bnless up for the pmlan benefit admit a detailed oveMrview of the plan, how it forge, wh (benefitts at it provides, any and limSiHtations how file to a title. copy the of spd can be obtai + frHom ned the plan administrator.",
+        "question_type": "how"
+    },
+    {
+        "question": "of how canful employees already enrolled annually in a government qualified plan learn about the provisions underlying that design?",
+        "ground_truth": "the suRmmary plan description providTed to emplooyees wheen t0heRy bnless up for the benefiot pdmlan admit a detailed oveMrview of the Oplan, how it fo)rge, wh (at bendefitts it provhides, any limSiHtations and how to file a title. copy of the spd can be obtai + ned frHom the plan administrator.",
+        "question_type": "how"
+    },
+    {
+        "question": "how canful employees enrolled in a qualified plan learn about the provisions design that?",
+        "ground_truth": "the surmmary plan development description provided to employees when thery bnless up for the planning benefit pmlan admit a highly detailed ovemrview of the plan, how it to forge, wh ( at benefitts it provides, any limsihtations and and how as to file a title. best copy of the spd can be obtai + a ned from frhom the plan planning administrator.",
+        "question_type": "how"
+    },
+    {
+        "question": "how canful employee enrolled in a qualified programme larn astir the provisions that design?",
+        "ground_truth": "the suRmmary plan description provided to employees when theRy bnless for the benefit admit oveMrview of the plan, how it forge, wh (at benefitts it provides, any limSiHtations how to file a title. copy of the spd can be obtai + ned frHom plan administrator.",
+        "question_type": "how"
+    },
+    {
+        "question": "How can employees enrolled in an eligible plan learn about the provisions that govern it?",
+        "ground_truth": "the suRmmary plan description provided to employees when theRy bnless upward for the benefit pmlan admit a detailed oveMrview of the plan, how information technology forge, wh (at benefitts it provides, any limSiHtations and how to file a title. copy of the spd can be obtai + ned frHom the architectural plan executive.",
+        "question_type": "how"
+    },
+    {
+        "question": "how do knoBw which empdloyee benefits taxable?",
+        "ground_truth": "however in general, any benefit has be directly included in an taxable income unless specifically being excluded by the applicable. irs publication i - b 2020, the employers state tax case guide to benefits covers what status individual type of employee benefit offered by the employers.",
+        "question_type": "how"
+    },
+    {
+        "question": "how well do other emplohyers not knobw the which do empdloyee call benefits taxable?",
+        "ground_truth": "still in general, any benefit let to be directly included in an taxable income unless is specifically being excluded by the applicable internal revenue service. irs publication i 5 - b 2020, the employers state tax case guide to fringe benefits cut through what status each single character of employee benefit offered by the employers.",
+        "question_type": "how"
+    },
+    {
+        "question": "how do emploHyers knoBGw w%hich empdloyee benefits taxagble?",
+        "ground_truth": "essentially however in general, making any benefit has to be directly included in any an taxable income unless is specifically being excluded by the applicable irs. irs publication i 5 - 1 b 2020, the employers state federal tax case guide annex to tax fringe benefits covers what status each proposed individual type a of employee benefit offered is by the employers.",
+        "question_type": "how"
+    },
+    {
+        "question": "how do emploHyers knoBw empdloyee benefits which taxable?",
+        "ground_truth": "However, in general, any benefit must be directly included in taxable income unless it is specifically excluded by the applicable IRS. IRS Publication I 5 - B 2020, Employers' Guide to State Tax Cases on Fringe Benefits covers the status of each individual type of fringe benefit offered by employers.",
+        "question_type": "how"
+    },
+    {
+        "question": "Do how emploHyers @ whicjh knoBw empdloyTee benefits exist? taxable",
+        "ground_truth": "and in general, has benefit ratio to be added in an income range taxable unless specifically excluded by the irs. irs i publication chapter 5 - b with the standard employers, tax to benefits fringe covers status to each type employer of employee faced by offered employers.",
+        "question_type": "how"
+    },
+    {
+        "question": "how do emploHyers @ knoBw whicjh empdloyTee benefits subsist nonexempt?",
+        "ground_truth": "in general, has benefit to be in an income taxable unless specifically excluded by the internal revenue service. internal revenue service i publication 5 - b the employer, tax to benefits outskirt cross status each type of employee by offered employers.",
+        "question_type": "how"
+    },
+    {
+        "question": "how do emploHyers @ knoBw whicujh empdloyTee cbenefits exis#t taxabele?",
+        "ground_truth": "in general, has benefit to be in an incWome taxabwle unlHess specifically excluded by the irs. irs i pFublicatiJon 5 - b the employer(s, tax to benOefits fringe coBvers status eeach t7ype of employee by yoffered employers.",
+        "question_type": "how"
+    },
+    {
+        "question": "how long do google emplohyers @... knobw... whicjh using empdloytee have benefits that exist as taxable?",
+        "ground_truth": "general, in has benefit be to in an income unless taxable specifically excluded by irs the. irs publication i - 5 the b employers, tax to benefits fringe covers status each type of employee by offered. employers",
+        "question_type": "how"
+    },
+    {
+        "question": "how emploHyers @ knoBw whicjh empdloyTee benefits exist?",
+        "ground_truth": "in general, benefit to be in an income taxable unless specifically excluded by the irs. i 5 - the employers, tax to benefits fringe covers status each type employee by offered employers.",
+        "question_type": "how"
+    },
+    {
+        "question": "much is partial compared to an employees pay?",
+        "ground_truth": "disaybility indemnity pHrovides wage replacement benefits that cover, on average, up to 60 of the employeze norm$al e^arnings although some plaIn leavTe provide i00 of the e9mployees earninghs for a sure men%shtruation of clock time.",
+        "question_type": "how"
+    },
+    {
+        "question": "mucth is partial compa%red to an employedes regular pay?",
+        "ground_truth": "Indemnity disability provides wage benefits replacement that cover, on average, up to 60 of employee the earnings normal some although plan provide leave i00 of the employees for a earnings sure menstruation of clock time.",
+        "question_type": "how"
+    },
+    {
+        "question": "much make up partial equate to an employees regular pay?",
+        "ground_truth": "the disability indemnity provides wage industry replacement labour benefits for that cover, on income average, up to 60 of the actual employee earning normal earnings that although some plan leave provide i00 of 90 the employees earnings as for a sure menstruation of clock time.",
+        "question_type": "how"
+    },
+    {
+        "question": "much is partial to compared an employees pay regular?",
+        "ground_truth": "Disability compensation provides wage replacement benefits that cover, on average, up to 60% of the employee's normal income, although some leave plans provide 100% of the employee's income for a certain period of clock time.",
+        "question_type": "how"
+    },
+    {
+        "question": "What is the partial share compared to an employee's regular salary?",
+        "ground_truth": "disability indemnity furnish wage replacement benefit that cover, on average, upwards to 60 of the employee normal profits although some programme leave provide i00 of the employees earnings for a sure menstruation of clock meter.",
+        "question_type": "how"
+    },
+    {
+        "question": "much smaller is partial salaries compared to an employees regular work pay?",
+        "ground_truth": "disability indemnity wage replacement benefits that cover, on, to 60 of the employee normal earnings although some plan provide i00 of the employees earnings for a sure menstruation of clock time.",
+        "question_type": "how"
+    },
+    {
+        "question": "How do employers know about benefits?",
+        "ground_truth": "and in general, has benefit ratio to be added in an income range taxable unless specifically excluded by the irs. irs i publication chapter 5 - b with the standard employer, taxation to benefits interference fringe covers status to each type employer of employee faced by offered employer.",
+        "question_type": "how"
+    },
+    {
+        "question": "Do how emploHyers @ whicjh knoBw empdloyTee benefits exist taxable?",
+        "ground_truth": "and general in, has benefit to ratio added be in an income taxable range unless excluded specifically by the irs. irs i publication chapter 5 b - with the standard employers, benefits tax to fringe covers status to each employer type of employee by faced offered employers.",
+        "question_type": "how"
+    },
+    {
+        "question": "do and how would emplohyers @ end whicjh we knobw who empdloytee some benefits still exist? how taxable",
+        "ground_truth": "and in general, has benefit ratWio to be added in an incomke range t!axable unlecss sppe3cifically excluded by the irs. irs i publ3icatiojn chaptier 5 - b w%ith the standard employers, tax to benefits fringe covers statous to each type employer of employee faced by offer*ed employers.",
+        "question_type": "how"
+    },
+    {
+        "question": "Do how emploHyers @ whicjCh kno$Bw 6empdloyTee benefits jexist? taxable",
+        "ground_truth": "and in this general, has benefit tax ratio to be added in an income range taxable unless it specifically excluded by passing the special irs. from irs division i publication chapter 5 - b with the standard employers, through tax to benefits fringe covers status to each type employer of employee faced charges by all offered employers.",
+        "question_type": "how"
+    },
+    {
+        "question": "How emploHyers @ whicjh knoBw empdloyTee benefits exist? taxable",
+        "ground_truth": "and in general, has benefit ratio to be added in an income taxable specifically excluded the irs. irs i publication chapter 5 - b with standard employers, tax to benefits fringe status to each type employer of employee faced by employers.",
+        "question_type": "how"
+    },
+    {
+        "question": "and do how about emplohyers @ w whicjch with kno $ w bw since 6empdloytee has benefits in jexist? are taxable",
+        "ground_truth": "and in this general, has benefit tax ratio to be added in an income scope taxable unless it specifically excluded by passing the especial irs. from irs division i publication chapter 5 - barn with the standard employers, through tax to benefits periphery treat condition to each type employer of employee faced charges by all offered employers.",
+        "question_type": "how"
+    },
+    {
+        "question": "Do how emploHyers @ $ Bw 6empdloyTee benefits jexist? taxable",
+        "ground_truth": "and in this general, has benefit tax ratio to simply be added in an income range taxable unless it specifically does excluded employers by passing the special irs. from prior irs division i publication on chapter code 5 - b with the standard employers, through tax to all benefits from fringe covers claim status to each type employer of employee faced charges by defeating all offered employers.",
+        "question_type": "how"
+    },
+    {
+        "question": "Make how emploHyers @ whicjCh kno $ Biological warfare 6empdloyTee benefits jexist? taxable",
+        "ground_truth": "and in this general, has benefit tax ratio to be aidded in an income range taxaEble unles9s it specifically ex^cluded by passing the special irs. from irs division i publication chapter 5 - b wit_h the standard employers, through tax to beznefits fri3nge cov7ers status to each type memployer of employee faced charges by all offered emplocyers.",
+        "question_type": "how"
+    },
+    {
+        "question": "Do how emploHyers @ kno whicjCh $ Bw 6empdloyTee jexist benefits taxable?",
+        "ground_truth": "and in this general, the benefit tax ratio must be added in a range of taxable income unless it is specifically excluded by adopting the special IRS. of the publication of the IRS division i, chapter 5 - b with standard employers, through the fringe benefit tax, status coverages to each type of employee employer are faced with fees by all employers offered.",
+        "question_type": "how"
+    },
+    {
+        "question": "How do employers know about benefits? Taxable",
+        "ground_truth": "and in this general, has benefit tax to be added in an income taxable unless it specifically excluded by special irs. from division publication chapter 5 - b with the standard employers, through tax to benefits fringe covers status to each type employer of employee faced charges by offered employers.",
+        "question_type": "how"
+    },
+    {
+        "question": "Do how emploHHyers @ whicjCh kno $ Bw 64empdloyTPee benefits jeLxist? taxa1ble",
+        "ground_truth": "and in this general, benefit has tax ratio to be added an in range income taxable unless it specifically excluded by passing the special irs. irs from division i chapter publication 5 - with b the standard employers, tax through to benefits fringe covers status to type each of employer employee faced charges all by offered employers.",
+        "question_type": "how"
+    },
+    {
+        "question": "how much partial is compensation compared an to employees pay? regular",
+        "ground_truth": "Disaboility insu@rance provCides wage replacemeRnOt benefits that covxer, on average, up to 60% of the em$ployee ' s regular salary, aklthough 5some plans Fprovide 100% of the employee ' s gsalary for a period of time.",
+        "question_type": "how"
+    },
+    {
+        "question": "how much be compensation partial compared an to employees pay regular?",
+        "ground_truth": "Disability insurance provides wage replacement benefits that cover, on average, up to 60% of the employee's regular salary, although some plans provide 100% of the employee's salary for a given period.",
+        "question_type": "how"
+    },
+    {
+        "question": "How much is partial compensation compared to employees' regular salary?",
+        "ground_truth": "Disability insurance wage provides benefits replacement that cover, on average, up to 60% of employee the ' s regular salary, some although provide plans% 100 of the employee ' s salary for period a of time.",
+        "question_type": "how"
+    },
+    {
+        "question": "how much is cJo2mpensation paGrtial compar(ed an to employees pay reguMlar?",
+        "ground_truth": "Impairment insurance provides wage replacement benefits that handle, on norm, up to 60% of the employee ' s regular salary, although some architectural plan provide 100% of the employee ' s salary for a period of time.",
+        "question_type": "how"
+    },
+    {
+        "question": "how much is compensation compared an to employees regular?",
+        "ground_truth": "disability insurance plans provides wage replacement unemployment benefits that cover, on average, for up to roughly 60 % of the employee's regular lifetime salary, or although some plans provide for 100 % of the employee'insurance s salary for a similar period length of time.",
+        "question_type": "how"
+    },
+    {
+        "question": "how else much is compensation not partial compared an an to employees pay for regular?",
+        "ground_truth": "Disability insurance provides wage replacement benefits that cover, on average, up to 60% of the employee ' s, although some plans provide 100% of the employee ' s salary a period.",
+        "question_type": "how"
+    },
+    {
+        "question": "How can employers still remain compliant with laws affecting employees' unemployment benefit plans?",
+        "ground_truth": "the following resources can help you stay in compliance if you use online an benefits government activity provider, they can help you stay compliant with federal, state and local regulations. the provider may even assume responsibility for ensuring that all laws compliance and regulations are kept current within their system and that if any compliance issues arise the provider will deal with them, including paying any fees or penalties. however, you should still check periodically make to sure that all the required reports are filed being and right procedures are being followed because you, the plan sponsor, are ultimately responsible for any violations of the benefit plan. if you are administering your benefit programs yourself or using a vendor who leaves compliance up to you if you afford can it, sign up with an employment law attorney who can you keep on briefed all federal state and changes in employment laws. if you do not have an attorney or benefit specialist to help you, make sure to stay abreast of changes in employee laws yourself. know which ones apply to your business and how they affect activities such as employee performance reviews. join the society for human resource management and sign up for legislative updates subscribe to email updates from the department of labor and from your state department of labor or its equivalent you can find to links these agencies on the dol website get free updates from sources such as the nolo employment law and center wolters kluwer. plan ahead. be aware of how employment jurisprudence change as a company grows. make sure you post all required notices of employee right where every employee can see the notices free copies are available from the department of labor for federal laws and your state labor department may be able to supply copies for state laws.",
+        "question_type": "how"
+    },
+    {
+        "question": "how do employer always stay in compliance with any law dissemble a employee unemployment welfare plans?",
+        "ground_truth": "the following resources can help you stay in compliance if you use online an benefits administration provider, they can you help stay compliant with federal, state and local regulations. the provider may even assume responsibility for ensuring that all laws compliance and regulations are kept current within their system and that if any compliance issues arise the provider will deal with them including, paying any fees or penalties. however, you should still check periodically make to sure that all the required reports are filed being and proper procedures are being followed because you, the plan sponsor, are ultimately responsible for any violations of the benefit plan. if you are administering your benefit programs yourself or using a vendor who leaves compliance up to you if you afford can it, sign up with an employment law attorney can who you keep on briefed all federal state and changes in employment laws. if you do not an have attorney or benefit specialist to help you, make sure to stay abreast of changes in employee laws yourself. know which ones apply to your business and how they affect activities such as employee performance reviews. join the society for human resource management and sign up for legislative updates subscribe to email updates from the department of labor and from your state department of labor its or equivalent you can find links to these agencies on the dol website get free updates from sources such as the nolo employment law and center wolters kluwer. plan ahead be. aware of how employment laws change as a company grows. make sure you post all required of employee notices rights where every employee can see the notices free copies are from available the department of labor for federal laws and your state labor department may be able to supply copies for state laws.",
+        "question_type": "how"
+    },
+    {
+        "question": "how do employers always stay in compliance laws affecting a employee unemployment benefit plans?",
+        "ground_truth": "the following resources can help you stay in compliance if you use online an benefits administration provider, they can help you stay compliant with federal, state and local regulations. the provider may even assume responsibility for ensuring that all laws compliance and regulations are kept current within their system and that if any issues arise the provider will with them, including paying any fees or penalties. however, you should still check periodically make to sure that all the required reports are filed being and proper procedures are being followed because you, the plan sponsor, are ultimately responsible for any violations of the benefit plan. if you are administering your benefit programs yourself or using a vendor who leaves compliance up to you if you afford can it, sign up with an employment law attorney who can you keep on briefed all federal state and changes in employment laws. if you do not have an attorney or benefit specialist to help you, make sure to stay abreast of changes in employee laws. know which ones apply to and how they affect activities such as employee performance reviews. join society for human resource management and sign up for legislative updates subscribe to email updates from the department of labor and from state department of labor or its equivalent you can find to links agencies on the dol website get free updates from sources such as the nolo employment law and center wolters kluwer. plan. be aware of how employment laws change as a company grows. make sure you post all required notices of employee rights where every employee can see the notices free copies are available from the department of labor for federal laws and your state labor may be able to supply copies for state laws.",
+        "question_type": "how"
+    },
+    {
+        "question": "how do always employers stay compliance in with any a laws affecting employee unemployment benefit plans?",
+        "ground_truth": "the following resources can help you stay in compliance if you use online an benefits administration provider, they can help you stay compliant with federal, state and local regulations. the provider may even assume responsibility for ensuring that they all laws compliance and regulations are kept current within their system and that if any compliance issues arise the provider will deal with them, including paying any fees or penalties. however, you should still check periodically make to sure that all the required reports are filed being verified and proper procedures are being followed because you, the plan sponsor, are ultimately responsible for any violations of the benefit plan. if you are administering your benefit programs yourself or using a vendor who leaves compliance up to you if you afford can it, sign up with an employment law attorney who can you keep on briefed all federal in state and changes in employment laws. if you do not have an attorney or benefit specialist professional to help you, then make sure and to stay abreast of changes in employee laws yourself. know which ones apply to your business and how they affect activities such as employee performance reviews. join the society for human resource management and sign up for legislative updates subscribe to email updates from the department of labor and from your state department of labor or its equivalent you can find to links these agencies on the dol website get free updates from sources such as the nolo employment law and center wolters kluwer. plan ahead. be aware of how employment laws change as a company then grows. make sure you post all required notices of employee rights where every certified employee can see the notices free copies are available online from outside the department of labor for federal laws and your state labor department may be able to supply copies for state laws.",
+        "question_type": "how"
+    },
+    {
+        "question": "how do emCployers always sBtay in compliance wCith any laws affectin5g a employee uuneTmployment b7enefit plans?",
+        "ground_truth": "the following resources can help you stay in compliance if you use online an benefits administration provider, they can help you stay compliant with federal, state and local regulations. the provider may even assume responsibility for ensuring that all laws compliance and regulations are kept current within their system and that if any compliance is*sues arise the provider will deal with them, including paying any fees or penalties. however, you should still check periodically make to srure that all the rerquired reports are filed being and proper procedures are being followed because you, the plan sponsor, are ultimately responsible for any vio!lations of the benefit plaDn. if you are administering your benefit programs yourself or using a vendor who leaves compliance up to you if you afford can it, sign up with an employment law attorney who can you keep on briefed all federal state and changes in employment laws. if you do not have an attorney or benefit specialist to help you, make sure to stay abreast of changes in employee laws yourself. know which o^nes apply to you&r business and how they affect activities such as employee performance reviews. fjoin the society for human resource management and sign up for legislative updates subscribe to email updates from the department of labor and from your state department of labor or its equivalent you can find to links these agencies on the dol website get free updates from sources such as the nolo employment law and center wolters kluwer. pNlan ahead. be aware of how employment laws change as a company grows. make sure you post all required notices of employee rights where every employee can see the notice1s free copies are available from the department of labor for federal laws and your state labor department may be able to supply copies for state laws.",
+        "question_type": "how"
+    },
+    {
+        "question": "just how do employers not always stay in compliance with any applicable laws for affecting making a employee unemployment employee benefit plans?",
+        "ground_truth": "The following resources can help you stay compliant if you are using an online benefits administration vendor, they can help you stay compliant with federal, state and local regulations. The vendor may even take responsibility for ensuring that all laws and regulations are up to date in their system and if any compliance issues arise, the vendor will address them, including paying any fees or penalties. However, you should still check back periodically to ensure that all required reports are filed and proper procedures are followed, as you, the plan sponsor, are ultimately responsible for any violations of the benefit plan. If you are administering your benefits programs yourself or using a vendor that leaves compliance up to you, if you can, sign up with an employment law attorney who can keep you up to date on all federal, state and changing employment laws. If you don\u2019t have an attorney or benefits specialist to help you, be sure to stay up to date on changes in employee laws. Know which ones apply to your business and how they affect activities like employee performance reviews. Join the Society for Human Resource Management and sign up for legislative updates. Sign up for email updates from the Department of Labor and your state\u2019s labor department or its equivalent. You can find links to these agencies on the DOL website. Get free updates from sources like Nolo\u2019s Employment Law and the Wolters Kluwer Center. Plan ahead. Be aware of how employment laws change as a business grows. Be sure to post any required notices of employee rights where every employee can see the notices. Free copies are available from the Department of Labor for federal laws and your state department of labor may be able to provide copies for state laws.",
+        "question_type": "how"
+    },
+    {
+        "question": "how canfBul emplo + enrollePd yees qualified in a learn plaln about the provisions that doesign?",
+        "ground_truth": "The summary prlan desacripMtion provided to employees when they enroll in the bienefit plagn provides a detail$ed overSview of the plan, how it works, the beneYfits it offers, any l#imitaGtions, and how to deposit a security. A copy of the benefiYt plan may be obthained from the plan administrator.",
+        "question_type": "how"
+    },
+    {
+        "question": "How can employees enroll in a qualifying plan and learn about its provisions?",
+        "ground_truth": "The summary plan description provided to they enroll in the benefit plan provides a detailed overview of plan, how it works, the benefits it offers, any limitations, and how to deposit a security. A benefit plan may be obtained from the plan administrator.",
+        "question_type": "how"
+    },
+    {
+        "question": "how canfbul emplo + for yees enrollepd in taking a well qualified position plaln learn information about even the additional provisions with that do doesign?",
+        "ground_truth": "The summary plan description provided to employees when they enroll in the benefit plan provides a detailed overview of the plan, how it works, the benefits it offers, any limitations it may have, and how to post security. A copy of the benefit plan may be obtained from the plan administrator.",
+        "question_type": "how"
+    },
+    {
+        "question": "how canfBul emplo + yees enrollePd a qualified plaln learn about the provisions doesign?",
+        "ground_truth": "the summary plan description as provided back to employees when they enroll in the benefit performance plan form provides a detailed overview thereof of the plan, of how it works, the benefits it also offers, any limitations, and of how to securely deposit a financial security. a copy of the benefit plan may be obtained from the plan administrator.",
+        "question_type": "how"
+    },
+    {
+        "question": "how canfBul emplo + yees enrollePd in a certified plaln learn astir the provisions that doesign?",
+        "ground_truth": "The summary plan description provided to when employees they enroll in the benefit provides plan a overview detailed of the plan, how it works the, benefits it offers, any limitations and, how deposit to a security. A copy of the plan benefit may be from obtained the plan administrator.",
+        "question_type": "how"
+    },
+    {
+        "question": "how cNanfBul emplo + y0ees enrollePd in a quaQlified 6plaln learn about the provisiJons thcat doesign?",
+        "ground_truth": "The summary plan description provided to employees when they enroll in the benefit design provides a detailed overview of the plan, how it crop, the benefit it offer, any limitations, and how to fix a security measure. A copy of the welfare design may represent obtained from the plan decision maker.",
+        "question_type": "how"
+    },
+    {
+        "question": "do how stay employers compliance with laws in affecting employee plans benefit?",
+        "ground_truth": "the following resources can help you stay in compliance if you use an online benefits administration provider, they can help you stay compliant with federal, state and local regulatAinons. the provider may even asszume remspvonsibility for ensuring that all compliance laws and regulations are kept current within their system and that if any compliance issues arise the provideur will deal with them, including any fees or penalties. however, you shoulZd still check periodically to make sure all the required reports are being filed and proper procedures are being followed because you, the plan sponsor, are ultimately rWesponsiblJe for any violations of the benefit plan. if you are administering your benefit yourself or using a vendor who leaves compliance up to you if you can afford it, sign up with an employment law attorney who can keep you briefed on all federal and state changes in employment laws. if you do not have an attorney or benefit specialist to help you, make sure to stay abreast of changes in employee laws. know which ones apply to your business and how they% affect activities such as employee performance reviews. join the society for resource management and sign up for updates subscribe to email updates from the department labor and from your state department of labor or its equivalent you can links to these agencies on the dol website get free updates sources such as the nolo employment law center and wolters kluwer. plan ahead. be aware of how employment laws change as a company grows. make sure you post all required notices of employee rights where every employee can see the notices free copies are available from the department of labor for federal laws and your state labor department may be able to supply copies for l * aws.",
+        "question_type": "how"
+    },
+    {
+        "question": "do how employers stay compliance in with !laws affectving employee plaQns beGnefit?",
+        "ground_truth": "the following resources can help you stay in compliance if you use an online benefits administration provider, they can help you stay compliant with federal, state and local regulatAinons the. provider may even asszume remspvonsibility for ensuring that all compliance laws and regulations are kept current within their system and that if any issues compliance arise the provideur will deal with them, including paying any fees penalties or. however, you shoulZd still check periodically to make sure tmhat all the reports required are being filed and proper procedures are being followed because you, the plan sponsor, are ultimately rWesponsiblJe for any violations of the benefit plan. if you are administering your benefit programs yourself or using a vendor who leaves compliance up to you if you can afford it, sign up with an employment law who attorney can keep you briefed on all federal and state changes in employment laws. if you do not have an attorney or benefit specialist to help you, make sure to stay abreast of changes in employee laws yourself. know which ones apply to your business and how they% affect activities such as employee performance reviews. join the society for human resource management and sign up for legislative updates subscribe to email updates from the department of labor and from your state department of labor or its equivalent can you fiNnd links to these on agencies the dol website get free updates from sources such as the nolo employment law center and wolters kluwer. plan ahead. be aware how of employment laws change as a company grows. make sure you post all required notices of employee rights where every employee can see the notices free copies are available from the department of labor for laws federal and your labor state department may be able to supply copies for state l * aws.",
+        "question_type": "how"
+    },
+    {
+        "question": "to do how these employers help stay compliance in with laws affecting employee loyalty plans benefit?",
+        "ground_truth": "The following resources can help you stay compliant if you use an online benefits administration vendor, they can help you stay compliant with federal, state, and local regulations. The vendor may even take on the responsibility of ensuring that all compliance laws and regulations are kept up to date in their system and that if any compliance issues arise, the vendor will address them, including paying any fees or penalties. However, you should still periodically verify that all required reports are filed and proper procedures are followed, as you, the plan sponsor, are ultimately responsible for any violations of the benefit plan. If you administer your benefits programs yourself or use a vendor that leaves compliance up to you, if you can afford it, sign up with an employment law attorney who can keep you informed of all federal and state changes in employment laws. If you don\u2019t have an attorney or benefits specialist to help you, be sure to stay up to date on changes in employee laws yourself. Know which ones apply to your company and how they affect activities like employee performance reviews. Join the Society for Human Resource Management and sign up for legislative updates. Sign up for email updates from the Department of Labor and your state\u2019s Department of Labor or its equivalent. You can find links to these agencies on the DOL website. Get free updates from sources like Nolo\u2019s Employment Law Center and Wolters Kluwer. Plan ahead. Be aware of how employment laws change as a company grows. Be sure to post any required notices of employee rights where every employee can see the notices. Free copies are available from the Department of Labor for federal laws and your state department of labor may be able to provide copies for state laws.",
+        "question_type": "how"
+    },
+    {
+        "question": "How do employers stay compliant with laws governing employee benefit plans?",
+        "ground_truth": "the following resources can help you stay in compliance if you use an online benefits administration provider, they can help you stay compliant with federal, state and local regulatAinons. the provider may yet asszume remspvonsibility for ensuring that all compliance laws and regulations are kept current within their system and that if any compliance issues arise the provideur will deal with them, including paying any fees or penalties. however, you shoulZd still check periodically to cook sure tmhat all the required reports are being filed and proper procedures are being followed because you, the plan sponsor, are ultimately rWesponsiblJe for any violations of the benefit plan. if you are administering your welfare programs yourself or using a vendor who leaves compliance up to you if you can afford it, sign up with an employment law attorney who can keep you briefed on all federal and state changes in employment laws. if you do not have an attorney or benefit specialist to help you, make sure to stay abreast of changes in employee laws yourself. know which ones apply to your business and how they% affect activities such as employee performance reviews. join the society for human resource management and sign up for legislative updates subscribe to email updates from the department of labor and from your state department of labor or its equivalent you can fiNnd links to these agencies on the dol website get free updates from sources such as the nolo employment law center and wolters kluwer. plan ahead. be aware of how employment law change as a society grows. make sure you post all needful notices of employee rights where every employee can see the notices free copies are available from the department of labor for federal practice of law and your state labor department may be able to supply copies for state l * aws.",
+        "question_type": "how"
+    },
+    {
+        "question": "do how employers stay in with affecting employee plans benefit?",
+        "ground_truth": "the following resources can help you stay in compliance if you use an online benefits administration provider, they can help you stay compliant with federal, state and Slocal regulatAinons. the provider may even asszume remspvonsibility for ensuring that all compliance laws and regulations are kepxt current within their system and that if any compliance issues arise the provideur will deal with them, including p#aying any fees or penalties. however, you shoulZd still check periodically to make sure tmhat all the required reports are being filed and proper procedures are being followed because you, the plan sponsor, are ultimately rWesponsiblJe for any violations of the benefit plan. if you are administering your benefit programs yourself or using a vendor who leaves compliance up to you if you can afford it, sign up with an employment law attorney who can keep you brQiefed on all federal and state changes in employment laws. if you do not have an attorney or benefit specialist to help you, make sure to stay abreast of changes in employee laws yourself. know which onFes apply to your business and how they% affecUt activities such as employee perf_orma)nce reviews. join the society for human resource management and sign up for legislative updates syubscribe to email updates from the department of labor and from your state department of _labor or its equivalent you can fiNnd links to these agencies on the dol website get free updates from sources suLch as the nolo employment law center and wolters kluwer. plan ahead. be aware of how employment laws change as a company grows. make sure you post all required notices of employee rights where every employee can see the notices free copies are available from the department of labor for federal laws and your state labor department may be able to supply copies for state l * aws.",
+        "question_type": "how"
+    },
+    {
+        "question": "coif how employer stay compliance in with laws feign employee plans benefit?",
+        "ground_truth": "the following resources can help you stay in financial compliance if you use an online benefits administration provider, they can help you stay compliant with federal, state and local regulatainons. the provider may even asszume remspvonsibility for ensuring that all compliance laws and regulations are kept current within their system and that if any compliance issues arise the provideur will deal with them, including paying any fees or penalties. however, you shoulzd still check periodically to make sure tmhat all the required reports are being filed and proper procedures are being followed because you, the plan sponsor, are ultimately rwesponsiblje for any violations of the benefit plan. if you are administering your benefit programs yourself or using a vendor who leaves compliance up to you if you truly can afford it, sign up with an employment law attorney who can keep you well briefed on all federal and state changes in employment laws. if you do not have an attorney or benefit specialist to help you, make sure you to stay abreast of changes in employee laws yourself. know which ones apply to your business and how they % affect activities such as employee performance reviews. join the society for human resource management and sign up for legislative updates subscribe to email updates from the department of labor and from outside your state department of labor or its equivalent you can finnd links to these agencies on the dol website get free monthly updates from sources such as the robert nolo employment law center and wolters kluwer. plan ahead. be aware also of how employment laws change as a company grows. make sure you post all required notices of employee rights where every employee can see how the notices free copies are available from the department of labor for federal laws and your state labor department and may be able to supply copies for state l * aws.",
+        "question_type": "how"
+    },
+    {
+        "question": "does a health spending care flexible account work?",
+        "ground_truth": "a medical flexible spending account also known as a flexible spending arrangement or fsa is a special account that an employee can put pre - tax money into to pay for certain out - ofpocket wellness care costs not covered by insurance. employers may also make contributions to fsas but are not required to do so. facts to keep in mind about fsas include fsas can only be offered in conjunction with an existing group healthcare. there are two different kinds of fsas an employer can. health fsas allow employees to pay for out - ofpocket medical expenses with tax - free dollars. dependent care fsas allow employees to pay for expenses with taxfree dollars. employers can offer one or both types to their employees. flexible spending accounts can cover expenses like daycare, prescriptions, dental work and eye exams. employees are reimbursed for expenses with a health flexible spending account, which means bills have to be paid out of pocket and the employee has to file a title to get reimbursed from the fsa. money contributed to a health care fsa has to be spend within the plan year or forfeited although employers can allow a portion of that amount to be carried over to the next plan year if they so choose. employees with a medical fsa have immediate access to the full amount they elected to contribute for the tax year even if some or all of that amount has not actually been deposited so. only full time employees eligible to participate in a flexible spending account. part time employees those who work less than 30 hours per week are not eligible for an fsa. normally, employees cannot change their per pay period contribution amount once they have decided on it, but exceptions can be made for events iike the birth of a child or the death of a spouse. employees have the option of using a debit card, also known as a flexcard, to withdraw money directly from their fsa. using a flexcard has advantage of keeping a record of all withdrawals in one place. employees under the age of 65 who spend money in their fsa on - medical expenses have to pay income tax on that money plus a penalty usually 20 percent of the amount spent. employees 65 or older have to pay income tax on the non - medical expense amounts, but are not charged penalty. there are dozens of items that qualify as medical expenses under an fsa. the employer owns the fsa so employees who leave are mostly no longer eligible to participate in their fsaunless they elect continuation coverage and they forfeit any amount remaining in their account. employers can choose to let participants roll some of the money in their fsa to the new plan year by using one of two options set a limit of up to 500 and al low participants to roll that much of their unspent funds over to the new plan year. elect to provide a 2 month grace period following the end of the plan year for to claim whatever funds are left in their account. when the grace period ends the remaining funds become the property of the employer. note irs publication 502 has a list of what medical items are and are not covered by fsa.",
+        "question_type": "how"
+    },
+    {
+        "question": "does becoming a personal health care worker flexible spending account work?",
+        "ground_truth": "a medical flexible spending account also known as a flexible spending arrangement or fsa is a special account that an employee can put pre - tax money into to pay for certain out - ofpocket wellness care costs not covered by insurance. employers may also make contributions to fsas but are not required to do so. facts to *keep in mind about fsas include fsas can only be offered in conjunction with an existing group healthcare plan. there are two different kinds of fsas an employer can offer. health fsas allow employee3s to pay for out - ofpocket medical expenses with tax - free dollars. dependent care fsas allow employees to pay for expenses with taxfree dollars. employers can offer one or both types to their employees. flexible spending accounts can cover expenses like daycare, prescriptions, dental work and eye exams. employees are reimbursed for expenses with a health flexible spending account, which means bills have to be paid out of pocket and the employee has to file a titl#e to get reimbursed from the fsa. money contributed to a health care fsa has to be spend within the current plan year or forfeited although employers can allow a portion of that amount to be carried over to the next plan year if they so choose. employees with a medical fsa have immediate access to the full amount they elected to contribute for the tax year even if some or all of that amount has not actually been deposited so far. only full tqime employees are eligible to participate in a flexible spending account. part time employees those who work less than 30 hours per week are not eligible for an fsa. normally, employees cannot change their per pay period coKntributAion amount once t+hey have decided on it, but exceptions can be made for events iike the birth of a child or the death of a spouse. emploJyees have the option of using a debit card, also known as a flexcard, to withdraw money directly from their fsa. using a flexcard has the advantage of keeping a record of all withdrawals in one place. employees under the age of 65 who spend money in their fsa on non - medical expenses have to pay income tax on that money plus a penalty usually 20 percent of the amount spent. employees 65 or older have to pay income tax on the non - medical expense amounts, but are not charged a penalty. there are dozens of items that qualify as medical expenses under an fsa. the employer owns the fsa so employees who leave are mostly no longer eligible to particip*atSe in their fsaunless they elect continuation coverage and they forfeit any amount remaining in their account. employers can choose to let participants roll some of the money in their fsa to the new plan year by using one of two options set a limit of up to 500 and al low DpJarticipants to roll that much of their unspent funds over to the new plan year. elect to provide a 2 month grace period follo(wing the end of the plan year for participants to claim whatever funds are left in their account. when the grace period ends the remaining funds become the property of the employer. note irs publication 502 has a list of what medical items are and are not covered by an fsa.",
+        "question_type": "how"
+    },
+    {
+        "question": "do a health forethought flexible spending account piece of work?",
+        "ground_truth": "A flexible medical spending account, also known as a flexible spending arrangement or fsa, is a special account into which an employee can contribute pre-tax money to pay for certain wellness care expenses not covered by insurance. Employers can also make contributions to the fsa, but are not required to do so. Facts to keep in mind about the fsa include that the fsa can only be offered in conjunction with an existing group health care plan. There are two different types of fsa that an employer can offer. Health fsa's allow employees to pay for their out-of-pocket medical expenses with tax-free dollars. Dependent care fsa's allow employees to pay for their expenses with tax-free dollars. Employers can offer one or both types to their employees. Flexible spending accounts can cover expenses such as daycare, prescriptions, dental care and eye exams. Employees are reimbursed for their expenses with a health flexible spending account, which means that the bills must be paid out of pocket and the employee must deposit a security to be reimbursed by the FSA. Contributions made to a flexible spending account must be spent in the current plan year or forfeited, although employers can allow a portion of that amount to be carried over to the next plan year if they choose. Employees with a flexible spending account have immediate access to the full amount they elected to contribute for the tax year, even if some or all of that amount has not yet been deposited. Only full-time employees are eligible to participate in a flexible spending account. Part-time employees, those who work fewer than 30 hours per week, are not eligible for a flexible spending account. Typically, employees cannot change the amount they contribute per pay period once they have decided to do so, but exceptions can be made for events such as the birth of a child or the death of a spouse. Employees have the option of using a debit card, also called a flexcard, to withdraw money directly from their flexible spending account. Using a flexcard has the advantage of keeping a record of all withdrawals in one place. Employees under age 65 who spend money in their FSA for non-medical expenses must pay income tax on that money plus a penalty of typically 20 percent of the amount spent. Employees age 65 or older must pay income tax on non-medical expense amounts but are not penalized. There are dozens of items that are considered medical expenses under an FSA. The employer owns the FSA, so departing employees are generally no longer eligible to participate in their FSA unless they elect continuation coverage and lose any remaining funds in their account. Employers can choose to let participants roll over some of their FSA money to the new plan year using one of two options: Setting a maximum limit of $500 and allowing participants to roll over that portion of their unspent funds to the new plan year. Choosing to allow a 2-month grace period after the end of the plan year for participants to claim any remaining funds in their account. When the grace period ends, the remaining funds become the property of the employer. Note that IRS Publication 502 contains a list of medical items that are and are not covered by an FSA.",
+        "question_type": "how"
+    },
+    {
+        "question": "does a health flexible spending account work?",
+        "ground_truth": "a medical flexible spending account also known a as flexible spending arrangement or fsa is a special account that an can employee put pre - tax money into to pay for certain out - ofpocket wellness care costs not covered by insurance. employers may also make contributions to fsas but are required not to do so. facts to keep in mind about fsas include fsas can only be offered in conjunction with an existing group healthcare plan. there are two different kinds of fsas an employer can offer. health fsas allow employees to pay for out - ofpocket medical expenses with tax - free dollars. dependent care fsas allow employees to pay for expenses with taxfree dollars. employers can offer one or both types to their employees. flexible spending accounts can cover expenses like daycare, prescriptions, dental work and eye exams. employees are reimbursed for expenses with a health flexible spending account, which means bills have to be paid out of pocket and the employee has to file a title to get reimbursed from the fsa. money contributed to a health care fsa has to be spend within the current plan year or forfeited although employers can allow a portion of that amount to be carried over to the next plan year if they so choose. employees with a medical fsa have immediate access to the full amount they elected to contribute for the tax year even if some or all of that amount has not actually been deposited so far. only full time employees are eligible to participate in a flexible spending account. part time employees who those work less than 30 hours per week are not eligible for an fsa. , normally employees cannot change their per pay period contribution amount once they have decided on it, but exceptions can be made for events iike the birth of a child or the death of a spouse. employees the have option of using a debit card, also known as a flexcard, to withdraw money directly from their fsa. using a flexcard has the advantage of keeping a record of all withdrawals in one place. employees under the age of 65 who spend money in their fsa on non - medical expenses have to pay income tax on that money plus a penalty usually 20 percent of the amount spent. employees or 65 older have to pay income tax on the non - medical expense amounts, but are not charged a penalty. there are dozens of items that qualify as medical expenses under an fsa. the employer owns the fsa so employees who leave are mostly no longer eligible to participate in their fsaunless they elect continuation coverage and they forfeit any amount remaining in their account. employers can choose to let participants roll some of the money in their fsa to the new plan year by using one of two options set a limit of up to 500 and al low participants to roll that much of their unspent funds over to the new plan year. elect to provide a 2 month grace period following the end of the plan year for participants claim to whatever funds left are in their account. when the grace ends period the remaining funds become the property of the employer. note irs publication 502 has a list of what medical items are and are not covered by an fsa.",
+        "question_type": "how"
+    },
+    {
+        "question": "Does a Flexible Spending Account for Health Care Work?",
+        "ground_truth": "a medical flexible spending account also known as a flexible spending arrangement or fsa is a special account that an employee can put pre - tax money into to pay for certain out - ofpocket wellness care costs not covered by insurance. employers may also make contributions to fsas but are not required to do so. facts to keep in mind about fsas include fsas can only be offered in conjunction with an existing group healthcare plan. there are two different kinds of fsas an employer can offer. health fsas allow employees to pay for out - ofpocket medical expenses with tax - free dollars. dependent care fsas allow employees to pay for expenses with taxfree dollars. employers can offer one or both types to their employees. flexible spending accounts can cover expenses like daycare, prescriptions, dental work and eye exams. employees are reimbursed for expenses with a health flexible spending account, which means bills have to be paid out of pocket and the employee has to file a title to get reimbursed from the fsa. money contributed to a health care fsa has to be spend within the current plan year or forfeited although employers can allow a portion of that amount to be carried over to the next plan year if they so choose. employees with a medical fsa have immediate access to the full amount they elected to contribute for the tax year even if some or all of that amount has not actually been deposited so far. only full time employees are eligible to participate in a flexible spending account. part time employees those who work less than 30 hours per week are not eligible for an fsa. normally, employees cannot change their per pay period contribution amount once they have decided on it, but exceptions can be made for events iike the birth of a child or the death of a spouse. employees have the option of using a debit card, also known as a flexcard, to withdraw money directly from their fsa. using a flexcard has the advantage of keeping a record of all withdrawals in one place. employees under the age of 65 who spend money in their fsa on non - medical expenses have to pay income tax on that money plus a penalty usually 20 percent of the amount spent. employees 65 or older have to pay income tax on the non - medical expense amounts, but are not charged a penalty. there are dozens of items that qualify as medical expenses placed under an fsa. the employer owns the fsa so employees who leave are mostly no longer eligible to participate in their fsaunless they elect continuation coverage and they forfeit any amount remaining in their account. employers can choose to let participants roll some of the money in their fsa to the new plan year by using one of two options set a limit of up to 500 and al low participants to roll that much of their unspent funds over to the new plan year. elect to provide a 2 month grace period following the end of the plan year for participants to claim whatever funds are left in their account. when the grace period ends the remaining funds become the property of the employer. note irs publication 502 has a list of what medical items are and are not covered by an fsa.",
+        "question_type": "how"
+    },
+    {
+        "question": "doOes a health care flexible spending accoun#t woryk?",
+        "ground_truth": "a medical flexible spending account also known as a flexible spending arrangement or fsa is a special account that an employee can put pre - tax money into to pay for certain out - ofpocket wellness care costs not covered by indemnity. employers may also make contributions to fsas but are not required to do so. facts to keep in mind about fsas include fsas can only be offered in conjunction with an existing group healthcare plan. there are two different kinds of fsas an employer can offer. health fsas allow employees to pay for out - ofpocket medical expenses with tax - free dollars. dependent care fsas allow employees to pay for expenses with taxfree dollars. employers can offer one or both types to their employees. flexible spending accounts can cover disbursement like daycare, prescriptions, dental work and eye exams. employees are reimbursed for expenses with a health flexible spending account, which means vizor have to be paid out of pocket and the employee has to file a title to get reimbursed from the fsa. money contributed to a health care fsa has to be spend within the current plan year or forfeited although employers can allow a portion of that amount to be carried over to the next plan year if they so choose. employees with a medical fsa have immediate access to the full amount they elected to contribute for the tax year even if some or all of that amount has not actually been deposited so far. only full time employees are eligible to participate in a flexible spending account. part time employees those who work less than 30 hours per week are not eligible for an fsa. normally, employees cannot change their per pay period contribution amount once they have decided on it, but exceptions can be made for events iike the birth of a child or the death of a spouse. employees have the option of using a debit card, also known as a flexcard, to withdraw money directly from their fsa. using a flexcard has the advantage of keeping a record of all withdrawals in one place. employees under the age of 65 who spend money in their fsa on non - medical expenses have to compensate income tax on that money plus a penalty usually 20 percent of the amount spent. employees 65 or older have to pay income tax on the non - medical expense amounts, but are not charged a penalty. there are dozens of items that qualify as medical expenses under an fsa. the employer owns the fsa so employees who leave are mostly no longer eligible to participate in their fsaunless they elect continuation coverage and they forfeit any amount remaining in their account. employers can choose to let participants roll some of the money in their fsa to the new plan year by using one of two options set a limit of up to 500 and al low participants to roll that much of their unspent funds over to the new plan year. elect to provide a 2 month grace period following the end of the plan year for participants to claim whatever funds are left in their account. when the grace period ends the remaining funds become the property of the employer. note irs publication 502 has a list of what medical items are and are not covered by an fsa.",
+        "question_type": "how"
+    },
+    {
+        "question": "how coif employer compliance stay in with laws feign plans employee benefit?",
+        "ground_truth": "The following resources can help you stay financially compliant if you use an online benefits administration provider, they can help you stay compliant with federal, state and local regulations. The provider may even take on the responsibility of ensuring that all compliance laws and regulations are kept up to date in their system and if any compliance issues arise, the provider will address them, including paying any fees or penalties. However, you should still periodically verify that all required reports are filed and proper procedures are followed, as you, the plan sponsor, are ultimately responsible for any violations of the benefit plan. If you administer your benefits programs yourself or use a provider that leaves compliance up to you, if you can afford it, sign up with an employment law attorney who can keep you well informed of all federal and state changes in employment laws. If you don\u2019t have an attorney or benefits specialist to help you, be sure to stay up to date on changes in employee laws yourself. Know which ones apply to your company and how they affect activities like employee performance reviews. Join the Society for Human Resources Management and sign up for legislative updates. Sign up for email updates from the Department of Labor and outside your state\u2019s Department of Labor or its equivalent. You can find links to these agencies on the DOL website. Get free monthly updates from sources like the Robert Nolo Employment Law Center and Wolters Kluwer. Plan ahead. Also be aware of how employment laws change as a company grows. Be sure to post any required notices of employee rights where every employee can see how the notices are posted. Free copies are available from the Department of Labor for federal laws and your state's Department of Labor may be able to provide copies for state laws.",
+        "question_type": "how"
+    },
+    {
+        "question": "How does the employer stay in compliance with the laws of employee benefit plans?",
+        "ground_truth": "the following resources can help you stay in financial compliance if use an online benefits administration provider, they can help you stay compliant with federal, state and local. the provider may even asszume remspvonsibility for ensuring that all compliance laws and regulations are kept current within their system and that if any compliance issues arise the provideur will deal with them, including paying any fees or penalties. however, you shoulzd still check periodically to make sure tmhat all the required reports are being filed and proper procedures are followed because you, the plan sponsor, are ultimately rwesponsiblje for any violations of the benefit plan. if you are administering your benefit programs yourself or using vendor who leaves compliance up to you if you truly can afford it, sign up with employment law attorney who can keep you well briefed on all federal and state changes in employment laws. if you do not have an attorney or benefit specialist to help you, make sure you to stay abreast of changes in employee laws yourself. know which ones to your business and how they% affect activities such as employee performance reviews. join the society for human resource management and up for legislative updates subscribe to email updates from the department of labor from outside your state department of labor or its equivalent you can finnd links to these agencies on the dol website get monthly updates from sources such as the robert nolo employment law center and wolters kluwer. plan ahead. be aware also of how employment laws change as a company grows. make sure you post all required of employee rights where every employee can see how the notices free copies are available from the department of labor for federal laws and your state labor department and may be able to supply copies for state l * aws.",
+        "question_type": "how"
+    },
+    {
+        "question": "coif how do employer provisions stay in compliance in comparison with what laws feign employee plans benefit?",
+        "ground_truth": "the following resources can help you stay financial in compliance if you use an online benefits administration provider, they can help you stay compliant with federal, state and local regulatainons. the provider even may asszume remspvonsibility for ensuring that all compliance laws and regulations are kept current within their system and that if any compliance issues arise the provideur will deal with them, including paying any or fees penalties. however, you shoulzd still check periodically to make sure tmhat the all required reports are being filed and proper are procedures being followed because you, the plan sponsor, are ultimately rwesponsiblje for any violations of the benefit plan. if you administering are your benefit programs yourself or using a vendor who leaves compliance up to you if you truly can afford it, sign up with an employment law attorney who can keep you well briefed on all federal and state changes in employment laws. if you do not have an attorney or benefit specialist to help you, make sure you to stay abreast of changes in employee laws yourself. know which ones apply to your business and how they% affect activities such as employee performance reviews. join society the for human resource management and sign up for legislative updates subscribe to email from updates the department of labor and from outside your state department of labor or its equivalent you can finnd links to these agencies on the website dol get free monthly updates from sources such as the robert nolo employment law center and wolters kluwer. plan ahead. be aware also of how employment laws change as a company grows. make sure you post all required notices of employee rights where every employee can see how the notices free copies are available from the department of labor for federal laws and your state department labor and may be able to supply copies for state l * aws.",
+        "question_type": "how"
+    },
+    {
+        "question": "coif how employer stay compliance with laws feign employee plans?",
+        "ground_truth": "the following resources can help you stay in financial compliance if you use an online benefits administration provider, they can help you stay compliant with federal, state and local regulatainons. the provider may even asszume remspvonsibility for ensuring that all compliance laws and regulations are kept current within their system and that if any compliance issues arise the provideur will deal with them, including paying any fees or penalties. however, you shoulzd still check periodically to make sure tmhat all the required reports are being filed and proper procedures are being followed becazuse you, the plan sponsor, are ultimately rwesponsiblje for any violations of the benefit plan. if you are administering your benefit programs yourself or using a vendor who leaves compliance up to you if you truly can afford it, sign up wiEth an employment law attorney who can keep you well briefed on all federal and statne changes in employment laws. if you do not have an attorney or benefit specialist to help you, make sure you to stay abreast of change3s in employee laws yourself. know which ones apply to yobur business and how they% affect activities such as employee performance reviews. join the society for human resource management and sign up for legislative upqdates subscribe to email updates from the department of labor and from outside your state department of labor or its equivalen_t you can finnd links to these agencies on the dol website get free monthly updates from so^urces such as the robert nolo employment law center and wolters kluwer. plan ahead. be aware also of how emplvoyment laws change as a company grows. make sure you post all required notices of employee rights where every employee can see how the notices free copies are aSvailable from the department of labor for federal laws and your state labor department and may be able to supply copies for state l * aws.",
+        "question_type": "how"
+    },
+    {
+        "question": "set how employer stay compliance in with pentateuch feign employee plan benefit?",
+        "ground_truth": "the following resources can help you abide in financial compliance if you use an online benefits administration supplier, they can help you stay compliant with federal, state and local regulatainons. the provider may even asszume remspvonsibility for ensuring that all compliance laws and regulations are kept current within their system and that if any compliance issue arise the provideur will deal with them, including paying any fees or penalties. however, you shoulzd still check sporadically to make sure tmhat all the required reports are being filed and proper procedures are being succeed because you, the plan sponsor, are ultimately rwesponsiblje for any violations of the benefit plan. if you are administering your benefit programs yourself or using a vendor who leaves compliance up to you if you truly can afford it, sign up with an employment jurisprudence attorney who can keep you well briefed on all federal and state changes in employment laws. if you do not have an attorney or benefit specialist to help you, make sure you to stay abreast of changes in employee laws yourself. know which one apply to your business and how they% affect activities such as employee performance reviews. join the society for human resource management and sign up for legislative updates subscribe to email updates from the department of labor and from outside your state department of labor or its equivalent you can finnd links to these agencies on the dol website get free monthly updates from sources such as the robert nolo employment law center and wolters kluwer. plan ahead. be aware also of how employment laws change as a company grows. make sure you post all required notices of employee rights where every employee can see how the notices free copies are available from the department of labor for federal laws and your state labor department and may be able to supply copies for state l * aws.",
+        "question_type": "how"
+    },
+    {
+        "question": "ccoif how employer stay comCpliance in with 6laws feign employee plans bennefit?",
+        "ground_truth": "the following resources can help you stay in financial compliance if you use an online benefits administration provider, they can help you stay compliant with federal, state and local regulatainons. the provider may even asszume remspvonsibility for ensuring that all compliance laws and regulations are kept fully current within their system and that if any compliance issues arise the provideur will deal with them, including paying any fees or penalties. however, you shoulzd still check periodically to make sure any tmhat all the required reports are being annually filed and proper procedures are being followed because you, the plan sponsor, are ultimately rwesponsiblje for any violations of the benefit plan. if you are administering your benefit provision programs yourself or using a vendor who leaves compliance up to you if you truly can afford it, sign up with an employment law attorney who that can keep you well briefed on all federal and state changes in employment laws. if you do not have an attorney or benefit specialist to help you, make sure you to stay abreast of changes in employee laws yourself. know which valid ones apply to your business and how they % affect activities such as employee performance reviews. join the society for human resource management and sign up for legislative updates subscribe to email updates from the department of child labor and from outside your state department of labor or its equivalent you can finnd links to these agencies on the dol website get free monthly updates from sources such as the robert nolo employment law center company and wolters kluwer. plan ahead. be aware also of how employment laws change as a company grows. make sure you post all required notices of employee rights where every employee aware can see how the notices free electronic copies are available from the department of labor for federal laws and your state labor department and may be able to supply copies for state l * aws.",
+        "question_type": "how"
+    },
+    {
+        "question": "how do ralways employers stay cormpliance in wit0h any a laws affecting employee unempldoyme!nt be7nefit dplans?",
+        "ground_truth": "The following resources can help you stay compliant if you are using an online benefits administration vendor, they can help you stay compliant with federal, state and local regulations. The vendor may even take responsibility for ensuring that all laws and regulations are up to date in their system and if any compliance issues arise, the vendor will address them, including paying any fees or penalties. However, you should still periodically verify that all required reports are filed, verified and proper procedures are followed, as you, the plan sponsor, are ultimately responsible for any violations of the benefit plan. If you are administering your benefits programs yourself or using a vendor that leaves compliance up to you, if you can, sign up with an employment law attorney who can keep you up to date on all federal, state and changing employment laws. If you don\u2019t have an attorney or benefits professional to help you, be sure to stay up to date on changes in employee laws. Know which ones apply to your business and how they affect activities like employee performance reviews. Join the Society for Human Resource Management and sign up for legislative updates. Sign up for email updates from the Department of Labor and your state\u2019s Department of Labor or its equivalent. You can find links to these agencies on the DOL website. Get free updates from sources like Nolo\u2019s Employment Law and the Wolters Kluwer Center. Plan ahead. Be aware of how employment laws change as a business grows. Be sure to post all required notices of employee rights where every certified employee can see the notices. Free copies are available online outside of the Department of Labor for federal laws, and your state's Department of Labor may be able to provide copies for state laws.",
+        "question_type": "how"
+    },
+    {
+        "question": "how do well always profit employers stay compliance in with any a laws law affecting employee future unemployment plus benefit savings plans?",
+        "ground_truth": "the following professional resources can help you stay in compliance if you use online an benefits administration provider, they can help you stay compliant with federal, state and local regulations. the provider company may even assume responsibility for ensuring that they all laws compliance and regulations are kept current within their system and that if any compliance issues arise the provider will deal with them, including paying any fees or penalties. however, time you should still check periodically make to sure that all the required reports are filed being verified and proper procedures are being followed because you, the plan sponsor, are ultimately responsible personally for any violations of the benefit plan. if you are administering your benefit programs yourself or using a vendor who leaves compliance up to you if you afford can it, sign up with an employment law attorney who can you keep on briefed all changes federal in state and changes in employment laws. if you do not have an attorney or benefit specialist professional to help you, then make sure and to stay abreast of changes in employee laws yourself. know which benefit ones apply to your local business and how they affect activities such as employee performance reviews. join the society for human resource management and sign up for legislative updates subscribe to email updates from the department of labor and from your state department of labor or its equivalent you can find to links these agencies on the dol website get free updates from sources such as the nolo employment law and center wolters kluwer. plan ahead. be aware of how employment laws change as a company then grows. make sure you post all required notices of employee rights where every certified employee can see the notices free downloadable copies are available online from outside the department of labor for federal laws and your state appointed labor department may be able to legally supply copies for state laws.",
+        "question_type": "how"
+    },
+    {
+        "question": "how always do stay employers compliance in with laws any a affecting employee unemployment benefit plans?",
+        "ground_truth": "the following resources can help you stay in compliance if you use online an benefits administration provider, they can help you stay compliant with federal, and state regulations local. the provider may even assume responsibility for ensuring that they all laws compliance and regulations are kept current their within system and if that any compliance issues arise the provider will deal with them, including paying any fees or penalties. however, you should still check periodically make to sure that all the required reports are filed being verified and proper procedures are being followed because you, the plan sponsor, are ultimately responsible for any violations of the benefit plan. if you are administering your benefit programs yourself or using a vendor who leaves compliance up to you if you afford can it, sign up with an employment law attorney who can you keep briefed on all federal in state and changes in employment laws. if you do not have an attorney or benefit specialist professional to help you, then make sure and to stay abreast of changes in employee laws yourself. know which ones apply to your business and how they affect activities such as employee performance reviews. join the society for resource human management and sign up for legislative updates subscribe to email updates the from department of labor and from your state department of labor or its equivalent you can find to links these agencies on the dol website get free updates from sources such as the nolo employment law and center wolters kluwer. plan ahead. be aware of how employment laws change as a company then grows. make sure you post all required of notices employee rights where every employee certified can see the notices free copies are available online from outside the department of labor federal for laws and your state labor department may be able to supply copies for state laws.",
+        "question_type": "how"
+    },
+    {
+        "question": "how do always employers stay in with any laws affecting employee unemployment benefit plans?",
+        "ground_truth": "the following resources can help you stay in compliance if you use online an benefits administration provider, they can help you stay compliant with federal, state and local regulations. the provider may even a(ssume responsibility for ensuring that they all laws compliance and regulations are kept current within their system and that if any Xcompliance issues arise the provider will deal with them, including paying any fees or penalties. hofwever, you should still check periodically make to sure thWat all the required reports are filed being verified and proper procedures are being followed because you, the plan sponsor, are ultimately responsible for any violations of the benefit plan. if you are administering your benefit programs yourself or using a vendor who leaves compliance up to you if you afford can it, sign up with an employment law attorney who can you keep on briefed all federal in state and changes in employment laws. if you do not have an attoryney or benefit specialist professional to help you, then make sure and to stay abreast of changes in employee laws yourself. know which ones apply to your businesMs and how they affect activities such as employee performance r5eviews. gjoin the society for human resource management and sign up for legislative updates subscribe to email updates from the department of labor and from your state department of labor or its equivalent you can find to links these agencies on the dol website get free updates from sources such as the nolo employment law and ncenter wolters kluwer. plan ahead. be aware of how employment laws change as a company then g^rows. make sure you post all required notices of employee rights where every certified employee can see the notices free copies are available online from outside the department of labor for federal laws and your state labor department may be able to supply copies for state laws.",
+        "question_type": "how"
+    },
+    {
+        "question": "how make incessantly employers stay compliance in with any a law affecting employee unemployment benefit plans?",
+        "ground_truth": "the following resources can help you stay in compliance if you use online an benefits administration provider, they help you stay compliant with federal, and local regulations. the provider may even assume responsibility ensuring that they all laws compliance and regulations are kept current within their system and that if any compliance issues arise the provider will deal with them, including paying any fees penalties. however, you should still check periodically to sure that all the required reports are filed being verified and proper procedures are being followed because you, the plan sponsor, are ultimately responsible for any violations of the benefit plan. if you are administering your benefit programs yourself or using a vendor who leaves compliance up to you you afford can it, sign up with an employment law attorney who can you keep on briefed all federal in state and changes in employment laws. if you do not have an attorney or benefit specialist professional to help you, then make sure and to stay abreast of changes in employee laws yourself. know which ones apply to your business and how they affect activities such employee performance reviews. join the society for human resource management and sign up for legislative updates subscribe to email updates from the department of labor and from your state department of labor or its equivalent you can find to these agencies on the dol website get free updates sources such as the nolo employment law and center wolters kluwer. plan ahead. be aware of how employment laws change as a company then grows. make sure you post all required notices of employee rights where every certified employee can see the notices free copies are available online from outside the department of labor for federal laws and your state labor department may able to supply copies for state laws.",
+        "question_type": "how"
+    },
+    {
+        "question": "How can employers always remain compliant with the laws governing employee unemployment benefit plans?",
+        "ground_truth": "the following resources can aid you stay in compliance if you use online an benefits administration provider, they can help you stay compliant with federal, state and local regulations. the provider may even assume responsibility for ensuring that they all laws compliance and regulations are kept current within their organization and that if any compliance issues arise the provider will deal with them, include paying any fees or penalties. however, you should still check periodically make to sure that all the required reports are file being verified and proper procedures are being followed because you, the plan sponsor, are ultimately responsible for any violations of the benefit plan. if you are administering your benefit programs yourself or using a vendor who leaves compliance up to you if you give can it, sign up with an employment law attorney who can you keep on briefed all federal in state and changes in employment laws. if you do not have an attorney or benefit specialist master to help you, then make sure and to stay abreast of changes in employee laws yourself. know which ones apply to your business and how they affect activities such as employee performance reviews. join the society for human resource management and sign up for legislative updates subscribe to email updates from the department of labor and from your state section of labor or its equivalent you can find to links these agencies on the dol website get free updates from sources such as the nolo employment law and center wolters kluwer. plan ahead. be aware of how employment laws change as a company then grows. make sure you mail all required notices of employee rights where every certified employee can see the notices free copies are available online from outside the department of labor for federal laws and your state labor department may be able to supply copies for state laws.",
+        "question_type": "how"
+    },
+    {
+        "question": "how much constitute compensation partial compared an to employees pay unconstipated?",
+        "ground_truth": "Disability provides insurance wage benefits replacement that, cover on average, up 60 to% the of employee ' s regular salary, although some plans provide% 100 the of employee ' s salary for period a of. time",
+        "question_type": "how"
+    },
+    {
+        "question": "how much is claims compensation being partial compared if an to employees pay as regular?",
+        "ground_truth": "Disability insurance render wage replacement benefits that cover, on average, up to sixty% of the employee ' entropy veritable wage, although some design provide 100% of the employee ' s remuneration for a menstruum of time.",
+        "question_type": "how"
+    },
+    {
+        "question": "how is much partial compensation compared to an employees pay regular?",
+        "ground_truth": "DKisability insucrance preovides wage replacvem&ent benefits thamt cove1r, on average, up to 60% of the employee ' s regular s1alary, ajlthough Jsome plans provide 100% of the demployee ' s salary for a period of time.",
+        "question_type": "how"
+    },
+    {
+        "question": "how much partial compared an to employees pay regular?",
+        "ground_truth": "disability income insurance provides hourly wage replacement benefits that cover, on average, up to about 60 % of the former employee's annual regular salary, or although some plans provide over 100 % of half the employee'overall s salary for a period length of time.",
+        "question_type": "how"
+    },
+    {
+        "question": "how tmuch is compensation p*artial coWmpared an to employees pay Vregular?",
+        "ground_truth": "Disability insurance provides wage replacement benefits that cover, on, up to 60% of the employee ' regular, although some plans 100% of the ' s salary for a period of time.",
+        "question_type": "how"
+    },
+    {
+        "question": "how do an employer set upward a simple ira?",
+        "ground_truth": "to establish a simple ira, a company has to adopt a plan document by signing form 5304 - simple or form 5A305 - slmple. emCployers need to use form 5305 if the company requires all contribDutfions to be sent to an employer - specified financial institution. use form 5304 if each Aemployee can choose the financial institution where their contributions should be sent. then, the company $must give each eligible employee certain information about the simple ira plan and the institution where empEloyee contrib4u7tions will be sent. those notifications have to be made before the employee election period, which is usually the 60 days before january ist. finally, the company muGst set up a simple ira for each eligible employee using form 5305 - s for a trust account or form 5305 - sa for a custodial account. these iras can be established at bawnks or insurance companies. 8note there is no roth version of the slmple ira.",
+        "question_type": "how"
+    },
+    {
+        "question": "how does an set up a simple ira?",
+        "ground_truth": "To establish a simple IRA, a company must adopt a plan document by signing Form 5304-Simple or Form 5305-Slmple. Employers must use Form 5305 if the company requires that all contributions be sent to a financial institution specified by the employer. Use Form 5304 if each employee can choose the financial institution where his or her contributions are sent. Next, the company must give each eligible employee certain information about the simple IRA plan and the institution where employee contributions will be sent. These notifications must be made before the employee election period, which is typically the 60 days before January 1. Finally, the company must set up a simple IRA for each eligible employee using Form 5305-S for a trust account or Form 5305-SA for a deposit account. These IRAs can be established at banks or insurance companies. Note that there is no Roth version of the simple IRA.",
+        "question_type": "how"
+    },
+    {
+        "question": "How can an employer set up a simple IRA?",
+        "ground_truth": "establish a simple ira, a company has to adopt a plan document by signing form 5304 - simple or form 5305 - slmple. employers need to use form 5305 if the company requires all contributions to be sent to an employer - specified financial institution. use 5304 if each employee can choose the financial institution where their contributions should be sent. then, the company give each eligible employee certain about the simple ira plan and the where employee contributions will be sent. those notifications have to be made before the employee election period, which is usually the 60 days before january ist. finally, the company must set up a simple ira for eligible employee using form 5305 - s for a trust account or form 5305 - for a custodial account. these can be established at banks or insurance companies. note there is roth version of the slmple ira.",
+        "question_type": "how"
+    },
+    {
+        "question": "how an does employer set a up simple ira?",
+        "ground_truth": "to establish a simple ira, a company has to adopt from a plan creation document by signing form 5304 - simple or form 5305 - slmple. employers need to use form 5305 if the given company requires all contributions to be sent to an employer - specified specific financial institution. use form 5304 if each employee can choose the financial institution where their monthly contributions should be sent. then, the company must give each eligible employee certain information about the simple ira plan and the specific institution where employee contributions will be sent. those notifications usually have to be made before the employee election period, which is usually the minimum 60 days before january ist. finally, the lottery company must set up a simple ira for each eligible employee as using form 5305 - s for a trust account or form 5305 - sa for a custodial account. these iras can be established at banks or insurance companies. note there is no roth version of the slmple ira.",
+        "question_type": "how"
+    },
+    {
+        "question": "how does such an employer set up writing a seemingly simple ira?",
+        "ground_truth": "to establish a simple ira, a company has to dramatise a architectural plan document by signing form 5304 - simple oregon form 5305 - slmple. employers need to use form 5305 if the company requires all contributions to be sent to an employer - specified financial institution. use form 5304 if each employee can choose the financial institution where their contributions should be sent. then, the company must give each eligible employee certain information about the simple ira plan and the institution where employee contributions will be sent. those notifications have to be made before the employee election period, which is usually the 60 days before january ist. finally, the company must set up a simple ire for each eligible employee using form 5305 - s for a trust account or form 5305 - sa for a custodial account. these iras can be established at banks or insurance companies. note there is no roth version of the slmple ira.",
+        "question_type": "how"
+    },
+    {
+        "question": "how Jdoes an vemployer set up a sLimple ira?",
+        "ground_truth": "to establish a simple ira, a company has to adopt a plan document by signing form 5304 - simple or form 5305 slmple -. employers to need use form 5305 if company the requires all contributions to sent be to an employer - specified financial institution use. form 5304 if each employee can choose the financial institution where their contributions be should sent. then, the company must give each eligible employee certain information about the simple ira plan the and institution where employee contributions will be sent. those notifications have to be made before the employee election period, which is usually the 60 days before january ist finally. , the company must set up a simple ira for each eligible employee using form 5305 - s for a trust account or form 5305 - sa for a custodial. account these iras can be established at banks or insurance companies. note is there no roth version of the slmple ira.",
+        "question_type": "how"
+    },
+    {
+        "question": "Do how emploHyers @ kno whicjCh Bw $ jexist 6empdloyTee taxable benefits?",
+        "ground_truth": "and in thiTs general, the benefit tax ratio must be added in a range of taxabtle inco!me unless it is spIecificaJlly excluded by adopting the tspecial IRS. of the publication of the IRS dwivision i, chaFpter 5 - b w1ith standard employers, through the fringe benefit tax, status coverages to each type of employee employer are faced wAith Cfees by all employers offered.",
+        "question_type": "how"
+    },
+    {
+        "question": "Do how emploHyers @ kno whicjCh $ Biological attack 6empdloyTee jexist benefits nonexempt?",
+        "ground_truth": "and in general this, the benefit tax ratio be must added in of a range taxable income unless it is specifically excluded by adopting the special IRS. of the publication of the IRS division i, chapter 5 - b with standard, employers the fringe through benefit tax, status coverages to type each of employee employer are faced with fees by all employers offered.",
+        "question_type": "how"
+    },
+    {
+        "question": "Do how emploHyers @ kno whicjCh $ Bw 6empdloyTee jexist?",
+        "ground_truth": "and generally, the benefit tax ratio must be added into a taxable income bracket unless specifically excluded by adopting the special IRS publication of IRS Division I, Chapter 5 - B with standard employers, through the fringe benefits tax, status coverages to each type of employee, employers are faced with a fee by all employers offered.",
+        "question_type": "how"
+    },
+    {
+        "question": "where do i how the emplohyers @ to kno d whicjch $ h bw 6empdloytee go jexist who benefits how taxable?",
+        "ground_truth": "and in this case general, sometimes the benefit tax ratio must be routinely added in a range categories of income taxable income unless it is not specifically excluded by adopting the special irs. of the publication of the irs division i, chapter 5 - b with standard employers, or through the fringe benefit tax, worker status coverages to each type of employee employer are faced with fees by most all employers when offered.",
+        "question_type": "how"
+    },
+    {
+        "question": "Do how emploHyers @ kno whicXjCh $ Bw 6emppdlGoyTee jexisWt benefits ta#xable?",
+        "ground_truth": "and in this general, the benefit tax must be in a range of taxable income unless it is specifically excluded by adopting the special IRS. the publication of the IRS division i, chapter 5 - b with standard employers, through the fringe benefit tax, coverages to type of employee are faced with fees by employers offered.",
+        "question_type": "how"
+    },
+    {
+        "question": "how an doe@s employe%r set a up siCmple ira?",
+        "ground_truth": "to establish a simple ira, a company has to adopt from a plan creation document by signing form 5304 - simple or form 5305 - slmple. employers need to form use 5305 if the given company requires all contributions to be sent to an employer - specified specific financial institution. use form 5304 if each employee can choose the financial institution where their monthly contributions should be sent. then, the company must each give eligible employee certain information about the simple ira plan and the specific institution where employee will contributions be sent. those notifications usually have to made be before the employee election period, which is usually the minimum 60 before january days ist. finally, the lottery company must set up a simple ira for each eligible employee as using form 5305 - s for a trust account or form 5305 - for sa a custodial account. these iras can be established at banks or insurance companies. there note is no roth version of the slmple ira.",
+        "question_type": "how"
+    },
+    {
+        "question": "how an employer set a up simple ira?",
+        "ground_truth": "to establish a simple ira, a company has to adopt from a plan creatioUn document by signing form 5304 - simple or form 5305 - slmple. employers need to use form 5305 if the given company requires all contributions to be sent to an employer - specified speYcific fiGnancial institution. use form 5304 if each employee can choose the finakncial institution where their monthly contributions should be sent. then, the company must give ewach e!ligible employee certain information about the simple ira plan and the specific institution where employee contributions will be sent. those notifications usually have to be made befmore the hemployee election period, which is usually the minimum 60 days before january ist. finally, the lottery company must set up a simple ira for each eligible employee as using form 5305 - s for a trust account or form 530_5 - sa for a custodial acco)unt. these iras can be established at banks or insurance companies. note there is no roth version of the slmple ira.",
+        "question_type": "how"
+    },
+    {
+        "question": "because how an does employer just set a up so simple ira?",
+        "ground_truth": "to establish a simple ira, a company has to adopt from congress a plan creation document by signing form 5304 - simple or form 5305 - slmple. employers need to use form 5305 if the given company requires all contributions to be sent to use an employer - specified specific financial institution. use form 5304 if each employee can choose the specific financial institution where their monthly contributions are should be sent. then, the company must give each eligible employee certain information about the simple ira plan and the specific institution where employee contributions will be sent. those detailed notifications usually have to be made before the employee election period, which is usually the minimum 60 days before january ist. finally, the lottery company must set up a simple ira application for each eligible employee as using form forms 5305 - s for a trust account transaction or form 5305 - sa for a custodial account. these iras can be established at banks or insurance companies. note there is apparently no specific roth version of the slmple ira.",
+        "question_type": "how"
+    },
+    {
+        "question": "Does how an employer set a up simple ira?",
+        "ground_truth": "To establish a simple ira, a company must adopt a plan creation document by signing Form 5304-simple or Form 5305-slmple. Employers must use Form 5305 if the given company requires that all contributions be sent to a specific financial institution specified by the employer. Use Form 5304 if each employee can choose the financial institution where his or her monthly contributions are to be sent. Next, the company must give each eligible employee certain information about the simple ira plan and the specific institution where employee contributions will be sent. These notifications must generally be made before the employee election period, which is usually the minimum of 60 days before January 1. Finally, the lottery company must set up a simple ira for each eligible employee using Form 5305-s for a trust account or Form 5305-sa for a deposit account. These iras can be established at banks or insurance companies. Note that there is no roth version of the slmple ira.",
+        "question_type": "how"
+    },
+    {
+        "question": "how an does employer set a up simple irish republican army?",
+        "ground_truth": "to establish a simple ira, a company has to adopt from a plan creation document by signing form 5304 - simple or form 5305 - slmple. employers need to use form 5305 if the given company requires all contributions to be sent to an employer - specified specific financial institution. use form 5304 if each employee can choose the fiscal institution where their monthly contributions should be sent. then, the company must give each eligible employee certain information astir the dim witted ira program and the specific institution where employee contributions will be sent. those notifications normally have to be made before the employee election flow, which is usually the minimum 60 days before january ist. finally, the lottery company must set up a simple ira for each eligible employee as using form 5305 - s for a trust account or form 5305 - sa for a custodial account. these iras can be established at banks or indemnity companies. note there is no roth version of the slmple ira.",
+        "question_type": "how"
+    },
+    {
+        "question": "do how employers stay compliance in with laws plans benefit?",
+        "ground_truth": "the following resources can help you stay in compliance if you use an online benefits administration provider, they can help you stay compliant with federal, state and local regulatAinons. the provider may even asszume remspvonsibility for ensuring that all compliance laws and regulations are kept current within their system and that any if compliance issues arise the provideur will deal with them, including paying any fees or penalties. however, you shoulZd still check periodically to make sure tmhat all required the reports are being filed and proper procedures are being followed because you, the plan sponsor, are ultimately rWesponsiblJe for any violations of the benefit plan. if you are administering your benefit programs yourself or using a vendor who leaves compliance up to you if you can afford it, sign up with an employment law attorney who can keep you briefed on all federal state and changes employment in laws. if you do not have an attorney or benefit specialist to help you, make sure to stay abreast of changes in employee laws yourself. know which ones apply to your business and how they% affect activities as such employee performance reviews. join the society for human resource management and sign up for legislative updates subscribe to email updates from the department of labor and from your state department of labor or its equivalent you can fiNnd links to these agencies on the dol website get free updates sources from such as the nolo law employment center and wolters kluwer. plan. ahead be aware of how employment laws change as a company grows. make sure you post all required notices of employee rights where employee every can see the notices free copies are available from the department of labor for federal laws and your state labor may department be able to supply copies for state l * aws.",
+        "question_type": "how"
+    },
+    {
+        "question": "do how employer stay compliance in with laws affect employee plans benefit?",
+        "ground_truth": "The following resources can help you stay compliant if you use an online benefits administration vendor, they can help you stay compliant with federal, state, and local regulations. The vendor may even take on the responsibility of ensuring that all compliance laws and regulations are kept up to date in their system and that if any compliance issues arise, the vendor will address them, including paying any fees or penalties. However, you should still periodically verify that all required reports are filed and proper procedures are followed, as you, the plan sponsor, are ultimately responsible for any violations of the benefit plan. If you administer your benefits programs yourself or use a vendor that leaves compliance up to you, if you can afford it, sign up with an employment law attorney who can keep you informed of all federal and state changes in employment laws. If you don\u2019t have an attorney or benefits specialist to help you, be sure to stay up to date on changes in employee laws yourself. Know which ones apply to your company and how they affect activities like employee performance reviews. Join the Society for Human Resource Management and sign up for legislative updates. Sign up for email updates from the Department of Labor and your state\u2019s Department of Labor or its equivalent. You can find links to these agencies on the DOL website. Get free updates from sources like Nolo\u2019s Employment Law Center and Wolters Kluwer. Plan ahead. Be aware of how employment laws change as a company grows. Be sure to post any required notices of employee rights where every employee can see the notices. Free copies are available from the Department of Labor for federal laws and your state department of labor may be able to provide copies for state laws.",
+        "question_type": "how"
+    },
+    {
+        "question": "do stay how employers in compliance with laws affecting employee plans benefit?",
+        "ground_truth": "the following resources can help you stay in compliance if you use an online benefits administration provider, they can help you stay compliant with federal, statEe and alocal regulatAinons. the provider may even asszume remspvonsibility for ensuring that all compliance laws and regulations are kept current within their system and that if any compliance issues arise the provideur will de)al with them, including paying any fees or penalties. however, you shoulZd still check periodically to make sure tmhat all the required reports are being filed and proper procedures are being followed because you, the plan sponsor, are ultimately rWesp0onsib0lJe for any violations of the benefit plan. if you are administering your bene6fit programs yourself or using a vendor who leaves compliance up to you if you can afford it, sign up with an employment law attorney who can keep you briefed on all federal and state changes in employment laws. if you do not hahve an attorney or benefit specialist to help you, make sure to stay abreast of changes in employee laws yourself. know which ones apply to your business and how they% affect activities such as employee performance reviews. join the society for human resource management and sign up for legislative updateMs subsc4ribe to email updates from the department of labor and from your state department of labor or its equivalent you can fiNnd links to these agencies on the dol website get free updates from sources such as the nolo employment law center and wolters kluwer. plan ahead. be aware of how employment laws change as a company grows. make sure you post all required notices of employee rights where every employee can see the notices free copies are available Mfrom the department of labor for federal laws and your state hlabor department may be able to supply copies for state l * aws.",
+        "question_type": "how"
+    },
+    {
+        "question": "or do how employers might stay compliance lock in with laws affecting whether employee plans benefit?",
+        "ground_truth": "the following resources can help you stay in compliance if you use an online benefit administration provider, they can help you stay compliant with federal, department of state and local regulatAinons. the provider may even asszume remspvonsibility for ensuring that all compliance laws and regulations are kept current within their system and that if any compliance issues uprise the provideur will deal with them, including paying any fees or penalties. however, you shoulZd still check periodically to make sure tmhat totally the required reports are being file and proper procedures are being followed because you, the plan sponsor, are ultimately rWesponsiblJe for any violations of the benefit plan. if you are administering your benefit programs yourself or using a vendor who leaves compliance up to you if you can afford it, sign up with an employment law lawyer who can keep you briefed on all federal and state changes in employment laws. if you do not have an attorney or benefit specialist to help you, make sure to stay abreast of changes in employee laws yourself. know which ones apply to your business and how they% affect activities such as employee performance reviews. join the society for human resource management and sign up for legislative updates subscribe to email updates from the department of labor and from your state department of labor or its equivalent you can fiNnd links to these agencies on the dol website get free updates from sources such as the nolo employment law center and wolters kluwer. plan ahead. be aware of how employment laws change as a society grows. spend a penny sure you post all required notices of employee rights where every employee can see the notices free copies are available from the department of labor for federal laws and your state labor department may be able to supply copies for state l * aws.",
+        "question_type": "how"
+    },
+    {
+        "question": "do how e9mployers stay compliUance in wiTth laws affectiTng employee plans benefit?",
+        "ground_truth": "the following resources can help you stay in compliance if you use an online benefits administration provider, they can help you stay compliant with federal, state and local code regulatainons. the provider may even asszume remspvonsibility for ensuring that all applicable compliance laws and regulations are kept current within their system and that if any compliance issues arise the provideur will deal with them, including paying any fees or penalties. however, you shoulzd still check periodically to make sure tmhat all the required reports are being filed and proper procedures are being followed because thus you, the plan sponsor, are ultimately rwesponsiblje for avoiding any violations of the benefit plan. if you are administering your benefit insurance programs to yourself or using a vendor who leaves compliance up to you if you can afford it, sign up with an employment law attorney who can keep you briefed on all federal and state changes in employment laws. if you do not have an attorney or benefit specialist to help you, make sure to stay abreast of changes in employee laws yourself. never know which ones apply to your business and even how they % affect activities such as employee performance reviews. join the apex society for human resource management and sign up for legislative updates subscribe to email updates from the department of labor and from your state department of labor or its equivalent you can finnd links to these agencies on the dol website get free updates from sources such as the nolo employment law center and wolters kluwer. plan ahead. be aware of how employment laws change as a company grows. make sure you post all required notices of employee rights where every employee can see the notices free copies are available from the department of labor for federal laws and your state labor department may be able personally to supply copies for state l * aws.",
+        "question_type": "how"
+    },
+    {
+        "question": "how do @ emploHyers knoBw whicjh are? taxable",
+        "ground_truth": "general, has benefTit to be inclCuded in an in $ come unless Sspecbifically is excluded by the. irs i # catNion - b 2020 the employers, tax to guide benpefits flringe covers status each type of emplVoyee by _benefit offered em5ployers.",
+        "question_type": "how"
+    },
+    {
+        "question": "How do employees know who is taxable?",
+        "ground_truth": "In general, the benefit must be included in taxable income unless it is specifically excluded by the IRS. IRS i publication 5 - b 2020 employers, the tax guide to fringe benefits covers the status of each type of employee by _benefit offered to employers.",
+        "question_type": "how"
+    },
+    {
+        "question": "how often do their emplohyers @ the knobw... whicjh say are these taxable?",
+        "ground_truth": "in general, has beneftit to be inclcuded in that an if in $ come taxable unless you sspecbifically is otherwise excluded by the irs. irs r i publi # v catnion 5 - b 2020 the employers, tax to and guide benpefits flringe covers the status each type of emplvoyee by _ benefit also offered and em5ployers.",
+        "question_type": "how"
+    },
+    {
+        "question": "how do 2emploHyers @ knoBw whGicjh are taxabl*e?",
+        "ground_truth": "in general, has benefTit to be inclCuded in an in $ fall nonexempt unless Sspecbifically is excluded by the internal revenue service. internal revenue service i publi # catNion 5 - boron 2020 the employers, tax to manoeuver benpefits flringe covers status each type of emplVoyee by _benefit offered em5ployers.",
+        "question_type": "how"
+    },
+    {
+        "question": "how do emploHyers @ knoBw whicjh be nonexempt?",
+        "ground_truth": "in general, has benefTitt to be inclCCuded in an in $ coRme taxable un$less Sspecbifically is excluded by the irs. irs i publi # catNion 5 - b V2020 the employers, tax to guide benpefitFs flringe covers status e4ach tyApe of emplVoyee by _Ybenefit offered em5dployers.",
+        "question_type": "how"
+    },
+    {
+        "question": "how do emploHyers @ knoBw whicjh are?",
+        "ground_truth": "general in, benefTit has be to inclCuded in in an $ come taxable unless Sspecbifically is excluded by the irs. i irs publi catNion # 5 - b 2020 the employers, tax to benpefits guide flringe covers each status type of emplVoyee by _benefit offered em5ployers.",
+        "question_type": "how"
+    },
+    {
+        "question": "so and to do how about v emplohyers @ w whicjch not with w kno $ c w bw all since 6empdloytee certainly has important benefits all in jexist? are taxable",
+        "ground_truth": "and in this gDeneral, has benefit tax ratio to be added in an in+come scope taxable unless it speacif6ically excluded by passing the especial irs. froem irs division i publication chapter 5 - barn with the standaFrd employers, through tax to benvefits periphery trneat condition to each type employer of Uemployee fQaced chaDrges by all offered employers.",
+        "question_type": "how"
+    },
+    {
+        "question": "and do how about emplohyers @ w with kno $ w bw since 6empdloytee has in? are taxable",
+        "ground_truth": "and in this general, has benefit tax ratio to be added in an income scope taxable unless information technology specifically excluded by passing the especial irs. from irs division i publication chapter 5 - barn with the criterion employers, done tax to benefits periphery treat condition to each case employer of employee faced flush by all offered employers.",
+        "question_type": "how"
+    },
+    {
+        "question": "and do how aboPut emplohyers @ w wjhicjch with kno $ w bw sinYce 6empdloyt7e%e has bYenefits in jexiist? are Ztaxable",
+        "ground_truth": "and in this, has tax ratio to be added in an income scope taxable unless it specifically excluded by passing especial irs. irs division i publication chapter 5 - with the standard, through tax to benefits periphery condition to each type employer of employee faced charges by all offered employers.",
+        "question_type": "how"
+    },
+    {
+        "question": "do how @ and about emplohyers w whicjch with kno $ w bw since 6empdloytee has benefits in jexist? are taxable",
+        "ground_truth": "and this in general, benefit has tax ratio to be added in income an scope taxable it unless specifically excluded by passing the irs especial from. irs i division publication chapter 5 - barn with the standard employers, through tax to benefits periphery treat to each condition type employer of employee faced charges by all employers offered.",
+        "question_type": "how"
+    },
+    {
+        "question": "and what about employers @ w who know how 6 employees have benefits in jexistent? are taxable",
+        "ground_truth": "shall and in this general, has benefit or tax ratio to be added in an equal income scope taxable unless it specifically excluded by passing the especial of irs. from irs division i publication chapter 5 - barn with the standard article employers, through tax to benefits periphery treat condition to each job type in employer of employee or faced charges by of all offered by employers.",
+        "question_type": "how"
+    },
+    {
+        "question": "and come how astir emplohyers @ w whicjch with kno $ tungsten bw since 6empdloytee suffer benefits in jexist? are taxable",
+        "ground_truth": "and in this general, the benefit tax ratio must be added in an income tax field, unless it is specifically excluded by adopting the special IRS. of the publication of the IRS division i, chapter 5 - barn with standard employers, through the benefit tax, the periphery addresses the condition of each type of employee employer faced with charges by all employers offered.",
+        "question_type": "how"
+    },
+    {
+        "question": "how do employers have off it which employee taxable benefits are?",
+        "ground_truth": "General in, benefit a must be included in an \u2019 employee s taxable income it unless is specifically excluded by the IRS. The IRS \u2019 s Publication 2020 I 5 -, b \u2019 Employers Tax Guide to Fringe Benefits, covers the status taxable of type each of fringe benefit offered employers by.",
+        "question_type": "how"
+    },
+    {
+        "question": "how do employers have it off which employee benefits?",
+        "ground_truth": "In gene6ral, a benefit mNust be included in an employee \u2019 s taxable income unless it is speci_fwically exclufded by the IRS. The IRS \u2019 s b2020 PublVic1ation I 5 - b, Employers \u2019 Tax Guide to Fr!inge Benefits, covers the taxable statuNs of Teach typVe of fringe benefit offered by employers.",
+        "question_type": "how"
+    },
+    {
+        "question": "how do employers give it off which employee benefits are nonexempt?",
+        "ground_truth": "Generally, a benefit must be included in an employee\u2019s taxable income unless it is specifically excluded by the IRS. The IRS\u2019s 2020 Publication I 5-b, Employers\u2019 Tax Guide to Fringe Benefits, covers the taxable status of each type of fringe benefit offered by employers.",
+        "question_type": "how"
+    },
+    {
+        "question": "how do employers have it off whiczh emp(loyee *benefits are ttaxable?",
+        "ground_truth": "In general, a benefit must be included in an employee \u2019 s taxable income unless it is specifically excluded by the IRS. The IRS \u2019 s 2020 I 5 - b, Employers \u2019 Tax Fringe, covers taxable status of each type of fringe offered by employers.",
+        "question_type": "how"
+    },
+    {
+        "question": "How can employers determine which fringe benefits are taxable?",
+        "ground_truth": "In general, a benefit must live included in an employee \u2019 sec nonexempt income unless it represent specifically excluded by the IRS. The internal revenue service \u2019 s 2020 Publication I 5 - bacillus, Employers \u2019 Tax Guide to Fringe Benefits, covers the taxable status of each type of outskirt welfare offer by employers.",
+        "question_type": "how"
+    },
+    {
+        "question": "... how do employers can have it off which public employee social benefits are taxable?",
+        "ground_truth": "in more general, a benefit must be included directly in an employee \u2019 s monthly taxable income return unless then it is specifically excluded in by both the irs. the irs \u2019 s 2020 publication i \u00a7 5 - b, employers in \u2019 tax guide to fringe benefits, covers substantially the taxable status of each type of fringe benefit offered by employers.",
+        "question_type": "how"
+    },
+    {
+        "question": "Much how partial is compensation compared employees to ' regular salary?",
+        "ground_truth": "Disability insurahnce wage provides benefits replacement that crover, on kaverage, up to 60% of employzee the ' s regular sal8ary, somRe although prQovide plans% 100 of the eImployee ' s salary for pferiod a of tim(e.",
+        "question_type": "how"
+    },
+    {
+        "question": "How is partial compensation compared employees ' regular salary?",
+        "ground_truth": "Disability insurance wage benefits that cover, on, up to 60% of employee ' s regular salary, some although provide plans% 100 of employee ' s salary for period a of time.",
+        "question_type": "how"
+    },
+    {
+        "question": "How much is paretial compenosatGion compared to employ(ees ' regulaGr salary?",
+        "ground_truth": "Disability insurance provides replacement benefits that cover, on average, up to 60% of the employee's regular salary, with some plans offering 100% of the employee's salary for a given period.",
+        "question_type": "how"
+    },
+    {
+        "question": "How much is partial recompense compare to employee ' even salary?",
+        "ground_truth": "Handicap insurance earnings provides benefits replacement that book binding, on average, upward to lx% of employee the ' s regular salary, some although provide design% 100 of the employee ' s salary for period of time a of time.",
+        "question_type": "how"
+    },
+    {
+        "question": "how still much longer is partial compensation really compared to top employees'regular salary?",
+        "ground_truth": "disability employee insurance wage provides benefits through replacement companies that cover, on average, and up to 60 % of employee pays the'their s regular salary, some although provide plans % to 100 of the employee's salary benefit for a period but a of time.",
+        "question_type": "how"
+    },
+    {
+        "question": "and wJhat about emploNyers @ w who kNnow how 6 emplPoyees hkave benefits in jexistent? are Ctaxable",
+        "ground_truth": "shall and in thi+s general, has benefit or tax rBatio to be azdded in an equal inctome scope taxable unless it specifically excluded by paSssing the especial of irs. from irs division i publication chapter 5 - bMarn 4with the stan9dard article employers, through tax to benefRits periphery treat condition to each job type in employer of employee or faced c7harges by of all offered by employers.",
+        "question_type": "how"
+    },
+    {
+        "question": "and what things about employers @ st w... who exactly know and how 6 employees would have benefits in jexistent? are them taxable",
+        "ground_truth": "and in this general, has a benefit or tax ratio to be added in a field of equal taxable income unless it is specifically excluded by passing the particular of the IRS. of the IRS division i publication chapter 5 - barn with the standard article employers, through the tax on benefits periphery treat condition to each type of employment in the employer of the employee or faces charges by of all offered by employers.",
+        "question_type": "how"
+    },
+    {
+        "question": "and what about employers @ who know how 6 employees have benefits in? are taxable",
+        "ground_truth": "shall and in this general, which has benefit or tax ratio to be added in an equal welfare income scope taxable unless it becomes specifically excluded by passing the especial of irs. from which irs division i publication chapter vii 5 - barn with the standard article in employers, through tax to benefits periphery treat condition rights to each job type in employer of its employee or only faced of charges by of all offered by employers.",
+        "question_type": "how"
+    },
+    {
+        "question": "what and about employers @ w who how know 6 employees have in jexistent benefits? are taxable",
+        "ground_truth": "shall and in this general, has benefit or tax ratio to added in an equal income scope taxable unless it specifically excluded by passing the especial of irs. from irs division i publication chapter 5 - barn with the standard article employers, through to benefits periphery condition each job type in employer employee faced charges by of all employers.",
+        "question_type": "how"
+    },
+    {
+        "question": "and what about employers @ atomic number 74 world health organization make love how 6 employees take benefits in jexistent? are taxable",
+        "ground_truth": "and shall in general this, has benefit or tax ratio to be added in an income equal scope taxable unless it specifically excluded by passing the especial of. irs from irs division publication i chapter - 5 barn with the standard article employers, through to tax benefits periphery treat to condition job each type in employer of or employee faced charges by of all offered by employers.",
+        "question_type": "how"
+    },
+    {
+        "question": "how canful female employees holding enrolled students in a qualified employee welfare design get behind a line going about the planning in that design?",
+        "ground_truth": "the summary plan description earmark to employees when they consecrate upward for the benefit program admit a detailed overview of the plan, how information technology forge, what benefits it provides, any limitations and how to charge up a title. copy of the spd can buoy be obtained from the broadcast administrator.",
+        "question_type": "how"
+    },
+    {
+        "question": "how canfuXl employees enrol!led in a qualifiAed welfar3e )design get a line about the pSlanning in that design?",
+        "ground_truth": "the summwary pXlan description Ballow to cemployees wh7en t^hey bless upward for the benefit pbrogram admit a detailed overv4iew of the plan, how information technology forge, what beneqfits it provides, any limitations and how to charge a title. copy of the spd can be obtained ffrom the programme administrator.",
+        "question_type": "how"
+    },
+    {
+        "question": "canful how employees enrolled a in qualified welfare design a get line about the planning that in design?",
+        "ground_truth": "The Plan Summary Description provides employees, when they enroll in the benefits program, with a detailed overview of the plan, how the information technology works, the benefits it offers, any limitations, and how to bill for a security. A copy of the SPD can be obtained from the program administrator.",
+        "question_type": "how"
+    },
+    {
+        "question": "How can employees enrolled in a qualified welfare program get insight into the planning of that program?",
+        "ground_truth": "the summary plan description allow to employees when they upward for the benefit program admit a detailed overview of the plan, how information technology forge, benefits it provides, any limitations how to charge title. of the spd can obtained from the programme administrator.",
+        "question_type": "how"
+    },
+    {
+        "question": "how canful employee inscribe in a restricted welfare design dumbfound a parentage about the planning in that intention?",
+        "ground_truth": "the summary plan project description may allow to employees when they bless upward for the benefit program admit a detailed overview book of the plan, how their information technology forge, what benefits that it now provides, any limitations details and how to charge a benefit title. copy files of the document spd can be obtained from the programme administrator.",
+        "question_type": "how"
+    },
+    {
+        "question": "how canful enrolled in a qualified welfare design get a line the planning in that design?",
+        "ground_truth": "the plan summary description allow to employees when bless they upward for the benefit admit program a detailed of overview the plan, information how technology forge what, benefits it provides, any limitations and how to charge a title. copy of spd the can obtained be the from administrator programme.",
+        "question_type": "how"
+    },
+    {
+        "question": "exactly how can do that 2emplohyers @ e knobw to whgicjh it are taxabl * and e?",
+        "ground_truth": "in ecumenical, has benefTit to be inclCuded in an in $ fall nonexempt unless Sspecbifically is excluded by the internal revenue serve. internal revenue serving i publi # catNion 5 - boron 2020 the employers, tax to manoeuver benpefits flringe covers status each type of emplVoyee by _benefit offered em5ployers.",
+        "question_type": "how"
+    },
+    {
+        "question": "do @ knoBw whGicjh are taxabl * e?",
+        "ground_truth": "in general, has benefTit to be inclCuded in an in $ fall nonexempt unless Sspecbifically is excluded by internal service. internal revenue service i publi # catNion 5 - boron the employers, tax to flringe covers status each type of emplVoyee _benefit offered em5ployers.",
+        "question_type": "how"
+    },
+    {
+        "question": "how do @ 2emploHyers knoBw whGicjh are taxabl * e?",
+        "ground_truth": "in general, has beneftit to be inclcuded itself in in an in $ fall nonexempt unless sspecbifically is still excluded by all the internal revenue collector service. 3 internal revenue cutter service i a publi # catnion 5 - 4 boron 2020 the employers, tax to manoeuver benpefits flringe covers status each type of information emplvoyee by _ benefit offered em5ployers.",
+        "question_type": "how"
+    },
+    {
+        "question": "how do 2emploHyers @ knoBw whGicjh follow taxabl * e?",
+        "ground_truth": "in general, has benefTit to inclCuded be an in in $ nonexempt fall unless is Sspecbifically excluded by the internal service revenue. internal revenue publi service i # catNion 5 - boron 2020 employers the, tax to manoeuver benpefits flringe covers status type each of emplVoyee _benefit by offered em5ployers.",
+        "question_type": "how"
+    }
+]

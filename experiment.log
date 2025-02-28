@@ -1,0 +1,8 @@
+2025-02-25 20:23:24,028 - experiment - INFO - Created experiment directory: RL_Agent/experiments\experiment_20250225_202324
+2025-02-25 20:23:24,039 - experiment - INFO - Copied configuration files to RL_Agent/experiments\experiment_20250225_202324
+2025-02-25 20:23:24,040 - experiment - INFO - Starting model training...
+2025-02-25 20:23:24,041 - experiment - INFO - Running command: python train-script.py --train_data RL_Agent/data/train_data.json --test_data RL_Agent/data/test_data.json --action_space RL_Agent/experiments\experiment_20250225_202324\action_space.json --reward_config RL_Agent/experiments\experiment_20250225_202324\reward_config.json --episodes 1000 --batch_size 64 --lr 0.0003 --output_dir RL_Agent/experiments\experiment_20250225_202324\training_output
+2025-02-25 20:23:24,087 - experiment - ERROR - Training command failed with exit code 2
+2025-02-25 20:23:24,089 - experiment - ERROR - Stdout: 
+2025-02-25 20:23:24,089 - experiment - ERROR - Stderr: python: can't open file 'train-script.py': [Errno 2] No such file or directory
+

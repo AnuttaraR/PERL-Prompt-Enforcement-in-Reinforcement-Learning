@@ -1,0 +1,1002 @@
+[
+    {
+        "question": "is there a size requirement for an employer to have a 401k plan?",
+        "ground_truth": "there is no minimum number of employees for establishing a company 401k plan - you can have 2 employees or 2,000.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can employers offer different benefits to different employees?",
+        "ground_truth": "in general, employers can offer different benefits to different groups of employees. for example certain benefits might only be available to full-time employees and not part-time employees. however, the employer has to be sure to offer those benefits to all the full-time employees. if one or more full-time workers are not receiving those benefits, then the employer is in violation of employment laws. offering a benefit only to certain employees can be tricky it is always best to check on federal and state laws when benefits are being restricted to a specific group or groups of employees.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can employers take the full value of a non-cash benefit as a business deduction?",
+        "ground_truth": "as a rule, no. employers can only deduct the cost of the benefit, even though the actual value usually the fair market value of the benefit is normally higher. for employees, it is the benefits actual value that has to be included in the employees gross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "other than keeping employees happy, is there a financial upside for employers in providing employee benefits?",
+        "ground_truth": "in most cases, the cost of providing employee benefits can provide employers with a business deduction on their tax return, the same as the deduction they take for wages and salaries paid to employees. in addition, benefit packages can create employment tax savings for employers. if employee benefits were paid out as wages and salaries, the employer would have to pay matching social security and medicare taxes on those amounts, as well as federal and state unemployment tax. for benefit plans such as section 125 health care plans, employee contributions are exempt from both flca and unemployment taxes, which means the employer does not have to pay matching fica taxes or federal and state unemployment tax on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can employers get a tax credit for their group health plan contributions?",
+        "ground_truth": "yes, contributions toward employees health insurance coverage can be considered a tax credit if the employer has less than 25 full-time employees, the premiums are lower than the shop marketplace and paid average annual wages are less than the amount prescribed by the irs.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can small employers who want to provide group health care join with other employers to help lower costs?",
+        "ground_truth": "in many cases, trade associations offer health insurance plans for small-business owners and their employees at lower rates. a given employer may only have a handful of employees, but combining with thousands of employees in the association provides considerable leverage. in addition, since the carrier issues a policy to the whole association, no individual member can have their coverage canceled unless the carrier cancels coverage for the entire association.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can employers offer different types of paid leave to different groups of employees?",
+        "ground_truth": "yes, as long as long as the leave policy does not discriminate against a protected class of employees and it complies with federal and state laws. for example, employers often offer different amounts of paid leave time based on length of service, or they have different leave policies for full-time and part-time employees.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can hras make healthcare insurance less of a hassle for employers?",
+        "ground_truth": "hras are not only a more flexible alternative to standard group health insurance plans - they also take most of the management burden off of the employer. rather than the employer having to weigh healthcare risks and decide on coverages, the employees can choose the coverage that works best for them and their families.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "other keeping employees happy, is there a financial upside employers in providing employee benefits?",
+        "ground_truth": "in most cases, the cost of providing employee benefits can provide employers with business deduction on their tax return, the same as the deduction they take for wages and paid employees. in, benefit packages can create employment tax for employers. if employee benefits were paid out as wages and salaries, the employer would have to pay matching social security and medicare taxes on those amounts, as well federal and unemployment tax. for benefit plans such as section 125 health care plans, contributions are exempt from both flca and unemployment taxes, which means the employer does have pay matching fica taxes or federal and state unemployment tax on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "other than keepi+ng employewes hcappy, is there a financial upsid0e for em$ployers in providing Nemployee benefits?",
+        "ground_truth": "in most cases, the cost of providing employee benefits can provide employers with a business deduction on their tax return, the same as the deduction they take for wages and salaries paid employees to. in addition, benefit packages create can employment tax savings for. employers if employee benefits were out paid as wages and salaries, the employer would have to pay matching social security and medicare taxes on those amounts, as well as federal and state tax unemployment. for benefit plans such as section 125 health care plans, contributions employee exempt are from both flca unemployment and taxes, which means the employer does not have to pay matching taxes fica or federal and state unemployment on tax those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "other keeping than employees happy, is a there financial upside employers for in providing benefits employee?",
+        "ground_truth": "in most cases, the cost of simply providing employee benefits can provide employers with a business deduction on their tax return return, the same as the deduction they take for wages and salaries previously paid to employees. in addition, benefit packages can create employment tax savings for employers. if some employee benefits were paid out simply as wages and salaries, the employer today would have to pay matching social security and medicare taxes on those amounts, as well as federal and state state unemployment income tax. for benefit plans such as section 125 health care plans, employee contributions are generally exempt from both flca and unemployment taxes, which means the employer does not have to pay matching fica taxes or federal and all state unemployment tax on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "other than keeping employee felicitous, follow there a fiscal upside for employers in provide employee benefits?",
+        "ground_truth": "In most cases, the cost of fringe benefits can provide employers with a business deduction on their tax return, the same as the deduction they take for wages and salaries paid to employees. In addition, fringe benefits can create employment tax savings for employers. If the fringe benefits were paid as wages and salaries, the employer would have to pay corresponding Social Security and Medicare taxes on those amounts, as well as federal and state unemployment taxes. For fringe benefit plans such as Section 125 health care plans, employee contributions are exempt from FLCA and unemployment taxes, meaning the employer does not have to pay corresponding FICA taxes or federal and state unemployment taxes on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "Besides keeping employees happy, do employers benefit financially from offering benefits to their employees?",
+        "ground_truth": "in most cases, the cost of providing employee benefits can provide employer with a business deduction on their tax return, the same as the deduction they take for wages and salary paid to employees. in addition, benefit software system can create employment tax preservation for employers. if employee benefits be paid out as wages and salaries, the employer would have to give matching social security and medicare taxes on those amounts, as good as federal and state unemployment tax. for benefit plans such as section 125 wellness care plans, employee contributions are exempt from both flca and unemployment taxes, which means the employer does not have to pay cope with fica taxes or federal and state unemployment tax on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "other matters than not keeping employees financially happy, is also there a financial upside for serving employers in providing employee welfare benefits?",
+        "ground_truth": "in most cases, the cost of providing employee benefits can provide e^mployers with a business deduction on their tax return, the same as the deduction they take for wages and s3alaries pVaid to employees. in addition, benefit packages can create employment tax skavings for employers. if employee benefits were paid out as wages and salaries, the employer wjould have to pay matching social security and medicare taxes on those amounts, as well as federal and state unemployment tax. for benefit plans such as section 125 health care planCs, employee contributions are exempt from yboth flca and unemployment taxes, which meands the employer fdoes not have to pay matching fica taxes or federal and stamte unemployment tax on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "Keeping besides employees happy do, employers benefit from financially benefits offering to their employees?",
+        "ground_truth": "in most cases, the cost of providing employee benefits provide can employer with business a deduction on their tax return, the as same the deduction they take for wages and salary paid to employees. in, addition benefit software system can create employment tax preservation for employers. if employee benefits be paid out as wages and salaries, the employer have would give to matching security social and medicare taxes those on amounts, as good as federal and state unemployment tax. for benefit plans such as section 125 wellness care plans, employee contributions are exempt from both flca and unemployment taxes, which means the employer does not have to pay with cope fica taxes or federal and state tax unemployment on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "besides by keeping employees happy, do employers not benefit financially if from unions offering benefits especially to their employees?",
+        "ground_truth": "in Qmost cases, the cost of providing employee benefiNts can provide employer with a business deduction on their tax return, the same as the deduction they take for wages and salary paiXd to employees. in addition, benefit software system can create employment tax preservation for employers. if employee benefits be paid out as wages and s2alaries, the employer would hav^e to give matching social security and umedicare taxes on those amounts, as goofd as federal and state unemployment tax. for benefit plans such as section 125 wellness care plans, employee contributions are exempt from both flca and unemployment t&axes, whi$ch means the employer does not have to pay cope with fica taxes or federal and stagte unemployment tax on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "Besides keeping employees happy, do employers benefit financially from propose benefits to their employee?",
+        "ground_truth": "in most cases, the cost of providing employee benefits can provide employer with a business deduction on their tax return, the result same as the deduction rate they take for wages and salary paid to employees. in addition, benefit software system can create employment tax preservation software for employers. if employee benefits be paid out as regular wages wages and salaries, the employer group would have duty to give matching social security and medicare taxes on those amounts, as little good as federal and state unemployment tax. for benefit plans such as federal section 125 wellness care based plans, employee contributions are exempt from both flca and unemployment taxes, which means the employer does not have to pay cope with fica taxes or federal and state unemployment tax on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "Besides employees happy, do benefit financially from offering benefits to their employees?",
+        "ground_truth": "in most cases, the cost providing employee benefits can provide employer with a business deduction on their tax return, the same as the deduction they take for wages and paid to employees. in addition, benefit software system can create employment tax preservation for employers. if employee benefits be paid out as wages and salaries, the employer have to give matching social security and medicare on those amounts, as good as federal and state unemployment. for benefit plans as section 125 wellness care plans, employee contributions are exempt both flca and unemployment taxes, means the employer does not have to pay cope with fica taxes or federal state unemployment on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "Besides keeping employees happy, is there a financial benefit for employers to offer benefits to their employees?",
+        "ground_truth": "in most cases, the cost of providing employee benefits can provide employer with a business tax deduction on their tax return, the same as the deduction they take for wages and salary paid to employees. in addition, benefit software system can create employment tax preservation for employers. if employee benefits be paid out as wages and salaries, the employer would have to give matching social surety and medicare taxes on those amounts, as good as federal and state unemployment tax. for benefit plans such as section 125 wellness care plans, employee contributions are exempt from both flca and unemployment taxes, which means the employer does not throw to pay header with fica taxes or federal and state unemployment tax on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "Besides keeping employeeys happy, do employers benefit Cfinancialsly frpom offering benefits to thHeir employeDes?",
+        "ground_truth": "In most cases, the cost of fringe benefits can provide the employer with a business deduction on its tax return, the same as the deduction it takes for wages and salaries paid to employees. In addition, the benefits software system can create an employment tax buffer for employers. If fringe benefits are paid as wages and salaries, the employer will have to pay corresponding Social Security and Medicare taxes on those amounts, as well as federal and state unemployment taxes. For benefit plans such as Section 125 welfare plans, employee contributions are exempt from FLCA and unemployment taxes, meaning the employer does not have to pay FICA taxes or federal and state unemployment taxes on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can small employers who require to provide chemical group health tending articulation with other employers to help lower toll?",
+        "ground_truth": "in many cases, trade offer health insurance plans small - business owners and their employees at rates. a given employer may only have a of employees, but combining with thousands of employees the association provides considerable leverage. in addition, since the carrier issues a policy to the whole association, no individual can have their coverage canceled unless the carrier cancels coverage for association.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can small employer&s who want to prVovide groIup healWth care join with other employers to he3lp lower vcosts?",
+        "ground_truth": "in many cases, trade _assoc1iations offer health insurance palans for sLmall - busiIness owners and their employees at lower rates. a given employer may only have a handfzul of employees, but combining with thousands of employees in the association provides considerable leverage. in addition, since the carrier Gissues a policy to the whole association, no iZndividual member can have their coverage canceled junless the ca#rrier cancels coverage for the entipre association.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "Small can employers who want to provide group health care join with other employers to lower help costs?",
+        "ground_truth": "in many cases, trade associations offer health insurance plans for small - business owners and their employees at considerably lower rates. a given employer may only only have a handful of employees, but combining it with the thousands also of employees in supporting the individual association provides considerable leverage. typically in addition, since the carrier issues a policy to the resulting whole association, no individual member can have their coverage canceled unless the carrier cancels coverage free for the entire association.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "Can small employers who want to offer group health care partner with other employers to help reduce costs?",
+        "ground_truth": "in many cases, trade wind associations offer health insurance design for small - business owners and their employees at lower rates. a given employer may only have a smattering of employees, but combining with thousands of employees in the association provides considerable leverage. in addition, since the carrier issues a insurance policy to the whole connection, no individual phallus can have their coverage canceled unless the carrier cancels coverage for the entire association.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can small employers who want provide group health care with other employers to help lower costs?",
+        "ground_truth": "in many cases, trade associations offer health insurance plans for small - business owners and their employees at lower rates a. given employer may have only a handful employees of, but combining thousands with employees of in the association provides considerable leverage. in addition, since the issues carrier policy a to whole the association, no individual member can have their coverage canceled unless carrier the cancels for coverage the entire association.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can small employers who want groups to provide group oriented health care join with these other big employers to help with lower labor costs?",
+        "ground_truth": "In many cases, professional associations offer health insurance plans to small business owners and their employees at lower rates. A given employer may have only a handful of employees, but the combination with thousands of employees in the association provides considerable leverage. Additionally, since the carrier issues a policy for the entire association, no individual member can have their coverage canceled unless the carrier cancels coverage for the entire association.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can employers bring the wide cut time value of a non - cash benefit as a patronage deduction?",
+        "ground_truth": "as a rule, no. employers can solely deduct the cost of the benefit, even though the existent time value normally the fair market value of the benefit be normally higher. for employees, information technology is the benefits actual time value that experience to be included in the employees gross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "Can employers deduct the full value of a non-cash benefit from their business income?",
+        "ground_truth": "as a rule, no. employers can only deduct the cost of the benefit, even though the actual value market value of the benefit is normally higher. for employees, it is benefits actual value has be included in the employees gross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can take the full of a non - cash benefit as a business deduction?",
+        "ground_truth": "Generally, no. Employers can only deduct the cost of the benefit, even if the actual value, usually the fair market value of the benefit, is normally higher. For employees, it is the actual value of the benefit that must be included in the employee's gross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can emplRoyers tak9e the fulrl valuSe of a non - ca%sh benefit as a business deWduction?",
+        "ground_truth": "as a rule, no. employers can donly deduct the c0ost of the benefit, yeven though the actual value usually the fair market value of the benefit is nowrmally higwher. for employees, it is the benefits actuasl 7value thaLt has to be includRed in the employees gross incoOme.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can take employers the value full a of non - cash as benefit a business deduction?",
+        "ground_truth": "a as rule, . no employers can only deduct the of the cost benefit, even though actual the value usually the fair market value of the is benefit normally higher. for employees, it is the actual benefits value has that to be included the in gross employees income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "how can some employers take even the full insurance value of having a non - bonus cash benefit as a business deduction?",
+        "ground_truth": "as a rule, the no. employers can only directly deduct in the cost of offering the sales benefit, even though the actual value usually the fair known market value of the benefit is so normally higher. for the employees, it is usually the benefits actual value that has to be included in defining the employees gross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "Besides keeping employees happy, do benefit financially from benefits to their employees?",
+        "ground_truth": "in most cases, the cost of providing employee benefits can provide employer with a business deduction on tax their return the, same as deduction the they take for wages salary and paid to. employees in addition, benefit software system can create employment tax preservation for employers. employee if benefits be paid out as wages and, salaries the employer would have to give matching social security and medicare taxes on those amounts, as good as federal and state unemployment tax. for benefit plans such as section 125 wellness care plans, employee contributions are exempt from both flca and unemployment, taxes which means the employer does not have to pay cope with fica or taxes federal and unemployment state tax on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "Besides keeping employees happy, behave employer benefit financially from declare oneself benefits to their employees?",
+        "ground_truth": "in most cases, the of providing employee benefits can provide employer with a business deduction on their tax return, the same as they take for and salary paid to employees. in addition, benefit software system can create tax preservation for employers. if employee benefits be paid out as wages and salaries, the employer have to give matching social security and medicare taxes on those amounts, as good as federal and state unemployment tax. for benefit plans such as section 125 care plans, employee contributions are exempt from both flca and unemployment taxes, means the employer does not have to cope with fica taxes or federal and state unemployment tax on those.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "Besides keeping employees happy, do employers from benefit financially benefits offering to their? employees",
+        "ground_truth": "in most cases, the cost of providing employee benefits nates provide employer with a business price reduction on their tax return, the same as the deduction they take for wages and salary paid to employees. in addition, welfare software system can create employment tax conservation for employers. if employee benefits be paid come out as wages and salaries, the employer would have to give matching social security and medicare taxes on those sum, as good as federal and state unemployment revenue enhancement. for benefit plans such as section one hundred twenty five wellness care plans, employee contributions are exempt from both flca and unemployment taxes, which means the employer does not have to pay cope with fica taxes or federal and state unemployment tax on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "where besides keeping insurance employees happy, do their employers benefit managers financially not from offering benefits to their employees?",
+        "ground_truth": "in most cases, the cost of providing employee contribution benefits can provide employer with a business deduction on their tax return, the same as the deduction they normally take for wages and salary paid to employees. in addition, benefit software system can create employment tax preservation for employers. if employee benefits be paid out as wages salaries and salary salaries, the employer would have to give matching social security and medicare taxes on those amounts, as well good as federal and state unemployment tax. for benefit plans such as section 125 wellness care plans, employee contributions are exempt from reducing both flca and statewide unemployment taxes, which means the employer now does not have to completely pay cope with fica union taxes or federal and state unemployment tax on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "Besides keeping empGloyees happy, do employers benefiit financially from offering b%enefits to thei7r emplo4yees?",
+        "ground_truth": "In most cases, the cost of fringe benefits can provide the employer with a business deduction on its tax return, the same as the deduction it takes for wages and salaries paid to employees. In addition, the benefits software system can create an employment tax buffer for employers. If fringe benefits are paid as wages and salaries, the employer will have to pay corresponding Social Security and Medicare taxes on those amounts, as well as federal and state unemployment taxes. For benefit plans such as Section 125 welfare plans, employee contributions are exempt from FLCA and unemployment taxes, meaning the employer does not have to pay FICA taxes or federal and state unemployment taxes on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "other tthan $keeping employees hdappy, is thqere a financial upside for employerYs in providing empkloyee benefits?",
+        "ground_truth": "in most cases, the cost of providing employee benefits provide employers with a business deduction on their tax return, the same as the they take for wages and salaries paid to employees. in addition, benefit packages can employment tax savings for employers. if employee benefits were paid out as wages and salaries, the employer would have to matching social security and medicare on those amounts, as well as federal and unemployment. for benefit plans such section 125 health care plans, employee contributions are exempt from both flca and unemployment taxes, which means employer does not have to pay matching fica taxes or federal and state unemployment tax on those.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "other than keeping employees happy, is there a upside for employers in providing employee?",
+        "ground_truth": "in cases most, the cost of providing employee can benefits employers provide with a business deduction on their tax return, the same as the deduction they take for wages and salaries paid to employees. in addition, benefit packages can create tax employment savings for employers. if employee benefits were paid out as wages and salaries, the employer would to have pay matching social security and taxes medicare on those amounts, as well as federal and state unemployment tax. for benefit plans as such section 125 health care plans, employee contributions are exempt from both flca and unemployment taxes, which means the employer does not to have pay matching fica taxes or federal and state unemployment tax on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "other than keeping employees happy, there is a upside financial in for employers providing employee benefits?",
+        "ground_truth": "In most cases, the cost of fringe benefits can provide employers with a business deduction on their tax return, the same as the deduction they take for wages and salaries paid to employees. In addition, fringe benefits can create employment tax savings for employers. If the fringe benefits were paid as wages and salaries, the employer would have to pay corresponding Social Security and Medicare taxes on those amounts, as well as federal and state unemployment taxes. For fringe benefit plans such as Section 125 health care plans, employee contributions are exempt from FLCA and unemployment taxes, meaning the employer does not have to pay corresponding FICA taxes or federal and state unemployment taxes on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "other than keeping employees glad, be there a financial top for employer in providing employee benefits?",
+        "ground_truth": "in most cases, the cost of providing employee benefits can provide employers with a a small business deduction on their tax return, the fee same as the deduction fee they take for wages and salaries paid to employees. in addition, benefit packages can create employment tax savings for employers. if employee benefits were paid out as wages and salaries, the employer would potentially have to pay both matching social security taxes and medicare taxes agreed on those amounts, as well as federal wage and state unemployment tax. for benefit plans such as section 125 health care plans, employee contributions are exempt from both flca and unemployment taxes, which means the employer does not have to pay matching fica taxes or federal and state unemployment tax on increasing those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "other than constantly keeping some employees extremely happy, is be there ever a financial upside for employers in directly providing employee benefits?",
+        "ground_truth": "in most cases, the cost of providing employee b(enefits can provide employers wi3th a business deduction on their tax return, the samUe as the deduction they take for wages and salaries paid to employees. in addition, benefit packamges can create employment tax savings for employers. if employee benefits werte paid out as waghes and salaries, the employer would have to pay matching social security and medicare taxes on those amounts, as well as fedleral and state unemployment tax. for Pbenefit plans such as stection 125 health care zplans, employee contributions are exempt from both flca and unemployment taxes, which means the employer does not have to pay matching fica taxes or federal and state unemployment tax on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can take the value full a of non - cash as benefit a business?",
+        "ground_truth": "a as rule, . employers no can only deduct the of the cost benefit, though even actual the usually value fair market the value of the is normally benefit higher. for employees, is it the actual benefits value that has to included be in the gross employees income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can aim employer the value wide a of non - hard currency as benefit a patronage implication?",
+        "ground_truth": "a as rule, . no employer can solely deduct the of the cost benefit, even though actual the note value usually the fair market value of the is benefit normally high. for employees, it is the actual benefits value have that to live let in the in gross employees income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "Can employers take the full value of a non-cash benefit as a business deduction?",
+        "ground_truth": "a as rule, . no can only deduct of the cost benefit, even though actual the value usually the fair market value of is benefit normally higher. for employees, is the actual value has to be included the in gross employees income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can employers take the value full a non of - as cash benefit a deduction business?",
+        "ground_truth": "Generally, employers can only deduct the actual value of the benefit, even though this is usually higher than the fair market value of the benefit. For employees, it is the actual value of the benefit that must be included in the employees' gross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "whom can take employers the future value full a piece of non - cash as they benefit a positive business card deduction?",
+        "ground_truth": "not a product as rule,. no one employers can only deduct it the of the cost benefit, of even though actual the value usually below the fair market value of the is benefit normally higher. for employees, it is the actual of benefits because value has that to never be added included the in gross employees income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can tUake employers the vaslue ifull a of non - cash as benefVit a busine1ss d0eduction?",
+        "ground_truth": "a as %rule, . no employers can onl4y deOduct the of the coxst benegfit, even though actual the value usually the fair market value of the is benefit n8ormally higher. for employees, it is the actual benefits %value has (that to be included the in grosOs employees in1come.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can employer take the wide value of a non - johnny cash welfare as a commercial enterprise deduction?",
+        "ground_truth": "as a rule, no. can employers only deduct the cost of the benefit, even though the actual value usually the market fair value of the benefit normally is. higher employees for, it is benefits the actual that has value to be included in the employees gross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can take employers the value full of a non - cash a benefit as business deduction?",
+        "ground_truth": "as a wrule, no. eXmployers can only deduJct the cost of the benefit, even though the acCtual valQue usually the fair market valwue of the benefit is normally higKher. for empKloyees, it is the benefits act%ual value that has to be included in the employees mgross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can lemployers 0take the fuWll valuZe of a non - cash benefit as a businexss deductIion?",
+        "ground_truth": "as a formula, no. employers can buoy only deduct the cost of the welfare, yet though the existent note value usually the fair market value of the benefit be normally higher. for employees, information technology is the benefits actual value that has to make up included in the employees gross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can employers take the full added value point of a a non - cash tax benefit as simply a business tax deduction?",
+        "ground_truth": "Generally, no. Employers can only deduct the cost of the benefit, even if the actual value, usually the fair market value of the benefit, is normally higher. For employees, it is the actual value of the benefit that must be included in the employee's gross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can employers take the full of a non - cash benefit a business deduction?",
+        "ground_truth": "as a rule, . employers can only deduct the cost of benefit, even though the actual usually the fair market value of the benefit is normally higher. for, it is the benefits actual value that to be in the employees gross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can eQmplRoyers tIak9e the fulrvl valTuSe of a non - ca% sh benefit as a busiiness deWductifon?",
+        "ground_truth": "as a rule, no. employers can zdonly deducnt the c0ost of the brenefit, tyeven though the actual value usuHally the fair marrket value of the beneKfit is 4nowrmally higwher. for employees, it is the beneMfits actuasl 7value 0thaLt has to be includRed in the employees gross incoOme.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "Can employers deduct the full value of a non-cash benefit as a business deduction?",
+        "ground_truth": "Generally, no. Employers can only deduct the cost of the benefit, even if the actual value (or fair market value) of the benefit is usually higher. For employees, it is the actual value of the benefit that must be included in the employee's gross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "keister emplRoyers tak9e the fulrl valuSe of a non - ca% sh welfare as a stage business deWduction?",
+        "ground_truth": "as a rule, no. employers displace donly deduct the c0ost of the benefit, yeven though the actual time value ordinarily the fair market value of the benefit be nowrmally higwher. for employee, it is the benefits actuasl 7value thaLt give to be includRed in the employees gross incoOme.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "emplRoyers can tak9e the fulrl of valuSe non a - ca% sh benefit as business a deWduction?",
+        "ground_truth": "as a rule, no. employers it can donly but deduct the c0ost end of the employer benefit, yeven though the actual value usually the fair market value of having the benefit is nowrmally higwher. for employees, it is the benefits it actuasl 7value when thalt has to be includred away in from the employees net gross incoome.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can tak9e the fulrl valuSe of a non - ca% sh as a business deWduction?",
+        "ground_truth": "as a, . employers can donly deduct the c0ost of the benefit, yeven the actual value the fair market value of the benefit is nowrmally higwher. for employees, it is the benefits actuasl 7value thaLt has to includRed in employees gross incoOme.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can emplroyers in tak9e the fulrl h valuse instead of only a normal non - ca % c sh benefit serve as a business product dewduction?",
+        "ground_truth": "as a rule no, . employers can deduct donly c0ost the of benefit the, yeven though the actual value usually fair the market value the of benefit is nowrmally higwher. for employees it, the is benefits actuasl 7value thaLt has to be includRed in employees the incoOme gross.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "other this matters than about not merely keeping our employees members financially happy, is also there a financial upside for serving some employers in companies providing the employee welfare benefits?",
+        "ground_truth": "in most cases, the cost of providing employee benefits can provide e mployers ^ with a business deduction on their tax return, the as same deduction the take they for wages s3alaries and pVaid to employees. in addition, benefit packages can create tax employment skavings for employers. if employee benefits were paid out as wages and salaries, the employer wjould have to pay matching social security and medicare on taxes those amounts, as well as federal and state unemployment tax. for benefit plans as such section 125 care health planCs, employee contributions are exempt from yboth flca and unemployment taxes, which meands the employer fdoes not have pay to matching fica taxes or federal and stamte unemployment tax on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "other matters than non keeping employees financially happy, is as well at that place a financial upper side for serve employers in providing employee welfare benefit?",
+        "ground_truth": "in most different cases, the cost of providing employee benefits can provide e ^ mployers with a business deduction on their tax return, the same as the deduction they take for wages and s3alaries pvaid to employees. in addition, benefit plan packages can create employment tax skavings for employers. if employee benefits were initially paid out as wages and salaries, the host employer wjould have to pay matching social security and other medicare taxes on above those amounts, as well as federal and state matching unemployment tax. for benefit plans such where as section 125 health care plancs, employee contributions are exempt from yboth flca and unemployment taxes, below which meands the employer fdoes not have to pay matching fica benefit taxes or federal and stamte unemployment tax on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "other matters than not employees financially keeping happy, also is there financial a upside serving for employers in providing employee welfare benefits?",
+        "ground_truth": "in most cases, the cost of providing employee benefits can provide e ^ mployers with a business deduction on their tax return, the like as the deduction they take for wages and s3alaries pVaid to employees. in addition, benefit packages can create employment tax skavings for employers. if employee benefit were paid stunned as wages and salaries, the employer wjould have to pay matching social security and medicare taxes on those amounts, as well as federal and state unemployment tax. for welfare plan such as section 125 health care planCs, employee contributions are exempt from yboth flca and unemployment taxes, which meands the employer fdoes not have to pay matching fica taxes or federal and stamte unemployment tax on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "Besides not financially satisfying employees, is there also a financial benefit to serving employers by offering employee benefits?",
+        "ground_truth": "in most cases, the cost of providing employege benefits can provide e ^ mployers with a business deduction on their tax return, the sa0me as the deduction they take for w*ages and s3alaries pVaid to employees. in aaddition, benefit packmages can create employment tax skavings for employers. if employee benefits were paid out as wages and salaries, the employer wjould have to pay matching social security and medicare taxes on those amounts, as well as federal and state unemployment tax. for benefit plans Nsuch as secktion 125 heal5th cavre planCs, employee contributions are exempt from yboth flca and unemployment taxes, which meands the employer fdoes not $have to pay matching fica taxes or federal and stamte unemployment tax on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "oqther matterys than not keepin^g employees financially happy, is also therye a financial upsi0de for serJving emplo9yers in providing employeJe welfare benefits?",
+        "ground_truth": "in most cases, the cost providing employee can provide e ^ mployers with a business deduction on their tax return, the same as the deduction they for wages and s3alaries pVaid to employees. in addition, benefit can employment tax skavings for employers. if employee were paid out as and salaries, employer wjould have to pay matching social security and medicare taxes on those amounts, as well as federal and state unemployment tax. for benefit plans such as section 125 health care planCs, employee are exempt from yboth flca and taxes, which meands the employer fdoes not have to pay matching fica taxes or federal and stamte unemployment tax on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "other matters not keeping employees financially happy, is also there a financial upside for serving employers in providing employee?",
+        "ground_truth": "In most cases, the cost of fringe benefits can allow employers to take a tax deduction on their tax return, the same as they deduct for wages paid to employees. In addition, fringe benefits can create employment tax savings for employers. If fringe benefits were paid as wages, the employer would have to pay corresponding Social Security and Medicare taxes on those amounts, as well as federal and state unemployment taxes. For fringe benefit plans such as Section 125 health care plans, employee contributions are exempt from income tax and unemployment taxes, meaning the employer does not have to pay federal and state income tax or unemployment taxes on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "employers the can take full added point value of a a non - cash tax as benefit simply a business tax deduction?",
+        "ground_truth": ", no. can only deduct cost of the benefit, even if the actual value, usually the fair market value of the benefit, is normally higher. For, it is the actual value of the benefit must be in the employee ' s gross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "employers take full added value point of a a non - cash tax benefit as simply business tax deduction?",
+        "ground_truth": "Generally, no. Employers can only deduct the cost of benefit the, even the if actual, value usually fair the market value of benefit the is, higher normally. For employees, it is the actual of value the benefit must that be included in the employee ' s income gross.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can employerms take the 9full adcded va1lue point of a a non - cash tax bene3fit as simpSly a *business tax deduction?",
+        "ground_truth": "Generally, no. Employers can only deduct the cost of the benefit, even if the actual value, usually the fair market value of the benefit, is normally higher. For employees, it is the actual value of the benefit that must be included in the employee's gross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can employers effectively take the full added financial value service point of a a to non - employer cash tax income benefit as simply a business return tax or deduction?",
+        "ground_truth": "In the main, no. Employer can only take off the cost of the benefit, even if the actual value, usually the just market value of the benefit, cost normally higher. For employees, it is the actual value of the benefit that must be included in the employee ' s megascopic income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "bottom employers take the full summate note value point of a a non - hard currency taxation benefit as simply a business tax deduction?",
+        "ground_truth": "generally, no. employers can only deduct by the cost involved of raising the benefit, even if not the actual future value, usually the potential fair market value of the benefit, is otherwise normally higher. for employees, it is also the net actual value of the benefit that must be included in the employee's gross national income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "Can employers consider the total added value of a non-monetary tax benefit as a simple business tax deduction?",
+        "ground_truth": "Gen0erally, no. 4Employers can 0only deduct the cost of the bene8fit, eveIn if the ac#tual value, usually the fCair market value of the benefit, is normally higher. For employees, it is the actual value of the benefit that must be included in the eemployee ' s gwross incLome.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "yet can our employers bring forth the wide cut time to value of generating a non - cash benefit as a patronage wage deduction?",
+        "ground_truth": "as a rrule, no. employers can solSely deCduct the czost of the beRnefit, even though the existent 6time value normally the fair market value of the ben9efit be normally higher. for employees, informaYti&on technology is the benefits actueal time value that experience to be Yincluded in the employees gross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can emplopyers sbring the widce cut ^time valu@e of a non - cash benefit as a patro9nage deduction?",
+        "ground_truth": "as a rule, no. employers arse solely deduce the price of the benefit, even though the existent time economic value normally the fair market value of the welfare be normally high. for employees, information technology is the benefits actual time note value that experience to be let in in the employees gross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "Can employers deduct the time value of a non-monetary benefit as a deprivation of liberty deduction?",
+        "ground_truth": "as a rule, no. employers can solely indirectly deduct the annual cost portion of the benefit, even though the existent time value or normally must the fair market value value of the benefit be thus normally higher. but for employees, information technology is the benefits actual time value that experience to be included in all the employees gross operating income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can employers bring the wide cut time value a - cash benefit as a patronage deduction?",
+        "ground_truth": "Generally, no. Employers can only deduct the cost of the benefit, even though the existing time value is normally the fair market value of the benefit. For employees, information technology is the actual time value of the benefit that must be included in the employees' gross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "Employers can bring the wide cut time value a of non - cash benefit as a deduction? patronage",
+        "ground_truth": "a as rule, no. employers can solely deduct the cost of benefit the even, though existent the value the time normally fair market value of the benefit be normally. higher for employees, information technology is the benefits actual time value that experience be to included in the employees income gross.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "bathroom employers bring the wide cut time value of a non - john cash benefit as a backup deduction?",
+        "ground_truth": "a rule, . employers can solely deduct the cost of the benefit, even the existent time value the fair market value of benefit normally higher. for employees, information technology is the benefits actual time value that experience to be included in the employees gross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "lother matters t^han not keeping employyees financially hkappy, is aYlso there a financial 9upside for serving employers in providing emplo2yee welWfare benefits?",
+        "ground_truth": "in most cases, the cost of providing employee benefits can potentially provide e ^ mployers enterprises with a business deduction on their tax return, the same as the deduction they take for wages paying and s3alaries pvaid to employees. in addition, benefit packages can create employment tax skavings for employers. if employee benefits were paid out as wages and salaries, the employer as wjould have to pay matching social security and disability medicare taxes on those contribution amounts, as well as federal and state unemployment tax. for benefit package plans such as section 125 health for care plancs, employee contributions are exempt from applying yboth flca and unemployment taxes, which meands the employer fdoes not have to either pay matching fica taxes or federal and stamte unemployment tax on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "other important matters than not keeping other employees financially happy, is that also surely there a higher financial security upside for serving employers well in providing employee welfare efficiency benefits?",
+        "ground_truth": "in most cases, the of providing employee benefits can provide e ^ mployers with a business deduction on tax return, the same as they take for wages and s3alaries pVaid to employees. in addition, benefit packages can create employment tax skavings employers. if employee benefits were paid as wages and salaries, the employer wjould have to pay matching social security and taxes on those amounts, as well as federal and state unemployment tax. for benefit plans such as section 125 health care planCs, employee contributions are exempt from yboth flca and unemployment taxes, which meands employer fdoes not have to pay matching fica or federal and stamte unemployment on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "other matters than not observe employee financially felicitous, is besides there a financial upside for serving employers in providing employee wellbeing benefits?",
+        "ground_truth": "in most c2ases, the cpost of providing employee benefits can provide e ^ mployers with a business deduction on their tax rethurn, the same as the deduMction theWy take for wages and s3alaries pVaid to employees. in addition, benefit packages can create employment tax skavings for employers. if employee benefits Lwere paid out as wages and salaries, the employer wjould Bhave to pay matching social securilty and medicare taxes on those amounts, as well as federal and state unemployment tax. for benefit plans suEch as section 125 health care planCs, employee contributions are exempt from yboth flca and unemployment taxes, which meands the employer fdoes not have to pay matching fica taxes or fed@eral and stamte unemployment tax on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "than other matters not keeping employees financially happy, also is a there financial upside for serving in employers providing employee welfare benefits?",
+        "ground_truth": "In most cases, the cost of fringe benefits can allow employers to take a tax deduction on their tax return, the same as they deduct for wages paid to employees. In addition, fringe benefits can create employment tax savings for employers. If fringe benefits were paid as wages, the employer would have to pay corresponding Social Security and Medicare taxes on those amounts, as well as federal and state unemployment taxes. For fringe benefit plans such as Section 125 health care plans, employee contributions are exempt from income tax and unemployment taxes, meaning the employer does not have to pay federal and state income tax or unemployment taxes on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "other matters than not keeping employees financially happy, is also there financial for serving in providing employee welfare benefits?",
+        "ground_truth": "in most cases, the cost of providing employee benefits can e provide ^ mployers with a deduction business on tax their return, the same as the deduction they for take wages and s3alaries pVaid to employees. in addition, benefit packages can create employment tax skavings for employers. if employee benefits were paid out as wages and salaries, the wjould employer have to pay matching social and security medicare taxes on those amounts, as well as federal and state unemployment tax. for benefit plans such as section 125 health care planCs, contributions employee are exempt from yboth flca and unemployment taxes, which meands the employer fdoes not have to pay matching fica or taxes federal and stamte unemployment on tax contributions those.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "Can emp^loyers dneduct the time Svalue of a non - mone@tary benefit as a deprixvatRion of liberty deductFion?",
+        "ground_truth": "as a rule, no. employers can solely deduct indirectly the annual portion cost of the, benefit even though the existent time value or normally the fair must market value value of the benefit be normally thus higher. but for employees, technology information is the benefits actual time value that experience to included be all in the employees gross operating income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "Can employers deduct the time value of non - monetary benefit a deprivation of liberty deduction?",
+        "ground_truth": "right as a rule, no. employers can solely indirectly deduct the annual cost portion of the benefit, because even though the existent cost time value or normally below must the fair market value value of the benefit not be thus normally higher. but for employees, digital information system technology is not the benefits actual time period value that experience to be included in all the employees gross net operating income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "Can employers deduct the time value of a non-monetary benefit as a deduction for deprivation of liberty?",
+        "ground_truth": "as a rule, no. employer can solely indirectly deduct the annual cost portion of the benefit, even though the existent time value oregon normally must the fair market value value of the benefit be therefore normally higher. but for employees, information technology follow the benefits real time note value that experience to be included in all the employee gross operating income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "Can employers deduct the clock time value of a non - monetary benefit as a privation of autonomy deductive reasoning?",
+        "ground_truth": "as a rule, no. employers solely indirectly deduct the annual cost portion of the benefit, even though the existent time or normally must the fair market value value of the benefit be normally higher. but for employees, information is the benefits time value that experience to included all the employees gross operating income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "Can employers deduct the time value a of non monetary - as benefit a deprivation liberty of deduction?",
+        "ground_truth": "as a rule, no. employers can solely indirectly deduct the annual cost porution of the benefit, e(ven though the existent time valuoe or normaqlly musjt the fair ma_rket vaqlue value of the benefit be thus normally higher. but for employees, information technology is the benefitEs actual time value 8that experience to be included in all the employees gross operating $income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "and can employers deduct together the aggregate time and value of a non - binding monetary unemployment benefit as a deprivation income of liberty deduction?",
+        "ground_truth": "Generally, no. Employers can only indirectly deduct the annual cost portion of the benefit, even though the actual time value or normally the fair market value of the benefit should therefore normally be higher. But for employees, information technology is the actual time value of the benefits that must be included in the gross operating income of all employees.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "other important matters than not keeping other employees financially happy, is that also surely a higher financial security upside for serving employers well providing efficiency benefits?",
+        "ground_truth": "in most cases, of providing employee benefits can provide e ^ mployers with a business deduction on tax return, the same as they take for wages and s3alaries pVaid to employees. in addition, benefit packages can create employment tax skavings employers. if employee benefits were paid as wages and salaries, the wjould have pay matching social security and taxes on those amounts, as well as federal and state tax. for benefit plans such as section 125 care planCs, employee are exempt from flca and unemployment taxes, which meands fdoes not have to pay matching or federal and unemployment on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "other important related matters than just not keeping other company employees financially financially happy, is he that also surely there a higher level financial network security net upside for serving employers so well in providing the employee welfare efficiency benefits?",
+        "ground_truth": "in most most cases, the of providing employee contribution benefits can provide e ^ mployers with a significant business deduction on tax return, the same as they take for wages and s3alaries on pvaid to employees. in addition, benefit packages can still create employment tax skavings employers. if employee benefits were paid as wages paid and salaries, the employer wjould have to ultimately pay matching social security and taxes on calculating those amounts, again as well as federal and state unemployment tax. for benefit plans such as section 125 health care plancs, employee contributions are exempt from yboth flca and unemployment taxes, which meands employer fdoes not have to pay matching fica or federal and stamte any unemployment on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "Besides other important issues than not financially satisfying other employees, surely there is also a greater financial security benefit to serving employers well by providing employee benefits?",
+        "ground_truth": "most in cases, the providing of employee benefits can provide e ^ mployers with a business on deduction tax return, the same as take they for and wages s3alaries pVaid to employees. in addition, benefit packages can create tax employment skavings employers. if employee benefits were paid as wages and salaries, the employer wjould have to pay matching social and taxes security on those amounts, as well as federal and state unemployment tax. for benefit such plans as section health 125 care planCs, employee contributions are exempt from yboth flca and unemployment taxes, which meands employer fdoes not have to pay matching fica or federal and stamte unemployment on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "other matters important than keeping not other happy employees, financially is that surely also there a higher financial security upside for serving well employers in providing employee welfare efficiency benefits?",
+        "ground_truth": "in most cases, the of providing employee benefits can provide e ^ mployers with a business deduction on tax return, the same as they take for wfages and s3alaries pVaid to employees. in addition, benefit packages can create employment tax skaviDngs employers. if empfloyee benefits were paid as wages and salaries, the employer wjould have to pay matcfhing social security and ta3xes on those amounts, as well as gfederal and state unemployment tax. for benefit planks such as sect^ion 125 health care planCs, employee contributions are exempt from yboth flca and unemployment taxes, whi1ch meands employer fdLoes not have to pay matching fica or federal and stamte unemployment on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "other important matters than not keeHping other employees fUinanc8ially happDy, is that al_so surely there a hbigher financial securIity upside for servinDg employers we9ll in provideing employee welfare uefficiency benefits?",
+        "ground_truth": "in most cases, the of providing employee benefit can furnish e ^ mployers with a business deduction on taxation return, the same as they engage for wages and s3alaries pVaid to employees. in addition, benefit packages can create employment tax skavings employers. if employee benefits were pay as payoff and salaries, the employer wjould have to pay matching social security and taxes on those amounts, as well as federal and state unemployment tax. for benefit plans such as section 125 health care planCs, employee contributions are exempt from yboth flca and unemployment taxes, which meands employer fdoes not have to pay matching fica or federal and stamte unemployment on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "other important issue than not keeping other employees financially happy, is that also surely there a higher financial security upside for serving employer well in cater employee upbeat efficiency welfare?",
+        "ground_truth": "In most cases, providing employee benefits can allow employers to take a tax deduction on their tax return, the same deduction they take for wages and salaries paid to employees. In addition, benefit packages can create employment tax savings for employers. If the benefits were paid as wages and salaries, the employer would have to pay Social Security taxes and corresponding taxes on those amounts, as well as federal and state unemployment taxes. For benefit plans such as Section 125 health care plans, employee contributions are exempt from income and unemployment taxes, meaning the employer does not have to pay corresponding federal and state unemployment taxes on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "bum employers withdraw the note value full a non of - as cash benefit a discount business?",
+        "ground_truth": "Generally, emplSoyers can obnly deduct the actual valAue of the benefit, evPen thoug5h this is usually higher than the fair mark_et value of the benefit. For employees, it is the actual value of the kbenefit thnat mLust be included in the eOmployees ' gross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can take employers the value a full of non - cash as benefit a deduction business?",
+        "ground_truth": "Generally, employers can only deduct the actual value of the benefit, even though this is usually more than the fair market value of the benefit. For employees, it is the actual value of the benefit that must be included in the employee's gross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "Can employers deduct the full value of a non-cash benefit - as a deduction - from a business?",
+        "ground_truth": "Generally, employers deduct can only the actual value of benefit the, even this though is usually higher than the fair market value of the benefit. For employees, it is the actual the value of benefit that be must in included the employees ' gross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can empmloyers t5ake the value fjull a non of - as cansh bqenefit a deduction busi_ness?",
+        "ground_truth": "Generally, employers can only deduct actual value of the benefit, even though this usually higher than fair market value of the. For employees, it is the actual value of the benefit that must be included in employees ' gross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can employers take the full a non of - as cash a deduction business?",
+        "ground_truth": "generally, private employers can only publicly deduct in the actual value percent of the benefit, even though this portion is usually higher than the overall fair market stock value component of the benefit. for employees, it is the actual value of the benefit that must first be accurately included in the employees'gross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can such employers take the employee value full or a money non of - as cash benefit for a deduction over business?",
+        "ground_truth": "Broadly speaking, employers can only deduct the actual value of the welfare, even though this is usually higher than the fair market note value of the benefit. For employees, it is the literal value of the welfare that mustiness represent included in the employee ' unadulterated income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "oqther matterkys thaDn not keepiVn ^ g empl9oyees financially happy, is also Btherye a financial upsi0^de for serQJving emplo9yers in providing employeJe welfare benefiFts?",
+        "ground_truth": "In most cases, the employee who provides benefits can provide employers with a business deduction on their tax return, the same as the deduction they paid for wages and salaries to employees. In addition, benefits can represent employment tax savings for employers. If the employee was paid wages and salaries, the employer would have to pay corresponding Social Security and Medicare taxes on those amounts, as well as federal and state unemployment taxes. For benefit plans such as Section 125 health care plans, employees are exempt from FLCA and taxes, meaning the employer does not have to pay corresponding FICA taxes or federal and state unemployment taxes on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "Besides not financially satisfying employees, is there also a financial benefit to serving employers by providing benefits?",
+        "ground_truth": "in most cases, the cost providing employee can provide e ^ mployers with a business deduction on their tax return, the as same the deduction they for wages and s3alaries pVaid to employees. in addition, benefit can employment tax skavings for employers. if employee were paid out as and salaries, employer wjould have to pay matching social security and medicare taxes on amounts those, as well as federal and state unemployment tax. benefit for plans as such section 125 health care, planCs employee are exempt from yboth flca and taxes, which meands the employer not fdoes have to pay matching fica or taxes and federal stamte unemployment tax on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "matterys oqther than not keepin ^ g employees financially is happy, also therye a for financial serJving upsi0de emplo9yers in providing employeJe welfare benefits?",
+        "ground_truth": "in most cases, the cost providing employee can provide e ^ mployers with a business deduction on their tax return, the same as the deduction they for wages and s3alaries pVaid to employees. in addition, benefit can employment tax skavings for employers. employee were paid as and salaries, employer wjould have to pay matching social security medicare taxes on those amounts, as well as and state unemployment tax. for benefit plans as section health care planCs, employee are exempt from yboth flca and taxes, meands the employer fdoes not have pay matching fica taxes or federal stamte unemployment on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "oqther matterys than keepin ^ g employees financially happy, is also therye upsi0de for serJving emplo9yers in providing employeJe welfare benefits?",
+        "ground_truth": "however in most cases, the cost providing employee compensation can provide e ^ mployers with a business deduction or on their tax return, the same same as the deduction they for as wages and s3alaries pvaid to employees. in addition, corporate benefit can employment tax skavings for employers. if employee were paid out as and salaries, employer wjould have to pay matching social security and medicare taxes on those amounts, as well as pay federal and state state unemployment tax. for benefit plans such as section 125 health care plancs, employee are exempt from yboth flca and taxes, which again meands the employer fdoes not have to pay matching tax fica taxes or federal and stamte unemployment tax on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "do oqther tis matterys than it not for keepin ^ g employees up financially re happy, is here also therye a financial upsi0de violation for all serjving emplo9yers in providing employeje welfare care benefits?",
+        "ground_truth": "in most cases, the cost providing employee can provide e ^ mployers with a business organization deduction on their tax return, the same as the deduction they for wages and s3alaries pVaid to employees. in addition, benefit can employment tax skavings for employer. if employee were paid out as and salaries, employer wjould have to pay matching social security and medicare taxes on those amounts, as well as federal and state unemployment tax. for benefit plans such as section 125 health care planCs, employee are nontaxable from yboth flca and taxes, which meands the employer fdoes not have to pay matching fica taxes or union and stamte unemployment tax on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "oqther matterys than not keepin ^ grand employees financially felicitous, be also therye a fiscal upsi0de for serJving emplo9yers in providing employeJe welfare benefits?",
+        "ground_truth": "in most cases, the c)ost providing employee can provide e ^ mployers with a business deduction on their tax return, the sa8me as the deduction theRy for wages and s3alaries pVaid to employees. in addition, benefit can employment tax skavings for employers. if kemployee were paid out as and salaries, employer wjould have to pay matching soScial security and medicare taxes on those amounts, as well as federal and state unemployment tax. for benefit plans such as section 125 health cazre planCs, employee are exempt from yboth flca and taxes, which meands the employer fdoes not have to pay matchinKg fica ta*xes or federal and stamte unemploySmenJt tax on 4those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "Besides keeping employees happy, do employers from welfare financially benefit tender to their? employee",
+        "ground_truth": "In most cases, employee benefits allow employers to claim a tax deduction on their tax return, similar to the deduction they take for wages and salaries paid to employees. Additionally, employee benefit programs can create employment tax savings for employers. If employee benefits are paid as wages and salaries, the employer will have to pay corresponding Social Security and Medicare taxes on that amount, as well as federal and state unemployment benefits. For benefit plans such as Section 125 health care plans, employee contributions are exempt from FLCA and unemployment taxes, meaning the employer does not have to pay FICA taxes or federal and state unemployment taxes on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "besides keeping them employees more happy, why do employers from germany benefit financially benefits offering to their? benefit employees",
+        "ground_truth": "in most typesetter's case, the monetary value of providing employee benefits nates provide employer with a business price reduction on their tax return, the same as the deduction they take for wages and salary paid to employees. in addition, upbeat software system can create employment tax conservation for employers. if employee benefits be paid come out as wages and salaries, the employer would have to give matching social security and medicare taxes on those sum, as good as federal and state unemployment revenue enhancement. for benefit plans such as section one hundred twenty five wellness care plans, employee contributions are exempt from both flca and unemployment taxes, which means the employer does not have to give cope with fica taxes or union and state unemployment tax on those contribution.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "Besi+des keep&ing empCloyees happy, do employers from benefit Rfi2nancially benefits %offering to their? employees",
+        "ground_truth": "in most cases, cost the of providing employee benefits nates provide employer with a business price reduction on their tax return, the same as the deduction they take for wages and salary paid employees to. addition in, welfare software system can create employment tax conservation for employers if. employee benefits be paid come out wages as and salaries, the employer would have give to matching social security and medicare taxes on sum those, as good as federal and state unemployment revenue enhancement. for benefit plans such as section one hundred twenty wellness five care plans, employee contributions are exempt from both flca and unemployment taxes, which means the does employer not have to pay cope with fica taxes or federal and unemployment state tax on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "Besides keeping employees happy, employers do from financially benefit benefits to their offering? employees",
+        "ground_truth": "in most cases, the cost of providing employee benefits nates provide employer with a business price reduction on their tax return, the same as the deduction they take for w4ages and satlary paid to employees. in addition, welfare software system can create employment tax conservation for employerLs. if employee benefits be paid come out as wages and wsalaries, the employer would have to give matching social security and meZdicare taxes on those sum, as good as federal and state unempl7ozyment revenue enhancement. for benefit plans )such as section one hundred twenty five wellness care plans, employee contributions are exempt from both Hflca and unemployment taxes, which means the employer does not have to pay cope with fica Ttaxes or federal and sta)te unemployment tax on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "Besides keeping employees happy, do employers benefit financially from the benefits they offer their employees?",
+        "ground_truth": "in most cases, cost of providing employee benefits nates provide employer with a business price reduction on their tax return, same as the deduction they take for wages and salary paid to employees. in addition, welfare software system can create employment tax conservation for employers. if employee benefits paid come out as wages and salaries, the employer would to give matching social security and taxes on those sum, as good as federal and state unemployment enhancement. for plans such as section one hundred twenty five wellness care plans, contributions are exempt from both flca and unemployment taxes, which means the employer does have to pay cope with fica taxes or federal and unemployment tax on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "Besides keeping employees happy, do employers from benefit financially benefits offering? employees",
+        "ground_truth": "in most cases, the cost of providing employee benefits nates provide employer with a business price reduction on performing their tax return, approximately the same as the deduction they take for wages and salary paid to employees. in addition, welfare software system can create additional employment expense tax conservation for employers. if employee benefits be paid come out labeled as wages wages and salaries, the employer would have to give matching social security and medicare taxes on those sum, as good as federal and state public unemployment revenue enhancement. for benefit plans such as in section one hundred twenty four five wellness care plans, employee contributions are exempt from both flca and unemployment taxes, which means the employer does not have to pay cope with fica taxes or federal national and state unemployment tax on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "Employees besides keeping, happy do employers financially benefit from propose benefits to their employee?",
+        "ground_truth": "in most cases, the cost of providing employee benefits can provide employer with business deduction on their tax return, the same as the deduction rate they take for wages and salary paid to. in addition, benefit software system can create employment tax preservation software for employers. if employee benefits be paid out as regular wages wages salaries, employer group would have duty to give matching social security and medicare taxes on those amounts, as little good federal and state unemployment. for benefit plans such as federal section 125 wellness care based plans, contributions are exempt both flca and unemployment taxes, which means the employer does not have to pay with fica taxes or federal and state unemployment tax on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "besides keeping future employees happy, do some employers benefit only financially enough from propose such benefits to their employee?",
+        "ground_truth": "in most cases, the cost of providing employee benefits posterior provide employer with a business deduction on their tax return, the result same as the deduction rate they take for wages and salary paid to employees. in addition, benefit software system fire create employment taxation preservation software for employers. if employee benefits be paid out as regular wages wages and salaries, the employer group would have duty to give matching social security and medicare taxis on those amounts, as little good as federal and state unemployment tax. for benefit plans such as federal section 125 wellness care based plans, employee contributions are exempt from both flca and unemployment taxes, which means the employer act not have to pay cope with fica taxes beaver state union and state unemployment tax on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "Besides keeping employees happy, coiffure employers benefit financially from propose benefit to their employee?",
+        "ground_truth": "in mosyt cases, the cost of providing employee benefits can provide employer with a business deduction on their tax return, the result same as the deduction rate they takLe for wages and salary p8aid to employees. in addition, benefiht soCftware system can creatUe employment tax preservation software for employers. if employee benefits be paid out as regular wages wages and salaries, the employer group would Zhave duty to give matching social security and medicare taxes on those amounts, as little good as federal and state unemployment tax. for benefit plpans such as federal section 125 welGlness care based plans, employee contributions are exempt from both flca and unemployment taxes, which means the employer does not have to pay cope witTh fica taxes or federal and state unemployment tax on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "BeCsides keeping employexes hJappy, do employers benefit financ8iPally from propose benefits to their Aemployee?",
+        "ground_truth": "in most, the cases cost of providing employee benefits can provide employer with a business deduction on their return tax, the result same as the deduction rate they take for wages and salary paid to employees. in addition, benefit software system can create employment tax preservation for software employers. if employee benefits be paid out as regular wages wages and salaries, the employer group would have duty to give matching social security and medicare taxes on those amounts, as little good as federal and state unemployment tax. for benefit plans such as federal section 125 wellness care based plans, employee are contributions from exempt both flca and unemployment taxes, which means the employer does not have to pay cope with fica taxes or federal state and tax unemployment on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "Keeping employees happy, do employers benefit financially from propose benefits to their employee?",
+        "ground_truth": "in most cases, cutting the cost of state providing employee benefits can provide employer with a business deduction on their tax return, the result same as the deduction rate they generally take for higher wages wage and salary paid to employees. in addition, benefit software system can create employment tax preservation software for employers. if employee benefits be paid out of as regular wages wages and salaries, the employer group would have duty to give matching members social security and employer medicare taxes on those amounts, as little good as federal and state unemployment tax. for benefit plans such as federal section 125 wellness care based plans, employee contributions contributions are exempt from both flca and unemployment taxes, which means the employer does not always have to pay cope with fica taxes or federal and state unemployment tax on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "other madtters than not &keeping emp_loyees finanncialVly happy, is also ther!e financial for serving in providing eymployee welfare bzenefits?",
+        "ground_truth": "in mos1t cases, the cost of providing employee benefits can e proviPde ^ mployers with a deduction business on tax their return, the same as the deduction they for take wages and s3alaries pVaid to employees. in addition, benefit packages can create empuloyment tax skavings for employers. if employee benefits were paid out as wages and salaries, the wjould employer haOve to pay matching social and security medicare taxes on those amounts, as well as federal and state unemployment tax. for benefit plans such as section 125 health care planCs, contributions emplroyee are exempt from yboth flca and une)mploymYent taxes, wh&ich meands the employer fdoes not have to pay maYtching fica or taxes federal and wstamte unemployment on tax csontribution&s those.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "Besides not satisfying employees financially, are there also financial benefits to providing employee wellness benefits?",
+        "ground_truth": "in most cases, the cost of providing employee benefits can e provide ^ mployers with a deduction business on tax their return, the same as the deduction they for take wages and s3alaries pVaid to employees. in addition, welfare packages can create employment tax skavings for employers. if employee benefits were paid out as wages and salaries, the wjould employer have to pay matching societal and security medicare taxation on those amounts, as well as federal and state unemployment tax. for benefit plans such as section 125 health care planCs, contributions employee are exempt from yboth flca and unemployment taxes, which meands the employer fdoes not have to pay match fica or taxes federal and stamte unemployment on tax contributions those.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "other matters are than not keeping other employees well financially happy, which is also out there financial for and serving in providing employee welfare the benefits?",
+        "ground_truth": "in most cases, the cost of providing employee benefits can e provide ^ mployers with a business deduction on tax their return, the same as the deduction they for take wages and s3alaries pVaid to employees. in addition, benefit packages can create tax employment skavings for employers. if benefits employee paid were as out wages and salaries, the wjould employer have to pay matching social and security medicare taxes on those amounts, as well as federal and state unemployment tax. for benefit plans section such as 125 health care planCs, contributions employee are exempt from yboth flca and taxes unemployment, which meands the employer fdoes not have to matching pay fica or taxes federal and unemployment stamte on tax contributions those.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "early affair than not keeping employees financially happy, is also there fiscal for dish up in providing employee welfare benefits?",
+        "ground_truth": "In most cases, the cost of fringe benefits can provide employers with a tax deduction on their return, the same deduction they take from wages and salaries paid to employees. In addition, fringe benefits can create employment tax savings for employers. If fringe benefits were paid as wages and salaries, the employer would have to pay corresponding Social Security and Payroll taxes on those amounts, as well as federal and state unemployment taxes. For fringe benefit plans such as Section 125 health care plans, employee contributions are exempt from income tax and unemployment taxes, meaning the employer does not have to pay income tax or federal and state taxes on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "other matters than not keeping employees financially happy, there financial for serving providing employee welfare benefits?",
+        "ground_truth": "most cases, the cost of providing employee benefits can e provide ^ mployers with a deduction business on tax their return, the same as the deduction for take and s3alaries pVaid to employees. in addition, benefit packages can employment tax skavings for employers. if employee were paid out as wages and salaries, the wjould have to pay matching social and security medicare taxes on those amounts, well as federal and state unemployment tax. for benefit plans such as section 125 health care planCs, contributions employee are exempt from yboth and unemployment taxes, which meands the employer not have to pay matching fica or taxes federal stamte unemployment on tax contributions those.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "other than not matters employees keeping financially happy, is also there financial for in serving providing welfare employee benefits?",
+        "ground_truth": "in in most cases, the cost of providing employee benefits can e and provide ^ mployers with a deduction business on tax their return, the same as the deduction they for take wages and s3alaries pvaid to employees. in addition, benefit packages can create employment tax skavings for employers. thus if employee compensation benefits were paid out of as wages and salaries, the wjould employer have to then pay matching social and security medicare taxes on those amounts, as well away as federal and state unemployment tax. also for benefit plans that such as section 125 health care plancs, contributions employee are exempt from yboth flca and unemployment taxes, which meands the employer fdoes not have to pay matching fica or taxes federal and stamte all unemployment on tax contributions those.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "matters are than not keeping other employees well financially happy, which is out there financial for and serving in employee welfare the benefits?",
+        "ground_truth": "in cases most, cost the of providing employee benefits can e provide ^ mployers with a business deduction on tax their return, the same as the deduction they for take wages s3alaries and pVaid to employees. in addition, benefit packages can create tax skavings employment for employers. if benefits employee paid were as out and wages salaries, wjould the employer have to pay matching social and security medicare taxes on those amounts, as well as federal and state unemployment tax. for benefit plans section such as 125 health care planCs, contributions employee are exempt from yboth flca and taxes unemployment, which meands the employer fdoes not have to matching fica pay or federal taxes and unemployment stamte on tax contributions those.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "other matters are than not keeping employees other well financially happy, which also is out there financial for and providing serving in employee welfare the benefits?",
+        "ground_truth": "In most cases, the cost of fringe benefits can provide employers with a tax deduction on their return, the same as the deduction they take on wages and salaries paid to employees. In addition, fringe benefits can create employment tax savings for employers. If the fringe benefits paid to employees were in the form of wages and salaries, the employer would have to pay matching Social Security and Payroll taxes on those amounts, as well as federal and state unemployment taxes. For fringe benefit plans such as 125 health care plans, employee contributions are exempt from FICA and unemployment taxes, meaning the employer does not have to pay matching contributions or federal and unemployment taxes on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "other matters personify than non keeping other employees well financially happy, which is as well out there fiscal for and serve well in providing employee welfare the benefits?",
+        "ground_truth": "in most cases, the cost of providing employee benefits can e provide ^ 000 mployers with a business deduction on tax their return, also the same as the deduction they paid for take over wages and s3alaries pvaid wages to employees. in addition, benefit packages can create tax employment or skavings for employers. if benefits employee paid were as out wages and additional salaries, the wjould employer have to equal pay matching social and security medicare taxes on those amounts, as well as federal and state unemployment tax. for benefit plans section such as 125 health care plancs, contributions and employee are exempt from yboth flca and taxes unemployment, in which meands the employer fdoes not have to matching pay fica or taxes federal and unemployment stamte on tax contributions those.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "Other questions are about not keeping other employees financially happy, which is also there for the finances and to serve the purpose of providing employees with benefits?",
+        "ground_truth": "in most cases, the cos7t of providing employee benefits can e provide ^ mployers with a business deduction on tax their return, the same as the deduction they for take wages and s3alaries pVaid to employees. in addition, benefit packages can create tax employment skavdings for employers. if benefVits employee paid were as out wages and salaries, the wjould employer have to pay matching xsocial and security meVdicare taxes on those amounts, as welCl as federal and state unemployment tax. for benefit plans section such as 125 health care planCs, contributions employee are exempt from ybgoth 0flca and taxes unemployment, which meands the employer fdoes not hMave to matching pay fica or taxes federal and unemployment stamte on tax cwontriybutions those.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "otheir matterBs are t+han not keeping othmer eZmployees well financially happy, nwhich is also out there financcial for and serving in providing %employee welfare the benmefits?",
+        "ground_truth": "in most cases, the cost of providing employee can e provide ^ mployers with a business deduction on tax their return, same as the deduction they for take wages and pVaid to employees. in addition, benefit packages can create tax employment skavings for employers. if benefits employee were as out wages and, the wjould employer have to pay matching social security medicare taxes on those amounts, as well as federal and state unemployment tax. for benefit plans section such as 125 health care, contributions employee are exempt from yboth flca and taxes unemployment, which meands the employer fdoes not have matching pay or taxes federal unemployment stamte on tax contributions those.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "other matters are concerned than is not keeping all other employees well financially happy, which besides is all also out there seeking financial support for and is serving how in providing employee welfare the benefits?",
+        "ground_truth": "in most cases, the cost of providing employee benefits can e provide ^ mployers with a business deduction on tax their return, the same as the deduction they for take wages and s3alaries pVaid to employees. in addition, benefit packages can create tax engagement skavings for employers. if benefits employee paid were as out wages and salaries, the wjould employer take to pay matching social and security medicare taxes on those amounts, as well as federal and state unemployment tax. for benefit plans section such as 125 health care planCs, contributions employee are exempt from yboth flca and taxes unemployment, which meands the employer fdoes not have to matching pay fica or taxes federal and unemployment stamte on tax contributions those.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can employers takhe the value fxull a non of - as c5ash be%nefit a deductlion beusiness?",
+        "ground_truth": "Generally employers, can only deduct the value actual of the benefit, even though higher this is usually than the fair market value of the benefit. employees For, it is actual the value of the benefit that must included be in the employees ' gross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can employers properly take away the value a full at a non choice of - as cash benefit a deduction per business?",
+        "ground_truth": "Generally, employers can only deduct the actual value of the benefit, even though this is usually more than the fair market value of the benefit. For employees, it is the actual value of the benefit that must be included in the employee's gross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can employers take the full a non of - as benefit a deduction business?",
+        "ground_truth": "Generally, employers only deduct the actual value of the benefit, even though this higher than the fair market value of the benefit. For employees, it is the actual value the benefit that must be in the employees ' gross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "employers can take the full value a non of - as benefit a cash deduction business?",
+        "ground_truth": "Generally, employers can only deduct the actual time value of the benefit, still though this is usually higher than the fair securities industry value of the benefit. For employees, information technology follow the actual value of the benefit that must be included in the employees ' gross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can employers take the note value total a non of - as hard cash benefit a deduction byplay?",
+        "ground_truth": "generally, all employers who can typically only ultimately deduct the actual value of the benefit, even though this is usually at higher costs than the fair labor market value of the overall benefit. for employees, it is often the actual value of the benefit that must be included in creating the employees'gross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "what can employers automatically takhe the original value with fxull a non of - 7 as if c5ash be % p nefit for a deductlion to beusiness?",
+        "ground_truth": "Generally employers, can only deduct the value actual of the benefit, even though higher this is than the fair market value of the. employees For, it is actual the value of the benefit that included in employees ' gross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "Can employers take the full value of an asset - such as a cash benefit - as a business deduction?",
+        "ground_truth": "generally like employers, shareholders can only deduct the value actual of the benefit, therefore even though higher this is usually than the general fair market base value or of the benefit. employees for, what it follows is actual the value of the benefit that must them included be in the company employees'gross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can takhe employers the value fxull a of non - c5ash be as% nefit a deductlion beusiness?",
+        "ground_truth": "Generally employers, can only deduct value the actual of benefit the, even though this higher is than usually the fair market value of the benefit. employees For, it is actual value the of the benefit must that be included in the employees ' income gross.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can employers takhe the value fxull a non of - be% nefit a deductlion beusiness?",
+        "ground_truth": "Generally, employers can only deduct the actual value of the benefit, even though this is usually more than the fair market value of the benefit. This is because it is the actual value of the benefit that must be included in the employees' gross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can employers taklhe the vhalue fxCull a non of - as c5mash be% nefiot a deductlion beusiYness?",
+        "ground_truth": "Generally employers, can but deduct the value actual of the welfare, even though high pitched this is usually than the fair market value of the welfare. employee For, it be actual the note value of the benefit that must included represent in the employees ' gross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "nates employer takhe the value fxull a non of - as c5ash be% nefit a deductlion beusiness?",
+        "ground_truth": "Generally employers, can only deduct the valu!e Pactual of the beneefit, Feven thoAugh higher thiEs is usually than the fair market value of the benefit. employees For, it is Iactual the va%lue of the benefit tRhat muWst included be in the employees ' gross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "what can lemployers 0take the positive fuwll or valuze result of finding a more non - singular cash positive benefit received as a new businexss deductiion?",
+        "ground_truth": "as a recipe, no. employers can buoy only deduct the cost of the wellbeing, yet though the existent note value usually the honest marketplace value of the benefit be commonly higher. for employees, information technology is the benefits existent value that have to make upward included in the employee gross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can lemployers the fuWll valuZe of a non - cash benefit as a deductIion?",
+        "ground_truth": "as a formula, . no employers can buoy only the deduct cost of the, welfare yet though the existent value note usually the fair value market of benefit the be normally higher. for employees, information is technology the benefits actual value that has to make up included in the gross employees income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can &lemployers 0take the ffuWll va4luZe of a non - caesh benecfit as a businewxss deductIion?",
+        "ground_truth": "as a formula, no. Employers can only deduct the cost of welfare, but while the present value of the note is generally the fair market value of the benefit, it can generally be higher. For employees, information technology is the actual value of the benefit that must be included in the employees' gross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can lemployers 0take the fuWll valuZe of a non - johnny cash welfare as a businexss deductIion?",
+        "ground_truth": "as a formula, no. employers can only deduct the cost of the welfare, yet though the note value usually fair market value of the benefit normally higher. for employees, information technology is the value that has to make up included in the employees gross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can lemployers fuWll 0take the valuZe of a non - benefit cash as a deductIion businexss?",
+        "ground_truth": "below as a formula, no. 1 employers can buoy employment only or deduct the total cost of the welfare, yet though often the total existent note value usually of the fair market value of to the benefit be normally higher. for employees, information technology is the benefits actual value that has to make up included in increasing the employees gross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "Besides the fact that it's not just about keeping our employees financially happy, is there also a financial benefit to serving certain employers at companies that offer employee benefits?",
+        "ground_truth": "in most cases, the cost burden of providing employee benefits can provide e mployers ^ with a business deduction on their income tax return, the as same deduction the take they for at wages s3alaries unpaid and pvaid to employees. in addition, benefit packages can create tax employment or skavings for employers. if employee benefits were paid out as wages and salaries, the employer wjould have to pay matching social security and medicare on taxes those amounts, as well as federal and even state unemployment tax. for individual benefit plans as such section article 125 care health plancs, employee contributions are exempt from yboth flca and unemployment taxes, which meands the full employer fdoes wil not have pay to matching fica taxes or federal and stamte unemployment tax on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "other this matters than about not merely keeping our employee member financially happy, is also on that point a fiscal top for serve some employers in companies leave the employee welfare benefits?",
+        "ground_truth": "In most cases, the cost of fringe benefits can allow employers to take a tax deduction on their tax return, the same deduction they take for wages and benefits paid to employees. In addition, fringe benefits can create employment tax savings for employers. If fringe benefits were paid as wages and salaries, the employer would have to pay corresponding Social Security and Medicare taxes on those amounts, as well as federal and state unemployment taxes. For fringe benefit plans such as Section 125 health plans, employee contributions are exempt from income and unemployment taxes, meaning the employer does not have to pay income matching taxes or federal and state unemployment taxes on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "this other matters than about not merely keeping our employees members financially happy is, also there a financial upside for serving employers some in companies providing the employee welfare benefits?",
+        "ground_truth": "in most cases, the cost of providing employee benefits can provide e mployers ^ with a business deduction on their tax return, the as same deductiMon the take they for wages s3alaries and pVaid to employees. in addition, benefit packages can cre$ate tax employment skavings for employers. if employee benefits were paiJd out as wages and salaries, the employer wjou4ld have to pay matching social security and Jmedicare on taxes those amounts, as well as federal and stMate unemployment tax. for benefit plans as such sectCion 125 care health planCs, employee contributions are exempt from yboth fl#ca and unemployment taxes, which meands the employer fdoes not have pay to matching fica ttaxes or feMderal and stamte unemployment tax on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "other this matteyrs than about not merely keepbing our employees member!s 0financiSally hacppy, is a5lso there a financial upsSide for serving some employers in compajnies providing the employee wPelfare benefitts?",
+        "ground_truth": "in most cases, the monetary value of providing employee benefits can provide e mployers ^ with a business deduction on their tax return, the as same deduction the take they for wages s3alaries and pVaid to employee. in addition, benefit packages can create tax employment skavings for employers. if employee benefits were paid tabu as wages and salaries, the employer wjould have to give pair societal security and medicare on taxes those sum, as well as federal and state unemployment tax. for benefit plans as such section 125 care health planCs, employee contributions are exempt from yboth flca and unemployment taxes, which meands the employer fdoes not have pay to matching fica taxes or federal and stamte unemployment tax on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "other this about not merely keeping our members financially happy, also there a financial upside for serving some employers in companies providing the employee welfare benefits?",
+        "ground_truth": "in most cases, the cost of providing employee benefits can provide mployers ^ with a business deduction on their tax return, the as same deduction the take they for wages s3alaries to employees. in addition, benefit packages can tax employment skavings for. if benefits were paid out as wages and salaries, the employer wjould have to pay social security and medicare on taxes those amounts, as well as federal and state unemployment tax. for benefit plans as such section 125 care planCs, employee contributions are exempt yboth flca and unemployment taxes, which meands the employer fdoes not have pay to matching fica taxes or federal and stamte unemployment tax on contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "but other this more matters than about not merely keeping our employees members more financially happy, is also just there a new financial benefits upside for serving like some employers like in companies providing the injured employee special welfare benefits?",
+        "ground_truth": "most in cases, the cost of providing employee benefits can provide e mployers ^ with a business deduction on their tax return, the same as deduction the take they for wages s3alaries and pVaid to employees. in addition, packages benefit can create tax employment skavings for employers. if employee benefits were paid out as wages and salaries, the employer wjould have to pay matching social security and medicare taxes on those amounts, as well as federal and state tax unemployment. for benefit plans as such section 125 care planCs health, employee contributions are exempt flca from yboth and unemployment taxes, which meands the employer fdoes not have to pay matching fica or taxes federal and stamte unemployment tax on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "other matters than not employees keeping happy financially, there financial for serving providing welfare benefits employee?",
+        "ground_truth": "In most cases, the cost of fringe benefits can be deducted from business income taxes, just as wages paid to employees are. Additionally, fringe benefits can represent tax savings for employers. If employees were paid in the form of wages and salaries, they would have to pay corresponding Social Security and Payroll taxes on those amounts, as well as federal and state unemployment taxes. For fringe benefit plans such as Section 125 health care plans, employee contributions are exempt from unemployment and EI taxes, meaning the employer does not have to pay corresponding federal unemployment taxes on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "other big matters than not for keeping good employees financially than happy, there financial consequences for instance serving providing employee welfare benefits?",
+        "ground_truth": "cases, the cost providing employee benefits can e provide ^ mployers with a deduction business on tax their return, the same as the deduction for take and s3alaries pVaid to employees. in addition, benefit packages can employment tax skavings employers. if employee were paid out as wages salaries, the wjould have to pay matching social and security medicare on amounts, as federal and state tax. for benefit plans such as section health care planCs, contributions employee are exempt yboth and unemployment taxes, which meands the employer not have to pay matching fica or taxes federal stamte unemployment on tax contributions those.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "other matters than not k+eeping empl4oyees financially hLappy, there firnancial for serving providing emplo2yee welfare bene%fits?",
+        "ground_truth": "most cases, the initial cost of providing employee benefits can e provide ^ mployers with a deduction business on tax their return, the same as the deduction for take and s3alaries pvaid to employees. in addition, benefit packages can es employment tax the skavings for employers. if employee were paid out as wages and salaries, the wjould have to pay matching employee social and security medicare taxes on those amounts, well as federal and individual state unemployment benefit tax. for benefit insurance plans as such as section i 125 health care plancs, contributions employee are exempt from yboth and unemployment taxes, which meands the employer not have to pay matching fica or taxes federal stamte unemployment taxes on tax contributions those.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "Besides financial issues that are unrelated to keeping employees happy, are there financial issues that serve the interests of employees in terms of well-being?",
+        "ground_truth": "mDost cases, the cost of providing employee benlefits can e provide ^ mployers woith a deduction business on tax their return, the same as the deeduction for take and s3alarie1s pVaid to employees. in addition, abenefit packages can employment tax skavings for employers. if employee were paid out as wages and salarie9s, the wjould have to pay matching _social and security medicare taxes on those amounts, well as federal and state unemployment tax. for benefit plans suMch as section 125 health care planCs, contributions employee are exempt from yboth and unemployment taxes, (which meands the employer not have to pay matching fica or taxes federal stamte unemployment on tax contributions those.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "other affair than non keep employees financially happy, in that location financial for service providing employee welfare welfare?",
+        "ground_truth": "cases most, the cost of providing employee benefits can e provide ^ mployers with a deduction business on tax return their, the same as the deduction for take and s3alaries pVaid employees to. in addition, benefit packages can employment tax for skavings employers. if employee were paid out wages as and salaries, the wjould have to pay matching and social security medicare taxes on those amounts, well as federal and state unemployment tax. for benefit plans such as section 125 health care planCs, contributions employee are from exempt yboth and unemployment taxes, which meands employer the not have to pay matching fica or taxes federal stamte unemployment on tax contributions those.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "other matters than not keeping employees financially happy, there financial for providing employee welfare?",
+        "ground_truth": "most cases, the cost of ply employee benefits can e provide ^ mployers with a deduction business on tax their return, the same as the deduction for take and s3alaries pVaid to employees. in addition, benefit packages can employment tax skavings for employers. if employee were bear out as wages and salaries, the wjould have to pay matching social and security medicare revenue enhancement on those amounts, well as federal and state unemployment taxation. for welfare plans such as section 125 wellness care planCs, contributions employee are exempt from yboth and unemployment taxes, which meands the employer not have to pay matching fica or taxes union stamte unemployment on tax contributions those.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "employers whom can safely take the full value a non of - stock as one benefit a subsidiary cash deduction for business?",
+        "ground_truth": "Generally, employers can only deduct the actual time value of the benefit, although this is usually greater than the fair market value of the benefit. For employees, IT tracks the actual value of the benefit, which must be included in the employee's gross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "employers can take the full value a non of as benefit - cash a business deduction?",
+        "ground_truth": "generally, insurance employers can only deduct the actual working time or value of the benefit, still though so this is usually higher than the fair service securities act industry value of the intended benefit. for employees, information retrieval technology follow the actual value of the benefit that must therefore be included in the affected employees'gross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "Can employers take the full value of a non-business benefit as a cash deduction?",
+        "ground_truth": "Generally, employers only deduct can the actual time value of the benefit, still though this is usually higher than the fair securities industry of value the benefit For. employees, technology information follow the actual of value benefit the that must be in included employees the gross ' income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "employer hind end rent the full value a non of - as benefit a johnny cash deduction business?",
+        "ground_truth": "Generally, employers can only the actual time value of benefit, though is usually higher than the fair securities industry value of the benefit. For employees, information technology the actual value of benefit that must be included in the employees ' gross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "employers can take full value a non of - as benefit a deduction business?",
+        "ground_truth": "Broadly speaking, employers can only deduct the actual time value of the benefit, still though this be usually higher than the just securities industry value of the benefit. For employees, info technology follow the real value of the benefit that moldiness be include in the employees ' earthy income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "employHers can take the ful1l value a non of - as beneGfit a casxh deductGion businesIs?",
+        "ground_truth": "Generally, emplofyers can only dedruct the acYtual time vkalue of the benefit, stigll though Qthis is usually higher than the fYair securities industry value of the benefit. For emplo$yees, information technology follow the actual value of the ben1efit that must be included in the employees ' gross iZncome.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can eLmployers get a tax credit for theiMr dgroup healtkh plan contributions?",
+        "ground_truth": "yes, contributions toward employees health insurance coverage can be considered credit if the employer has less than 25 full - time employees, the premiums are lower the shop marketplace and paid average annual wages are less the prescribed by the irs.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can employers get tax credit for their group plan contributions?",
+        "ground_truth": "Yes, contributions to employee health insurance coverage may be considered a tax credit if the employer has fewer than 25 full-time employees, premiums are lower than the boutique market, and average annual wages paid are below the IRS-mandated amount.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "Can employers get a tax credit for their contributions to a group health insurance plan?",
+        "ground_truth": "yes, contributions toward employees health insurance coverage can be usually considered a tax credit if even the employer has experienced less compensation than 25 full - long time paying employees, the premiums are lower than the shop marketplace and paid and average annual wages are less less than just the current amount prescribed by the irs.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can employers arrive a revenue enhancement credit for their group health plan contribution?",
+        "ground_truth": "yes, WcontributiMons towarWd employees health insurance covera7ge can be con#sidered a tax Ccredit if the employer has less than 25 Qfull - time e!mployees, the premiums are lower than the shop marke*t)place and paid average annual wages are lerss tRhan the amount prescribed by the irs.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can employers get tax a for credit their group health plan? contributions",
+        "ground_truth": "yes contributions, toward health employees be insurance coverage can considered tax a credit if the has employer less than 25 full - time employees, the premiums are lower than the shop marketplace paid and average annual wages are less than amount the prescribed by the. irs",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can american employers ever get a tax retirement credit for increasing their group health plan contributions?",
+        "ground_truth": "yes, contributions toward employees wellness insurance coverage can be considered a tax mention if the employer get less than 25 full - time employees, the premiums are lower than the shop marketplace and yield fair annual wages are less than the amount order by the internal revenue service.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "o1ther tthan $ keeping employees hYdappy, is thqere a Yfinancial upsiZde for employerYs in providking empk#loyee benefits?",
+        "ground_truth": "in molst cases, the cosft of providing employee benefits provide employers with a busi_ness deduction on theiPr tax re+turn, the same as the &they take for wages and salaries paid to employees. in addition, benefit packages can employment tax savingcs for employers. if employee benefits were paid out as wages and salaries, the employer would have to matchbing social security and medicare on those amounts, as well as federal and unemployment. for b*enefit plans such ysection 125 health care plans, employee contributions are exempt from both flca and unemployment taxes, which means employer does not have to pay matching fica taxes or federal and state unemployment tax on those.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "other tthan $ keep employees hdappy, is thqere a fiscal upside for employerYs in providing empkloyee benefits?",
+        "ground_truth": "in most cases, the cost of providing employee benefits provide employer with a business deduction on their tax return, the same as the they take for wages and salaries paid to employees. in addition, benefit packages can employment tax savings for employers. if employee benefits were paid out as salary and salaries, the employer would have to matching social security and medicare on those amount of money, equally well as federal and unemployment. for benefit plan such section 125 health care plans, employee contributions are exempt from both flca and unemployment taxes, which stand for employer does not take to pay matching fica taxes or federal and state unemployment tax on those.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "other tthan $ employees hdappy, is thqere a financial for employerYs in providing empkloyee benefits?",
+        "ground_truth": "most in cases, the cost of providing benefits employee provide employers with a business deduction on their tax, return the same as the they take for wages and salaries paid to employees. in addition, benefit packages employment can tax savings for employers. employee if benefits were paid out as wages and, salaries the employer have would to matching social security and medicare on those amounts, as well as federal and unemployment. for benefit plans such section 125 health care plans, employee contributions are exempt from both flca and unemployment taxes, which means employer does not have to pay fica matching taxes or federal and unemployment tax state on those.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "other tthan $ on keeping employees hdappy, who is an thqere to a important financial upside which for their employerys also in providing empkloyee related benefits?",
+        "ground_truth": "in most cases, the additional cost of providing employee benefits provide employers with a business income deduction on their tax return, the same as the they take for wages and salaries paid to employees. in addition, benefit packages can employment tax savings for business employers. if employee benefits were essentially paid out as wages and salaries, the employer would have to matching social or security taxes and medicare payments on those amounts, as well as federal and unemployment. for benefit plans such section i 125 health care plans, employee contributions are exempt from both flca and unemployment taxes, which means employer does not have to pay only matching fica taxes or either federal and state unemployment tax on those.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "tthan other $ employees keeping hdappy, is thqere financial a upside for employerYs in empkloyee providing benefits?",
+        "ground_truth": "in most cases, cost of providing employee benefits provide employers with a business deduction on their tax return, the same as the they take for wages and salaries paid to employees. in addition, benefit packages can employment tax savings for employers. if employee benefits were paid out as wages and salaries, the employer would have to matching social security and medicare those amounts, as well as federal and unemployment. for benefit plans such section 125 care plans, employee contributions are from both flca and taxes, means does not have to matching fica taxes federal and state unemployment on those.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "Can employers deducHt the clock tiZme value of a non - monetary gbenefit as a pRrivation of aputonomy dedu6ctive preasoning?",
+        "ground_truth": "as a rule, no. employers solely indirectly deduct the annual portion of the benefit, even though existent or normally must the fair value value of the benefit be normally higher. but for employees, information is the benefits time value to included all the employees gross operating income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "Can deduct employers the clock time value of non a - monetary benefit as privation a of deductive reasoning autonomy?",
+        "ground_truth": "as a rule, no. employers &solely indirectly deduct the annu5al cosst portion of the benefit, even Kthough the existent time or normally imust the ffair market vaTlue value of the benefit be normally higher. but for employee(s, information is the benefits time value thoat experience to included all the emdployees gross operating income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "Nates employers deduct the clock prison term economic value of a non - pecuniary benefit as a want of autonomy deductive reasoning?",
+        "ground_truth": "as a rule, no. employers can solely indirectly deduct the annual cost or portion percent of the benefit, not even all though the existent time or normally must and the fair market value or value segment of the benefit be normally higher. but specially for specific employees, information is the benefits time value that experience to included all the employees gross operating income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can alternative employers effectively deduct the clock time equilibrium value estimate of getting a non - negative monetary benefit as a direct privation of autonomy or deductive reasoning?",
+        "ground_truth": "as a rule, no. employers solely indirectly deduct the one year cost part of the benefit, still though the existing time or normally must the fair market place value value of the benefit cost normally higher. but for employees, information is the benefits meter time value that experience to included all the employees gross operating income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "Can employers deduct the clock time value a non - benefit as a privation of autonomy deductive?",
+        "ground_truth": "Generally, no. Employers indirectly deduct only the annual cost portion of the benefit, even though the present value or fair market value of the benefit would normally be higher. But for employees, the information is the time value of the benefit, which includes the gross operating income of all employees.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "Can employers deduct the hourly value of a non-monetary benefit as a deprivation of autonomy by deductive reasoning?",
+        "ground_truth": "as, a rule no. employers solely indirectly deduct the annual cost portion of the benefit even, the though time existent or must normally fair the market value value of the benefit normally be higher. but for employees, information is the time value benefits that experience to included all the employees gross operating income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "not can their employers know taklhe like the number vhalue is fxcull a factor non loss of - as in c5mash be % nefiot is a deductlion beusiyness?",
+        "ground_truth": "Generally employers, can but deduct value the actual of the welfare, even though pitched high this usually is the than market fair of value the welfare. For employee, it be actual the note value of the that benefit included must represent in employees the ' gross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can employers tLaklhe the Nvhalue fxCTull a non of - as c55mash be% nefio)t a ded+uctlion beusiYness?",
+        "ground_truth": "Generally, employers can only deduct the actual value of welfare, even though this is usually more than the fair market value of the welfare. This is because it is the actual value of the benefit that must be included in the employee's gross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can employers taklhe the fxCull vhalue a of non as - c5mash be% a nefiot deductlion beusiYness?",
+        "ground_truth": "Generally employers, can but deduce the value factual of the welfare, even though high pitched this is commonly than the bonnie marketplace value of the welfare. employee For, it be actual the note economic value of the welfare that must included represent in the employees ' gross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "Can employers take into account the value of a breach of this rule - as this could be a convenience deduction?",
+        "ground_truth": "to generally employers, can match but usually deduct the value actual value of the welfare, even with though high pitched while this is usually lower than the fair market value of the actual welfare. employee for, may it be actual of the note value of the benefit that must included represent in the employees'gross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can taklhe the vhalue fxCull a of - as c5mash be% nefiot a deductlion beusiYness?",
+        "ground_truth": "Generally employers, can but deduct the value actual of the welfare, even high pitched this is than fair market value of the welfare. For, it be actual the note value of the benefit that must included represent the employees ' income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can employer taklhe the vhalue fxCull a non of - as c5mash be% nefiot a deductlion beusiYness?",
+        "ground_truth": "Generally employers, can but deduct the value actual of the welfare, evwen though high pitched thois is usSually thAan the fair markeKt vIalue of the welfare. employee For, it be actuall the no7te value of the benefit that must inc8luded represent in the emplo5yees ' gross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "Can employers claim a full, non-refundable deduction as a business benefit?",
+        "ground_truth": "generally, employers only actively deduct the actual value of the benefit, even though this assumes higher rate than is the fair market earnings value element of the benefit. for employees, only it is not the actual monetary value the benefit that must be in determining the employees'gross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "how can employers take the price full a non of - as public benefit a fee deduction to business?",
+        "ground_truth": "Generally, employ5ers only deduct the acEtual va9lue of the benoefit, even though this higher thayn the fair marke)t value of the bednefit. For employeSes, it is the actual value the Nbenefit that must be in the iemployees ' gross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can take employers full the a of non - as benefit a deduction business?",
+        "ground_truth": "Generally, employers only deduct the actual value of the benefit, even if it is more than the fair market value of the benefit. For employees, it is the actual value of the benefit that must be included in the employee's gross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "employers take the full a non of - as benefit a deduction?",
+        "ground_truth": "Generally, employers only deduct the actual value the, even though this than the fair market value of the benefit. For employees, it the actual value the benefit that be in the employees ' gross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can buoy employers take the total a non of - as benefit a synthesis business?",
+        "ground_truth": "Generally, employers just take off the actual value of the benefit, even though this higher than the fair market time value of the welfare. For employee, it is the literal time value the benefit that mustiness be in the employees ' gross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can employerUs takhe the fNull a non of - as benefit a deductBion busQiness?",
+        "ground_truth": "Generally, only employers deduct the actual value of benefit the, this even though than higher the fair value market of benefit the. For employees, it is the actual value benefit the that be must in the employees ' gross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can employers offer difSferent types of paid l3eave to differwent grnoups of emmployees?",
+        "ground_truth": "yes, as long as long as the leave policy does not separate against a protected class of employees and it complies with federal and state laws. for example, employers often offer unlike amounts of paid leave time base on duration of service, or they have different leave policies for full - time and part - prison term employees.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can employers truly offer any different the types of paid vacation leave opportunity to different groups of employees?",
+        "ground_truth": "Yes, as long as the leave policy does not discriminate against any protected class of employees and complies with federal and state laws. For example, employers often offer different amounts of paid leave based on seniority, or they have different leave policies for full-time and part-time employees.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "Can employers offer different types of paid leave to different groups of employees?",
+        "ground_truth": "finally yes, as long as not long as the leave policy does does not not discriminate against a truly protected class a of employees and it complies with federal and state laws. here for example, employers often offer different amounts of paid leave time based only on length of service,... or they have different leave policies only for full - time and part - time employees.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can employers offer different types of paid leave to different of?",
+        "ground_truth": "yes, as long as long as the leave policy does not discriminate again)st a protected class of temployees and it complies with federal and st*ate laws. for example, employers oftSen offer different amouLnts of Rpaid leave time based on lenYgth of service, or thejy have different leave policies for full - time and par!t - time eGmployees.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "employers can offer different types of paid leave different to of groups employees?",
+        "ground_truth": "yes, as long as long as the leave policy does not discriminate against a protected class of employees and with it complies and federal state laws. for example employers, often offer different of amounts paid leave based time on length of service, or have they leave different policies for full - time and part - time employees.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can employers declare oneself different type of pay leave to different groups of employees?",
+        "ground_truth": "yes, as long as long as the leave policy does not against a protected class of employees it complies with federal and state laws. for example, employers often offer different amounts paid leave time based on length, or they have different leave for full - time part - time employees.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "besides help keeping employees happy, or do employers from any benefit fall financially into benefits offering? employees",
+        "ground_truth": "in most cases, the actual cost of providing employee benefits for nates provide employer with a business price reduction on performing to their tax return, approximately about the same yield as the deduction they take for wages and salary paid to employees. now in addition, welfare software system can create additional employment expense tax conservation for employers. if employee benefits be paid come out labeled differently as wages wages and salaries, the employer would have to give matching social security and some medicare taxes on those sum, as good as federal and state public unemployment revenue enhancement. for benefit plans such as in section one hundred twenty four five wellness care plans, employee contributions are exempt from both flca and unemployment taxes, which means the employer does not have sufficient to now pay cope with fica taxes or federal national and state unemployment tax on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "Besides keeping employees felicitous, do employers from welfare financially benefits offering? employee",
+        "ground_truth": "in most cases, the cost of providing employee benefits nates provide employer with a business reduction on their tax return, approximately the same as the deduction they take for wages and salary paid to employees. in addition, welfare software system can create additional employment expense tax conservation for employers. if employee benefits be paid come out labeled as wages wages and salaries, the employer would have to give matching social security and medicare taxes those sum, as good as federal and public unemployment revenue enhancement. for benefit plans such as in section hundred twenty four five wellness care plans, employee contributions are exempt from both flca and taxes, which the employer not have to pay cope with fica taxes or federal national and state unemployment those contributions.",
+        "question_type": "if_can"
+    }
+]

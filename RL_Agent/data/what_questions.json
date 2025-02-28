@@ -1,0 +1,552 @@
+[
+    {
+        "question": "what are the employers responsibilities in managing a 401k plan?",
+        "ground_truth": "employers are responsible for making sure that their plan compiies with all the laws and regulations connected with 401k plans, as well as the provisions of the plan itself. the employer or other plan sponsor is also required to provide each employee with a summary plan description describing how the plan works and what options the employees have. in addition, employers have to determine which employees are eligible to take part in the plan, how much the employer intends to contribute to each employees account, and what features the plan will have will employee loans or hardship withdrawals be permitted, and so on.",
+        "question_type": "what"
+    },
+    {
+        "question": "what is a 401k retirement plan?",
+        "ground_truth": "a 401k plan is a tax-advantaged, defined-contribution retirement account named after subsection 401k of the internal revenue code. many employers offer this type of plan to their employees as a vehicle to save for retirement. in most cases. contributions to a 401k plan are tax deferred. employees only pay tax on their contributions when they reach age 59 and begin making withdrawals from their 401k account. both employees and employers can make contributions to an employees 401k account. however the irs sets an annual limit on the total contributions that an employee can make to his or her account employer contributions are not included in that limit. for 2020, the limit is 19,500, while employees age 50 or older can contribute an additional catch-up amount of 6,500.",
+        "question_type": "what"
+    },
+    {
+        "question": "what is a roth 401k plan?",
+        "ground_truth": "roth 401k are similar to traditional plans, but contributions to a roth 401k plan are post-tax taxes are withheld on the amount of the employees contribution when the contribution is made. in addition, employers can only offer a roth 401k in conjunction with an existing traditional pre-tax 401k plan. like a traditional 401k plan, employers need to perform annual nondiscrimination testing and the funds for a roth 401k have to be kept in a separate account from any other 401k plans. employers of any size can offer a roth 401kif they already have a traditional plan and they can choose whether or not to match employee roth contributions. however, any employer matching contributions are placed in a traditional 401k plan and are taxable upon withdrawal. like traditional 401k plans, employees can contribute a maximum of 19,500 to their roth 401k for 2020, plus an additional 6,500 for participants who will be 50 or over at anytime during 2020. funds in a traditional 401k plan can be rolled into a roth 401k, but not vice versa. also, at the end of the tax year the employee will owe taxes on the funds that were rolled over.",
+        "question_type": "what"
+    },
+    {
+        "question": "what is a simple 401k plan?",
+        "ground_truth": "companies with 100 or fewer employees can establish simple 401k plans which work like traditional 401ks, but do not require anti-discrimination testing. however, if your business grows and exceeds the 100-employee limit, there is a two-year grace period if you have had the plan for at least one year before you need to change your plan. employers must make pre-tax employee contributions which immediately become the property of the employee. employers have to either 1 match each employees contribution up to 3 of their pay or 2 make a non-elective contribution of 2 of each eligible employees pay. employee contributions are capped at a lower annual limit than with traditional 401k plans 13,500 for 2020, with an additional catch-up limit of 3,000 for participants who are 50 or over or will be during 2020. similar to a safe harbor 401k, employers must submit form 5500 to the department of labor each year, providing basic information about their plan - the plan administrator, number of participating employees, funding method, etc.",
+        "question_type": "what"
+    },
+    {
+        "question": "what is the 401k top-heavy test?",
+        "ground_truth": "top heavy 401k plan testing at the beginning of each plan year measures the percent of plan balances held by key employees and non-key employees. sponsors of 401k plans that fail top heavy testing must make contributions to non-key employees to bring their plan back into compliance before the tax-filing deadline for that year. a 401k plan is top heavy if more than 60 of the plan balance is are held by key employees, participants who meet one of three criteria a company officer making over 185,000 per year a person who owns 5 percent or more of the business an employee who owns more than i percent of the business and makes over 150,000 per year 401k plans that are the most likely to be top-heavy include plans with little participation from non-key-employees, plans with a large number of low-wage participants, and plans belonging to small business owners. if the plan is top-heavy, the employer must make contributions for all non-key employees equal to or greater than the highest employer contribution made to a key employee over the past year. corrections must also be made before the last day of the plan year following the violation. there are three ways to correct a top-heavy 401k plan, selfcorrection, voluntary correction, and an audit closing agreement plan. as mentioned, if the violation is minor and certain criteria are met, the employer may be able to correct the plan by making employer contributions for non-key employees to bring the plan into compliance. a voluntary correction program vcp involves working out a specific correction plan with the irs. while vcp docs include fees ranging from 1,500-3,500 depending on plan assets, plan sponsors are more assured of maintaining tax-qualified status for their 401k while correcting the top heavy violation. a vcp works the same as self-correction in that the plan sponsor makes contributions to all non-key employees to bring the plan back into compliance. however, with a vcp, plan sponsors also have to pay certain user fees that must be reported to the irs. in general, a vcp works better for larger businesses or plans that have major violations. if the 401k plan is under audit, the irs will work with the plan sponsor to put together an audit closing agreement specifying the corrective action that is needed to bring the plan back into compliance. failure to carry through with the correction plan could result in the 401k plan being disqualified.",
+        "question_type": "what"
+    },
+    {
+        "question": "what is the 40lk coverage test?",
+        "ground_truth": "the coverage test compares the percentage of non-highly compensated employees nhces who elect to participate in the 401 k plan to the percentage of highly compensated employees hces who participate. dividing the nhce percentage by the hce percentage gives the participation ratio of non-highlycompensated employees to highly-compensated employees, and that ratio must be at least 70 for the plan to pass the coverage test. if the plan fails the test, the employer can perform a similar test that compares the benefits received by the two groups of employees. this calculation can be complicated - too complicated to cover in detail here. if the alternate test also fails the employer may have to make additional company contributions to nhce employees until the plan gets a passing grade.",
+        "question_type": "what"
+    },
+    {
+        "question": "what types of 401k plans are available to employers?",
+        "ground_truth": "there are a number of different varieties of 401k plans traditional 401k safe harbor 401k slmple 40lk roth 401k",
+        "question_type": "what"
+    },
+    {
+        "question": "what is a 403b retirement plan?",
+        "ground_truth": "a 403b plan is a retirement plan for certain employees of public schools, employees of tax exempt organizations, and certain ministers. under a 403b plan qualified employees can contribute part of their paycheck to the plan, and employers have the option to also make contributions to the plan for their employees. named after subsection 403b of the irs tax code, 403b plans are very similar to 40 lk retirement plans. both have the same contribution limits, both can offer roth options and both require participants to reach age 59 12 before taking distributions without penalty.",
+        "question_type": "what"
+    },
+    {
+        "question": "what is critical illness insurance?",
+        "ground_truth": "critical illness insurance also referred to as supplemental insurance provides employees diagnosed with a specific disease with a fixed, lump-sum payment. common policies include those providing coverage for individuals diagnosed with cancer, heart disease, stroke, and kidney disease. in addition to lump-sum payments, some policies include a per-day benefit for treatments such as chemotherapy and for inpatient hospitalization or other medical care. critical illness benefit payments are made directly to the employee and can be used for any purpose, including payment of deductibles and co-payments, travel and other expenses incurred by employees that require extensive medical treatment and unpaid absences from work. according to a 2016 survey by supplemental insurance provider aflac, 59 percent of employees agreed they would not be able to adjust to the large financial expenses associated with a serious illness or injury, making supplemental insurance of this type invaluable. critical illnesssupplemental insurance policies are nom1ally paid for by the employee with the employer handling the payroll deductions and premium payments. the premiums are not tax deductible for the employee, but the benefit payments are made tax-free.",
+        "question_type": "what"
+    },
+    {
+        "question": "what is disability insurance?",
+        "ground_truth": "disability insurance provides partial replacement of pay for employees who are unable to work due to illness or injury.",
+        "question_type": "what"
+    },
+    {
+        "question": "what is long-term care insurance ltci?",
+        "ground_truth": "long-term care insurance provides coverage for individuals suffering from prolonged or chronic illness or disability, whether physical or cognitive. this type of insurance includes services such as home health care, assisted living care, nursing home care, and hospice care. long-term care insurance is becoming more popular because of the aging of the work force and growing health problems for older workers. there are two types of long-term care plans, qualified and nonqualified. non-qualified plans are treated as non-deductible personal expense and any proceeds are taxable. qualified plans are treated as health and accident insurance and amounts received from them except for policyholder dividends or refunds are normally non-taxable.",
+        "question_type": "what"
+    },
+    {
+        "question": "what is long-term disability insurance?",
+        "ground_truth": "if you are disabled and cannot work, long-term disability insurance typically pays 60 of your wages until you reach age 65. it can be used to supplement social security disability payments, providing an extra layer of income. long-term disability premium amounts vary considerably, depending on the age and general health of the insured, as well as the size of daily payouts and the term length of the policy. in general premiums for long-term disability coverage average over 2000 per year.",
+        "question_type": "what"
+    },
+    {
+        "question": "what is short-term disability insurance?",
+        "ground_truth": "short-term disability pays a percentage of an employees compensation if he or she becomes temporarily disabled and unable to work for a short time.",
+        "question_type": "what"
+    },
+    {
+        "question": "what types of disability assistance can employers offer?",
+        "ground_truth": "disability benefits include workers compensation, paid leave, short and long-tem1 disability insurance, critical care and long term care insurance.",
+        "question_type": "what"
+    },
+    {
+        "question": "what is the difference between workers compensation insurance and disability insurance?",
+        "ground_truth": "workers compensation insurance provides pa11ial compensation to employees who become ill or are injured while they are at work. disability insurance also provides partial compensation, but the coverage applies whether the employee becomes disabled at work or elsewhere.",
+        "question_type": "what"
+    },
+    {
+        "question": "in general, what is the additional cost per employee when an employer adds an employee benefit plan?",
+        "ground_truth": "providing benefits that meet employee needs and conform with the appropriate laws and regulations adds a significant amount of expense. benefits generally add 30 to 40 percent to the base pay of most employees. according to data collected through 2017 by the bureau of labor statistics, the average cost of employee benefits for employers including both financial compensation and employee benefits was 35.87 per hour per employee. of that amount, compensation accounted for an average of 24.49 or 68.3 percent, while benefits accounting for the remaining 11.38 or 31.7 percent.",
+        "question_type": "what"
+    },
+    {
+        "question": "what are the most common benefits offered by employers?",
+        "ground_truth": "popular types of benefits include paid time off such as pto, sick days, and vacation days expense reimbursement health insurance dental insurance vision insurance healthcare spending or reimbursement accounts, such as health savings accounts, flexible savings accounts, and health reimbursement arrangements short and long-term disability insurance life insurance retirement savings accounts profit-sharing plans adoption assistance educational assistance childcare benefits gym memberships or discounts wellness programs financial advice programs employee reconcilliation programs moving expense reimbursement commutingtravel assistance telecommuting options workplace perks such as flexible work schedules and daycare facilities",
+        "question_type": "what"
+    },
+    {
+        "question": "what are the most common mistakes employers make when setting up employee benefit plans?",
+        "ground_truth": " starting a plan on their own. with all the complexity and regulations associated with employee benefit plans, employers should consult with an attorney or a benefits specialist to make sure that everything is set up properly. failing to include certain employees in the plan. the general rule is if one employee gets a tax-advantaged benefit one paid for with pre-tax dollars the same benefit has to be made available to all employees. providing benefits that are not really needed. for instance, if most of the employees are young and healthy, there may not be any reason to offer life insurance. including family or friends in the health care plan. if there is a large claim by a non-employee and the insurer investigates the claim, the result could be disallowance of the claim or even cancellation of the policy. not enrolling new employees in plans during the open enrollment period. most plans have a fixed time period for open enrollment and attempting to enroll a new employee later on requires proof of insurability, which can lead to problems for both the employee and the employer. failing to let employees know how much their benefits cost the employer. benefit plans are expensive and employees will appreciate them more if they are made aware of exactly how costly those benefits are for the employer. absorbing all or most of the expense of the benefit plan themselves. get the employees to share some of the expense. for example, roughly 90 of employers now require employee contributions to the employers health care plan. doing a poor job of communicating with their employees about the plan. it can be a fine line, providing too much detail about plan options or not providing enough, but employees need to have a clear understanding of their options so they can make informed choices. accidentally misrepresenting the benefits offered when hiring a new employee. an employee can sue for the benefits promised during the hiring phase, even if those benefits do not agree with what is in the actual benefit plan documents. not having employees who choose not to participate in a benefit plan sign a waiver to that effect. if there is no document to the contrary, employees can sue, claiming that they were never offered the opportunity to participate in the plan. failing to notify the insurance company about changes in employee pay rates. failing to keep up with changes in benefit plan regulations. employers need to make use of a lawyer, benefits consultant, or a service of some kind to keep them up to date on regulatory changes. failing to deposit employee retirement contributions into the plans trust fund in a timely manner. the hard deadline to deposit these contributions is the fifteenth business day of the month after the contribution was deducted from the employees pay. failing to notify participants of changes in the benefit plan. employers are required to notify participants in a health care or retirement plan of any changes in that plan and make them aware of how those changes affect them. allowing employees to stay on health plan coverage too long. for instance, keeping an employee who is on fmla leave on the health plan after coverage should have been terminated. note in that particular case the employer should terminate health coverage and offer the employee cobra coverage instead. putting independent contractors on the companys health care plan. adding contractors creates a multi-employer plan, which carries additional restrictions and reporting requirements such as annual filing of an m-1 report. failing to properly backup and secure plan participants personal data. in particular, employers who make use of benefit management software should make sure that it includes strong cybersecurity features.",
+        "question_type": "what"
+    },
+    {
+        "question": "what benefits are at the top of the list for employees and prospective employees?",
+        "ground_truth": "job applicants want paid time off and health insurance above all, but retirement plans are a close second. other most wanted benefits include overtime pay, paid medical leave, dental and vision coverage, and disability and life insurance. flexible work schedules and the ability to work remotely are also becoming an important perk for employees. the newest trend in employer-provided benefits? wellness programs - physical wellness, financial coaching and emotional wellness programs. in fact a majority of employers in the you.s. now offer mental wellness programs, such as stress management, and financial help such as retirement planning or credit counseling.",
+        "question_type": "what"
+    },
+    {
+        "question": "what is a summary annual report sar?",
+        "ground_truth": "a summary of a benefit plans form 5500 filing for the year which has to be made available to all participants and beneficiaries to comply with erisa requirements. a sar covers the most important information participants need to know about their retirement and health benefit plans and may include the latest updated spd, any smms, the latest form 5500, and other documents.",
+        "question_type": "what"
+    },
+    {
+        "question": "what is a summary of material modifications smm?",
+        "ground_truth": "a detailed summary to notify participants in a benefit plan of significant changes to the plan document.",
+        "question_type": "what"
+    },
+    {
+        "question": "what is a summary plan description?",
+        "ground_truth": "a detailed, but easily understood, summary describing a qualified plans provisions which must be provided to all plan participants and beneficiaries. many plan sponsors combine the plan document and the spd into a single document the only requirement for doing that is that the combined document must be able to be easily read and understood by participants in the plan.",
+        "question_type": "what"
+    },
+    {
+        "question": "what is a wrap plan document?",
+        "ground_truth": "an insurance companys master contract, certificate of coverage, or summary of benefits cannot be used by itself as a plan document or summary plan description spd because it rarely if ever provides all the information necessary. a wrap plan document wraps the missing info1mation around the plans insurance policy or master contract.",
+        "question_type": "what"
+    },
+    {
+        "question": "what is open enrollment for benefits?",
+        "ground_truth": "in the you.s., open enrollment season is the period of time during the year when employees can choose or change the benefit options available to them through their employer, such as health, dental, retirement savings and life insurance.",
+        "question_type": "what"
+    },
+    {
+        "question": "what is the plan document?",
+        "ground_truth": "the plan document includes the key information about any benefit plan that falls under erisa regulations. erisa does not require the plan document to be in any specific format, but it has to contain certain information name of the plan administrator designation of any fiduciaries other than the plan administrator a description of the benefits provided any restrictions on who is eligible to participate. for example, are only certain classes of employees eligible, is there a required waiting period for new hires to be eligible, and do employees have to work a certain number of hours per week to be eligible the effective date of a newly enrolled employees participation in the plan how much a participant has to pay towards the cost of coverage the plan sponsors amendment and termination rights and procedures, and what happens to plan assets, if any, in the event of the plan being terminated rules restricting and regulating the use of personal health information phi, if the plan sponsor uses phi procedures for allocating and designating administrative duties to a third party administrator or committee funding for the plan, whether it is from the employer andor employee contributions or from company assets how insurer refunds are allocated to participants for group health plans, additional infom1ation regarding cobra, hipaa, and other federal mandates.",
+        "question_type": "what"
+    },
+    {
+        "question": "what percentage of employers offer particular benefits like health insurance, disability insurance, or retirement plans?",
+        "ground_truth": "according to the society for human resource management shrm, 93 of organizations offer traditional 401k plans, and 74 match employee 401k contributions at some level and 42 of employers automatically enroll new employees into a defined contribution retirement savings plan. also according to shrm, 98 of employers offer paid vacation leave and 95 offer paid sick leave to some or all employees. additional statistics on benefits show that 52 of small business employers offer dental insurance ehealth 41 of small business employers offer vision insurance ehealth 16 of employers offer free snacks reportlinker 55 of employers offer a sit-to-stand ergonomic desk or treadmill workstation fidelity investments 42 of companies offer onsite lactation rooms shrm 32 of organizations offer legal assistance shrm 34 of employers offer unpaid family leave beyond what is required by the family and medical leave act international foundation of employee benefit plans 58 of organizations report offering general wellness programs in 2019 sh rm preferred provider organization ppo plans continue to be the most popular health care insurance offering, with 85 of employers including a ppo option shrm 59 of employers offered an hdhp linked to a health saving or spending account and 19 offered an hdhp not linked to a health saving or spending account shrm in 2019, 39 of organizations provided an employer contribution to hsas shrm 83 of employers share the cost of health insurance premiums with employees shrm 36 of employers report that they share the cost of premiums for part-time employees, and 19 still require they bear the burden in full shrm 83 of employers offer accidental death dismemberment insurance, 71 offer long-term disability, 61 offer short-term disability, and 27 offer accident insurance shrm 56 of organizations offer health savings accounts shrm also, a 2016 employee benefit research institute study showed that 58 of employers offered short-term disability, 33 offered long-term care insurance, 28 offered accident insurance, 19 offered critical illness coverage and 16 offered cancer insurance.",
+        "question_type": "what"
+    },
+    {
+        "question": "what specific types of benefits fall under erisa coverage?",
+        "ground_truth": "erisa coverage applies to a wide range of benefits including defined-benefit and defined-contribution retirement plans health and medical care insurance health savings accounts flexible spending accounts dental, vision, and prescription drug plans disability insurance unemployment insurance long-term care plans vacation plans prepaid legal services plans business travel insurance employment training programs day care centers educational assistance plans wellness plans",
+        "question_type": "what"
+    },
+    {
+        "question": "what type of benefit plan documents are required by erisa?",
+        "ground_truth": "erisa requires several types of written documents a plan document which describes the participants rights, benefits, and obligations within the plan, along with the terms and conditions for administering the plan. a summary plan document spd to be distributed to participating employees, a summary of material modifications smm describing any significant changes to the plan, and a summary annual report sar to be submitted to the irs.",
+        "question_type": "what"
+    },
+    {
+        "question": "what type of benefit plans are not covered by erisa?",
+        "ground_truth": "erisa does not apply to benefit plans that are maintained only to comply with workers compensation, disability or unemployment laws. also, sick pay, medical leave and short-term disability plans do not involve erisa if benefits are paid directly to individuals, there are no employer contributions, and funding does not come from insurance policies or pre-funded accounts.",
+        "question_type": "what"
+    },
+    {
+        "question": "what is an employee profit-sharing plan?",
+        "ground_truth": "profit-sharing plans are defined contribution plans that are designed to help employees save for retirement and to encourage employees to work to keep profits high. in this type of benefit plan the employer places a percentage of the companys annual profits into a fund or trust. then, the employer disperses it to eligible employees either as a cash bonus or as a deferred retirement benefit. since the contributions to the fund are discretionary, employers can decide each year whether or not to put money into the fund, which makes profit-sharing plans an attractive benefit option for employers. unlike a 401k plan, the employees do not make contributions to the profit-sharing plan. employers usually fund a profit-sharing plan by making contributions to a qualified tax-deferred retirement account and taking a tax deduction on those contributions. because the contributions are pre-tax the company can make penalty-free distributions to employees after they reach the age of 59 in the form of cash or stocks. employees who are not 59 yet normally are charged 10 of the distribution for early withdrawal, but they may be able to withdraw their money from the plan without paying a penalty if they are suffering a financial hardship or if the employer shuts the plan down and does not replace it with a different one. the tax-deferred funds withdrawn by the employee are subject to federal, state and local income tax when they are distributed. however, if they want to, employees may be able to roll the money from their distribution over into a traditional individual retirement account ira in order to postpone paying taxes unless the individual is already age 70 12 or older. note under the terms of the secure act of 2019, individuals do not have to start taking distributions until age 72 if they had not reached age 70 by january 1, 2020. one downside for employers is that profit-sharing plans require a good deal of administrative time and effort. plan documents have to be created and updated, and there are reporting requirements as well as fiduciary responsibility for safe-guarding and disbursing the plan funds.",
+        "question_type": "what"
+    },
+    {
+        "question": "what resources docs the irs provide to help with correcting plan errors?",
+        "ground_truth": "employers can contact the irs directly.",
+        "question_type": "what"
+    },
+    {
+        "question": "what are major medical plans and how do they work?",
+        "ground_truth": "major medical plans are a special type of fee-for-service plan designed to protect participants from the large medical expenses that result from long-term chronic or catastrophic illness or injury. they come in two types comprehensive and supplementary plans. the difference between the two is that comprehensive plans coinsure all covered medical expenses once the deductible is met, while supplementary plans coinsure all covered medical expenses once the deductible is met that are over and above those expenses covered by another plan. both types have high deductibles, co-insurance requirements, and a ceiling on the amount of benefits available during the plan year. however, both types of major medical insurance offer advantages over basic coverage health care plans rather than covering only certain specified medical expenses, major medical plans cover almost all personal medical expenses whether the expense was incurred inside or outside of a hospital. major medical plans reimburse virtually all patients according to the same formula, regardless of the specialty of the physician, the location of the treatment, the drugs used, or the diagnostic techniques employed. the maximum amount of benefits payable is considerably higher under a major medical plan than under a basic medical plan, particularly for physician and surgeon fees. having employees pay a deductible and co-insurance tends to keep them from making unnecessary visits to the doctor, which helps keep insurance costs down.",
+        "question_type": "what"
+    },
+    {
+        "question": "what are the basic reporting requirements for group health plans?",
+        "ground_truth": "most group health plans are required to file a hmn 5500 annual report with the department of labor within seven months of the end of the plan year, although they can apply for an automatic extension that gives them an additional 2 12 months to file.",
+        "question_type": "what"
+    },
+    {
+        "question": "what are the disclosure requirements for a group health plan that falls under erisa the employee retirement income security act?",
+        "ground_truth": "participants must be provided copies of the group health plan summary plan description spd within 90 days after they become covered under the plan or if the plan is new, within 120 days. in addition, plan participants have to be provided summarized copies within 60 days of adoption of any material modification to the plan that significantly reduces benefits. updated spds must be furnished to participants at least every five years if there have been any material changes made within that five-year period. employers who fall under the patient protection and affordable care act aca must provide, in addition to an spd, a much more condensed summary of their health plan benefits no more than four double-sided pages 1 his summary is referred to as a summary of benefits and coverage or sbc. an sbc has to be in a standardized form and may have to be submitted in as little as seven days after it is requested. in addition, if any material changes are made to the plan during the plan year, updated summaries reflecting those changes have to be distributed to participants at least 60-days prior to the date any change takes effect.",
+        "question_type": "what"
+    },
+    {
+        "question": "what are the main points employers need to communicate to their employees about their health insurance plan?",
+        "ground_truth": "let the employees know if their current doctors are in the plans network. if their prescription medications are covered. how much they have to pay per doctor visit.",
+        "question_type": "what"
+    },
+    {
+        "question": "what are the main types of employee health care plans?",
+        "ground_truth": "health care plan options include health management organizations hmos. preferred provider organization ppos. point of service pos health plans. exclusive provider organization epo health plans. traditional indemnity or fee-for-service plans. health savings account hsa health plans. health reimbursement arrangement hra major medical plans",
+        "question_type": "what"
+    },
+    {
+        "question": "what does it take to establish a group health care plan?",
+        "ground_truth": "erisa the employee retirement jncomc security act requires employers to have a written plan document in order to establsh a group health plan. the plan document has to provide for one or more fiduciaries who have the authority to manage the plan, and it has to include funding policies and procedures. the plan document abo has lo describe what the proccdures are for amending the plan and which individuals have the authority to make amendments. in addition, procedures have to be included detailing how payments are to be made to and from the plan and how participants can make a claim for a benefit from the plan.",
+        "question_type": "what"
+    },
+    {
+        "question": "what is a point of service pos health plan and how does it work?",
+        "ground_truth": "point of service plans combine some of the features of an hmo and a ppo plan. like an hmo, pos plans may require employees to choose a primary care physician pcp from the plans network of providers. also like an hmo, medical services provided by an employees pcp are not subject to the policys deduct1ble. employees who obtain medical services from a nonnetwork provider may be subject to a deductible and lower level of coverage. they may also have to pay their bill up-front and submit a claim for reimbursement.",
+        "question_type": "what"
+    },
+    {
+        "question": "what is a preferred provider organization ppo and how docs it work?",
+        "ground_truth": "preferred provider organizations are very similar to hmos. like an hmo, the insurance company negotiates discounts with physicians and the hospitals and adds them to its network of providers. employees enrolled in a ppo plan are encouraged to choose doctors and hospitals from the network. employees who do choose providers from withing the network usually pay a set amount per office visit typically 10 to 30 with the insurance company paying the rest. unlike an hmo, ppo networks are generally smaller and you can see a specialist without having to see a primary care physician pcp first. also, you can see a physician outside of the network and you will probably have your cost covered although likely at a lower rate than for in-network physicians. however, premiums are usually higher than in hmos and it is usual to have a deductible amount you have to meet each plan year before coverage kicks in.",
+        "question_type": "what"
+    },
+    {
+        "question": "what is an exclusive provider organiziation epo plan and how does it work?",
+        "ground_truth": "exclusive provider organization plans are similar to hmos in that they have a network of physicians and hospitals that their members are required to use unless it is an emergency. ln case of illness or injury, employees see their primary care physician pcp who can refer them to an in-network specialist if additional treatment is necessary. epo members are responsible for small co-payments and may have to pay a deductible before insurance coverage takes over.",
+        "question_type": "what"
+    },
+    {
+        "question": "what is an hmo health management organization and how does it work?",
+        "ground_truth": "hmos are the most common type of health care offered by employers today. with an hmo, an insurance company or managed care company contracts with general practitioners, specialists, and hospitals to provide health care for the members it insures. the members, in tum, have to choose a general practitioner or primary care physician from the list of doctors who have contracted with the hmo and they have to go through their pcp for any medical treatment they need. if members go to a doctor outside the hmo network they will not be covered by insurance unless it is a life-threatening emergency. employees insured by the hmo will normally have to make only a small co-payment about 20 when they visit their doctor as long as they go to their primary care physician for treatment and for referrals to specialists and hospitals approved by the hmo. the major drawbacks of an hmo are strict rules and lack of free choice in physicians and medical facilities. however, hmos offer a broad range of services and a choice of coverage and copayment levels.",
+        "question_type": "what"
+    },
+    {
+        "question": "what is an indemnity or fee-for-service plan and how does it work?",
+        "ground_truth": "fee-for-service plans, also known as indemnity plans, are traditional insurance plans that allow employees to chose any physician or medical facility they want to use. in return, the insurer requires employees to pay a deductible amount each year before coverage kicks in. once the deductible has been met, the insurance company will pay the majority of each bill usually 70 to 80 percent, and the employee pays the remainder the coinsurance charge of 20 to 30 percent. fee-for-service plans have been largely replaced by hmos and ppos. indemnity plans give participants complete freedom to chose their providers, but that means that there is no network and no negotiated fee structure, so premiums are higher than with other types of health care plans. as a result, younger, healthier employees tend to move to hmos and ppos, causing indemnity plan premiums to increase even more as the number of participants decreases.",
+        "question_type": "what"
+    },
+    {
+        "question": "what is the consolidated omnibus budget reconciliation act cobra?",
+        "ground_truth": "the consolidated omnibus budget reconciliation act requires employers with 20 or more employees who have a group health plan to provide participants and qualified beneficiaries the option to pay for continued coverage in cases where coverage would normally end. if an employee dies, becomes incapacitated, loses his or her job or suffers a reduction in work hours, health care coverage can be extended for up to 18 or 36 months, depending on circumstances. the cost of health insurance provided under cobra is usually high, because the recipient pays the entire premium including the portion that was being paid by the employer. in that sense, cobra coverage is primarily a stop-gap until less expensive health insurance can be found. to qualify for cobra coverage, an employee has to have been enrolled in a company-sponsored group health insurance plan on the day before the qualifying event loss of job, reduced hours, etc. occurs and the insurance plan must have been in effect on more than 50 of the employers typical business days during the previous calendar year. ln addition, the employer must still be offering existing employees a group health plan if the employer stops offering health coverage or goes out of business or drops below 20 employees the employee seeking cobra coverage may no longer be eligible for extended insurance benefits. even small employers with less than 20 employees may be required to provide extended insurance coverage to employees who have suffered a qualifying event. many states have laws similar to cobra. these mini-cobra laws generally apply to employers of all sizes, including those with fewer than 20 employees.",
+        "question_type": "what"
+    },
+    {
+        "question": "what is the difference between coinsurance and co-payment?",
+        "ground_truth": "a co-payment, or co-pay, is a flat fee for a healthcare service or prescription drug, with the fee based on the particular service or drug. actual fee amounts are set out in the policyholders insurance plan. co-pays, like coinsurance, are a way for insurers to share the cost of medical services with their policyholders and can take effect either before or after the policys deductible amount has been met. visits to a policyholders primary care physician are a common case where the insurer waives the deductible amount and the insured only pays the co-pay fee, which is a small fraction of the actual charges. generally that arrangement only applies to the first few doctor visits during the year. once the policyholder exceeds the allowed number of visits, then he or she has to pay 100 percent of the bill until the deductible is met. at that point the co-pay amount applies again for the remainder of the year. coinsurance, like a co-payment, is a method of sharing the cost of medical services or drugs between the insurer and the policyholder. unlike co-payments, coinsurance is calculated as a percentage of the bill, rather than a flat fee, and normally applies only after the deductible amount of the policy is met. for example, if you have a 20 coinsurance, you pay 20 of each medical bill, and your health insurance will cover the other 80. as with co-payments, there may be different coinsurance percentages for different services, such as x-rays, lab work, or colonoscopy. different percentages may also apply to members of a network like a ppo preferred provider organization who see a physician outside of the policys network.",
+        "question_type": "what"
+    },
+    {
+        "question": "what are the advantages for employers in establishing a simple ira?",
+        "ground_truth": "simple iras offer several advantages for employers. all contributions made to employees can be deducted on the employers tax return and for the first three years of the plan, employers may be eligible to receive a tax credit of 50 percent of the plans administrative costs up to a maximum of 500 per year. plus, under the secure act of 2019, small businesses may also receive an additional tax credit to offset the costs of starting a 401k plan or simple ira plan with auto-enrollment. note employers suffering a business downturn cannot suspend, reduce or increase their matching contributions to a simple ira in the middle of the year. employer contributions for the current year have to be made in accordance with the plan notice given to employees at the beginning of the year. simple iras are easier to set up than a 401k, although the employee annual contribution limits are lower for 2020, employees can defer up to 13,500 of income and 3,000 in catch-up contributions if they are age 50 or over. simple iras are also fairly easy to manage and they are not subject to antidiscrimination testing, top-heavy testing, or vesting schedules.",
+        "question_type": "what"
+    },
+    {
+        "question": "what is a salary reduction simplified employee pension plan sarsep ira?",
+        "ground_truth": "a salary reduction simplified employee pension plan is a simplified employee pension plan set up before 1997 that includes a salary reduction arrangement. with a sarsep, instead of establishing a separate retirement plan employers make contributions to their own individual retirement account ira and the iras of their employees, subject to certain limits.",
+        "question_type": "what"
+    },
+    {
+        "question": "what is a simple ira?",
+        "ground_truth": "a savings incentive match plan for employees ira is a retirement savings plan for small businesses with less than l00 employees. simple iras work a good deal like traditional iras. eligible employees decide how much if any of each paycheck they want to contribute to their ira and employers are required to contribute to each employees account. the employer has to either match each employees contribution dollar for dollar up to 3 of the persons pay or make a 2 non-elective contribution to all eligible employees whether or not they are contributing to the plan. if the employer does elect to make a flat 2 contribution, there is an annual limit of 285,000 per employee. also, to make 2 non-elective contributions, eligible employees have to be notified of that choice prior to the open enrollment period when employees can enroll in salary reduction agreements. similar to a traditional ira, the amounts contributed to a simple ira along with any earnings on those contributions are tax-deferred until the employee takes a distribution. one major difference from traditional iras is that simple ira contributions are not tax deductible for employees. simple iras also do not allow for employee loans against the balance in their account and non-qualified withdrawals can result in a penalty of 10 of the withdrawal amount 25 if within the first 2 years of participation plus the income tax owed.",
+        "question_type": "what"
+    },
+    {
+        "question": "what is an employer-sponsored ira plan?",
+        "ground_truth": "basically an employer-sponsored ira is an arrangement where an employer makes ira contributions for some or all of the organizations employees and the employees can decide whether or not to make their own contributions. the employer can choose to make the contributions into either a traditional ira or a roth ira. in contrast to other employer retirement plans such as a 401k, sep, or simple 401k, the employer has total flexibility as to which employees receive ira contributions since there are no fairness or equal treatment tests involved. helping employees provide for their retirement can be an important benefit in attracting and retaining employees and many employers want to provide a retirement plan but do not feel like they can deal with the administration and compliance issues with 401k or similar plans. in that case, employer-sponsored iras are an attractive alternative since administering these types of plans is comparatively simple and straight-forward.",
+        "question_type": "what"
+    },
+    {
+        "question": "what is an ira?",
+        "ground_truth": "an individual retirement account or ira is an account set up at a financial institution that allows an individual to save for retirement with tax-free growth for roth iras or on a taxdeferred basis for traditional iras.",
+        "question_type": "what"
+    },
+    {
+        "question": "what is an simplified employee pension ira?",
+        "ground_truth": "employers of any size can offer an sep ira retirement plan to their employees. the employer just has to set up the plan by filling out the 5035-sep fom1, following the directions, and making regular contributions to each employee account. sep iras also provide employers with considerable flexibility since they can change the amounts they are contributing to the iras from year to year, based on whether company revenues are rising or falling. administrative requirements for sep plans are minimal, they do not require any annual filing, and all contributions made to sep iras are immediately 100 percent vested to owned by the employee. employees are responsible for establishing an ira to receive the employer contributions and for investing the money contributed to the ira, but only the employer can make contributions to an sep ira although sep rules may allow employees to make regular contributions to the ira on their own, outside of the company. sep ira rules do require that all employer contributions must be based on the same percentage of compensation for all covered employees. in addition, all plan participants who worked for the business during the plan year must receive sep contributions even if they leave their job or die before the contributions are made. sep iras do have a high annual contribution limit, which, for 2020, is 25 percent of the employees salary or 57,000, whichever is less, and with an sep ira, employers receive a tax deduction for their contributions. the contributions are also tax free for the employees, although any distributions will be taxable. there are a few things to be aware of with an sep jra employee loans against tbeir lra balance are not allowed. certain employees are not eligible to participate including those under 21 and those who are part of a collective bargaining agreement. employees who worked less than 3 of the last 5 years are not eligible to participate. employees who earned less than 600 during the previous year are not eligible to take part.",
+        "question_type": "what"
+    },
+    {
+        "question": "what can employers do to make sure their benefit plans are being operated and administered correctly?",
+        "ground_truth": "employers can take a number of steps to check on how their benefit plans are doing compare the plans account balance against a sample list of participants actual payments. compare a sample list of participant vesting percentages against the plans records. maintain a list of scheduled deadlines and reports and make sure that each item is taken care of and signed off on before the deadline. for example verify that plan contributions are deposited on time and that deposit amounts agree with plan records. spot-check participant statements for accuracy. keep detailed records explaining any unusual events or actions taken in connection with a benefit plan.",
+        "question_type": "what"
+    },
+    {
+        "question": "what is a benefits broker?",
+        "ground_truth": "a benefits broker is pretty much like any other insurance broker. they can help employers detc1mine what types of benefits work best for them and what plan options are available. in addition, benefit brokers can negotiate with plan providers to try to secure the lowest cost possible. a major advantage of working with benefit brokers is that there is no cost to the employer since brokers are paid in commissions from the plan providers based on the business the broker brings in.",
+        "question_type": "what"
+    },
+    {
+        "question": "what are the safe harbor provisions in qaca plans?",
+        "ground_truth": "qacas are exempt from actual deferral percentage adp testing requirements and, if additional requirements are met, the plan will also be exempt from actual contribution percentage acp testing.",
+        "question_type": "what"
+    },
+    {
+        "question": "what employee deferral rates are required with qacas?",
+        "ground_truth": "employers who use qacas automatically enroll their workers in the company retirement plan with a deferral rate of 3 or greater, unless an employee elects to opt out. the default deferred contribution for a qaca also has to increase each year from at least 3 the first year to at least 6, with a maximum of 15 in any year the maximum was 10 until it was raised to 15 by the secure act of2019.",
+        "question_type": "what"
+    },
+    {
+        "question": "what is a qualified automatic contribution arrangement qaca?",
+        "ground_truth": "qualified automatic contribution arrangements qacas are a type of automatic enrollment retirement plan. qacas are based on a rule in the pension protection act of 2006 that is designed to increase employee participation in self-funded retirement plans. self-funded retirement plans include 401ks, 403bs, and deferred compensation 457s.",
+        "question_type": "what"
+    },
+    {
+        "question": "what is an eligible automatic contribution arrangement eaca?",
+        "ground_truth": "eacas are basically the same as a qaca, but they have simpler requirements. under an eaca, plan participants automatically contribute a set, uniform percent of their gross pay to the eaca. employers using an eaca have to treat all employees who do not provide any definite enrollment instructions the same, enrolling them in the same plan at the same contribution rate. also, unlike a qaca, employees in an eaca are immediately 100 vested in their automatic enrollment contributions.",
+        "question_type": "what"
+    },
+    {
+        "question": "what changes have been made regarding employer contributions to retirement plans?",
+        "ground_truth": "if the sponsors plan document provides for fixed or mandatory non-elective or matching contributions, it requires a plan amendment to reduce, suspend, or eliminate future fixed or mandatory contributions. the plan can be amended at any time to make those changes going forward but the employer is obligated to fund any fixed or mandatory contributions that a participant earned prior to the amendment effective date and to provide employees with a notification of the plan amendment in the fom1 of a summary of material modifications smm or an updated summary plan description spd. if employer contributions are totally discretionary, and the employer has not formally notified the employees of a commitment to make them on a regular basis, then employer contributions can be halted without amending the plan. however, employers should immediately give notice of the decision to suspend contributions",
+        "question_type": "what"
+    },
+    {
+        "question": "what changes have been made regarding plan distributions?",
+        "ground_truth": "under the cares act, a plan sponsor can allow participating employees to take penalty-free coronavirus-related distributions from an eligible retirement plan. the total amount of coronavirusrelated distributions made to a participant during the year whether from one plan or multiple plans is limited to 100,000. this change covers 401k, 403b, and governmental 457b plans, as well as individual retirement accounts iras, simple iras and seps. however, coronavirus distributions have to made before december 31st, 2020. to qualify for a coronavirus-related distribution, the employee has to be a qualified individual who meets any of the following conditions has been diagnosed with covid-19 by a center for disease control approved test. has a spouse or dependent who has been diagnosed with covid-19 by a cdc approved test. is having financial problems as a result of being quarantined, laid off, or having work hours reduced as a result of covid-19. is unable to work due to having a school or child care facility closed because of covid-19. operates a business that has closed or has bad to reduce working hours due to covid-19. has experienced other hardships due to covid-19 as determined by the secretary of the treasury. plan sponsors can accept a participating employees selfcertification that he or she is a qualified individual in order to receive a coronavirus-related distribution. coronavirus distributions are subject to a 1o federal tax withholding requirement unless waived by the participant. however, recipients can choose to spread that income tax over a 3-year period or, if the distribution is paid back into an eligible retirement plan within 3 years, the tax can be deferred. note the cares act did not specifically address profit-sharing, money purchase pension plans or defined benefit and cash balance plans, so the usual penalties would apply to early distributions withdrawals before age 59 for those plans.",
+        "question_type": "what"
+    },
+    {
+        "question": "what changes have been made to flexible savings accounts fsas?",
+        "ground_truth": "the cares act reversed a section of the affordable care act that prohibited fsas, health savings accounts hsas, and health reimbursement arrangements hras from reimbursing expenses for over-the-counter otc medical products. any otc medical items purchased after december 31, 2019, are eligible for reimbursement without requiring a prescription.",
+        "question_type": "what"
+    },
+    {
+        "question": "what are 401a plans?",
+        "ground_truth": "a 401a plan is normally offered by government agencies, educational institutions, and nonprofit organizations, rather than by for-profit businesses. these plans are usually custom-designed and can be offered to key employees as incentive to stay with the organization. the employee contribution amounts are normally set by the employer, and the employer is also required to contribute to the plan. contributions can be either pre- or post-tax.",
+        "question_type": "what"
+    },
+    {
+        "question": "what are the different types of qualified retirement plans?",
+        "ground_truth": "there are a number of qualified plans, including 401k plans 401a plans 403b plans employee stock ownership esop plans salary reduction simplified employee pension sarsep plans simplified employee pension sep plans savings incentive match plan for employees simple plans profit sharing plans",
+        "question_type": "what"
+    },
+    {
+        "question": "what are the tax advantages involved for employers and employees when they contribute to a qualified retirement plan?",
+        "ground_truth": "employers who make contributions to employees participating in the plan receive an immediate income tax deduction and employees in the plan receive those contributions tax-free. n addition, by making pre-tax contributions themselves, employees are not subject to federal, state or local income tax on those cont1ibutions until they begin withdrawing money taking distributions from their account. however, employee pre-tax contributions to qualified retirement plans are subject to social security and medicare tax, as well as federal and state unemployment tax, at the time the contributions are made. a major tax advantage for many employees is that they generally will not begin taking distributions from their retirement plan until they reach retirement age. normally, at that point, they are not making as much money as they did at the high point of their career. that means they have moved to a lower income tax bracket, so they will be paying less income tax on the money they withdraw than if they had taken it as wages in the first place. in addition, the money held in that account over the years will have been earning additional money as interest or other income, tax-free.",
+        "question_type": "what"
+    },
+    {
+        "question": "what is a qualified retirement plan?",
+        "ground_truth": "a qualified retirement plan meets the requirements of internal revenue code section 401a of the lnternal revenue service irs, which makes the plan eligible to receive certain tax benefits, unlike a non-qualified plan. qualified plans are either defined-benefit or defined-contribution plans except for a few special types such as cash balance plans. defined benefit plans provide employees with a guaranteed payout at retirement. the employer has the responsibility to invest and manage plan funds properly in order to be able to deliver the promised benefit payments. a traditional annuity-type pension is an example of a defined-benefit plan. on the other hand, with defined contribution plans by far the most prevalent type today, employees bear the burden of making good choices about how to invest the funds in their account in order to provide enough money for their retirement.",
+        "question_type": "what"
+    },
+    {
+        "question": "what is an serp?",
+        "ground_truth": "a supplemental employee retirement plan is a non-qualified retirement plan for executives. normally plans of this type are not eligible for tax-favored treatment because they provide benefits over and above those provided by the companys qualified retirement plan.",
+        "question_type": "what"
+    },
+    {
+        "question": "what types of investments do retirement plan managers normally make with the plan funds?",
+        "ground_truth": "qualified retirement plan funds are often invested in stocks, money market funds, mutual funds, and real estate. plan funds cannot be invested in life insurance, antiques and collectibles, or in real estate intended for personal use.",
+        "question_type": "what"
+    },
+    {
+        "question": "what are some examples of options that can be included in a section 125 cafeteria plan?",
+        "ground_truth": "qualified benefits available under a section 125 cafeteria plan include accident and health insurance health savings accounts hsas flexible savings accounts fsas premium only plans pops dependent care assistance programs dcaps short and long term disability coverage group term life insurance adoption assistance cash",
+        "question_type": "what"
+    },
+    {
+        "question": "what are some options that cannot be included in a section 125 cafeteria plan?",
+        "ground_truth": "plans that cannot be offered on a pre-tax basis include retirement planning services educational assistance programs spousal or dependent life insurance health insurance plans purchased through an exchange with the exception of shop plans individual health insurance policies archer medical savings accounts long term care insurance employee discounts meals lodging on employer premises transportation or commuting benefits athletic facilities",
+        "question_type": "what"
+    },
+    {
+        "question": "what are the different types of hras?",
+        "ground_truth": "there are number of new types of hras available for 2020 the qualified small employer hra qsehra qsehras are for businesses that employed less than 50 full-time employees including full-time-equivalent employees during the preceding year and that do not offer a group health care plan. these hras limit the amount of the expense reimbursement allowance employers can provide - for 2020 the limits are 5,250 for an individual and 10,600 for a family. additionally, employers must offer all employees part-time as well as full-time the same terms. with a qsehra, employers can reimburse employees tax-free for their medical expenses, including premiums for individual-market health insurance policies. the individual coverage hra ichra - an ichra is very similar to a qsehra, but there are key differences there is not any limit on employer allowances. employers can offer different terms to different classes of employees. an ichra can be coordinated with an fsa. an ichra can be offered stand-alone with no group health plan or as an option to an employer-sponsored group plan. the excepted benefit health reimbursement arrangement ebhra - ebhras allow employers to contribute up to 1,800 per year for 2020 toward their employees expenses that are not covered by the companys group plan. this type of hra can be used to reimburse employees for expenses such as short-term disability insurance, and dental and vision care. the group coverage hra gchra - group coverage hras are only available to businesses who also offer a group health insurance policy. with a group coverage hra, businesses can offer employees monthly allowances to cover items that are not eligible for coverage under the group policy, such as deductible amounts. businesses of any size can offer a group coverage hra, there is not any maximum allowance amount, and different allowance amounts can be offered to different employees. the dentalvision hra - employers can use a dentalvision hra solely for the purpose of reimbursing employees for dental and vision expenses. the retiree hra - this type of hra is only available to a businesss retired employees and employers of any size can offer it. there is no allowance limit or group health plan requirements and employers can permit funds to be rolled over into a new plan year.",
+        "question_type": "what"
+    },
+    {
+        "question": "what are the requirements for a benefit plan to qualify as a section 125 cafeteria plan?",
+        "ground_truth": "section 125 cafeteria plan requirements include the plan must include at least one taxable benefit option and at least one pre-tax benefit. examples of taxable benefits include cash, life insurance, and disability insurance. only two types of pre-tax benefits can be included in the plan health and accident coverage such as dental. vision, supplemental health, and specified disease coverage, and individual insurance contracts that qualify as group term life insurance. employers can only offer pre-tax accident or health coverage to employees, spouses, children who are under age 27 as of the end of the taxable year, and individuals who otherwise qualify as an employees tax dependents for health coverage purposes.",
+        "question_type": "what"
+    },
+    {
+        "question": "what benefits can employees pay for with a section 125 cafeteria plan?",
+        "ground_truth": "options can include health and disability insurance to flexible spendmg accounts fsas, dependent care assistance plans dcap, health savings accounts hsas. and contributions toward retirement plans. ln addition, if the companys cafeteria plan includes a cash-out option and the employers contribution is more than the cost of the benefits chosen by an employee, then the employee can take the excess amount as additional taxable wages.",
+        "question_type": "what"
+    },
+    {
+        "question": "what else do employers need to know about hras?",
+        "ground_truth": "an hra is entirely funded by the employer - unlike an fsa or hsa, employees cannot contribute to an hra. however there is not any limit to how much an employer can contribute to an employees hra and the employer can either roll over all unused funds into a new plan year or roll over all unused funds up to a certain limit. company contributions to an hra are 100 percent tax-deductible for the employer and employee reimbursements are generally exempt from federal, state, and fica taxes. an hra is also more flexible than an fsa or hsa in that it can be used to pay medicare premiums and to cover medical expenses for spouses and dependents as well as the employee. however, like an fsa, hra funds can only be used to cover medical expenses see irs pub 502 for the list of covered expenses.",
+        "question_type": "what"
+    },
+    {
+        "question": "what if an employee does not want any of the options offered in a cafeteria plan?",
+        "ground_truth": "employees who do not want any of the offered benefits may be able to choose options such as cash, supplemental life insurance, disability insurance or other taxable benefits.",
+        "question_type": "what"
+    },
+    {
+        "question": "what is a consumer-driven health plan cdhp?",
+        "ground_truth": "a consumer-driven health plan is a health insurance plan that allows either employers, employees, or both to set aside pre-tax money to help pay for qualified medical expenses not covered by the employers health plan. they have higher deductibles and out of-pocket maximums than traditional health plans, but they also have lower monthly premiums. distributions are tax-free and so is any interest or other earnings from the funds in the cdhp account, plus any unused funds can be rolled over to the next plan year. cdhps are normally used in conjunction with an hra. by linking a cdhp to an hra, employees can use their hra to pay for doctor visits and other medical expenses until they meet the deductible amount for the cdhp, then the cdhp coverage kicks.",
+        "question_type": "what"
+    },
+    {
+        "question": "what is a dependent care assistance plan dcap?",
+        "ground_truth": "this plan can result in significant tax savings for employees who have expenses connected with day care, nursery school, preschool, adult day care facilities, or adult in-home day care. employees can make pre-tax contributions of up to 5,000 a year for dependent care expenses. dependents who qualify for care under a dcap include a dependent that is under the age of 13 and can be claimed as an exemption on a participants income taxes a dependent who is mentally or physically impaired and can be claimed as an exemption on a participants income taxes a spouse who is mentally or physically impaired.",
+        "question_type": "what"
+    },
+    {
+        "question": "what is a health reimbursement arrangement hra?",
+        "ground_truth": "for employers who are not sure they can afford an employersponsored healthcare plan, hras are a more flexible alternative. stand-alone health reimbursement arrangements can take the place of a group health insurance plan, while a group hra also referred to as an integrated hra can act to supplement the coverage of employees already enrolled in a group health care plan. with a stand-alone hra, the company provides employees with an allowance for eligible medical expenses and employees purchase and pay for their own health insurance. whether standalone or integrated, hras can help pay for a range of medical expenses that health insurance does not cover, in addition to providing money for insurance deductibles and co-pays.",
+        "question_type": "what"
+    },
+    {
+        "question": "what is a health savings account hsa and how does it work?",
+        "ground_truth": "health savings accounts are an alternative to standard group insurance plans. a health savings account is exclusively for individuals who are enrolled in a qualifying high deductible health plan hdhp, who are not medicare recipients and who do not have any other healthcare coverage except for insurance for accidents, disability, dental care, vision care, or long-term care. money contributed to an hsa can be used to cover medical expenses for the employee, his or her spouse and any qualified dependent. contributions to an hsa are tax-exempt and employers can also contribute to hsas the same as they would to a company health plan, even though the hsa is owned by the employee. all contributions to an hsa belong immediately to the employee. all contributions to an hsa belong immediately to the employee. the fact that an hsa belongs solely to the employee is a key feature of a health savings account. because hsas are owned by the individual employee they follow that individual even if he or she resigns, retires, or tem1inated. this is one of the biggest differences between an hsa and a health reimbursement arrangement or hra, which is owned by the employer. hsa funds can be used for a variety of medical purposes but they can also be used for non-medical expenses. however, account holders under 65 will have to pay income tax on the money spent on non-medical items plus a 20-percent penalty while account holders 65 or over will have to pay income tax on the cost of nonmedical items but will not be charged the 20-percent penalty. there is also an annual limit on the amount of contributions that can be made to an hsa. the limit for 2020 which is set by the irs is 3,450 for self-only coverage and 6,850 for family coverage. an additional 1,000 can be contributed by any individual who will be 55 or older at any time during the year. contribution limits for 2021 are projected to be 3,600 for self only coverage and 7,200 for family coverage. note archer medical savings accounts archer msas are basically identical to hsas, but are restricted to employers with less than 50 employees.",
+        "question_type": "what"
+    },
+    {
+        "question": "what is a premium-only plans pop plan?",
+        "ground_truth": "employees can choose between receiving their entire paycheck in cash or using part of it to pay for their group insurance plan premiums on a pre tax basis.",
+        "question_type": "what"
+    },
+    {
+        "question": "what is a section 125 cafeteria plan?",
+        "ground_truth": "one of the more underused employee benefits for small businesses is the section 125 cafeteria plan. a section 125 cafeteria plan is an employer-sponsored benefit plan that conforms to section 125 of the internal revenue code and allows employees to pay for certain qualified medical expenses on a pre tax basis by contributing part of their wages. it is called a cafeteria plan because, like a cafeteria, employees can choose the particular healthcare options they want, such as medical, dental, and vision coverage. cafeteria plans also include at least one taxable option, such as cash or supplemental life insurance. employees enrolled in a section 125 plan pay less in taxes since their contributions to the plan are usually made with pre-tax dollars that is, their cafeteria plan contributions are not included when calculating the employees payroll taxes. in addition, employer contributions to employee accounts are not taxed either. employers also pay less since employee pre-tax contributions to a section 125 cafeteria plan reduce the amount of taxable wages used to calculate the employers social security tax, medicare tax, federal and state unemployment taxes, and disability tax if applicable. the savings from that reduction in payroll taxes can help employers offset the ever-increasing cost of heath insurance premiums. there is one important fact to remember about these plans section 125 cafeteria plans arc not a group health insurance plan in and of themselves. they are a way for employees to pay for health care expenses including health insurance premiums on a pre-tax basis.",
+        "question_type": "what"
+    },
+    {
+        "question": "what are some other retirement plan options for selfemployed business owners?",
+        "ground_truth": " simplified employee pensions seps simple plans individual retirement accounts iras",
+        "question_type": "what"
+    },
+    {
+        "question": "what about reimbursement of employees for business use of their own vehicles?",
+        "ground_truth": "in many cases, car allowances are paid to an employee every payday to reimburse them for business use of their car. those payments are taxable for both the employer and employee. to provide tax-free reimbursements, employers can make use of a fixed and variable rate program fayr that reimburses the employee for fixed costs like insurance, taxes, and registration and variable expenses such as gas and maintenance. these payments are tax-free for the employee if the program meets irs expense-accounting requirements. employers can also use a cents-per-mile expense reimbursement to provide employees with tax-free payments. the employer does have to have a documented expense reimbursement policy in order to use this method.",
+        "question_type": "what"
+    },
+    {
+        "question": "what about accident and health benefits?",
+        "ground_truth": "accident and health benefits are exempt from income tax except for certain types of long term care insurance. they are also exempt from social security and medicare tax except for employees who are 2 or more owners in sub-chapter s corporations.",
+        "question_type": "what"
+    },
+    {
+        "question": "what about adoption assistance?",
+        "ground_truth": "in order for an adoption assistance program to qualify for nontaxable status, employers have to meet several criteria. there has to be a written plan that specifies the benefits for the employees, the employees have to be notified about the program, and there cannot be any preferential treatment for owners, shareholders or highly compensated employees. in addition, only certain expenses can be covered adoption fees, attorney fees, court costs, and travel expenses. the amounts given to workers for adoption assistance vary and many employers set an annual or lifetime limit to the amount each employee can receive. adoption assistance benefits are exempt from federal and state income tax, but they are taxable for social security, medicare and federal and state unemployment tax. at year end, employers need to report the adoption assistance benefit amount on form w-2 in box 12 using code t.",
+        "question_type": "what"
+    },
+    {
+        "question": "what about de minimis benefits?",
+        "ground_truth": "de minimis benefits items with little value, such as a pair of movie tickets are tax-free.",
+        "question_type": "what"
+    },
+    {
+        "question": "what about dependent care assistance provided by employers?",
+        "ground_truth": "an employer can pay for or provide dependent care assistance to employees, tax free, up to certain limits. the maximum allowable assistance is currently 5,000 2,500 for married employees filing separate returns per year. however, the benefit cannot discriminate in favor of highly compensated employees. the value of all payments must be reported in box io of form w-2, with any payments over the limit included in boxes i, 3 and 5.",
+        "question_type": "what"
+    },
+    {
+        "question": "what about employee achievement awards?",
+        "ground_truth": "personal property awards for employee achievement are deductible by the employer and can be excluded from the employees taxable income provided the award is a tangible item like a watch, plaque, ring or similar item. the award cannot be in the form of cash, cash equivalents, gift cards, vacations, meals, lodging, sports or theater tickets, stocks, bonds or similar items. tbe maximum excludable annual award amount per employee is 1,600 or 400 for awards that are not qualified plan awards. qualified plan awards are ones that are given as part of an established, written awards program and that do not favor highly compensated employees.",
+        "question_type": "what"
+    },
+    {
+        "question": "what about employee discounts?",
+        "ground_truth": "employee discounts are price reductions given to employees on products or services the business sells to customers. in order to be tax-exempt the discount cannot be more than the gross profit percentage on the product or service times the price charged to customers or not more than 20 of the price charged customers. in addition, the benefit cannot discriminate in favor of highly compensated employees.",
+        "question_type": "what"
+    },
+    {
+        "question": "what about employee expense reimbursements?",
+        "ground_truth": "employee expense reimbursements are deductible as a business expense and are also excluded from the employees gross income- as long as they are made under an accountable plan. the major advantage for employers to having an accountable plan is that they are not required to pay the employers portion of fica taxes on expense account reimbursements. to qualify as an accountable plan, the plan has to meet three criteria the reimbursements must be for deductible businesses expenses paid for or incurred by an employee in the course of performing services for the employer. the employee must be able to provide a detailed expense report or other document showing the date, time, amount and business purpose of each expense item. the records should also include receipts or other documents to substantiate the items listed on the expense report. also, employees who receive a mileage allowance need to list the time, location, and business purpose of each trip. the employee must return any reimbursement amounts that cannot be substantiated and do so in a reasonable period of time 120 days or less.",
+        "question_type": "what"
+    },
+    {
+        "question": "what about employee personal use of a company vehicle?",
+        "ground_truth": "personal use of a company-owned vehicle is considered part of an employees taxable income and keeping accurate documentation is vital in determining what percentage of the vehicles mileage constitutes personal use. lf you cannot determine business versus personal use, the value of the vehicle would be i00 taxable to the employee. normally, employers must withhold employment taxes and pay their share of those taxes. however, for federal and state income taxes, employers can choose to withhold taxes or not, but only if they notify the employee of that decision beforehand and include the value of the employees personal use of the company vehicle in boxes i, 3, 5 and 14 of his or her form w-2. how employers determine the value of company car usage is somewhat complicated. there are four methods available to value an employees personal use of a company vehicle general valuation rule. the value is based on fair market value fmv, defined as the amount the employee would have to pay to a third party to lease the same or similar vehicle in the same geographic area where the employee used the vehicle. commuting valuation rule. the value is equal to the cost of each trip from home to work or work to home multiplied by 1.50. there are very strict requirements for using this method of valuation, including a written policy limiting the employees use almost entirely to commuting to work and back. cents-per-mile. the most common method of valuation, this rule allows employers to multiply the business standard mileage rate 57.5 cents per mile less up to 5.5 cents per mile if the employer does not provide fuel by the total number of miles the employee drives the vehicle for personal use. fleet average. allows employers operating a fleet of 20 or more qualifying vehicles to use the annual lease value of the vehicle as specified by an irs table that bases annual lease value on a vehicles fair market value multiplied by the percentage of personal miles driven out of total miles driven by the employee. this amount also is subject to a fuel adjustment. the cents-per-mile and fleet average methods cannot be used if the fmv of the vehicle exceeded a certain base value adjusted annually for inflation, on the first date the vehicle is made available to the employee for personal use. in general, employers that adopt the cents-per-mile rule must continue to use it for all subsequent years in which the vehicle qualifies for it. an employer can, however, use the commuting valuation rule for any year the vehicle qualifies.",
+        "question_type": "what"
+    },
+    {
+        "question": "what about employee stock options?",
+        "ground_truth": "employers provide stock options by granting either actual shares of stock to employees or the right to purchase stock. the details of the offer, such as the number of shares or dollar amount of shares granted, is laid out in a stock option plan and the rules for taxing stock compensation vary depending on the type of plan used to make the offer. these plans can be labeled as qualified or non-qualified. in general, qualified stock option plans do not immediately tax the employee for the difference between the exercise price and the market price of the stock being purchased, while non-qualified plans do. the upside of company stock offerings for employees is that stock options can be sold either now or later at an immediate profit. in addition, the options themselves may have a tangible value, particularly if the employee is able to exercise the option at a price far below where it is currently trading. the downside is that the immediate sale of a large number of shares purchased with stock options will lead to substantial short-term capital gains, which can greatly increase the employees taxes for the year unless the shares are sold within an esop plan, which is a taxdeferred, qualified plan similar to a 401k.",
+        "question_type": "what"
+    },
+    {
+        "question": "what about employer-provided athletic facilities?",
+        "ground_truth": "an employer can provide an athletic facility to the companys employees tax-free, provided that the facility is located on company premises the employer owns or leases, and that it is operated by the employer exclusively for the use of current or retired employees, their spouses, and dependent children. note partners in a partnership are treated as employees for this benefit.",
+        "question_type": "what"
+    },
+    {
+        "question": "what about employer-provided cell phones?",
+        "ground_truth": "if they are provided primarily for business purposes, cell phones for employees are tax-exempt.",
+        "question_type": "what"
+    },
+    {
+        "question": "what about employer-provided clothing?",
+        "ground_truth": "in general, clothing provided to employees is considered a taxable benefit. there are a few exemptions though, primarily if the clothing is considered to be a working condition benefit such as uniforms for the employees.",
+        "question_type": "what"
+    },
+    {
+        "question": "what about employer-provided employee lodging?",
+        "ground_truth": "employers can provide lodging for employees tax-free if the lodging is on the companys premises, is provided for the convenience of the employer, and is a condition of employment. the tax exemption does not apply for greater than 2 shareholders in an s-corporation.",
+        "question_type": "what"
+    },
+    {
+        "question": "what about employer-provided meals?",
+        "ground_truth": "employer-provided meals are tax-free to the employee as long as the employee does not have the option to take cash instead and the meals are not purchased using a cash allowance. ln addition, meals have to be furnished to more than half of the companys employees in order to be tax-free. they are also 50 deductible for the employer if they are provided on the companys premises and are offered for the convenience of the employer. for restaurant employers, employee shift meals are 100 deductible, as long as they meet certain rules and arc furnished at an employer-operated eating facility. meals are also i 00 deductible for employers if they are considered taxable wages for the employees. the question of exactly what convenience of the employer means is still in question in the courts. generally, if your employees have to remain on the premises so they can be available to work if needed, or if meal breaks are too short to allow employees to go out to eat, the meals are considered to be for the employers convenience.",
+        "question_type": "what"
+    },
+    {
+        "question": "what about group term life insurance?",
+        "ground_truth": "nearly two-thirds of full-time employees are offered life insurance through work, and over 90 of those employees agree to enroll. it is inexpensive, often available without any physical tests, and generally provides at least a years worth of income for policy beneficiaries. group term life insurance also provides tax benefits to both employers and employees. employers can generally exclude up to 50,000 of the cost of group-term life insurance and employees are generally exempt from taxes on that amount of coverage with the exception of more than 2 shareholders in an s corporation.",
+        "question_type": "what"
+    },
+    {
+        "question": "what about health reimbursement arrangements?",
+        "ground_truth": "a health reimbursement arrangement or hra, allows employers to reimburse employees for out-of-pocket medical expenses with tax-free dollars. hr.as are funded entirely by the employer and funds in an employees account can be rolled over into a new plan year.",
+        "question_type": "what"
+    },
+    {
+        "question": "what about health savings accounts hsas?",
+        "ground_truth": "health savings accounts are an alternative to standard group insurance plans. a health savings account is exclusively for individuals who are enrolled in a qualifying high deductible health plan hdhp, who are not medicare recipients and who do not have any other healthcare coverage except for insurance for accidents, disability, dental care, vision care, or long-term care. an hsa is owned by the employee, although both the employee and the employer can contribute to the account. in general all contributions to an hsa are tax-free.",
+        "question_type": "what"
+    },
+    {
+        "question": "what about retirement planning services?",
+        "ground_truth": "employer provided retirement planning advice is tax free for the companys employees if the employer has a qualified retirement plan. however, retirement planning services do not include tax preparation, accounting or legal services.",
+        "question_type": "what"
+    },
+    {
+        "question": "what about transportation commuting benefits?",
+        "ground_truth": "employers can provide their employees tax-free qualified parking, transit passes, and rides in buses, trains or other commuter vehicles up to a maximum amount per month. in 2020, the limit for transportation benefits is 270 a month. however, employees who are more than 2 shareholders of an scorporation are not eligible for this benefit. in addition, the tax cuts and jobs act removed bicycle commuting from the tax-free options employers can still reimburse employees for commuting by bicycle, but those payments are now taxable for the employee.",
+        "question_type": "what"
+    },
+    {
+        "question": "what about tuition assistance?",
+        "ground_truth": "the majority of employers in the you.s. offer some form of tuition assistance to their employees. employer-provided tuition assistance is tax-exempt for undergraduate students and for exempt3 if for undergraduate education or graduate education if the employee performs teaching or research activities.",
+        "question_type": "what"
+    },
+    {
+        "question": "what is an esop plan?",
+        "ground_truth": "an employee stock ownership plan or esop also referred to as a stock purchase plan is an employee benefit plan that provides an employers workers with an ownership interest in the company. the employer allocates a certain number of shares of the company to each eligible employee, with the number of shares based on the persons pay or some similar scale. each employees shares are held in the companys esop trust until the employee leaves or retires. at that point, employees can either sell their shares on the stock market or sell them back to the company. employees are not taxed until they sell their shares and, in certain cases, taxes can be deferred even longer if the money from the sale of stock is reinvested in the stocks of other companies. typically, employees are not eligible to participate in the plan until they have worked a certain length of time for the company. also, employees generally have to be vested before they have access to their shares that is, they need to have waited some period of time defined in the plan before they get ownership of the stock.",
+        "question_type": "what"
+    },
+    {
+        "question": "what types of benefits are non-taxable?",
+        "ground_truth": "certain fringe benefits are not subject to federal or state income tax withholding and are excluded from gross income. in addition, these benefits usually are not subject to social security, medicare, or federal and state unemployment tax. non-taxable benefits include accident and health benefits employer-provided spending accounts such as medical flexible spending accounts and dependent care accounts group term life insurance up to 50,000 retirement planning services adoption assistance programs employee expense reimbursements employee discounts employee stock options up to 5,000 paid by the employer for child- or dependent-care services athletic facilities primarily used by employees, if located at the place of employment employee achievement awards moving expense reimbursements for actual costs paid or incurred payments made on employees behalf for public transportation to and from work and parking while at work working condition fringe benefits such as the use of company vehicles for business purposes use of business frequent flier miles for personal travel de minimis minimal benefits",
+        "question_type": "what"
+    },
+    {
+        "question": "what types of employee benefits are taxable?",
+        "ground_truth": "taxable fringe benefits are included in gross income and are subject to federal withholding, social security taxes, medicare taxes, and unemployment taxes. examples of taxable fringe benefits include bonuses the value of group-term life insurance in excess of 50,000 personal use of an employer-provided vehicle employee vacation expenses paid by the employer employee moving expense reimbursements in excess of actual expenses employers and employees have to claim the fair market value of taxable fringe benefits. fair market value is the amount someone would pay to purchase the item or service on their own. taxable benefits are generally taxed when the benefit is received and employers can choose to record taxable benefits per pay period or quarterly, semi-annually or annually, as long as they are recorded as paid on or before december 31 of the current tax year.",
+        "question_type": "what"
+    },
+    {
+        "question": "what are qualified health plan expenses according to the ffcra?",
+        "ground_truth": "qualified health plan expenses are amounts paid by employers to provide group health plan coverage to employees. they include both employer contributions and employee pre-tax contributions but not employee taxable contributions.",
+        "question_type": "what"
+    },
+    {
+        "question": "what are the employer requirements under the emergency family and medical leave expansion act efmlea?",
+        "ground_truth": "the efmlea affects employers who employ less than 500 employees. those employers are required to provide paid family and medical leave for employees who need to care for a child under 18 whose school or childcare provider is closed because of covid-19 concerns. the employee must have been employed by the business for at least 30 days to be eligible for efmlea leave and the first two weeks 10days are unpaid. the rate of pay for efmlea leave time following the first two weeks will be the lesser of two thirds of the employees regular pay or 200 per day.",
+        "question_type": "what"
+    },
+    {
+        "question": "what are the main provisions of the emergency paid sick leave act epsla?",
+        "ground_truth": "private employers with fewer than 500 employees are required to provide up to 80 hours or 1o days of paid sick leave to employees who qualify for epsla leave. the leave will be at the employees regular pay rate up to a maximum of 511 per day or 5,110 total for those who qualify for one of the first 3 reasons listed below. those employees who qualify for one of the remaining 3 reasons will be paid at two thirds regular pay up to a maximum of 200 per day or 2,000 total. an employee can qualify for epsla leave if 1 the employee is subject to federal, state, or local quarantine or isolation orders related to covid-l9. 2 the employee has been advised by healthcare provider to self-quarantine due to concerns related to covid-19. 3 the employee is experiencing symptoms of covid-19 and is seeking medical diagnosis from a healthcare provider however, they are only eligible for epsla leave while they are actively attempting to get a diagnosis. 4 the employee is experiencing certain covid-19 symptoms but is not actively seeking a medical diagnosis. 5 the employee needs to care for an individual who is isolated either due to the advice of a health care provider or because of a federal, state, or local government quarantine order. 6 the employee needs to care for a child under 18 years of age or an adult who is incapable of self-care because of a mental or physical disability whose school or care provider is closed or unavailable due to the pandemic.",
+        "question_type": "what"
+    },
+    {
+        "question": "what is the families first coronavirus response act ffcra?",
+        "ground_truth": "the ffcra was signed into law on march 18, 2020 to provide relief for employees and their families who are affected by the pandemic. it created two new laws the emergency paid sick leave act epsla and the emergency family and medical leave expansion act efmlea. the epsla mandates paid sick leave for employees who are missing work for reasons related to the covid-19 pandemic. the efmlea expands the family and medical leave act fmla temporarily to cover leave and loss of income for employees who have to stay home to care for children because of covid-19 related school and childcare closures. provisions of the ffcra will remain in effect until december 31, 2020. employers with fewer than 50 employees are subject to the new efmlea even though they are exempt from fmla regulations. also, employers with less than 50 employees may qualify for exemption from the entire ffcra if meeting the acts requirements would jeopardize the employers ability to stay in business.",
+        "question_type": "what"
+    },
+    {
+        "question": "what sick leave payments are not qualified sick leave wages according to the ffcra?",
+        "ground_truth": "qualified sick leave wages only include the wages required to be paid by an employer under the ffcra. employers who voluntarily pay sick leave, pay sick leave prior to the april 1, 2020 ffcra effective date, or who pay sick leave wages over and above the required amount are not eligible to claim credits on those amounts.",
+        "question_type": "what"
+    },
+    {
+        "question": "what are wellness programs?",
+        "ground_truth": "wellness programs are employer-sponsored plans designed to improve employee health, reduce employee absenteeism and reduce health plan claims. programs may include health screening, weight loss plans, exercise plans, or advice on how to quit smoking. wellness programs may also include financial incentives for employees who pa11icipate gift cards, cash, or employee discounts.",
+        "question_type": "what"
+    },
+    {
+        "question": "what do employers need to be aware of when setting up wellness programs?",
+        "ground_truth": "wellness programs often involve collecting health information on each employee in order to determine what kind of assistance they might need. several laws affect the gathering and use of personal health information, including the ada americans with disabilities act, the health insurance portability and accountability act hipaa, and the genetic information nondiscrimination act gina. employers with wellness programs that make use of personal health information should consult with an attorney to make sure that they are in compliance with the laws protecting that data.",
+        "question_type": "what"
+    }
+]

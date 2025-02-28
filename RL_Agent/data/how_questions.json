@@ -1,0 +1,77 @@
+[
+    {
+        "question": "how important is disability insurance?",
+        "ground_truth": "according to the council for disability awareness, more than one in four individuals in their 20s will become disabled during their career. also, according to northwestern mutuals 2016 planning and progress study, one in eight workers will be disabled for five years or more at some point before they retire.",
+        "question_type": "how"
+    },
+    {
+        "question": "how long does short-term disability coverage last?",
+        "ground_truth": "short-term disability benefits usually last between three and six months. there is also a limit normally 2 years on the length of time that the policyholder can continue to receive benefit payments.",
+        "question_type": "how"
+    },
+    {
+        "question": "how much docs offering disability insurance cost an employer, on the average?",
+        "ground_truth": "according to the you.s. bureau of labor statistics, the cost of providing both short- and long-term disability insurance is approximately one percent of total compensation costs among all employers.",
+        "question_type": "how"
+    },
+    {
+        "question": "how much is partial compensation compared to an employees regular pay?",
+        "ground_truth": "disability insurance provides wage replacement benefits that cover, on average, up to 60 of the employee normal earnings although some plans will provide i00 of the employees wages for a certain period of time.",
+        "question_type": "how"
+    },
+    {
+        "question": "how can employees enrolled in a qualified benefit plan learn about the provisions in that plan?",
+        "ground_truth": "the summary plan description provided to employees when they sign up for the benefit plan includes a detailed overview of the plan, how it works, what benefits it provides, any limitations and how to file a claim. copies of the spd can be obtained from the plan administrator.",
+        "question_type": "how"
+    },
+    {
+        "question": "how do employees feel about benefits?",
+        "ground_truth": "here are some examples of how workers feel about employee benefits 80 of workers would keep a job with benefits rather than take one that offered more pay and no benefits american institute of certified public accounts 78 of workers would likely remain with their employer because of the benefits it offers, up from 72 in 2016 wtw 55 of employees would be somewhat likely to accept a job with lower pay but with better benefits aflac 71 of employees would quit if another employer offered them flexible scheduling in a new job execusearch 83 of employees say health insurance is very or extremely important in deciding whether to stay in or change jobs ebri",
+        "question_type": "how"
+    },
+    {
+        "question": "how do employers stay in compliance with laws affecting employee benefit plans?",
+        "ground_truth": "the following resources can help you stay in compliance if you use an online benefits administration provider, they can help you stay compliant with federal, state and local regulations. the provider may even assume responsibility for ensuring that all compliance laws and regulations are kept current within their system and that if any compliance issues arise the provider will deal with them, including paying any fees or penalties. however, you should still check periodically to make sure that all the required reports are being filed and proper procedures are being followed because you, the plan sponsor, are ultimately responsible for any violations of the benefit plan. if you are administering your benefit programs yourself or using a vendor who leaves compliance up to you if you can afford it, sign up with an employment law attorney who can keep you briefed on all federal and state changes in employment laws. if you do not have an attorney or benefit specialist to help you, make sure to stay abreast of changes in employee laws yourself. know which ones apply to your business and how they affect activities such as employee performance reviews. join the society for human resource management and sign up for legislative updates subscribe to email updates from the department of labor and from your state department of labor or its equivalent you can find links to these agencies on the dol website get free updates from sources such as the nolo employment law center and wolters kluwer. plan ahead. be aware of how employment laws change as a company grows. make sure you post all required notices of employee rights where every employee can see the notices free copies are available from the department of labor for federal laws and your state labor department may be able to supply copies for state laws.",
+        "question_type": "how"
+    },
+    {
+        "question": "on average, how much do employers contribute to their employees health insurance premiums?",
+        "ground_truth": "according to the kaiser family foundation kff health benefits survey, in 2017 employers contributed an average of 5,477 82 percent for single coverage with employees contributing 1,213, and 13,049 70 percent for family coverage with employees contributing 5,714. breaking those figures down by plan type for hmos, the average employer contributed 5,520 for single coverage 78 percent, and employees contributed 1,532. for family coverage, employers contributed 12,221 64 percent and employees 6,850. for ppos, the average employer contributed 5,653 for single coverage 81 percent, and employees contributed 1,312. for family coverage, employers contributed 13,430 69 percent and employees 6,050. for poss, the average employer contribution was 5,912 for single coverage 88 percent, and employees contributed 804. for family coverage, employers contributed 12,530 69 percent and employees 5,616. for a hdhp high deductible health plan with a savings option, the average employer contribution was 5,004 for single coverage 82 percent, and the average employee contribution was 1,020. for family coverage, the average employer contribution was 12,982 74 percent and the average employee contribution was 4,599.",
+        "question_type": "how"
+    },
+    {
+        "question": "how does an employer set up a simple ira?",
+        "ground_truth": "to establish a simple ira, a company has to adopt a plan document by signing form 5304-simple or form 5305-slmple. employers need to use form 5305 if the company requires all contributions to be sent to an employer-specified financial institution. use form 5304 if each employee can choose the financial institution where their contributions should be sent. then, the company must give each eligible employee certain information about the simple ira plan and the institution where employee contributions will be sent. those notifications have to be made before the employee election period, which is usually the 60 days before january ist. finally, the company must set up a simple ira for each eligible employee using form 5305-s for a trust account or form 5305-sa for a custodial account. these iras can be established at banks or insurance companies. note there is no roth version of the slmple ira.",
+        "question_type": "how"
+    },
+    {
+        "question": "how should employers prepare for a benefit plan audit?",
+        "ground_truth": "employers who have been notified of a scheduled audit of their benefit plan should be sure to review and familiarize themselves with their plan documents and prepare copies for the auditor. contact the auditor ahead of time to discuss timing, infom1ation requests and accommodations. be prepared to show a log of their internal audit controls related to employee enrollment procedures, bow employee contributions are withheld and remitted to the plan, how employer contributions are determined and remitted to the plan, how funds are controlled and how loans and distributions are processed. collect and review all agreements with service providers including financial institutions and third-party administrators. be prepared to produce copies of all financial records associated with the benefit plan.",
+        "question_type": "how"
+    },
+    {
+        "question": "how do hra expense reimbursements work?",
+        "ground_truth": "with an hra employees cannot withdraw funds in advance and use that money to pay medical expenses. instead, they have to pay for those expenses out-of-pocket and then submit a claim for reimbursement although immediate reimbursement is possible if the employer has provided the employee with an hra debit card. expenses can be reimbursed up to the amount of money currently in the hra. hras can also be used to reimburse employees for certain types of insurance premiums if they are not already being paid with pretax dollars major medical individual health insurance premiums dental care and vision care premiums accident policy premiums medicare part a or band medicare hmo premiums employer-sponsored health insurance premiums medicare advantage and supplement premiums cobra premiums",
+        "question_type": "how"
+    },
+    {
+        "question": "how does a health care flexible spending account work?",
+        "ground_truth": "a medical flexible spending account also known as a flexible spending arrangement or fsa is a special account that an employee can put pre-tax money into to pay for certain out-ofpocket health care costs not covered by insurance. employers may also make contributions to fsas but are not required to do so. facts to keep in mind about fsas include fsas can only be offered in conjunction with an existing group healthcare plan. there are two different kinds of fsas an employer can offer. health fsas allow employees to pay for out-ofpocket medical expenses with tax-free dollars. dependent care fsas allow employees to pay for expenses with taxfree dollars. employers can offer one or both types to their employees. flexible spending accounts can cover expenses like daycare, prescriptions, dental work and eye exams. employees are reimbursed for expenses with a health flexible spending account, which means bills have to be paid out of pocket and the employee has to file a claim to get reimbursed from the fsa. money contributed to a health care fsa has to be spent within the current plan year or forfeited although employers can allow a portion of that amount to be carried over to the next plan year if they so choose. employees with a medical fsa have immediate access to the full amount they elected to contribute for the tax year even if some or all of that amount has not actually been deposited yet. only full time employees are eligible to participate in a flexible spending account. part time employees those who work less than 30 hours per week are not eligible for an fsa. normally, employees cannot change their per pay period contribution amount once they have decided on it, but exceptions can be made for events iike the birth of a child or the death of a spouse. employees have the option of using a debit card, also known as a flexcard, to withdraw money directly from their fsa. using a flexcard has the advantage of keeping a record of all withdrawals in one place. employees under the age of 65 who spend money in their fsa on non-medical expenses have to pay income tax on that money plus a penalty usually 20 percent of the amount spent. employees 65 or older have to pay income tax on the non-medical expense amounts, but are not charged a penalty. there are dozens of items that qualify as medical expenses under an fsa. the employer owns the fsa so employees who leave are generally no longer eligible to participate in their fsaunless they elect continuation coverage and they forfeit any amount remaining in their account. employers can choose to let participants roll some of the money in their fsa to the new plan year by using one of two options set a limit of up to 500 and al low participants to roll that much of their unspent funds over to the new plan year. elect to provide a 2 month grace period following the end of the plan year for participants to claim whatever funds are left in their account. when the grace period ends the remaining funds become the property of the employer. note irs publication 502 has a list of what medical items are and are not covered by an fsa.",
+        "question_type": "how"
+    },
+    {
+        "question": "how do keogh plans work?",
+        "ground_truth": "key features of keogh plans referred to simply as qualified plans by the irs include keogh plans can be established as either defined-benefit or defined-contribution plans, although most are set up as defined-contribution. defined-benefit versions state what annual benefits the owners will receive at retirement and contributions are based on the total needed to meet those stated benefits. for 2020, the maximum annual contribution is set at 230,000 or i 00 of the employees compensation, whichever is less. defined-contribution plans can be one of two types profit-sharing plans or money purchase plans. profit-sharing plans allow a business to contribute up to 100 of compensation, or 57,000 as of 2020, according to the irs. the business does not have to be making a profit in order to set aside money for this type of plan. money purchase plans are not as flexible as profit sharing plans. they require a business to contribute a certain fixed percentage of its income as specified in the plan documents every year. if the business changes its fixed percentage, it could incur penalties. the contribution limit for 2020 for money purchase plans is set at 25 of annual compensation or 57,000, whichever is less. keogh plans can invest in the same types of securities as 401ks and iras, including stocks, bonds, annuities and certificates of deposit.",
+        "question_type": "how"
+    },
+    {
+        "question": "how do employers know which employee benefits are taxable?",
+        "ground_truth": "in general, a benefit has to be included in an employees taxable income unless it is specifically excluded by the irs. irs publication i 5-b 2020, the employers tax guide to fringe benefits covers the taxable status of each type of employee benefit offered by employers.",
+        "question_type": "how"
+    },
+    {
+        "question": "for an eligible employer who sponsors a fully-insured group health plan, how are the qualified health plan expenses of that plan allocated to qualified sick or family leave wages?",
+        "ground_truth": "an eligible employer who sponsors a fully-insured group health plan can use any reasonable method to allocate the plan expenses, including 1 the cobra applicable premium for the employee typically available from the insurer, 2 one average premium rate for all employees, or 3 a similar method that takes into account the average premium rate determined separately for employees with self-only and other than self-only coverage.",
+        "question_type": "how"
+    }
+]

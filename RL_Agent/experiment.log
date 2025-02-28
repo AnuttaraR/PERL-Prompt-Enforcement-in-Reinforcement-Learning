@@ -1,0 +1,141 @@
+2025-02-25 21:39:15,748 - experiment - INFO - Created experiment directory: RL_Agent/experiments\experiment_20250225_213915
+2025-02-25 21:42:48,225 - experiment - INFO - Created experiment directory: C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_214248
+2025-02-25 21:42:48,236 - experiment - INFO - Copied configuration files to C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_214248
+2025-02-25 21:42:48,236 - experiment - INFO - Starting model training...
+2025-02-25 21:42:48,236 - experiment - INFO - Running command: python RL_Agent/train_script.py --train_data C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/train_data.json --test_data C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/test_data.json --action_space C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_214248\action_space.json --reward_config C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_214248\reward_config.json --episodes 10 --batch_size 64 --lr 0.0003 --output_dir C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_214248\training_output
+2025-02-25 21:42:48,397 - experiment - ERROR - Training command failed with exit code 2
+2025-02-25 21:42:48,397 - experiment - ERROR - Stdout: 
+2025-02-25 21:42:48,397 - experiment - ERROR - Stderr: python: can't open file 'RL_Agent/train_script.py': [Errno 2] No such file or directory
+
+2025-02-25 21:45:25,632 - experiment - INFO - Created experiment directory: C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_214525
+2025-02-25 21:45:25,635 - experiment - INFO - Copied configuration files to C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_214525
+2025-02-25 21:45:25,635 - experiment - INFO - Starting model training...
+2025-02-25 21:45:25,635 - experiment - INFO - Running command: python C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/train_script.py --train_data C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/train_data.json --test_data C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/test_data.json --action_space C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_214525\action_space.json --reward_config C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_214525\reward_config.json --episodes 10 --batch_size 64 --lr 0.0003 --output_dir C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_214525\training_output
+2025-02-25 21:45:25,823 - experiment - ERROR - Training command failed with exit code 1
+2025-02-25 21:45:25,823 - experiment - ERROR - Stdout: 
+2025-02-25 21:45:25,823 - experiment - ERROR - Stderr: Traceback (most recent call last):
+  File "C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/train_script.py", line 4, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+
+2025-02-25 21:46:15,380 - experiment - INFO - Created experiment directory: C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_214615
+2025-02-25 21:46:15,392 - experiment - INFO - Copied configuration files to C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_214615
+2025-02-25 21:46:15,392 - experiment - INFO - Starting model training...
+2025-02-25 21:46:15,392 - experiment - INFO - Running command: python C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/train_script.py --train_data C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/train_data.json --test_data C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/test_data.json --action_space C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_214615\action_space.json --reward_config C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_214615\reward_config.json --episodes 10 --batch_size 64 --lr 0.0003 --output_dir C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_214615\training_output
+2025-02-25 21:46:15,568 - experiment - ERROR - Training command failed with exit code 1
+2025-02-25 21:46:15,568 - experiment - ERROR - Stdout: 
+2025-02-25 21:46:15,568 - experiment - ERROR - Stderr: Traceback (most recent call last):
+  File "C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/train_script.py", line 4, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+
+2025-02-25 21:54:42,982 - experiment - INFO - Created experiment directory: C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_215442
+2025-02-25 21:54:42,993 - experiment - INFO - Copied configuration files to C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_215442
+2025-02-25 21:54:42,994 - experiment - INFO - Starting model training...
+2025-02-25 21:54:42,994 - experiment - INFO - Running command: python C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/train_script.py --train_data C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/train_data.json --test_data C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/test_data.json --action_space C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_215442\action_space.json --reward_config C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_215442\reward_config.json --episodes 10 --batch_size 64 --lr 0.0003 --output_dir C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_215442\training_output
+2025-02-25 21:54:43,175 - experiment - ERROR - Training command failed with exit code 1
+2025-02-25 21:54:43,176 - experiment - ERROR - Stdout: 
+2025-02-25 21:54:43,176 - experiment - ERROR - Stderr: Traceback (most recent call last):
+  File "C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/train_script.py", line 4, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+
+2025-02-25 21:56:27,669 - experiment - INFO - Created experiment directory: C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_215627
+2025-02-25 21:56:27,672 - experiment - INFO - Copied configuration files to C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_215627
+2025-02-25 21:56:27,672 - experiment - INFO - Starting model training...
+2025-02-25 21:56:27,672 - experiment - INFO - Running command: C:\Users\USER\PycharmProjects\fyp-rnd\venv\Scripts\python.exe C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/train_script.py --train_data C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/train_data.json --test_data C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/test_data.json --action_space C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_215627\action_space.json --reward_config C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_215627\reward_config.json --episodes 10 --batch_size 64 --lr 0.0003 --output_dir C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_215627\training_output
+2025-02-25 21:56:44,775 - experiment - ERROR - Training command failed with exit code 1
+2025-02-25 21:56:44,775 - experiment - ERROR - Stdout: [0m
+2025-02-25 21:56:44,776 - experiment - ERROR - Stderr: Traceback (most recent call last):
+  File "C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/train_script.py", line 12, in <module>
+    from ppo_model import PPOAgent, load_config, load_dataset
+  File "C:\Users\USER\PycharmProjects\fyp-rnd\RL_Agent\ppo_model.py", line 34, in <module>
+    from utils.query_llm import get_llm_response, generate_answer_from_llm
+ModuleNotFoundError: No module named 'utils.query_llm'
+
+2025-02-25 21:57:47,608 - experiment - INFO - Created experiment directory: C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_215747
+2025-02-25 21:57:47,620 - experiment - INFO - Copied configuration files to C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_215747
+2025-02-25 21:57:47,621 - experiment - INFO - Starting model training...
+2025-02-25 21:57:47,621 - experiment - INFO - Running command: C:\Users\USER\PycharmProjects\fyp-rnd\venv\Scripts\python.exe C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/train_script.py --train_data C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/train_data.json --test_data C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/test_data.json --action_space C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_215747\action_space.json --reward_config C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_215747\reward_config.json --episodes 10 --batch_size 64 --lr 0.0003 --output_dir C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_215747\training_output
+2025-02-25 21:58:24,295 - experiment - ERROR - Training command failed with exit code 1
+2025-02-25 21:58:24,295 - experiment - ERROR - Stdout: [0m
+2025-02-25 21:58:24,295 - experiment - ERROR - Stderr: 2025-02-25 21:58:04,890 - datasets - INFO - PyTorch version 2.4.0+cu121 available.
+2025-02-25 21:58:08,124 - root - INFO - Pinecone connection established.
+2025-02-25 21:58:08,125 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-02-25 21:58:08,125 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/e5-base-v2
+2025-02-25 21:58:12,771 - root - INFO - SentenceTransformer E5-Base model loaded successfully.
+[nltk_data] Downloading package wordnet to C:\Users\USER/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+[nltk_data] Downloading package punkt to C:\Users\USER/nltk_data...
+[nltk_data]   Unzipping tokenizers\punkt.zip.
+2025-02-25 21:58:23,146 - train_script - INFO - ==================================================
+2025-02-25 21:58:23,147 - train_script - INFO - Starting training run at 20250225_215823
+2025-02-25 21:58:23,147 - train_script - INFO - Arguments: Namespace(ablation=None, action_space='C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\\experiment_20250225_215747\\action_space.json', batch_size=64, checkpoint_freq=50, episodes=10, eval_freq=100, lr=0.0003, output_dir='C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\\experiment_20250225_215747\\training_output', reward_config='C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\\experiment_20250225_215747\\reward_config.json', seed=42, test_data='C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/test_data.json', train_data='C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/train_data.json')
+2025-02-25 21:58:23,147 - train_script - INFO - Device: cpu
+2025-02-25 21:58:23,147 - train_script - INFO - Loading action space from C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_215747\action_space.json
+2025-02-25 21:58:23,148 - train_script - INFO - Action space contains 13 total actions
+2025-02-25 21:58:23,148 - train_script - INFO - Loading reward config from C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_215747\reward_config.json
+2025-02-25 21:58:23,149 - train_script - INFO - Loading training dataset from C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/train_data.json
+2025-02-25 21:58:23,149 - PPO_model - INFO - Loading dataset from C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/train_data.json
+2025-02-25 21:58:23,300 - PPO_model - INFO - Loaded raw dataset with 540 items
+2025-02-25 21:58:23,315 - PPO_model - INFO - Dataset statistics:
+2025-02-25 21:58:23,315 - PPO_model - INFO - Total items: 540
+2025-02-25 21:58:23,315 - PPO_model - INFO - Average tokens per item: 512.00
+2025-02-25 21:58:23,315 - PPO_model - INFO - Question types distribution: {'what': 173, 'how': 187, 'if_can': 180}
+2025-02-25 21:58:23,315 - PPO_model - INFO - Dataset loading completed in 0.17 seconds
+2025-02-25 21:58:23,315 - train_script - INFO - Loading test dataset from C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/test_data.json
+2025-02-25 21:58:23,315 - PPO_model - INFO - Loading dataset from C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/test_data.json
+2025-02-25 21:58:23,334 - PPO_model - INFO - Loaded raw dataset with 60 items
+2025-02-25 21:58:23,336 - PPO_model - INFO - Dataset statistics:
+2025-02-25 21:58:23,336 - PPO_model - INFO - Total items: 60
+2025-02-25 21:58:23,336 - PPO_model - INFO - Average tokens per item: 512.00
+2025-02-25 21:58:23,336 - PPO_model - INFO - Question types distribution: {'what': 27, 'if_can': 20, 'how': 13}
+2025-02-25 21:58:23,336 - PPO_model - INFO - Dataset loading completed in 0.02 seconds
+2025-02-25 21:58:23,336 - train_script - INFO - Datasets loaded in 0.19s
+2025-02-25 21:58:23,337 - train_script - INFO - Input dimension: 512
+2025-02-25 21:58:23,337 - PPO_model - INFO - Initializing PPO Agent with:
+2025-02-25 21:58:23,337 - PPO_model - INFO - Input dimension: 512
+2025-02-25 21:58:23,337 - PPO_model - INFO - Device: cpu
+2025-02-25 21:58:23,337 - PPO_model - INFO - Batch size: 64
+2025-02-25 21:58:23,337 - PPO_model - INFO - Learning rate: 0.0003
+2025-02-25 21:58:23,337 - PPO_model - INFO - Discount factor (gamma): 0.99
+2025-02-25 21:58:23,337 - PPO_model - INFO - GAE lambda: 0.95
+2025-02-25 21:58:23,337 - PPO_model - INFO - Policy clip: 0.2
+2025-02-25 21:58:23,337 - PPO_model - INFO - Update epochs: 10
+2025-02-25 21:58:23,337 - PPO_model - INFO - Action counts per question type: {'what': 5, 'how': 5, 'if_can': 5}
+2025-02-25 21:58:23,337 - PPO_model - INFO - Initializing actor and critic networks
+2025-02-25 21:58:23,345 - absl - INFO - Using default tokenizer.
+2025-02-25 21:58:23,345 - PPO_model - INFO - PPO Agent initialization complete
+2025-02-25 21:58:23,345 - train_script - INFO - Starting training for 10 episodes...
+2025-02-25 21:58:23,345 - PPO_model - INFO - Starting training for 10 episodes with max 50 steps per episode
+2025-02-25 21:58:23,346 - PPO_model - INFO - Training dataset contains 540 examples
+
+Training Episodes:   0%|          | 0/10 [00:00<?, ?it/s]C:\Users\USER\PycharmProjects\fyp-rnd\RL_Agent\ppo_model.py:460: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\torch\csrc\utils\tensor_new.cpp:281.)
+  state_tensor = torch.tensor([state], dtype=torch.float32).to(self.device)
+
+Training Episodes:   0%|          | 0/10 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/train_script.py", line 296, in <module>
+    main()
+  File "C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/train_script.py", line 240, in main
+    episode_rewards = agent.train(train_dataset, num_episodes=args.episodes)
+  File "C:\Users\USER\PycharmProjects\fyp-rnd\RL_Agent\ppo_model.py", line 708, in train
+    action_desc = self.get_action_description(action, question_type)
+  File "C:\Users\USER\PycharmProjects\fyp-rnd\RL_Agent\ppo_model.py", line 491, in get_action_description
+    return qt_actions[action_key]
+KeyError: '3'
+
+2025-02-25 22:04:27,905 - experiment - INFO - Created experiment directory: C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_220427
+2025-02-25 22:04:27,908 - experiment - INFO - Copied configuration files to C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_220427
+2025-02-25 22:04:27,908 - experiment - INFO - Starting model training...
+2025-02-25 22:04:27,908 - experiment - INFO - Running command: C:\Users\USER\PycharmProjects\fyp-rnd\venv\Scripts\python.exe C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/train_script.py --train_data C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/train_data.json --test_data C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/test_data.json --action_space C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_220427\action_space.json --reward_config C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_220427\reward_config.json --episodes 10 --batch_size 64 --lr 0.0003 --output_dir C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_220427\training_output
+2025-02-25 22:07:53,892 - experiment - INFO - Created experiment directory: C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_220753
+2025-02-25 22:07:53,895 - experiment - INFO - Copied configuration files to C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_220753
+2025-02-25 22:07:53,896 - experiment - INFO - Starting model training...
+2025-02-25 22:07:53,896 - experiment - INFO - Running command: C:\Users\USER\PycharmProjects\fyp-rnd\venv\Scripts\python.exe C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/train_script.py --train_data C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/train_data.json --test_data C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/test_data.json --action_space C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_220753\action_space.json --reward_config C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_220753\reward_config.json --episodes 10 --batch_size 64 --lr 0.0003 --output_dir C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_220753\training_output
+2025-02-25 22:08:31,590 - experiment - ERROR - Training command failed with exit code 1
+2025-02-25 22:08:31,590 - experiment - ERROR - Stdout: [0m
+2025-02-25 22:27:02,509 - experiment - INFO - Created experiment directory: C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_222702
+2025-02-25 22:27:02,520 - experiment - INFO - Copied configuration files to C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_222702
+2025-02-25 22:27:02,520 - experiment - INFO - Starting model training...
+2025-02-25 22:27:02,520 - experiment - INFO - Running command: C:\Users\USER\PycharmProjects\fyp-rnd\venv\Scripts\python.exe C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/train_script.py --train_data C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/train_data.json --test_data C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/test_data.json --action_space C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_222702\action_space.json --reward_config C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_222702\reward_config.json --episodes 10 --batch_size 64 --lr 0.0003 --output_dir C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_222702\training_output

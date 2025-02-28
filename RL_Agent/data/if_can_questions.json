@@ -1,0 +1,42 @@
+[
+    {
+        "question": "is there a size requirement for an employer to have a 401k plan?",
+        "ground_truth": "there is no minimum number of employees for establishing a company 401k plan - you can have 2 employees or 2,000.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can employers offer different benefits to different employees?",
+        "ground_truth": "in general, employers can offer different benefits to different groups of employees. for example certain benefits might only be available to full-time employees and not part-time employees. however, the employer has to be sure to offer those benefits to all the full-time employees. if one or more full-time workers are not receiving those benefits, then the employer is in violation of employment laws. offering a benefit only to certain employees can be tricky it is always best to check on federal and state laws when benefits are being restricted to a specific group or groups of employees.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can employers take the full value of a non-cash benefit as a business deduction?",
+        "ground_truth": "as a rule, no. employers can only deduct the cost of the benefit, even though the actual value usually the fair market value of the benefit is normally higher. for employees, it is the benefits actual value that has to be included in the employees gross income.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "other than keeping employees happy, is there a financial upside for employers in providing employee benefits?",
+        "ground_truth": "in most cases, the cost of providing employee benefits can provide employers with a business deduction on their tax return, the same as the deduction they take for wages and salaries paid to employees. in addition, benefit packages can create employment tax savings for employers. if employee benefits were paid out as wages and salaries, the employer would have to pay matching social security and medicare taxes on those amounts, as well as federal and state unemployment tax. for benefit plans such as section 125 health care plans, employee contributions are exempt from both flca and unemployment taxes, which means the employer does not have to pay matching fica taxes or federal and state unemployment tax on those contributions.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can employers get a tax credit for their group health plan contributions?",
+        "ground_truth": "yes, contributions toward employees health insurance coverage can be considered a tax credit if the employer has less than 25 full-time employees, the premiums are lower than the shop marketplace and paid average annual wages are less than the amount prescribed by the irs.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can small employers who want to provide group health care join with other employers to help lower costs?",
+        "ground_truth": "in many cases, trade associations offer health insurance plans for small-business owners and their employees at lower rates. a given employer may only have a handful of employees, but combining with thousands of employees in the association provides considerable leverage. in addition, since the carrier issues a policy to the whole association, no individual member can have their coverage canceled unless the carrier cancels coverage for the entire association.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can employers offer different types of paid leave to different groups of employees?",
+        "ground_truth": "yes, as long as long as the leave policy does not discriminate against a protected class of employees and it complies with federal and state laws. for example, employers often offer different amounts of paid leave time based on length of service, or they have different leave policies for full-time and part-time employees.",
+        "question_type": "if_can"
+    },
+    {
+        "question": "can hras make healthcare insurance less of a hassle for employers?",
+        "ground_truth": "hras are not only a more flexible alternative to standard group health insurance plans - they also take most of the management burden off of the employer. rather than the employer having to weigh healthcare risks and decide on coverages, the employees can choose the coverage that works best for them and their families.",
+        "question_type": "if_can"
+    }
+]

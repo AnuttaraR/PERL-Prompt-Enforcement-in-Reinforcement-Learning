@@ -1,0 +1,294 @@
+2025-02-25 21:58:04,890 - datasets - INFO - PyTorch version 2.4.0+cu121 available.
+2025-02-25 21:58:08,124 - root - INFO - Pinecone connection established.
+2025-02-25 21:58:08,125 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-02-25 21:58:08,125 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/e5-base-v2
+2025-02-25 21:58:12,771 - root - INFO - SentenceTransformer E5-Base model loaded successfully.
+2025-02-25 21:58:23,146 - train_script - INFO - ==================================================
+2025-02-25 21:58:23,147 - train_script - INFO - Starting training run at 20250225_215823
+2025-02-25 21:58:23,147 - train_script - INFO - Arguments: Namespace(ablation=None, action_space='C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\\experiment_20250225_215747\\action_space.json', batch_size=64, checkpoint_freq=50, episodes=10, eval_freq=100, lr=0.0003, output_dir='C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\\experiment_20250225_215747\\training_output', reward_config='C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\\experiment_20250225_215747\\reward_config.json', seed=42, test_data='C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/test_data.json', train_data='C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/train_data.json')
+2025-02-25 21:58:23,147 - train_script - INFO - Device: cpu
+2025-02-25 21:58:23,147 - train_script - INFO - Loading action space from C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_215747\action_space.json
+2025-02-25 21:58:23,148 - train_script - INFO - Action space contains 13 total actions
+2025-02-25 21:58:23,148 - train_script - INFO - Loading reward config from C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_215747\reward_config.json
+2025-02-25 21:58:23,149 - train_script - INFO - Loading training dataset from C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/train_data.json
+2025-02-25 21:58:23,149 - PPO_model - INFO - Loading dataset from C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/train_data.json
+2025-02-25 21:58:23,300 - PPO_model - INFO - Loaded raw dataset with 540 items
+2025-02-25 21:58:23,315 - PPO_model - INFO - Dataset statistics:
+2025-02-25 21:58:23,315 - PPO_model - INFO - Total items: 540
+2025-02-25 21:58:23,315 - PPO_model - INFO - Average tokens per item: 512.00
+2025-02-25 21:58:23,315 - PPO_model - INFO - Question types distribution: {'what': 173, 'how': 187, 'if_can': 180}
+2025-02-25 21:58:23,315 - PPO_model - INFO - Dataset loading completed in 0.17 seconds
+2025-02-25 21:58:23,315 - train_script - INFO - Loading test dataset from C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/test_data.json
+2025-02-25 21:58:23,315 - PPO_model - INFO - Loading dataset from C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/test_data.json
+2025-02-25 21:58:23,334 - PPO_model - INFO - Loaded raw dataset with 60 items
+2025-02-25 21:58:23,336 - PPO_model - INFO - Dataset statistics:
+2025-02-25 21:58:23,336 - PPO_model - INFO - Total items: 60
+2025-02-25 21:58:23,336 - PPO_model - INFO - Average tokens per item: 512.00
+2025-02-25 21:58:23,336 - PPO_model - INFO - Question types distribution: {'what': 27, 'if_can': 20, 'how': 13}
+2025-02-25 21:58:23,336 - PPO_model - INFO - Dataset loading completed in 0.02 seconds
+2025-02-25 21:58:23,336 - train_script - INFO - Datasets loaded in 0.19s
+2025-02-25 21:58:23,337 - train_script - INFO - Input dimension: 512
+2025-02-25 21:58:23,337 - PPO_model - INFO - Initializing PPO Agent with:
+2025-02-25 21:58:23,337 - PPO_model - INFO - Input dimension: 512
+2025-02-25 21:58:23,337 - PPO_model - INFO - Device: cpu
+2025-02-25 21:58:23,337 - PPO_model - INFO - Batch size: 64
+2025-02-25 21:58:23,337 - PPO_model - INFO - Learning rate: 0.0003
+2025-02-25 21:58:23,337 - PPO_model - INFO - Discount factor (gamma): 0.99
+2025-02-25 21:58:23,337 - PPO_model - INFO - GAE lambda: 0.95
+2025-02-25 21:58:23,337 - PPO_model - INFO - Policy clip: 0.2
+2025-02-25 21:58:23,337 - PPO_model - INFO - Update epochs: 10
+2025-02-25 21:58:23,337 - PPO_model - INFO - Action counts per question type: {'what': 5, 'how': 5, 'if_can': 5}
+2025-02-25 21:58:23,337 - PPO_model - INFO - Initializing actor and critic networks
+2025-02-25 21:58:23,345 - absl - INFO - Using default tokenizer.
+2025-02-25 21:58:23,345 - PPO_model - INFO - PPO Agent initialization complete
+2025-02-25 21:58:23,345 - train_script - INFO - Starting training for 10 episodes...
+2025-02-25 21:58:23,345 - PPO_model - INFO - Starting training for 10 episodes with max 50 steps per episode
+2025-02-25 21:58:23,346 - PPO_model - INFO - Training dataset contains 540 examples
+2025-02-25 22:04:49,127 - datasets - INFO - PyTorch version 2.4.0+cu121 available.
+2025-02-25 22:04:51,510 - root - INFO - Pinecone connection established.
+2025-02-25 22:04:51,511 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-02-25 22:04:51,511 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/e5-base-v2
+2025-02-25 22:04:57,279 - root - INFO - SentenceTransformer E5-Base model loaded successfully.
+2025-02-25 22:04:57,579 - train_script - INFO - ==================================================
+2025-02-25 22:04:57,579 - train_script - INFO - Starting training run at 20250225_220457
+2025-02-25 22:04:57,580 - train_script - INFO - Arguments: Namespace(ablation=None, action_space='C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\\experiment_20250225_220427\\action_space.json', batch_size=64, checkpoint_freq=50, episodes=10, eval_freq=100, lr=0.0003, output_dir='C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\\experiment_20250225_220427\\training_output', reward_config='C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\\experiment_20250225_220427\\reward_config.json', seed=42, test_data='C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/test_data.json', train_data='C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/train_data.json')
+2025-02-25 22:04:57,581 - train_script - INFO - Device: cpu
+2025-02-25 22:04:57,581 - train_script - INFO - Loading action space from C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_220427\action_space.json
+2025-02-25 22:04:57,582 - train_script - INFO - Action space contains 13 total actions
+2025-02-25 22:04:57,582 - train_script - INFO - Loading reward config from C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_220427\reward_config.json
+2025-02-25 22:04:57,582 - train_script - INFO - Loading training dataset from C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/train_data.json
+2025-02-25 22:04:57,582 - PPO_model - INFO - Loading dataset from C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/train_data.json
+2025-02-25 22:04:57,695 - PPO_model - INFO - Loaded raw dataset with 540 items
+2025-02-25 22:04:57,708 - PPO_model - INFO - Dataset statistics:
+2025-02-25 22:04:57,708 - PPO_model - INFO - Total items: 540
+2025-02-25 22:04:57,709 - PPO_model - INFO - Average tokens per item: 512.00
+2025-02-25 22:04:57,709 - PPO_model - INFO - Question types distribution: {'what': 173, 'how': 187, 'if_can': 180}
+2025-02-25 22:04:57,709 - PPO_model - INFO - Dataset loading completed in 0.13 seconds
+2025-02-25 22:04:57,709 - train_script - INFO - Loading test dataset from C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/test_data.json
+2025-02-25 22:04:57,709 - PPO_model - INFO - Loading dataset from C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/test_data.json
+2025-02-25 22:04:57,724 - PPO_model - INFO - Loaded raw dataset with 60 items
+2025-02-25 22:04:57,725 - PPO_model - INFO - Dataset statistics:
+2025-02-25 22:04:57,725 - PPO_model - INFO - Total items: 60
+2025-02-25 22:04:57,726 - PPO_model - INFO - Average tokens per item: 512.00
+2025-02-25 22:04:57,726 - PPO_model - INFO - Question types distribution: {'what': 27, 'if_can': 20, 'how': 13}
+2025-02-25 22:04:57,726 - PPO_model - INFO - Dataset loading completed in 0.02 seconds
+2025-02-25 22:04:57,726 - train_script - INFO - Datasets loaded in 0.14s
+2025-02-25 22:04:57,726 - train_script - INFO - Input dimension: 512
+2025-02-25 22:04:57,726 - PPO_model - INFO - Initializing PPO Agent with:
+2025-02-25 22:04:57,726 - PPO_model - INFO - Input dimension: 512
+2025-02-25 22:04:57,726 - PPO_model - INFO - Device: cpu
+2025-02-25 22:04:57,726 - PPO_model - INFO - Batch size: 64
+2025-02-25 22:04:57,726 - PPO_model - INFO - Learning rate: 0.0003
+2025-02-25 22:04:57,726 - PPO_model - INFO - Discount factor (gamma): 0.99
+2025-02-25 22:04:57,726 - PPO_model - INFO - GAE lambda: 0.95
+2025-02-25 22:04:57,726 - PPO_model - INFO - Policy clip: 0.2
+2025-02-25 22:04:57,726 - PPO_model - INFO - Update epochs: 10
+2025-02-25 22:04:57,726 - PPO_model - INFO - Action counts per question type: {'what': 5, 'how': 5, 'if_can': 5}
+2025-02-25 22:04:57,726 - PPO_model - INFO - Initializing actor and critic networks
+2025-02-25 22:04:57,731 - absl - INFO - Using default tokenizer.
+2025-02-25 22:04:57,731 - PPO_model - INFO - PPO Agent initialization complete
+2025-02-25 22:04:57,732 - train_script - INFO - Starting training for 10 episodes...
+2025-02-25 22:04:57,732 - PPO_model - INFO - Starting training for 10 episodes with max 50 steps per episode
+2025-02-25 22:04:57,732 - PPO_model - INFO - Training dataset contains 540 examples
+2025-02-25 22:05:02,189 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 22:05:02,212 - root - INFO - Retrieving context for query: 'Employees besides keeping, happy do employers financially benefit from propose benefits to their employee?' with top_k=3
+2025-02-25 22:05:04,826 - root - INFO - Encoded 1 text(s) into embeddings.
+2025-02-25 22:05:06,939 - root - INFO - Retrieved 3 relevant context chunk(s) from Pinecone.
+2025-02-25 22:05:24,299 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 22:08:05,544 - datasets - INFO - PyTorch version 2.4.0+cu121 available.
+2025-02-25 22:08:07,225 - root - INFO - Pinecone connection established.
+2025-02-25 22:08:07,227 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-02-25 22:08:07,227 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/e5-base-v2
+2025-02-25 22:08:12,101 - root - INFO - SentenceTransformer E5-Base model loaded successfully.
+2025-02-25 22:08:12,494 - train_script - INFO - ==================================================
+2025-02-25 22:08:12,494 - train_script - INFO - Starting training run at 20250225_220812
+2025-02-25 22:08:12,495 - train_script - INFO - Arguments: Namespace(ablation=None, action_space='C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\\experiment_20250225_220753\\action_space.json', batch_size=64, checkpoint_freq=50, episodes=10, eval_freq=100, lr=0.0003, output_dir='C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\\experiment_20250225_220753\\training_output', reward_config='C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\\experiment_20250225_220753\\reward_config.json', seed=42, test_data='C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/test_data.json', train_data='C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/train_data.json')
+2025-02-25 22:08:12,495 - train_script - INFO - Device: cpu
+2025-02-25 22:08:12,495 - train_script - INFO - Loading action space from C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_220753\action_space.json
+2025-02-25 22:08:12,496 - train_script - INFO - Action space contains 13 total actions
+2025-02-25 22:08:12,496 - train_script - INFO - Loading reward config from C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_220753\reward_config.json
+2025-02-25 22:08:12,496 - train_script - INFO - Loading training dataset from C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/train_data.json
+2025-02-25 22:08:12,496 - PPO_model - INFO - Loading dataset from C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/train_data.json
+2025-02-25 22:08:12,668 - PPO_model - INFO - Loaded raw dataset with 540 items
+2025-02-25 22:08:12,684 - PPO_model - INFO - Dataset statistics:
+2025-02-25 22:08:12,684 - PPO_model - INFO - Total items: 540
+2025-02-25 22:08:12,684 - PPO_model - INFO - Average tokens per item: 512.00
+2025-02-25 22:08:12,684 - PPO_model - INFO - Question types distribution: {'what': 173, 'how': 187, 'if_can': 180}
+2025-02-25 22:08:12,685 - PPO_model - INFO - Dataset loading completed in 0.19 seconds
+2025-02-25 22:08:12,685 - train_script - INFO - Loading test dataset from C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/test_data.json
+2025-02-25 22:08:12,685 - PPO_model - INFO - Loading dataset from C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/test_data.json
+2025-02-25 22:08:12,698 - PPO_model - INFO - Loaded raw dataset with 60 items
+2025-02-25 22:08:12,699 - PPO_model - INFO - Dataset statistics:
+2025-02-25 22:08:12,699 - PPO_model - INFO - Total items: 60
+2025-02-25 22:08:12,699 - PPO_model - INFO - Average tokens per item: 512.00
+2025-02-25 22:08:12,700 - PPO_model - INFO - Question types distribution: {'what': 27, 'if_can': 20, 'how': 13}
+2025-02-25 22:08:12,700 - PPO_model - INFO - Dataset loading completed in 0.02 seconds
+2025-02-25 22:08:12,700 - train_script - INFO - Datasets loaded in 0.20s
+2025-02-25 22:08:12,700 - train_script - INFO - Input dimension: 512
+2025-02-25 22:08:12,700 - PPO_model - INFO - Initializing PPO Agent with:
+2025-02-25 22:08:12,700 - PPO_model - INFO - Input dimension: 512
+2025-02-25 22:08:12,700 - PPO_model - INFO - Device: cpu
+2025-02-25 22:08:12,700 - PPO_model - INFO - Batch size: 64
+2025-02-25 22:08:12,700 - PPO_model - INFO - Learning rate: 0.0003
+2025-02-25 22:08:12,700 - PPO_model - INFO - Discount factor (gamma): 0.99
+2025-02-25 22:08:12,700 - PPO_model - INFO - GAE lambda: 0.95
+2025-02-25 22:08:12,700 - PPO_model - INFO - Policy clip: 0.2
+2025-02-25 22:08:12,700 - PPO_model - INFO - Update epochs: 10
+2025-02-25 22:08:12,700 - PPO_model - INFO - Action counts per question type: {'what': 5, 'how': 5, 'if_can': 5}
+2025-02-25 22:08:12,700 - PPO_model - INFO - Initializing actor and critic networks
+2025-02-25 22:08:12,706 - absl - INFO - Using default tokenizer.
+2025-02-25 22:08:12,707 - PPO_model - INFO - PPO Agent initialization complete
+2025-02-25 22:08:12,707 - train_script - INFO - Starting training for 10 episodes...
+2025-02-25 22:08:12,707 - PPO_model - INFO - Starting training for 10 episodes with max 50 steps per episode
+2025-02-25 22:08:12,707 - PPO_model - INFO - Training dataset contains 540 examples
+2025-02-25 22:08:15,098 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 22:08:15,107 - root - INFO - Retrieving context for query: 'can small employers who want provide group health care with other employers to help lower costs?' with top_k=3
+2025-02-25 22:08:15,324 - root - INFO - Encoded 1 text(s) into embeddings.
+2025-02-25 22:08:17,151 - root - INFO - Retrieved 3 relevant context chunk(s) from Pinecone.
+2025-02-25 22:08:22,584 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 22:27:13,924 - datasets - INFO - PyTorch version 2.4.0+cu121 available.
+2025-02-25 22:27:15,640 - root - INFO - Pinecone connection established.
+2025-02-25 22:27:15,640 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-02-25 22:27:15,640 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/e5-base-v2
+2025-02-25 22:27:20,949 - root - INFO - SentenceTransformer E5-Base model loaded successfully.
+2025-02-25 22:27:24,324 - train_script - INFO - ==================================================
+2025-02-25 22:27:24,324 - train_script - INFO - Starting training run at 20250225_222724
+2025-02-25 22:27:24,324 - train_script - INFO - Arguments: Namespace(ablation=None, action_space='C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\\experiment_20250225_222702\\action_space.json', batch_size=64, checkpoint_freq=50, episodes=10, eval_freq=100, lr=0.0003, output_dir='C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\\experiment_20250225_222702\\training_output', reward_config='C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\\experiment_20250225_222702\\reward_config.json', seed=42, test_data='C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/test_data.json', train_data='C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/train_data.json')
+2025-02-25 22:27:24,330 - train_script - INFO - Device: cpu
+2025-02-25 22:27:24,330 - train_script - INFO - Loading action space from C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_222702\action_space.json
+2025-02-25 22:27:24,331 - train_script - INFO - Action space contains 13 total actions
+2025-02-25 22:27:24,331 - train_script - INFO - Loading reward config from C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\experiment_20250225_222702\reward_config.json
+2025-02-25 22:27:24,331 - train_script - INFO - Loading training dataset from C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/train_data.json
+2025-02-25 22:27:24,331 - PPO_model - INFO - Loading dataset from C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/train_data.json
+2025-02-25 22:27:24,455 - PPO_model - INFO - Loaded raw dataset with 540 items
+2025-02-25 22:27:24,471 - PPO_model - INFO - Dataset statistics:
+2025-02-25 22:27:24,472 - PPO_model - INFO - Total items: 540
+2025-02-25 22:27:24,472 - PPO_model - INFO - Average tokens per item: 512.00
+2025-02-25 22:27:24,472 - PPO_model - INFO - Question types distribution: {'what': 173, 'how': 187, 'if_can': 180}
+2025-02-25 22:27:24,472 - PPO_model - INFO - Dataset loading completed in 0.14 seconds
+2025-02-25 22:27:24,472 - train_script - INFO - Loading test dataset from C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/test_data.json
+2025-02-25 22:27:24,472 - PPO_model - INFO - Loading dataset from C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/test_data.json
+2025-02-25 22:27:24,486 - PPO_model - INFO - Loaded raw dataset with 60 items
+2025-02-25 22:27:24,488 - PPO_model - INFO - Dataset statistics:
+2025-02-25 22:27:24,488 - PPO_model - INFO - Total items: 60
+2025-02-25 22:27:24,488 - PPO_model - INFO - Average tokens per item: 512.00
+2025-02-25 22:27:24,488 - PPO_model - INFO - Question types distribution: {'what': 27, 'if_can': 20, 'how': 13}
+2025-02-25 22:27:24,488 - PPO_model - INFO - Dataset loading completed in 0.02 seconds
+2025-02-25 22:27:24,488 - train_script - INFO - Datasets loaded in 0.16s
+2025-02-25 22:27:24,489 - train_script - INFO - Input dimension: 512
+2025-02-25 22:27:24,489 - PPO_model - INFO - Initializing PPO Agent with:
+2025-02-25 22:27:24,489 - PPO_model - INFO - Input dimension: 512
+2025-02-25 22:27:24,489 - PPO_model - INFO - Device: cpu
+2025-02-25 22:27:24,489 - PPO_model - INFO - Batch size: 64
+2025-02-25 22:27:24,489 - PPO_model - INFO - Learning rate: 0.0003
+2025-02-25 22:27:24,489 - PPO_model - INFO - Discount factor (gamma): 0.99
+2025-02-25 22:27:24,489 - PPO_model - INFO - GAE lambda: 0.95
+2025-02-25 22:27:24,489 - PPO_model - INFO - Policy clip: 0.2
+2025-02-25 22:27:24,489 - PPO_model - INFO - Update epochs: 10
+2025-02-25 22:27:24,489 - PPO_model - INFO - Action counts per question type: {'what': 5, 'how': 5, 'if_can': 5}
+2025-02-25 22:27:24,489 - PPO_model - INFO - Initializing actor and critic networks
+2025-02-25 22:27:24,496 - absl - INFO - Using default tokenizer.
+2025-02-25 22:27:24,496 - PPO_model - INFO - PPO Agent initialization complete
+2025-02-25 22:27:24,496 - train_script - INFO - Starting training for 10 episodes...
+2025-02-25 22:27:24,496 - PPO_model - INFO - Starting training for 10 episodes with max 50 steps per episode
+2025-02-25 22:27:24,496 - PPO_model - INFO - Training dataset contains 540 examples
+2025-02-25 22:27:26,610 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 22:27:26,617 - root - INFO - Retrieving context for query: 'other matters than non keeping employees financially happy, is as well at that place a financial upper side for serve employers in providing employee welfare benefit?' with top_k=3
+2025-02-25 22:27:26,852 - root - INFO - Encoded 1 text(s) into embeddings.
+2025-02-25 22:27:28,500 - root - INFO - Retrieved 3 relevant context chunk(s) from Pinecone.
+2025-02-25 22:27:36,844 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 22:28:01,014 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 22:28:01,016 - root - INFO - Retrieving context for query: 'other matters than non keeping employees financially happy, is as well at that place a financial upper side for serve employers in providing employee welfare benefit?' with top_k=3
+2025-02-25 22:28:01,166 - root - INFO - Encoded 1 text(s) into embeddings.
+2025-02-25 22:28:01,445 - root - INFO - Retrieved 3 relevant context chunk(s) from Pinecone.
+2025-02-25 22:28:07,980 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 22:28:24,403 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 22:28:24,405 - root - INFO - Retrieving context for query: 'other matters than non keeping employees financially happy, is as well at that place a financial upper side for serve employers in providing employee welfare benefit?' with top_k=3
+2025-02-25 22:28:24,554 - root - INFO - Encoded 1 text(s) into embeddings.
+2025-02-25 22:28:24,836 - root - INFO - Retrieved 3 relevant context chunk(s) from Pinecone.
+2025-02-25 22:28:32,400 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 22:28:49,751 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 22:28:49,759 - root - INFO - Retrieving context for query: 'other matters than non keeping employees financially happy, is as well at that place a financial upper side for serve employers in providing employee welfare benefit?' with top_k=3
+2025-02-25 22:28:49,910 - root - INFO - Encoded 1 text(s) into embeddings.
+2025-02-25 22:28:50,242 - root - INFO - Retrieved 3 relevant context chunk(s) from Pinecone.
+2025-02-25 22:28:56,687 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 22:29:13,824 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 22:29:13,825 - root - INFO - Retrieving context for query: 'other matters than non keeping employees financially happy, is as well at that place a financial upper side for serve employers in providing employee welfare benefit?' with top_k=3
+2025-02-25 22:29:13,978 - root - INFO - Encoded 1 text(s) into embeddings.
+2025-02-25 22:29:14,251 - root - INFO - Retrieved 3 relevant context chunk(s) from Pinecone.
+2025-02-25 22:29:22,320 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 22:29:41,352 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 22:29:41,353 - root - INFO - Retrieving context for query: 'other matters than non keeping employees financially happy, is as well at that place a financial upper side for serve employers in providing employee welfare benefit?' with top_k=3
+2025-02-25 22:29:41,503 - root - INFO - Encoded 1 text(s) into embeddings.
+2025-02-25 22:29:41,791 - root - INFO - Retrieved 3 relevant context chunk(s) from Pinecone.
+2025-02-25 22:29:49,472 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 22:30:06,560 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 22:30:06,563 - root - INFO - Retrieving context for query: 'other matters than non keeping employees financially happy, is as well at that place a financial upper side for serve employers in providing employee welfare benefit?' with top_k=3
+2025-02-25 22:30:06,736 - root - INFO - Encoded 1 text(s) into embeddings.
+2025-02-25 22:30:06,996 - root - INFO - Retrieved 3 relevant context chunk(s) from Pinecone.
+2025-02-25 22:30:15,129 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 22:30:32,408 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 22:30:32,419 - root - INFO - Retrieving context for query: 'other matters than non keeping employees financially happy, is as well at that place a financial upper side for serve employers in providing employee welfare benefit?' with top_k=3
+2025-02-25 22:30:32,572 - root - INFO - Encoded 1 text(s) into embeddings.
+2025-02-25 22:30:32,855 - root - INFO - Retrieved 3 relevant context chunk(s) from Pinecone.
+2025-02-25 22:30:43,808 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 22:31:05,549 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 22:31:05,550 - root - INFO - Retrieving context for query: 'other matters than non keeping employees financially happy, is as well at that place a financial upper side for serve employers in providing employee welfare benefit?' with top_k=3
+2025-02-25 22:31:05,737 - root - INFO - Encoded 1 text(s) into embeddings.
+2025-02-25 22:31:05,995 - root - INFO - Retrieved 3 relevant context chunk(s) from Pinecone.
+2025-02-25 22:31:11,365 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 22:31:35,969 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 22:31:35,970 - root - INFO - Retrieving context for query: 'other matters than non keeping employees financially happy, is as well at that place a financial upper side for serve employers in providing employee welfare benefit?' with top_k=3
+2025-02-25 22:31:36,120 - root - INFO - Encoded 1 text(s) into embeddings.
+2025-02-25 22:31:36,428 - root - INFO - Retrieved 3 relevant context chunk(s) from Pinecone.
+2025-02-25 22:31:44,820 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 22:32:06,698 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 22:32:06,719 - root - INFO - Retrieving context for query: 'other matters than non keeping employees financially happy, is as well at that place a financial upper side for serve employers in providing employee welfare benefit?' with top_k=3
+2025-02-25 22:32:06,883 - root - INFO - Encoded 1 text(s) into embeddings.
+2025-02-25 22:32:07,160 - root - INFO - Retrieved 3 relevant context chunk(s) from Pinecone.
+2025-02-25 22:32:23,393 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 22:32:48,438 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 22:32:48,438 - root - INFO - Retrieving context for query: 'other matters than non keeping employees financially happy, is as well at that place a financial upper side for serve employers in providing employee welfare benefit?' with top_k=3
+2025-02-25 22:32:48,603 - root - INFO - Encoded 1 text(s) into embeddings.
+2025-02-25 22:32:50,187 - root - INFO - Retrieved 3 relevant context chunk(s) from Pinecone.
+2025-02-25 22:32:55,884 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 22:33:14,772 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 22:33:14,775 - root - INFO - Retrieving context for query: 'other matters than non keeping employees financially happy, is as well at that place a financial upper side for serve employers in providing employee welfare benefit?' with top_k=3
+2025-02-25 22:33:14,943 - root - INFO - Encoded 1 text(s) into embeddings.
+2025-02-25 22:33:15,903 - root - INFO - Retrieved 3 relevant context chunk(s) from Pinecone.
+2025-02-25 22:33:26,145 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 22:33:47,550 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 22:33:47,551 - root - INFO - Retrieving context for query: 'other matters than non keeping employees financially happy, is as well at that place a financial upper side for serve employers in providing employee welfare benefit?' with top_k=3
+2025-02-25 22:33:47,701 - root - INFO - Encoded 1 text(s) into embeddings.
+2025-02-25 22:33:47,979 - root - INFO - Retrieved 3 relevant context chunk(s) from Pinecone.
+2025-02-25 22:33:54,938 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 22:34:12,670 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 22:34:12,671 - root - INFO - Retrieving context for query: 'other matters than non keeping employees financially happy, is as well at that place a financial upper side for serve employers in providing employee welfare benefit?' with top_k=3
+2025-02-25 22:34:12,885 - root - INFO - Encoded 1 text(s) into embeddings.
+2025-02-25 22:34:13,151 - root - INFO - Retrieved 3 relevant context chunk(s) from Pinecone.
+2025-02-25 22:34:23,673 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 22:34:48,785 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 22:34:48,786 - root - INFO - Retrieving context for query: 'other matters than non keeping employees financially happy, is as well at that place a financial upper side for serve employers in providing employee welfare benefit?' with top_k=3
+2025-02-25 22:34:48,954 - root - INFO - Encoded 1 text(s) into embeddings.
+2025-02-25 22:34:49,215 - root - INFO - Retrieved 3 relevant context chunk(s) from Pinecone.
+2025-02-25 22:34:56,053 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 22:35:16,341 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 22:35:16,342 - root - INFO - Retrieving context for query: 'other matters than non keeping employees financially happy, is as well at that place a financial upper side for serve employers in providing employee welfare benefit?' with top_k=3
+2025-02-25 22:35:16,530 - root - INFO - Encoded 1 text(s) into embeddings.
+2025-02-25 22:35:16,814 - root - INFO - Retrieved 3 relevant context chunk(s) from Pinecone.
+2025-02-25 22:35:25,037 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 22:35:49,531 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 22:35:49,538 - root - INFO - Retrieving context for query: 'other matters than non keeping employees financially happy, is as well at that place a financial upper side for serve employers in providing employee welfare benefit?' with top_k=3
+2025-02-25 22:35:50,577 - root - INFO - Encoded 1 text(s) into embeddings.
+2025-02-25 22:35:50,880 - root - INFO - Retrieved 3 relevant context chunk(s) from Pinecone.
+2025-02-25 22:35:58,423 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 22:36:16,998 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 22:36:17,007 - root - INFO - Retrieving context for query: 'other matters than non keeping employees financially happy, is as well at that place a financial upper side for serve employers in providing employee welfare benefit?' with top_k=3
+2025-02-25 22:36:17,217 - root - INFO - Encoded 1 text(s) into embeddings.
+2025-02-25 22:36:17,571 - root - INFO - Retrieved 3 relevant context chunk(s) from Pinecone.
+2025-02-25 22:36:25,417 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 22:36:49,934 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 22:36:49,935 - root - INFO - Retrieving context for query: 'other matters than non keeping employees financially happy, is as well at that place a financial upper side for serve employers in providing employee welfare benefit?' with top_k=3
+2025-02-25 22:36:50,122 - root - INFO - Encoded 1 text(s) into embeddings.
+2025-02-25 22:36:50,390 - root - INFO - Retrieved 3 relevant context chunk(s) from Pinecone.
+2025-02-25 22:36:59,052 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
