@@ -8,7 +8,7 @@ import time
 import logging
 import torch
 import sys
-
+from RL_Agent.utils.ablation_utils import apply_action_space_ablation
 from ppo_model import PPOAgent, load_config, load_dataset
 
 # Create logs directory if it doesn't exist
@@ -132,7 +132,7 @@ def save_metrics(metrics, output_dir):
     # Process the entire metrics structure
     processed_metrics = process_json_structure(metrics)
 
-    with open(metrics_file, 'w') as f:
+    with open(metrics_file, 'w', encoding='utf-8') as f:
         json.dump(processed_metrics, f, indent=2)
 
     logger.info(f"Metrics saved successfully")
@@ -234,10 +234,16 @@ def main():
             action_space["if_can_question_actions"] = what_actions
             logger.info("Using the same action space for all question types")
 
+        elif args.ablation.startswith("action_"):
+            ablation_type = args.ablation.replace("action_", "")
+            action_space = apply_action_space_ablation(action_space, ablation_type)
+            logger.info(f"Applied action space ablation: {ablation_type}")
+            print(f"🟦 Applied action space ablation: {ablation_type}")
+
         # Save the modified configurations
-        with open(f"{output_dir}/ablated_reward_config.json", 'w') as f:
+        with open(f"{output_dir}/ablated_reward_config.json", 'w', encoding='utf-8') as f:
             json.dump(reward_config, f, indent=2)
-        with open(f"{output_dir}/ablated_action_space.json", 'w') as f:
+        with open(f"{output_dir}/ablated_action_space.json", 'w', encoding='utf-8') as f:
             json.dump(action_space, f, indent=2)
 
     # Load datasets

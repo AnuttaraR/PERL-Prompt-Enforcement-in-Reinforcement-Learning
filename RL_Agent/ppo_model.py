@@ -430,9 +430,9 @@ class PPOAgent:
 
         # Count actions per question type
         self.action_counts = {
-            "what": len(action_space["what_question_actions"]),
-            "how": len(action_space["how_question_actions"]),
-            "if_can": len(action_space["if_can_question_actions"])
+            "what": len(action_space["general_actions"]) + len(action_space["what_question_actions"]),
+            "how": len(action_space["general_actions"]) + len(action_space["how_question_actions"]),
+            "if_can": len(action_space["general_actions"]) + len(action_space["if_can_question_actions"])
         }
 
         # Add general actions to each count

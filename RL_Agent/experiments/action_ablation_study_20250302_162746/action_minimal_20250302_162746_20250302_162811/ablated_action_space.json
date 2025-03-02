@@ -1,0 +1,11 @@
+{
+  "general_actions": {
+    "0": "Keep the following prompt unchanged.",
+    "1": "Rephrase the question to request evidence-based answers.",
+    "2": "Transform the question to ask for a comprehensive explanation with examples.",
+    "3": "Modify the question to ask for both advantages and disadvantages."
+  },
+  "what_question_actions": {},
+  "how_question_actions": {},
+  "if_can_question_actions": {}
+}

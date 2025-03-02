@@ -1,0 +1,32 @@
+2025-03-01 22:58:11,076 - ppo_analysis - INFO - ==================================================
+2025-03-01 22:58:11,077 - ppo_analysis - INFO - Starting PPO model analysis
+2025-03-01 22:58:11,077 - ppo_analysis - INFO - Metrics file: C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\action_ablation_study_20250228_200743\action_minimal\metrics.json
+2025-03-01 22:58:11,078 - ppo_analysis - INFO - Output directory: C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\action_ablation_study_20250228_200743\action_minimal\analysis
+2025-03-01 22:58:11,078 - ppo_analysis - INFO - Loading metrics from C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\action_ablation_study_20250228_200743\action_minimal\metrics.json
+2025-03-01 22:58:11,080 - ppo_analysis - INFO - Metrics loaded successfully in 0.00s
+2025-03-01 22:58:11,081 - ppo_analysis - INFO - Training data contains 100 episodes
+2025-03-01 22:58:11,081 - ppo_analysis - INFO - Test data contains question counts: {'what': 27, 'how': 13, 'if_can': 20}
+2025-03-01 22:58:11,081 - ppo_analysis - INFO - Generating reward comparison plot
+2025-03-01 22:58:11,562 - ppo_analysis - INFO - Reward comparison plot saved to C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\action_ablation_study_20250228_200743\action_minimal\analysis/reward_comparison.png
+2025-03-01 22:58:11,562 - ppo_analysis - INFO - Plot generation completed in 0.48s
+2025-03-01 22:58:11,562 - ppo_analysis - INFO - Generating score comparison plot
+2025-03-01 22:58:12,140 - ppo_analysis - INFO - Score comparison plot saved to C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\action_ablation_study_20250228_200743\action_minimal\analysis/score_comparison.png
+2025-03-01 22:58:12,140 - ppo_analysis - INFO - Plot generation completed in 0.58s
+2025-03-01 22:58:12,140 - ppo_analysis - INFO - Generating learning curves
+2025-03-01 22:58:12,700 - ppo_analysis - INFO - Smoothed rewards plot saved to C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\action_ablation_study_20250228_200743\action_minimal\analysis/smoothed_rewards.png
+2025-03-01 22:58:13,248 - ppo_analysis - INFO - Smoothed losses plot saved to C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\action_ablation_study_20250228_200743\action_minimal\analysis/smoothed_losses.png
+2025-03-01 22:58:13,248 - ppo_analysis - INFO - Learning curves generation completed in 1.11s
+2025-03-01 22:58:13,248 - ppo_analysis - INFO - Generating question type progression plot
+2025-03-01 22:58:13,881 - ppo_analysis - INFO - Question type progression plot saved to C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\action_ablation_study_20250228_200743\action_minimal\analysis/question_type_progression.png
+2025-03-01 22:58:13,882 - ppo_analysis - INFO - Plot generation completed in 0.63s
+2025-03-01 22:58:13,882 - ppo_analysis - INFO - Generating action distribution plot
+2025-03-01 22:58:14,288 - ppo_analysis - INFO - Action distribution plot for what questions saved to C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\action_ablation_study_20250228_200743\action_minimal\analysis/action_distribution_what.png
+2025-03-01 22:58:14,703 - ppo_analysis - INFO - Action distribution plot for how questions saved to C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\action_ablation_study_20250228_200743\action_minimal\analysis/action_distribution_how.png
+2025-03-01 22:58:15,125 - ppo_analysis - INFO - Action distribution plot for if_can questions saved to C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\action_ablation_study_20250228_200743\action_minimal\analysis/action_distribution_if_can.png
+2025-03-01 22:58:15,125 - ppo_analysis - INFO - Action distribution plots completed in 1.24s
+2025-03-01 22:58:15,126 - ppo_analysis - INFO - Generating summary report
+2025-03-01 22:58:15,127 - ppo_analysis - INFO - Summary report saved to C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\action_ablation_study_20250228_200743\action_minimal\analysis/summary_report.txt
+2025-03-01 22:58:15,127 - ppo_analysis - INFO - Report generation completed in 0.00s
+2025-03-01 22:58:15,127 - ppo_analysis - INFO - Analysis completed in 4.05s (0.07 minutes)
+2025-03-01 22:58:15,127 - ppo_analysis - INFO - Results saved to C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\action_ablation_study_20250228_200743\action_minimal\analysis
+2025-03-01 22:58:15,127 - ppo_analysis - INFO - ==================================================

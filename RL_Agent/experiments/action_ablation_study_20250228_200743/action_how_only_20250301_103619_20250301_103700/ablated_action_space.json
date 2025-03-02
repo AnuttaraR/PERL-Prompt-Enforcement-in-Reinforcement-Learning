@@ -1,0 +1,23 @@
+{
+  "general_actions": {
+    "0": "Keep the following prompt unchanged."
+  },
+  "what_question_actions": {
+    "1": "Transform the 'how' question into a numbered step-by-step request format.",
+    "2": "Add a request for implementation timeline to the 'how' question.",
+    "3": "Incorporate regulatory considerations into the 'how' question.",
+    "4": "Reframe the 'how' question to focus on potential challenges and solutions."
+  },
+  "how_question_actions": {
+    "1": "Transform the 'how' question into a numbered step-by-step request format.",
+    "2": "Add a request for implementation timeline to the 'how' question.",
+    "3": "Incorporate regulatory considerations into the 'how' question.",
+    "4": "Reframe the 'how' question to focus on potential challenges and solutions."
+  },
+  "if_can_question_actions": {
+    "1": "Transform the 'how' question into a numbered step-by-step request format.",
+    "2": "Add a request for implementation timeline to the 'how' question.",
+    "3": "Incorporate regulatory considerations into the 'how' question.",
+    "4": "Reframe the 'how' question to focus on potential challenges and solutions."
+  }
+}

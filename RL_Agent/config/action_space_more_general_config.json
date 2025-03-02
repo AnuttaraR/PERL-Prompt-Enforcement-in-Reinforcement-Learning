@@ -1,0 +1,26 @@
+{
+  "general_actions": {
+    "0": "Keep the following prompt unchanged.",
+    "1": "Rephrase the question to request evidence-based answers.",
+    "2": "Transform the question to ask for a comprehensive explanation with examples.",
+    "3": "Modify the question to ask for both advantages and disadvantages."
+  },
+  "what_question_actions": {
+    "4": "Add specific insurance terminology to define the 'what' concept more clearly.",
+    "5": "Restructure the 'what' question to request concrete examples of the concept.",
+    "6": "Narrow the scope of the 'what' question by adding contextual constraints.",
+    "7": "Convert the 'what' question into a comparative format (e.g., 'what is X compared to Y')."
+  },
+  "how_question_actions": {
+    "4": "Transform the 'how' question into a numbered step-by-step request format.",
+    "5": "Add a request for implementation timeline to the 'how' question.",
+    "6": "Incorporate regulatory considerations into the 'how' question.",
+    "7": "Reframe the 'how' question to focus on potential challenges and solutions."
+  },
+  "if_can_question_actions": {
+    "4": "Add specific conditional parameters to the 'if/can' question.",
+    "5": "Request exploration of both positive and negative outcomes in the 'if/can' scenario.",
+    "6": "Add a request for statistical likelihood in the 'if/can' question.",
+    "7": "Transform the 'if/can' question to give a yes/no response first before answering."
+  }
+}
