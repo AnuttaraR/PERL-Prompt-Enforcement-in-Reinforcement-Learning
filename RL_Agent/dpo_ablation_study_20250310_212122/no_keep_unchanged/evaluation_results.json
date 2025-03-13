@@ -1,0 +1,58 @@
+{
+  "what": {
+    "accuracy": 14.814814814814813,
+    "total": 27,
+    "correct": 4,
+    "top_actions": [
+      {
+        "action_id": 2,
+        "description": "Convert the 'what' question into a comparative format (e.g., 'what is X compared to Y').",
+        "percentage": 96.29629629629629
+      },
+      {
+        "action_id": 0,
+        "description": "Restructure the 'what' question to request concrete examples of the concept.",
+        "percentage": 3.7037037037037033
+      }
+    ]
+  },
+  "how": {
+    "accuracy": 7.6923076923076925,
+    "total": 13,
+    "correct": 1,
+    "top_actions": [
+      {
+        "action_id": 0,
+        "description": "Add a request for implementation timeline to the 'how' question.",
+        "percentage": 76.92307692307693
+      },
+      {
+        "action_id": 2,
+        "description": "Reframe the 'how' question to focus on potential challenges and solutions.",
+        "percentage": 15.384615384615385
+      },
+      {
+        "action_id": 1,
+        "description": "Incorporate regulatory considerations into the 'how' question.",
+        "percentage": 7.6923076923076925
+      }
+    ]
+  },
+  "if_can": {
+    "accuracy": 0.0,
+    "total": 20,
+    "correct": 0,
+    "top_actions": [
+      {
+        "action_id": 0,
+        "description": "Request exploration of both positive and negative outcomes in the 'if/can' scenario.",
+        "percentage": 100.0
+      }
+    ]
+  },
+  "overall": {
+    "accuracy": 8.333333333333332,
+    "total": 60,
+    "correct": 5
+  }
+}

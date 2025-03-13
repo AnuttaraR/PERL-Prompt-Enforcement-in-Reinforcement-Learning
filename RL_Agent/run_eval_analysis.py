@@ -22,7 +22,7 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler(os.path.join("C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/logs", "evaluate_model.log"),
+        logging.FileHandler(os.path.join("/RL_Agent/ppo_results/logs", "evaluate_model.log"),
                             encoding='utf-8'),
         logging.StreamHandler(sys.stdout)
     ]

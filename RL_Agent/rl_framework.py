@@ -29,7 +29,7 @@ TOKENIZER_MODEL = "bert-base-uncased"
 INVALID_RESPONSE = "INVALID"
 
 # Define log file path
-LOG_DIR = "C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/results"  # Ensure this matches your setup
+LOG_DIR = "/RL_Agent/ppo_results/results"
 LOG_FILE = os.path.join(LOG_DIR, "ppo_training_log.txt")
 
 # Create the directory if it doesn't exist
@@ -73,7 +73,7 @@ def compute_final_metrics(evaluation_data, bart_scorer, tokenizer):
     print(json.dumps(metrics, indent=4))
 
     # Save metrics to a JSON file
-    metrics_path = "C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/results/ppo_final_metrics.json"
+    metrics_path = "/RL_Agent/ppo_results/results/ppo_final_metrics.json"
     with open(metrics_path, "w") as f:
         json.dump(metrics, f, indent=4)
 
@@ -602,7 +602,7 @@ def train_ppo(env):
                 logging.info(f"Average Best Reward: {avg_best:.3f}")
 
             # Save checkpoint
-            checkpoint_path = f"results/ppo_model_checkpoint_{episodes_completed}"
+            checkpoint_path = f"ppo_results/results/ppo_model_checkpoint_{episodes_completed}"
             agent.save(checkpoint_path)
             logging.info(f"Saved checkpoint at episode {episodes_completed}")
 
@@ -610,7 +610,7 @@ def train_ppo(env):
     agent.save("results/ppo_final_model")
 
     # Save final metrics by question type
-    metrics_path = "results/ppo_metrics_by_type.json"
+    metrics_path = "ppo_results/results/ppo_metrics_by_type.json"
     with open(metrics_path, "w") as f:
         json.dump(metrics_by_type, f, indent=4)
 

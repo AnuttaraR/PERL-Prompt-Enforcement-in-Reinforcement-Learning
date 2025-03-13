@@ -1,0 +1,73 @@
+{
+  "what": {
+    "accuracy": 44.44444444444444,
+    "total": 27,
+    "correct": 12,
+    "top_actions": [
+      {
+        "action_id": 0,
+        "description": "Keep the following prompt unchanged.",
+        "percentage": 55.55555555555556
+      },
+      {
+        "action_id": 3,
+        "description": "Narrow the scope of the 'what' question by adding contextual constraints.",
+        "percentage": 18.51851851851852
+      },
+      {
+        "action_id": 1,
+        "description": "Add specific insurance terminology to define the 'what' concept more clearly.",
+        "percentage": 11.11111111111111
+      }
+    ]
+  },
+  "how": {
+    "accuracy": 15.384615384615385,
+    "total": 13,
+    "correct": 2,
+    "top_actions": [
+      {
+        "action_id": 0,
+        "description": "Keep the following prompt unchanged.",
+        "percentage": 53.84615384615385
+      },
+      {
+        "action_id": 2,
+        "description": "Add a request for implementation timeline to the 'how' question.",
+        "percentage": 23.076923076923077
+      },
+      {
+        "action_id": 3,
+        "description": "Incorporate regulatory considerations into the 'how' question.",
+        "percentage": 7.6923076923076925
+      }
+    ]
+  },
+  "if_can": {
+    "accuracy": 70.0,
+    "total": 20,
+    "correct": 14,
+    "top_actions": [
+      {
+        "action_id": 0,
+        "description": "Keep the following prompt unchanged.",
+        "percentage": 55.00000000000001
+      },
+      {
+        "action_id": 2,
+        "description": "Request exploration of both positive and negative outcomes in the 'if/can' scenario.",
+        "percentage": 25.0
+      },
+      {
+        "action_id": 3,
+        "description": "Add a request for statistical likelihood in the 'if/can' question.",
+        "percentage": 15.0
+      }
+    ]
+  },
+  "overall": {
+    "accuracy": 46.666666666666664,
+    "total": 60,
+    "correct": 28
+  }
+}

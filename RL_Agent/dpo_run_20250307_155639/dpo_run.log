@@ -1,0 +1,32 @@
+2025-03-07 15:56:39,203 - integrated_dpo - INFO - ============================================================
+2025-03-07 15:56:39,203 - integrated_dpo - INFO - Starting integrated DPO training pipeline
+2025-03-07 15:56:39,203 - integrated_dpo - INFO - Output directory: dpo_run_20250307_155639
+2025-03-07 15:56:39,203 - integrated_dpo - INFO - Skipping preference pair generation, loading from C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/dpo_run_20250306_165600/preference_pairs.json
+2025-03-07 15:56:39,244 - integrated_dpo - INFO - Initializing tokenizer and DPO trainer
+2025-03-07 15:56:39,642 - integrated_dpo - INFO - Starting DPO training for 10 epochs
+2025-03-07 16:03:28,090 - integrated_dpo - INFO - Training completed in 408.45s (6.81m)
+2025-03-07 16:03:28,100 - integrated_dpo - INFO - Training metrics saved to dpo_run_20250307_155639\training_metrics.json
+2025-03-07 16:03:28,105 - integrated_dpo - INFO - Model saved to dpo_run_20250307_155639\dpo_model
+2025-03-07 16:03:28,105 - integrated_dpo - INFO - Evaluating model on test dataset
+2025-03-07 16:12:20,051 - integrated_dpo - INFO - Evaluation completed in 531.95s (8.87m)
+2025-03-07 16:12:20,052 - integrated_dpo - INFO - Evaluation results saved to dpo_run_20250307_155639\evaluation_results.json
+2025-03-07 16:12:20,052 - integrated_dpo - INFO - Overall accuracy: 41.67%
+2025-03-07 16:12:20,052 - integrated_dpo - INFO - Performance by question type:
+2025-03-07 16:12:20,052 - integrated_dpo - INFO -   what: 37.04% (10/27)
+2025-03-07 16:12:20,052 - integrated_dpo - INFO -   how: 30.77% (4/13)
+2025-03-07 16:12:20,052 - integrated_dpo - INFO -   if_can: 55.00% (11/20)
+2025-03-07 16:12:20,052 - integrated_dpo - INFO - Top actions by question type:
+2025-03-07 16:12:20,052 - integrated_dpo - INFO -   what:
+2025-03-07 16:12:20,052 - integrated_dpo - INFO -     - Keep the following prompt unchanged.: 44.4%
+2025-03-07 16:12:20,052 - integrated_dpo - INFO -     - Add specific insurance terminology to define the 'what' concept more clearly.: 22.2%
+2025-03-07 16:12:20,052 - integrated_dpo - INFO -     - Narrow the scope of the 'what' question by adding contextual constraints.: 14.8%
+2025-03-07 16:12:20,052 - integrated_dpo - INFO -   how:
+2025-03-07 16:12:20,052 - integrated_dpo - INFO -     - Keep the following prompt unchanged.: 30.8%
+2025-03-07 16:12:20,052 - integrated_dpo - INFO -     - Add a request for implementation timeline to the 'how' question.: 30.8%
+2025-03-07 16:12:20,052 - integrated_dpo - INFO -     - Incorporate regulatory considerations into the 'how' question.: 23.1%
+2025-03-07 16:12:20,052 - integrated_dpo - INFO -   if_can:
+2025-03-07 16:12:20,052 - integrated_dpo - INFO -     - Keep the following prompt unchanged.: 55.0%
+2025-03-07 16:12:20,052 - integrated_dpo - INFO -     - Request exploration of both positive and negative outcomes in the 'if/can' scenario.: 20.0%
+2025-03-07 16:12:20,052 - integrated_dpo - INFO -     - Add a request for statistical likelihood in the 'if/can' question.: 10.0%
+2025-03-07 16:12:20,053 - integrated_dpo - INFO - Total run time: 940.85s (15.68m)
+2025-03-07 16:12:20,053 - integrated_dpo - INFO - ============================================================

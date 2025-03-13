@@ -30,14 +30,14 @@ from RL_Agent.utils.query_llm import get_llm_response, generate_answer_from_llm
 from RL_Agent.utils.retrieval import retrieve_context
 
 # Create logs directory if it doesn't exist
-os.makedirs("C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/logs", exist_ok=True)
+os.makedirs("/RL_Agent/ppo_results/logs", exist_ok=True)
 
 # Configure logging
 logging.basicConfig(
     level=logging.DEBUG,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler(os.path.join("C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/logs", "ppo_model.log"), encoding='utf-8'),
+        logging.FileHandler(os.path.join("/RL_Agent/ppo_results/logs", "ppo_model.log"), encoding='utf-8'),
         logging.StreamHandler(sys.stdout)
     ]
 )
@@ -849,7 +849,7 @@ class PPOAgent:
                 logger.info(f"Top actions for {qt} questions: {top_actions}")
 
         # Save the final model
-        self.save_model(path="final_ppo_model")
+        self.save_model(path="ppo_results/final_ppo_model")
         logger.info(f"Final model saved to 'final_ppo_model'")
 
         return self.episode_rewards
@@ -1056,7 +1056,7 @@ class PPOAgent:
         """Create and save plots of learning curves"""
         try:
             # Create output directory if it doesn't exist
-            os.makedirs("plots", exist_ok=True)
+            os.makedirs("ppo_results/plots", exist_ok=True)
 
             # Plot overall reward curve
             plt.figure(figsize=(10, 6))

@@ -1,0 +1,18 @@
+{
+  "train_data": "C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent\\data/train_data.json",
+  "test_data": "C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent\\data/test_data.json",
+  "action_space": "C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent\\config/action_space_config.json",
+  "output_dir": "C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent\\dpo_ablation_study_20250310_212122\\action_minimal_20250310_223305",
+  "num_pairs": 1000,
+  "epochs": 10,
+  "batch_size": 32,
+  "lr": 0.0001,
+  "beta": 0.1,
+  "seed": 42,
+  "load_pairs": "C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/dpo_run_20250306_165600/preference_pairs.json",
+  "ablation": "action_minimal",
+  "model_variant": null,
+  "temperature": 1.0,
+  "diversity_weight": 0.0,
+  "weighted_loss": false
+}

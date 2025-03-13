@@ -11,7 +11,7 @@ import time
 from datetime import datetime
 
 # Create logs directory if it doesn't exist
-os.makedirs("C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/logs", exist_ok=True)
+os.makedirs("/RL_Agent/ppo_results/logs", exist_ok=True)
 
 # Configure logging
 logging.basicConfig(
@@ -19,7 +19,7 @@ logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     handlers=[
         logging.FileHandler(
-            os.path.join("C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/logs", "combined_analysis.log"),
+            os.path.join("/RL_Agent/ppo_results/logs", "combined_analysis.log"),
             encoding='utf-8'),
         logging.StreamHandler(sys.stdout)
     ]

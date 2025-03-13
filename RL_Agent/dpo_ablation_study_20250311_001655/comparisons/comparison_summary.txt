@@ -1,0 +1,149 @@
+================================================================================
+DPO ABLATION STUDY COMPARISON REPORT
+================================================================================
+
+ACCURACY BY QUESTION TYPE
+----------------------------------------
+Ablation Type        | What       | How        | If/Can     | Overall   
+------------------------------------------------------------------------
+baseline             | 48.15      | 15.38      | 60.00      | 45.00     
+balanced_pairs       | 40.74      | 30.77      | 80.00      | 51.67     
+higher_temperature   | 48.15      | 30.77      | 65.00      | 50.00     
+action_diversity_reward | 37.04      | 15.38      | 50.00      | 36.67     
+action_minimal       | 59.26      | 30.77      | 65.00      | 55.00     
+beta_low             | 48.15      | 7.69       | 65.00      | 45.00     
+beta_high            | 51.85      | 30.77      | 60.00      | 50.00     
+no_keep_unchanged    | 14.81      | 7.69       | 0.00       | 8.33      
+question_weighted_loss | 37.04      | 23.08      | 65.00      | 43.33     
+
+TOP ACTIONS FOR WHAT QUESTIONS
+----------------------------------------
+Ablation: baseline
+  1. Action 0: Keep the following prompt unchanged. (55.6%)
+  2. Action 3: Narrow the scope of the 'what' question by adding contextual constraints. (18.5%)
+  3. Action 1: Add specific insurance terminology to define the 'what' concept more clearly. (11.1%)
+
+Ablation: balanced_pairs
+  1. Action 0: Keep the following prompt unchanged. (48.1%)
+  2. Action 3: Narrow the scope of the 'what' question by adding contextual constraints. (18.5%)
+  3. Action 2: Restructure the 'what' question to request concrete examples of the concept. (14.8%)
+
+Ablation: higher_temperature
+  1. Action 3: Narrow the scope of the 'what' question by adding contextual constraints. (33.3%)
+  2. Action 0: Keep the following prompt unchanged. (33.3%)
+  3. Action 2: Restructure the 'what' question to request concrete examples of the concept. (22.2%)
+
+Ablation: action_diversity_reward
+  1. Action 3: Narrow the scope of the 'what' question by adding contextual constraints. (33.3%)
+  2. Action 2: Restructure the 'what' question to request concrete examples of the concept. (22.2%)
+  3. Action 1: Add specific insurance terminology to define the 'what' concept more clearly. (22.2%)
+
+Ablation: action_minimal
+  1. Action 0: Keep the following prompt unchanged. (100.0%)
+
+Ablation: beta_low
+  1. Action 0: Keep the following prompt unchanged. (55.6%)
+  2. Action 3: Narrow the scope of the 'what' question by adding contextual constraints. (18.5%)
+  3. Action 1: Add specific insurance terminology to define the 'what' concept more clearly. (11.1%)
+
+Ablation: beta_high
+  1. Action 0: Keep the following prompt unchanged. (51.9%)
+  2. Action 3: Narrow the scope of the 'what' question by adding contextual constraints. (33.3%)
+  3. Action 2: Restructure the 'what' question to request concrete examples of the concept. (11.1%)
+
+Ablation: no_keep_unchanged
+  1. Action 2: Convert the 'what' question into a comparative format (e.g., 'what is X compared to Y'). (96.3%)
+  2. Action 0: Restructure the 'what' question to request concrete examples of the concept. (3.7%)
+
+Ablation: question_weighted_loss
+  1. Action 0: Keep the following prompt unchanged. (55.6%)
+  2. Action 3: Narrow the scope of the 'what' question by adding contextual constraints. (18.5%)
+  3. Action 1: Add specific insurance terminology to define the 'what' concept more clearly. (11.1%)
+
+TOP ACTIONS FOR HOW QUESTIONS
+----------------------------------------
+Ablation: baseline
+  1. Action 0: Keep the following prompt unchanged. (53.8%)
+  2. Action 2: Add a request for implementation timeline to the 'how' question. (23.1%)
+  3. Action 3: Incorporate regulatory considerations into the 'how' question. (7.7%)
+
+Ablation: balanced_pairs
+  1. Action 0: Keep the following prompt unchanged. (76.9%)
+  2. Action 2: Add a request for implementation timeline to the 'how' question. (15.4%)
+  3. Action 4: Reframe the 'how' question to focus on potential challenges and solutions. (7.7%)
+
+Ablation: higher_temperature
+  1. Action 0: Keep the following prompt unchanged. (61.5%)
+  2. Action 1: Transform the 'how' question into a numbered step-by-step request format. (23.1%)
+  3. Action 2: Add a request for implementation timeline to the 'how' question. (7.7%)
+
+Ablation: action_diversity_reward
+  1. Action 1: Transform the 'how' question into a numbered step-by-step request format. (30.8%)
+  2. Action 0: Keep the following prompt unchanged. (23.1%)
+  3. Action 4: Reframe the 'how' question to focus on potential challenges and solutions. (23.1%)
+
+Ablation: action_minimal
+  1. Action 0: Keep the following prompt unchanged. (100.0%)
+
+Ablation: beta_low
+  1. Action 0: Keep the following prompt unchanged. (53.8%)
+  2. Action 2: Add a request for implementation timeline to the 'how' question. (23.1%)
+  3. Action 3: Incorporate regulatory considerations into the 'how' question. (7.7%)
+
+Ablation: beta_high
+  1. Action 1: Transform the 'how' question into a numbered step-by-step request format. (46.2%)
+  2. Action 2: Add a request for implementation timeline to the 'how' question. (30.8%)
+  3. Action 3: Incorporate regulatory considerations into the 'how' question. (15.4%)
+
+Ablation: no_keep_unchanged
+  1. Action 0: Add a request for implementation timeline to the 'how' question. (76.9%)
+  2. Action 2: Reframe the 'how' question to focus on potential challenges and solutions. (15.4%)
+  3. Action 1: Incorporate regulatory considerations into the 'how' question. (7.7%)
+
+Ablation: question_weighted_loss
+  1. Action 0: Keep the following prompt unchanged. (53.8%)
+  2. Action 2: Add a request for implementation timeline to the 'how' question. (23.1%)
+  3. Action 3: Incorporate regulatory considerations into the 'how' question. (7.7%)
+
+TOP ACTIONS FOR IF_CAN QUESTIONS
+----------------------------------------
+Ablation: baseline
+  1. Action 0: Keep the following prompt unchanged. (55.0%)
+  2. Action 2: Request exploration of both positive and negative outcomes in the 'if/can' scenario. (25.0%)
+  3. Action 3: Add a request for statistical likelihood in the 'if/can' question. (15.0%)
+
+Ablation: balanced_pairs
+  1. Action 0: Keep the following prompt unchanged. (60.0%)
+  2. Action 3: Add a request for statistical likelihood in the 'if/can' question. (15.0%)
+  3. Action 2: Request exploration of both positive and negative outcomes in the 'if/can' scenario. (10.0%)
+
+Ablation: higher_temperature
+  1. Action 0: Keep the following prompt unchanged. (25.0%)
+  2. Action 3: Add a request for statistical likelihood in the 'if/can' question. (25.0%)
+  3. Action 1: Add specific conditional parameters to the 'if/can' question. (25.0%)
+
+Ablation: action_diversity_reward
+  1. Action 1: Add specific conditional parameters to the 'if/can' question. (45.0%)
+  2. Action 3: Add a request for statistical likelihood in the 'if/can' question. (25.0%)
+  3. Action 0: Keep the following prompt unchanged. (10.0%)
+
+Ablation: action_minimal
+  1. Action 0: Keep the following prompt unchanged. (100.0%)
+
+Ablation: beta_low
+  1. Action 0: Keep the following prompt unchanged. (55.0%)
+  2. Action 2: Request exploration of both positive and negative outcomes in the 'if/can' scenario. (25.0%)
+  3. Action 3: Add a request for statistical likelihood in the 'if/can' question. (15.0%)
+
+Ablation: beta_high
+  1. Action 0: Keep the following prompt unchanged. (35.0%)
+  2. Action 3: Add a request for statistical likelihood in the 'if/can' question. (20.0%)
+  3. Action 4: Transform the 'if/can' question to give a yes/no response first before answering. (20.0%)
+
+Ablation: no_keep_unchanged
+  1. Action 0: Request exploration of both positive and negative outcomes in the 'if/can' scenario. (100.0%)
+
+Ablation: question_weighted_loss
+  1. Action 0: Keep the following prompt unchanged. (55.0%)
+  2. Action 2: Request exploration of both positive and negative outcomes in the 'if/can' scenario. (25.0%)
+  3. Action 3: Add a request for statistical likelihood in the 'if/can' question. (15.0%)

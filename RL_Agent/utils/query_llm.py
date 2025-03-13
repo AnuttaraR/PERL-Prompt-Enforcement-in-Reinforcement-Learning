@@ -59,7 +59,7 @@ def get_llm_response(prompt, model="gpt-3.5-turbo", tokenizer=None, max_tokens=5
                                                   " Do not go to answer the question given in the prompt, your task is to only"
                                                   " edit the prompt given according to the information. Only response expected is"
                                                   " the edited prompt according to the instructions and nothing else. Do not say 'I need more"
-                                                  " information'. If the input is unclear, respond with 'Invalid input'."},
+                                                  " information'. If the input is unclear, respond with 'Invalid input'"},
                     {"role": "user", "content": prompt + "\nAdjusted Prompt:"},
                 ],
                 temperature=0.7,
@@ -67,13 +67,15 @@ def get_llm_response(prompt, model="gpt-3.5-turbo", tokenizer=None, max_tokens=5
 
             response_message = response.choices[0].message.content
 
+            print("LLM CALL 1 Response: ", response_message)
+
             INVALID_RESPONSE = "INVALID"
 
             if response_message.lower() in ["invalid input.", "invalid response.", "error.", "invalid", "invalid input", "invalid response", "error"]:
                 logging.warning(f"⚠️ LLM returned '{INVALID_RESPONSE}'—resetting to original question.")
                 return INVALID_RESPONSE
 
-            logging.info(f"🚀 LLM CALL 1: Prompt: {prompt}, Modified Prompt: {response_message}")
+            logging.info(f"✔️ LLM CALL 1 DONE: Prompt + Action Before Modification: {prompt},\n Modified Prompt: {response_message}")
 
             return response_message
 

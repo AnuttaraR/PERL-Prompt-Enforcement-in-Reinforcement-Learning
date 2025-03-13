@@ -12,14 +12,14 @@ from RL_Agent.utils.ablation_utils import apply_action_space_ablation
 from ppo_model import PPOAgent, load_config, load_dataset
 
 # Create logs directory if it doesn't exist
-os.makedirs("C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/logs", exist_ok=True)
+os.makedirs("/RL_Agent/ppo_results/logs", exist_ok=True)
 
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler(os.path.join("C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/logs", "train_script.log"), encoding='utf-8'),
+        logging.FileHandler(os.path.join("/RL_Agent/ppo_results/logs", "train_script.log"), encoding='utf-8'),
         logging.StreamHandler(sys.stdout)
     ]
 )

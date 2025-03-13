@@ -1,0 +1,14 @@
+2025-03-10 23:47:45,001 - dpo_analysis - INFO - ==================================================
+2025-03-10 23:47:45,002 - dpo_analysis - INFO - Starting DPO model analysis
+2025-03-10 23:47:45,002 - dpo_analysis - INFO - Results file: C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent\dpo_ablation_study_20250310_212122\beta_high\evaluation_results.json
+2025-03-10 23:47:45,002 - dpo_analysis - INFO - Model directory: C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent\dpo_ablation_study_20250310_212122\beta_high_20250310_232829\final_model
+2025-03-10 23:47:45,002 - dpo_analysis - INFO - Output directory: C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent\dpo_ablation_study_20250310_212122\beta_high\analysis
+2025-03-10 23:47:45,002 - dpo_analysis - INFO - Loading results from C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent\dpo_ablation_study_20250310_212122\beta_high\evaluation_results.json
+2025-03-10 23:47:45,011 - dpo_analysis - INFO - Loading metadata from C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent\dpo_ablation_study_20250310_212122\beta_high_20250310_232829\final_model\metadata.json
+2025-03-10 23:47:45,011 - dpo_analysis - INFO - Plotting training curves
+2025-03-10 23:47:45,235 - dpo_analysis - INFO - Plotting performance by question type
+2025-03-10 23:47:45,351 - dpo_analysis - INFO - Plotting action distribution
+2025-03-10 23:47:45,786 - dpo_analysis - INFO - Generating summary report
+2025-03-10 23:47:45,786 - dpo_analysis - INFO - Summary report saved to C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent\dpo_ablation_study_20250310_212122\beta_high\analysis\summary_report.txt
+2025-03-10 23:47:45,786 - dpo_analysis - INFO - Analysis completed. Results saved to C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent\dpo_ablation_study_20250310_212122\beta_high\analysis
+2025-03-10 23:47:45,786 - dpo_analysis - INFO - ==================================================

@@ -11,14 +11,14 @@ from datetime import datetime
 # Run normal training script: python train_script.py --train_data C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/train_data.json --test_data C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/test_data.json --action_space C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/config/action_space_config.json --reward_config C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/config/reward_config.json --episodes 10 --batch_size 64
 
 # Create logs directory if it doesn't exist
-os.makedirs("C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/logs", exist_ok=True)
+os.makedirs("/RL_Agent/ppo_results/logs", exist_ok=True)
 
 # Configure logging to write to both file and console
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler(os.path.join("C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/logs", "run_experiment.log"), encoding='utf-8'),
+        logging.FileHandler(os.path.join("/RL_Agent/ppo_results/logs", "run_experiment.log"), encoding='utf-8'),
         logging.StreamHandler(sys.stdout)
     ]
 )

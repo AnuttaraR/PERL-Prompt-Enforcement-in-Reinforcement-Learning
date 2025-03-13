@@ -6,7 +6,7 @@ import shutil
 from datetime import datetime
 
 # Set up paths
-BASE_DIR = "C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments"
+BASE_DIR = "/RL_Agent/ppo_results/experiments"
 timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 experiment_dir = os.path.join(BASE_DIR, f"action_ablation_study_{timestamp}")
 os.makedirs(experiment_dir, exist_ok=True)

@@ -1,0 +1,40 @@
+==================================================
+DPO MODEL PERFORMANCE SUMMARY
+==================================================
+
+OVERALL PERFORMANCE
+- Accuracy: 50.00%
+- Total examples: 60
+- Correct predictions: 30
+
+PERFORMANCE BY QUESTION TYPE
+- WHAT Questions
+  * Accuracy: 48.15%
+  * Total examples: 27
+  * Correct predictions: 13
+  * Top actions:
+    - Narrow the scope of the 'what' question by adding contextual constraints.: 33.3%
+    - Keep the following prompt unchanged.: 33.3%
+    - Restructure the 'what' question to request concrete examples of the concept.: 22.2%
+
+- HOW Questions
+  * Accuracy: 30.77%
+  * Total examples: 13
+  * Correct predictions: 4
+  * Top actions:
+    - Keep the following prompt unchanged.: 61.5%
+    - Transform the 'how' question into a numbered step-by-step request format.: 23.1%
+    - Add a request for implementation timeline to the 'how' question.: 7.7%
+
+- IF_CAN Questions
+  * Accuracy: 65.00%
+  * Total examples: 20
+  * Correct predictions: 13
+  * Top actions:
+    - Keep the following prompt unchanged.: 25.0%
+    - Add a request for statistical likelihood in the 'if/can' question.: 25.0%
+    - Add specific conditional parameters to the 'if/can' question.: 25.0%
+
+TRAINING INFORMATION
+- Final training loss: 0.4249
+- Final validation accuracy: 84.40%

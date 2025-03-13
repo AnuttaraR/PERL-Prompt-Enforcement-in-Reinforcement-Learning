@@ -1,0 +1,14 @@
+{
+  "train_data": "C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/train_data.json",
+  "test_data": "C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/test_data.json",
+  "action_space": "C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/config/action_space_config.json",
+  "epochs": 10,
+  "batch_size": 32,
+  "learning_rate": 0.0001,
+  "beta": 0.1,
+  "seed": 42,
+  "input_dim": 768,
+  "num_preference_pairs": 1095,
+  "training_time": 537.2757701873779,
+  "evaluation_time": 597.2035562992096
+}

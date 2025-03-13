@@ -1,0 +1,73 @@
+{
+  "what": {
+    "accuracy": 40.74074074074074,
+    "total": 27,
+    "correct": 11,
+    "top_actions": [
+      {
+        "action_id": 0,
+        "description": "Keep the following prompt unchanged.",
+        "percentage": 48.148148148148145
+      },
+      {
+        "action_id": 3,
+        "description": "Narrow the scope of the 'what' question by adding contextual constraints.",
+        "percentage": 18.51851851851852
+      },
+      {
+        "action_id": 2,
+        "description": "Restructure the 'what' question to request concrete examples of the concept.",
+        "percentage": 14.814814814814813
+      }
+    ]
+  },
+  "how": {
+    "accuracy": 30.76923076923077,
+    "total": 13,
+    "correct": 4,
+    "top_actions": [
+      {
+        "action_id": 0,
+        "description": "Keep the following prompt unchanged.",
+        "percentage": 76.92307692307693
+      },
+      {
+        "action_id": 2,
+        "description": "Add a request for implementation timeline to the 'how' question.",
+        "percentage": 15.384615384615385
+      },
+      {
+        "action_id": 4,
+        "description": "Reframe the 'how' question to focus on potential challenges and solutions.",
+        "percentage": 7.6923076923076925
+      }
+    ]
+  },
+  "if_can": {
+    "accuracy": 80.0,
+    "total": 20,
+    "correct": 16,
+    "top_actions": [
+      {
+        "action_id": 0,
+        "description": "Keep the following prompt unchanged.",
+        "percentage": 60.0
+      },
+      {
+        "action_id": 3,
+        "description": "Add a request for statistical likelihood in the 'if/can' question.",
+        "percentage": 15.0
+      },
+      {
+        "action_id": 2,
+        "description": "Request exploration of both positive and negative outcomes in the 'if/can' scenario.",
+        "percentage": 10.0
+      }
+    ]
+  },
+  "overall": {
+    "accuracy": 51.66666666666667,
+    "total": 60,
+    "correct": 31
+  }
+}

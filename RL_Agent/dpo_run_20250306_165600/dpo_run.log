@@ -1,0 +1,28 @@
+2025-03-06 16:56:00,143 - integrated_dpo - INFO - ============================================================
+2025-03-06 16:56:00,144 - integrated_dpo - INFO - Starting integrated DPO training pipeline
+2025-03-06 16:56:00,144 - integrated_dpo - INFO - Output directory: dpo_run_20250306_165600
+2025-03-06 16:56:00,144 - integrated_dpo - INFO - Loading action space and training dataset
+2025-03-06 16:56:00,258 - integrated_dpo - INFO - Generating 1200 preference pairs
+2025-03-07 06:47:25,063 - integrated_dpo - INFO - Preference pairs saved to dpo_run_20250306_165600\preference_pairs.json
+2025-03-07 06:47:25,097 - integrated_dpo - INFO - Initializing tokenizer and DPO trainer
+2025-03-07 06:47:25,528 - integrated_dpo - INFO - Starting DPO training for 10 epochs
+2025-03-07 06:56:22,804 - integrated_dpo - INFO - Training completed in 537.28s (8.95m)
+2025-03-07 06:56:22,805 - integrated_dpo - INFO - Training metrics saved to dpo_run_20250306_165600\training_metrics.json
+2025-03-07 06:56:22,810 - integrated_dpo - INFO - Model saved to dpo_run_20250306_165600\dpo_model
+2025-03-07 06:56:22,810 - integrated_dpo - INFO - Evaluating model on test dataset
+2025-03-07 07:06:20,013 - integrated_dpo - INFO - Evaluation completed in 597.20s (9.95m)
+2025-03-07 07:06:20,015 - integrated_dpo - INFO - Evaluation results saved to dpo_run_20250306_165600\evaluation_results.json
+2025-03-07 07:06:20,015 - integrated_dpo - INFO - Overall accuracy: 63.33%
+2025-03-07 07:06:20,015 - integrated_dpo - INFO - Performance by question type:
+2025-03-07 07:06:20,015 - integrated_dpo - INFO -   what: 59.26% (16/27)
+2025-03-07 07:06:20,015 - integrated_dpo - INFO -   how: 30.77% (4/13)
+2025-03-07 07:06:20,015 - integrated_dpo - INFO -   if_can: 90.00% (18/20)
+2025-03-07 07:06:20,015 - integrated_dpo - INFO - Top actions by question type:
+2025-03-07 07:06:20,015 - integrated_dpo - INFO -   what:
+2025-03-07 07:06:20,015 - integrated_dpo - INFO -     - Keep the following prompt unchanged.: 100.0%
+2025-03-07 07:06:20,015 - integrated_dpo - INFO -   how:
+2025-03-07 07:06:20,015 - integrated_dpo - INFO -     - Keep the following prompt unchanged.: 100.0%
+2025-03-07 07:06:20,015 - integrated_dpo - INFO -   if_can:
+2025-03-07 07:06:20,015 - integrated_dpo - INFO -     - Keep the following prompt unchanged.: 100.0%
+2025-03-07 07:06:20,017 - integrated_dpo - INFO - Total run time: 51019.87s (850.33m)
+2025-03-07 07:06:20,017 - integrated_dpo - INFO - ============================================================

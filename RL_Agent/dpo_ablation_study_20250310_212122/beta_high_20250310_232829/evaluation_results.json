@@ -1,0 +1,73 @@
+{
+  "what": {
+    "accuracy": 48.148148148148145,
+    "total": 27,
+    "correct": 13,
+    "top_actions": [
+      {
+        "action_id": 0,
+        "description": "Keep the following prompt unchanged.",
+        "percentage": 51.85185185185185
+      },
+      {
+        "action_id": 3,
+        "description": "Narrow the scope of the 'what' question by adding contextual constraints.",
+        "percentage": 33.33333333333333
+      },
+      {
+        "action_id": 2,
+        "description": "Restructure the 'what' question to request concrete examples of the concept.",
+        "percentage": 11.11111111111111
+      }
+    ]
+  },
+  "how": {
+    "accuracy": 15.384615384615385,
+    "total": 13,
+    "correct": 2,
+    "top_actions": [
+      {
+        "action_id": 1,
+        "description": "Transform the 'how' question into a numbered step-by-step request format.",
+        "percentage": 46.15384615384615
+      },
+      {
+        "action_id": 2,
+        "description": "Add a request for implementation timeline to the 'how' question.",
+        "percentage": 30.76923076923077
+      },
+      {
+        "action_id": 3,
+        "description": "Incorporate regulatory considerations into the 'how' question.",
+        "percentage": 15.384615384615385
+      }
+    ]
+  },
+  "if_can": {
+    "accuracy": 70.0,
+    "total": 20,
+    "correct": 14,
+    "top_actions": [
+      {
+        "action_id": 0,
+        "description": "Keep the following prompt unchanged.",
+        "percentage": 35.0
+      },
+      {
+        "action_id": 3,
+        "description": "Add a request for statistical likelihood in the 'if/can' question.",
+        "percentage": 20.0
+      },
+      {
+        "action_id": 4,
+        "description": "Transform the 'if/can' question to give a yes/no response first before answering.",
+        "percentage": 20.0
+      }
+    ]
+  },
+  "overall": {
+    "accuracy": 48.333333333333336,
+    "total": 60,
+    "correct": 29
+  }
+}

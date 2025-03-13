@@ -1,0 +1,40 @@
+==================================================
+DPO MODEL PERFORMANCE SUMMARY
+==================================================
+
+OVERALL PERFORMANCE
+- Accuracy: 41.67%
+- Total examples: 60
+- Correct predictions: 25
+
+PERFORMANCE BY QUESTION TYPE
+- WHAT Questions
+  * Accuracy: 44.44%
+  * Total examples: 27
+  * Correct predictions: 12
+  * Top actions:
+    - Keep the following prompt unchanged.: 55.6%
+    - Narrow the scope of the 'what' question by adding contextual constraints.: 18.5%
+    - Add specific insurance terminology to define the 'what' concept more clearly.: 11.1%
+
+- HOW Questions
+  * Accuracy: 15.38%
+  * Total examples: 13
+  * Correct predictions: 2
+  * Top actions:
+    - Keep the following prompt unchanged.: 53.8%
+    - Add a request for implementation timeline to the 'how' question.: 23.1%
+    - Incorporate regulatory considerations into the 'how' question.: 7.7%
+
+- IF_CAN Questions
+  * Accuracy: 55.00%
+  * Total examples: 20
+  * Correct predictions: 11
+  * Top actions:
+    - Keep the following prompt unchanged.: 55.0%
+    - Request exploration of both positive and negative outcomes in the 'if/can' scenario.: 25.0%
+    - Add a request for statistical likelihood in the 'if/can' question.: 15.0%
+
+TRAINING INFORMATION
+- Final training loss: 0.4591
+- Final validation accuracy: 72.48%

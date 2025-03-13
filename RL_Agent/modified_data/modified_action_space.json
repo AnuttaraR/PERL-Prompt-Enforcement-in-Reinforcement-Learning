@@ -1,0 +1,21 @@
+{
+  "general_actions": {},
+  "what_question_actions": {
+    "0": "Add specific insurance terminology to define the 'what' concept more clearly.",
+    "1": "Restructure the 'what' question to request concrete examples of the concept.",
+    "2": "Narrow the scope of the 'what' question by adding contextual constraints.",
+    "3": "Convert the 'what' question into a comparative format (e.g., 'what is X compared to Y')."
+  },
+  "how_question_actions": {
+    "0": "Transform the 'how' question into a numbered step-by-step request format.",
+    "1": "Add a request for implementation timeline to the 'how' question.",
+    "2": "Incorporate regulatory considerations into the 'how' question.",
+    "3": "Reframe the 'how' question to focus on potential challenges and solutions."
+  },
+  "if_can_question_actions": {
+    "0": "Add specific conditional parameters to the 'if/can' question.",
+    "1": "Request exploration of both positive and negative outcomes in the 'if/can' scenario.",
+    "2": "Add a request for statistical likelihood in the 'if/can' question.",
+    "3": "Transform the 'if/can' question to give a yes/no response first before answering."
+  }
+}
