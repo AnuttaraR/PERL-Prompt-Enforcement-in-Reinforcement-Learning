@@ -54,7 +54,7 @@ def plot_training_curves(metadata, output_dir):
     plt.xlabel('Epoch')
     plt.ylabel('Loss')
     plt.grid(True, alpha=0.3)
-    plt.savefig(os.path.join(output_dir, "dpo_loss_curve.png"))
+    plt.savefig(os.path.join(output_dir, "action_minimal_dpo_loss_curve.png"))
     plt.close()
 
     # Plot validation accuracy curve
@@ -65,7 +65,7 @@ def plot_training_curves(metadata, output_dir):
         plt.xlabel('Epoch')
         plt.ylabel('Accuracy (%)')
         plt.grid(True, alpha=0.3)
-        plt.savefig(os.path.join(output_dir, "dpo_accuracy_curve.png"))
+        plt.savefig(os.path.join(output_dir, "action_minimal_dpo_accuracy_curve.png"))
         plt.close()
 
 

@@ -41,7 +41,7 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 #     logging.error(f"Failed to load Mistral model: {e}")
 
 
-def get_llm_response(prompt, model="gpt-3.5-turbo", tokenizer=None, max_tokens=500):
+def get_llm_response(prompt, model, tokenizer=None, max_tokens=500):
     """Query the specified LLM model and log response status."""
     # 🛠️ Ensure `prompt` is a string before sending it to LLM
     if isinstance(prompt, dict) and "input_ids" in prompt:
@@ -105,9 +105,9 @@ def get_llm_response(prompt, model="gpt-3.5-turbo", tokenizer=None, max_tokens=5
         return "Error in generating response."
 
 
-def generate_answer_from_llm(prompt, model="gpt-3.5-turbo", max_tokens=500):
+def generate_answer_from_llm(prompt, model, max_tokens=500):
     """Query the specified LLM model to generate an actual answer to a given prompt."""
-    logging.info(f"📝 LLM CALL 2: Generating final answer for prompt: {prompt[:500]}")
+    print(f"📝 LLM CALL 2: Generating final answer for prompt: {prompt[:50]}")
 
     try:
         if model in ["gpt-4", "gpt-3.5-turbo", "gpt-4-turbo"]:
@@ -123,16 +123,16 @@ def generate_answer_from_llm(prompt, model="gpt-3.5-turbo", max_tokens=500):
             )
 
             response_message = response.choices[0].message.content.strip()
-            logging.info(f"✅ LLM CALL 2: Generated Answer from Modified Prompt: {response_message[:500]}...")
+            print(f"✅ LLM CALL 2: Generated Answer from Modified Prompt: {response_message[:50]}...")
 
             return response_message
 
         else:
-            logging.error(f"Invalid model specified: {model}")
+            print(f"Invalid model specified: {model}")
             raise ValueError("Invalid model specified. Choose from 'gpt-4' or 'gpt-3.5-turbo'.")
 
     except Exception as e:
-        logging.error(f"Error querying model '{model}': {e}")
+        print(f"Error querying model '{model}': {e}")
         return "Error in generating answer."
 
 

@@ -1,0 +1,261 @@
+2025-03-17 19:01:07,841 - DPO_model - INFO - ============================================================
+2025-03-17 19:01:07,842 - DPO_model - INFO - Starting DPO Training
+2025-03-17 19:01:07,842 - DPO_model - INFO - Arguments: Namespace(ablation='action_minimal', action_space='C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent\\config/action_space_config.json', batch_size=32, beta=0.1, diversity_weight=0.0, epochs=10, load_pairs='C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/dpo_run_20250306_165600/preference_pairs.json', lr=0.0001, model_variant=None, num_pairs=1000, output_dir='C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent\\dpo_ablation_study_20250317_175222\\action_minimal_20250317_190048', seed=42, temperature=1.0, test_data='C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent\\data/test_data.json', train_data='C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent\\data/train_data.json', weighted_loss=False)
+2025-03-17 19:01:07,842 - DPO_model - INFO - Config saved to C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent\dpo_ablation_study_20250317_175222\action_minimal_20250317_190048\config.json
+2025-03-17 19:01:07,843 - DPO_model - INFO - Loading dataset from C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent\data/train_data.json
+2025-03-17 19:01:07,955 - DPO_model - INFO - Loaded dataset with 540 items in 0.11s
+2025-03-17 19:01:07,956 - DPO_model - INFO - Loading dataset from C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent\data/test_data.json
+2025-03-17 19:01:07,969 - DPO_model - INFO - Loaded dataset with 60 items in 0.01s
+2025-03-17 19:01:07,998 - DPO_model - INFO - Loaded 1095 preference pairs from C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/dpo_run_20250306_165600/preference_pairs.json
+2025-03-17 19:01:08,839 - DPO_model - INFO - Initializing DPO Trainer with input_dim=768, lr=0.0001, beta=0.1
+2025-03-17 19:01:08,839 - DPO_model - INFO - Using device: cpu, ablation=action_minimal, model_variant=None
+2025-03-17 19:01:08,839 - DPO_model - INFO - Temperature=1.0, diversity_weight=0.0, weighted_loss=False
+2025-03-17 19:01:08,839 - DPO_model - INFO - Action space has 'keep unchanged': True
+2025-03-17 19:01:08,839 - DPO_model - INFO - Applying action space ablation: action_minimal
+2025-03-17 19:01:08,839 - DPO_model - INFO - Applied action space ablation: action_minimal
+2025-03-17 19:01:08,839 - DPO_model - INFO - Found 1 general actions
+2025-03-17 19:01:08,839 - DPO_model - INFO - Found 0 specific actions for what questions (total: 1)
+2025-03-17 19:01:08,839 - DPO_model - INFO - Found 0 specific actions for how questions (total: 1)
+2025-03-17 19:01:08,839 - DPO_model - INFO - Found 0 specific actions for if_can questions (total: 1)
+2025-03-17 19:01:08,845 - DPO_model - INFO - DPO Trainer initialized successfully
+2025-03-17 19:01:08,846 - DPO_model - INFO - Starting DPO training for 10 epochs with batch_size=32
+2025-03-17 19:01:08,847 - DPO_model - INFO - Training on 986 pairs, validating on 109 pairs
+2025-03-17 19:01:09,227 - DPO_model - INFO - Preprocessing 986 preference pairs
+2025-03-17 19:01:09,227 - DPO_model - INFO - Maximum action ID in preference pairs: 4
+2025-03-17 19:01:09,227 - DPO_model - INFO - Model expected action counts: {'what': 1, 'how': 1, 'if_can': 1}
+2025-03-17 19:01:09,227 - DPO_model - INFO - Action ID distribution for what questions:
+2025-03-17 19:01:09,227 - DPO_model - INFO -   Chosen actions: [(0, 63), (1, 101), (2, 59), (3, 107), (4, 31)]
+2025-03-17 19:01:09,227 - DPO_model - INFO - Action ID distribution for how questions:
+2025-03-17 19:01:09,227 - DPO_model - INFO -   Chosen actions: [(0, 56), (1, 73), (2, 52), (3, 65), (4, 17)]
+2025-03-17 19:01:09,227 - DPO_model - INFO - Action ID distribution for if_can questions:
+2025-03-17 19:01:09,227 - DPO_model - INFO -   Chosen actions: [(0, 64), (1, 119), (2, 15), (3, 86), (4, 78)]
+2025-03-17 19:01:09,227 - DPO_model - INFO - Action ID analysis:
+2025-03-17 19:01:09,227 - DPO_model - INFO - Question type: what
+2025-03-17 19:01:09,227 - DPO_model - INFO -   Chosen action ID: 1, desc: Add specific insurance terminology to define the 'what' concept more clearly.
+2025-03-17 19:01:09,229 - DPO_model - INFO -   Rejected action ID: 2, desc: Restructure the 'what' question to request concrete examples of the concept.
+2025-03-17 19:01:09,229 - DPO_model - INFO - Question type: what
+2025-03-17 19:01:09,229 - DPO_model - INFO -   Chosen action ID: 2, desc: Restructure the 'what' question to request concrete examples of the concept.
+2025-03-17 19:01:09,229 - DPO_model - INFO -   Rejected action ID: 4, desc: Convert the 'what' question into a comparative format (e.g., 'what is X compared to Y').
+2025-03-17 19:01:09,229 - DPO_model - INFO - Question type: what
+2025-03-17 19:01:09,229 - DPO_model - INFO -   Chosen action ID: 3, desc: Narrow the scope of the 'what' question by adding contextual constraints.
+2025-03-17 19:01:09,229 - DPO_model - INFO -   Rejected action ID: 4, desc: Convert the 'what' question into a comparative format (e.g., 'what is X compared to Y').
+2025-03-17 19:01:09,229 - DPO_model - INFO - Question type: what
+2025-03-17 19:01:09,229 - DPO_model - INFO -   Chosen action ID: 1, desc: Add specific insurance terminology to define the 'what' concept more clearly.
+2025-03-17 19:01:09,229 - DPO_model - INFO -   Rejected action ID: 4, desc: Convert the 'what' question into a comparative format (e.g., 'what is X compared to Y').
+2025-03-17 19:01:09,229 - DPO_model - INFO - Question type: how
+2025-03-17 19:01:09,229 - DPO_model - INFO -   Chosen action ID: 0, desc: Keep the following prompt unchanged.
+2025-03-17 19:01:09,229 - DPO_model - INFO -   Rejected action ID: 1, desc: Transform the 'how' question into a numbered step-by-step request format.
+2025-03-17 19:01:09,229 - DPO_model - WARNING - Action IDs in preference pairs exceed model's expected range. Attempting to remap...
+2025-03-17 19:02:15,520 - DPO_model - INFO - Processed 50/986 pairs - valid: 50, skipped: 0
+2025-03-17 19:03:16,375 - DPO_model - INFO - Processed 100/986 pairs - valid: 100, skipped: 0
+2025-03-17 19:04:16,225 - DPO_model - INFO - Processed 150/986 pairs - valid: 150, skipped: 0
+2025-03-17 19:05:19,887 - DPO_model - INFO - Processed 200/986 pairs - valid: 200, skipped: 0
+2025-03-17 19:06:24,882 - DPO_model - INFO - Processed 250/986 pairs - valid: 250, skipped: 0
+2025-03-17 19:07:29,088 - DPO_model - INFO - Processed 300/986 pairs - valid: 300, skipped: 0
+2025-03-17 19:08:31,215 - DPO_model - INFO - Processed 350/986 pairs - valid: 350, skipped: 0
+2025-03-17 19:09:31,716 - DPO_model - INFO - Processed 400/986 pairs - valid: 400, skipped: 0
+2025-03-17 19:10:37,891 - DPO_model - INFO - Processed 450/986 pairs - valid: 450, skipped: 0
+2025-03-17 19:11:40,051 - DPO_model - INFO - Processed 500/986 pairs - valid: 500, skipped: 0
+2025-03-17 19:12:43,214 - DPO_model - INFO - Processed 550/986 pairs - valid: 550, skipped: 0
+2025-03-17 19:13:46,727 - DPO_model - INFO - Processed 600/986 pairs - valid: 600, skipped: 0
+2025-03-17 19:14:47,469 - DPO_model - INFO - Processed 650/986 pairs - valid: 650, skipped: 0
+2025-03-17 19:15:46,998 - DPO_model - INFO - Processed 700/986 pairs - valid: 700, skipped: 0
+2025-03-17 19:16:48,612 - DPO_model - INFO - Processed 750/986 pairs - valid: 750, skipped: 0
+2025-03-17 19:17:48,559 - DPO_model - INFO - Processed 800/986 pairs - valid: 800, skipped: 0
+2025-03-17 19:18:48,794 - DPO_model - INFO - Processed 850/986 pairs - valid: 850, skipped: 0
+2025-03-17 19:19:49,239 - DPO_model - INFO - Processed 900/986 pairs - valid: 900, skipped: 0
+2025-03-17 19:20:49,491 - DPO_model - INFO - Processed 950/986 pairs - valid: 950, skipped: 0
+2025-03-17 19:21:36,758 - DPO_model - INFO - Preprocessing 109 preference pairs
+2025-03-17 19:21:36,759 - DPO_model - INFO - Maximum action ID in preference pairs: 4
+2025-03-17 19:21:36,759 - DPO_model - INFO - Model expected action counts: {'what': 1, 'how': 1, 'if_can': 1}
+2025-03-17 19:21:36,759 - DPO_model - INFO - Action ID distribution for what questions:
+2025-03-17 19:21:36,759 - DPO_model - INFO -   Chosen actions: [(0, 7), (1, 14), (2, 6), (3, 12)]
+2025-03-17 19:21:36,759 - DPO_model - INFO - Action ID distribution for how questions:
+2025-03-17 19:21:36,759 - DPO_model - INFO -   Chosen actions: [(0, 8), (1, 11), (2, 4), (3, 5), (4, 4)]
+2025-03-17 19:21:36,759 - DPO_model - INFO - Action ID distribution for if_can questions:
+2025-03-17 19:21:36,759 - DPO_model - INFO -   Chosen actions: [(0, 12), (1, 11), (2, 2), (3, 7), (4, 6)]
+2025-03-17 19:21:36,759 - DPO_model - INFO - Action ID analysis:
+2025-03-17 19:21:36,759 - DPO_model - INFO - Question type: what
+2025-03-17 19:21:36,759 - DPO_model - INFO -   Chosen action ID: 3, desc: Narrow the scope of the 'what' question by adding contextual constraints.
+2025-03-17 19:21:36,759 - DPO_model - INFO -   Rejected action ID: 2, desc: Restructure the 'what' question to request concrete examples of the concept.
+2025-03-17 19:21:36,759 - DPO_model - INFO - Question type: what
+2025-03-17 19:21:36,759 - DPO_model - INFO -   Chosen action ID: 2, desc: Restructure the 'what' question to request concrete examples of the concept.
+2025-03-17 19:21:36,759 - DPO_model - INFO -   Rejected action ID: 4, desc: Convert the 'what' question into a comparative format (e.g., 'what is X compared to Y').
+2025-03-17 19:21:36,759 - DPO_model - INFO - Question type: what
+2025-03-17 19:21:36,759 - DPO_model - INFO -   Chosen action ID: 3, desc: Narrow the scope of the 'what' question by adding contextual constraints.
+2025-03-17 19:21:36,759 - DPO_model - INFO -   Rejected action ID: 2, desc: Restructure the 'what' question to request concrete examples of the concept.
+2025-03-17 19:21:36,759 - DPO_model - INFO - Question type: how
+2025-03-17 19:21:36,760 - DPO_model - INFO -   Chosen action ID: 0, desc: Keep the following prompt unchanged.
+2025-03-17 19:21:36,760 - DPO_model - INFO -   Rejected action ID: 2, desc: Add a request for implementation timeline to the 'how' question.
+2025-03-17 19:21:36,760 - DPO_model - INFO - Question type: how
+2025-03-17 19:21:36,760 - DPO_model - INFO -   Chosen action ID: 4, desc: Reframe the 'how' question to focus on potential challenges and solutions.
+2025-03-17 19:21:36,760 - DPO_model - INFO -   Rejected action ID: 2, desc: Add a request for implementation timeline to the 'how' question.
+2025-03-17 19:21:36,760 - DPO_model - WARNING - Action IDs in preference pairs exceed model's expected range. Attempting to remap...
+2025-03-17 19:22:42,606 - DPO_model - INFO - Processed 50/109 pairs - valid: 50, skipped: 0
+2025-03-17 19:23:42,346 - DPO_model - INFO - Processed 100/109 pairs - valid: 100, skipped: 0
+2025-03-17 19:23:54,501 - DPO_model - INFO - Epoch 1/10 completed in 0.54s - Loss: 0.6931, Val Accuracy: 0.00%
+2025-03-17 19:23:55,045 - DPO_model - INFO - Epoch 2/10 completed in 0.54s - Loss: 0.6931, Val Accuracy: 0.00%
+2025-03-17 19:23:55,588 - DPO_model - INFO - Early stopping triggered after 3 epochs (no improvement for 3 epochs)
+2025-03-17 19:23:55,588 - DPO_model - INFO - Training completed in 1366.74s (22.78m)
+2025-03-17 19:23:55,844 - DPO_model - INFO - Training curves plotted and saved to 'C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent\dpo_ablation_study_20250317_175222\action_minimal_20250317_190048' directory
+2025-03-17 19:23:55,850 - DPO_model - INFO - Model saved to C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent\dpo_ablation_study_20250317_175222\action_minimal_20250317_190048\final_model
+2025-03-17 19:23:55,850 - DPO_model - INFO - Evaluating DPO model on 60 test examples
+2025-03-17 19:23:55,851 - DPO_model - INFO - DEBUG - Question 1: what constitute an employer - sponsored anger plan?
+2025-03-17 19:23:55,851 - DPO_model - INFO - DEBUG - Question type: what
+2025-03-17 19:23:57,207 - DPO_model - INFO - DEBUG - Raw logits: [[0.0789175]]
+2025-03-17 19:23:57,208 - DPO_model - INFO - DEBUG - Action probabilities: [1.]
+2025-03-17 19:23:57,216 - DPO_model - INFO - DEBUG - Available actions for what questions:
+2025-03-17 19:23:57,216 - DPO_model - INFO - DEBUG -   Action 0: Keep the following prompt unchanged. (Prob: 1.0000)
+2025-03-17 19:23:57,216 - DPO_model - INFO - DEBUG - Selected action 0: Keep the following prompt unchanged.
+2025-03-17 19:23:58,324 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:23:58,325 - DPO_model - WARNING - WARNING - Logits: [0.0789175]
+2025-03-17 19:24:10,837 - DPO_model - INFO - DEBUG - Question 2: Besides keeping employeeys happy, do employers benefit Cfinancialsly frpom offering benefits to thHeir employeDes?
+2025-03-17 19:24:10,837 - DPO_model - INFO - DEBUG - Question type: if_can
+2025-03-17 19:24:12,235 - DPO_model - INFO - DEBUG - Raw logits: [[-0.03814419]]
+2025-03-17 19:24:12,236 - DPO_model - INFO - DEBUG - Action probabilities: [1.]
+2025-03-17 19:24:12,236 - DPO_model - INFO - DEBUG - Available actions for if_can questions:
+2025-03-17 19:24:12,236 - DPO_model - INFO - DEBUG -   Action 0: Keep the following prompt unchanged. (Prob: 1.0000)
+2025-03-17 19:24:12,236 - DPO_model - INFO - DEBUG - Selected action 0: Keep the following prompt unchanged.
+2025-03-17 19:24:13,328 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:24:13,328 - DPO_model - WARNING - WARNING - Logits: [-0.03814419]
+2025-03-17 19:24:21,410 - DPO_model - INFO - DEBUG - Question 3: Can employers get a tax credit for their contributions to a group health insurance plan?
+2025-03-17 19:24:21,410 - DPO_model - INFO - DEBUG - Question type: if_can
+2025-03-17 19:24:22,520 - DPO_model - INFO - DEBUG - Raw logits: [[-0.03931509]]
+2025-03-17 19:24:22,521 - DPO_model - INFO - DEBUG - Action probabilities: [1.]
+2025-03-17 19:24:22,521 - DPO_model - INFO - DEBUG - Available actions for if_can questions:
+2025-03-17 19:24:22,521 - DPO_model - INFO - DEBUG -   Action 0: Keep the following prompt unchanged. (Prob: 1.0000)
+2025-03-17 19:24:22,521 - DPO_model - INFO - DEBUG - Selected action 0: Keep the following prompt unchanged.
+2025-03-17 19:24:23,630 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:24:23,630 - DPO_model - WARNING - WARNING - Logits: [-0.03931509]
+2025-03-17 19:24:31,500 - DPO_model - INFO - DEBUG - Question 4: what is a section 125 cafeteria plan?
+2025-03-17 19:24:31,500 - DPO_model - INFO - DEBUG - Question type: what
+2025-03-17 19:24:32,688 - DPO_model - INFO - DEBUG - Raw logits: [[0.07351485]]
+2025-03-17 19:24:32,689 - DPO_model - INFO - DEBUG - Action probabilities: [1.]
+2025-03-17 19:24:32,689 - DPO_model - INFO - DEBUG - Available actions for what questions:
+2025-03-17 19:24:32,689 - DPO_model - INFO - DEBUG -   Action 0: Keep the following prompt unchanged. (Prob: 1.0000)
+2025-03-17 19:24:32,689 - DPO_model - INFO - DEBUG - Selected action 0: Keep the following prompt unchanged.
+2025-03-17 19:24:33,739 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:24:33,745 - DPO_model - WARNING - WARNING - Logits: [0.07351485]
+2025-03-17 19:24:43,501 - DPO_model - INFO - DEBUG - Question 5: Else what do employers to need know about hras?
+2025-03-17 19:24:43,501 - DPO_model - INFO - DEBUG - Question type: what
+2025-03-17 19:24:44,649 - DPO_model - INFO - DEBUG - Raw logits: [[0.07223988]]
+2025-03-17 19:24:44,649 - DPO_model - INFO - DEBUG - Action probabilities: [1.]
+2025-03-17 19:24:44,649 - DPO_model - INFO - DEBUG - Available actions for what questions:
+2025-03-17 19:24:44,649 - DPO_model - INFO - DEBUG -   Action 0: Keep the following prompt unchanged. (Prob: 1.0000)
+2025-03-17 19:24:44,649 - DPO_model - INFO - DEBUG - Selected action 0: Keep the following prompt unchanged.
+2025-03-17 19:24:45,729 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:24:45,730 - DPO_model - WARNING - WARNING - Logits: [0.07223988]
+2025-03-17 19:24:53,040 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:24:53,040 - DPO_model - WARNING - WARNING - Logits: [-0.05401343]
+2025-03-17 19:24:59,323 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:24:59,323 - DPO_model - WARNING - WARNING - Logits: [0.0624169]
+2025-03-17 19:25:06,506 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:25:06,506 - DPO_model - WARNING - WARNING - Logits: [-0.03275291]
+2025-03-17 19:25:12,146 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:25:12,146 - DPO_model - WARNING - WARNING - Logits: [0.05909346]
+2025-03-17 19:25:18,757 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:25:18,758 - DPO_model - WARNING - WARNING - Logits: [-0.05732631]
+2025-03-17 19:25:30,566 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:25:30,567 - DPO_model - WARNING - WARNING - Logits: [0.05174185]
+2025-03-17 19:25:38,127 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:25:38,128 - DPO_model - WARNING - WARNING - Logits: [0.07898569]
+2025-03-17 19:25:52,165 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:25:52,166 - DPO_model - WARNING - WARNING - Logits: [0.07625457]
+2025-03-17 19:26:09,972 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:26:09,972 - DPO_model - WARNING - WARNING - Logits: [-0.04375293]
+2025-03-17 19:26:16,317 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:26:16,319 - DPO_model - WARNING - WARNING - Logits: [-0.04820886]
+2025-03-17 19:26:24,346 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:26:24,347 - DPO_model - WARNING - WARNING - Logits: [-0.05539876]
+2025-03-17 19:26:29,800 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:26:29,800 - DPO_model - WARNING - WARNING - Logits: [0.08179645]
+2025-03-17 19:26:36,265 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:26:36,265 - DPO_model - WARNING - WARNING - Logits: [-0.0472911]
+2025-03-17 19:26:46,541 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:26:46,541 - DPO_model - WARNING - WARNING - Logits: [0.08252083]
+2025-03-17 19:26:58,647 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:26:58,647 - DPO_model - WARNING - WARNING - Logits: [0.06883524]
+2025-03-17 19:27:06,881 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:27:06,882 - DPO_model - WARNING - WARNING - Logits: [0.07389718]
+2025-03-17 19:27:16,232 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:27:16,232 - DPO_model - WARNING - WARNING - Logits: [-0.0342018]
+2025-03-17 19:27:25,630 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:27:25,631 - DPO_model - WARNING - WARNING - Logits: [-0.0487447]
+2025-03-17 19:27:32,090 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:27:32,091 - DPO_model - WARNING - WARNING - Logits: [-0.02979413]
+2025-03-17 19:27:38,489 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:27:38,490 - DPO_model - WARNING - WARNING - Logits: [-0.05519637]
+2025-03-17 19:27:46,128 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:27:46,128 - DPO_model - WARNING - WARNING - Logits: [-0.03009668]
+2025-03-17 19:27:51,454 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:27:51,456 - DPO_model - WARNING - WARNING - Logits: [0.06732636]
+2025-03-17 19:27:59,470 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:27:59,470 - DPO_model - WARNING - WARNING - Logits: [0.07762232]
+2025-03-17 19:28:06,987 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:28:06,988 - DPO_model - WARNING - WARNING - Logits: [-0.0206377]
+2025-03-17 19:28:13,921 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:28:13,921 - DPO_model - WARNING - WARNING - Logits: [-0.03570173]
+2025-03-17 19:28:22,377 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:28:22,378 - DPO_model - WARNING - WARNING - Logits: [-0.04055382]
+2025-03-17 19:28:29,059 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:28:29,060 - DPO_model - WARNING - WARNING - Logits: [0.0703948]
+2025-03-17 19:28:37,474 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:28:37,474 - DPO_model - WARNING - WARNING - Logits: [0.07261467]
+2025-03-17 19:28:48,793 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:28:48,794 - DPO_model - WARNING - WARNING - Logits: [-0.04102128]
+2025-03-17 19:28:54,791 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:28:54,791 - DPO_model - WARNING - WARNING - Logits: [0.06601849]
+2025-03-17 19:29:00,502 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:29:00,502 - DPO_model - WARNING - WARNING - Logits: [-0.02409223]
+2025-03-17 19:29:07,561 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:29:07,562 - DPO_model - WARNING - WARNING - Logits: [0.0620591]
+2025-03-17 19:29:20,381 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:29:20,381 - DPO_model - WARNING - WARNING - Logits: [-0.03825847]
+2025-03-17 19:29:31,207 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:29:31,207 - DPO_model - WARNING - WARNING - Logits: [-0.04723028]
+2025-03-17 19:29:41,088 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:29:41,088 - DPO_model - WARNING - WARNING - Logits: [-0.03129498]
+2025-03-17 19:29:47,549 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:29:47,550 - DPO_model - WARNING - WARNING - Logits: [-0.05727044]
+2025-03-17 19:29:53,979 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:29:53,979 - DPO_model - WARNING - WARNING - Logits: [0.06989731]
+2025-03-17 19:30:10,620 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:30:10,620 - DPO_model - WARNING - WARNING - Logits: [-0.0329963]
+2025-03-17 19:30:18,144 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:30:18,144 - DPO_model - WARNING - WARNING - Logits: [-0.03578781]
+2025-03-17 19:30:27,654 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:30:27,654 - DPO_model - WARNING - WARNING - Logits: [0.08885014]
+2025-03-17 19:30:40,401 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:30:40,401 - DPO_model - WARNING - WARNING - Logits: [0.0667156]
+2025-03-17 19:30:47,965 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:30:47,965 - DPO_model - WARNING - WARNING - Logits: [-0.04274355]
+2025-03-17 19:30:53,853 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:30:53,853 - DPO_model - WARNING - WARNING - Logits: [0.05581267]
+2025-03-17 19:31:01,847 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:31:01,848 - DPO_model - WARNING - WARNING - Logits: [0.07334246]
+2025-03-17 19:31:07,806 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:31:07,806 - DPO_model - WARNING - WARNING - Logits: [-0.04770248]
+2025-03-17 19:31:16,835 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:31:16,836 - DPO_model - WARNING - WARNING - Logits: [-0.0554542]
+2025-03-17 19:31:24,960 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:31:24,960 - DPO_model - WARNING - WARNING - Logits: [-0.05192122]
+2025-03-17 19:31:32,996 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:31:32,997 - DPO_model - WARNING - WARNING - Logits: [0.06134303]
+2025-03-17 19:31:41,045 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:31:41,045 - DPO_model - WARNING - WARNING - Logits: [-0.01557422]
+2025-03-17 19:31:50,228 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:31:50,229 - DPO_model - WARNING - WARNING - Logits: [-0.0285254]
+2025-03-17 19:31:55,402 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:31:55,402 - DPO_model - WARNING - WARNING - Logits: [-0.06429531]
+2025-03-17 19:32:04,110 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:32:04,110 - DPO_model - WARNING - WARNING - Logits: [-0.06070653]
+2025-03-17 19:32:11,862 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:32:11,862 - DPO_model - WARNING - WARNING - Logits: [0.06295235]
+2025-03-17 19:32:21,606 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:32:21,606 - DPO_model - WARNING - WARNING - Logits: [0.06769358]
+2025-03-17 19:32:29,970 - DPO_model - WARNING - WARNING - Logits have very small range: 0.000000
+2025-03-17 19:32:29,970 - DPO_model - WARNING - WARNING - Logits: [0.06896523]
+2025-03-17 19:32:37,571 - DPO_model - INFO - Evaluation completed with overall accuracy: 58.33%
+2025-03-17 19:32:37,612 - DPO_model - INFO - Training and evaluation completed. Results saved to C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent\dpo_ablation_study_20250317_175222\action_minimal_20250317_190048
+2025-03-17 19:32:37,612 - DPO_model - INFO - ============================================================
+2025-03-17 19:32:37,613 - DPO_model - INFO - Training metrics saved to C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent\dpo_ablation_study_20250317_175222\action_minimal_20250317_190048\training_metrics.json

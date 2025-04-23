@@ -515,9 +515,9 @@ class DPOTrainer:
         qt_key = f"{question_type}_question_actions"
         specific_actions = self.action_space[qt_key]
 
-        # Calculate the key in the specific actions dict
-        # Action ID comes after general actions, so subtract general count
-        specific_key = str(action - general_count + 1)  # +1 because specific actions start at 1
+        # Correctly calculate the key in the specific actions dict
+        specific_idx = action - general_count
+        specific_key = str(specific_idx + 1)  # +1 because specific actions typically start at 1
 
         if specific_key in specific_actions:
             print(f"DEBUG - Returning specific action: {specific_actions[specific_key]}")
@@ -666,8 +666,20 @@ class DPOTrainer:
             probs = F.softmax(batch_policy_logits, dim=-1)
             entropy = -torch.sum(probs * torch.log(probs + 1e-10), dim=-1)
 
+            # Specifically discourage "keep unchanged" action if it exists
+            if self.has_keep_unchanged:
+                # Extract probability of "keep unchanged" (action 0)
+                keep_unchanged_probs = probs[:, 0]
+                # Additional penalty based on keep_unchanged probability (higher prob = higher penalty)
+                keep_unchanged_penalty = torch.mean(keep_unchanged_probs) * 0.5
+
+                # Combined diversity score (higher is better)
+                diversity_score = entropy.mean() - keep_unchanged_penalty
+            else:
+                diversity_score = entropy.mean()
+
             # Add entropy bonus to the loss (negative because we're minimizing)
-            diversity_bonus = -diversity_weight * entropy.mean()
+            diversity_bonus = -diversity_weight * diversity_score
             loss += diversity_bonus
             logger.debug(f"Added diversity bonus: {diversity_bonus.item():.6f}")
 
@@ -701,6 +713,11 @@ class DPOTrainer:
         total_pairs = len(preference_pairs)
         val_size = int(total_pairs * validation_split)
         train_size = total_pairs - val_size
+
+        # Add to train method
+        best_val_accuracy = 0
+        patience = 3
+        patience_counter = 0
 
         # Shuffle and split into train/val
         random.shuffle(preference_pairs)
@@ -763,9 +780,15 @@ class DPOTrainer:
             # After validation
             if val_accuracy > best_val_accuracy:
                 best_val_accuracy = val_accuracy
-                self.save_model(best_model_path)
+                self.save_model(os.path.join(output_dir, "best_model"))
                 logger.info(f"New best model saved with validation accuracy: {val_accuracy:.2f}%")
-                print(f"New best model saved with validation accuracy: {val_accuracy:.2f}%")
+                patience_counter = 0
+            else:
+                patience_counter += 1
+                if patience_counter >= patience:
+                    logger.info(
+                        f"Early stopping triggered after {epoch + 1} epochs (no improvement for {patience} epochs)")
+                    break
 
             # Log epoch results
             epoch_time = time.time() - epoch_start_time
@@ -1086,27 +1109,52 @@ class DPOTrainer:
                 logger.warning(f"WARNING - Logits have very small range: {logit_range:.6f}")
                 logger.warning(f"WARNING - Logits: {logits_np}")
 
-            # Get action probabilities with temperature scaling to encourage exploration
-            scaled_logits = logits / temperature
+            # Get action probabilities with improved temperature scaling
+            scaled_logits = logits / max(0.1, temperature)  # Prevent division by very small values
             probs = F.softmax(scaled_logits, dim=-1)
 
-            # Randomly decide whether to explore or exploit
-            if random.random() < 0.7:  # 70% chance to explore
+            # Dynamically adjust exploration rate based on question type performance
+            if question_type == "how":  # This type performs worst, explore more
+                explore_chance = 0.8
+            elif question_type == "what":  # Medium performance, moderate exploration
+                explore_chance = 0.6
+            else:  # "if_can" performs well, less exploration needed
+                explore_chance = 0.4
+
+            # Log exploration strategy for debugging
+            logger.debug(f"Using explore_chance={explore_chance} for {question_type} question")
+
+            # Decide whether to explore or exploit
+            if random.random() < explore_chance:
                 # Sample from distribution for exploration
                 action_distribution = torch.distributions.Categorical(probs)
                 best_action_id = action_distribution.sample().item()
+                logger.debug(f"Exploring: sampled action {best_action_id}")
             else:
                 # Choose the highest probability action for exploitation
                 best_action_id = torch.argmax(probs).item()
+                logger.debug(f"Exploiting: chose highest probability action {best_action_id}")
 
-            # Force non-zero action with 50% probability to counter "keep unchanged" bias
-            if best_action_id == 0 and random.random() < 0.5 and self.has_keep_unchanged:
-                # Create a list of non-zero actions and randomly select one
-                non_zero_actions = list(range(1, self.action_counts[question_type]))
-                if non_zero_actions:  # If there are any non-zero actions
-                    best_action_id = random.choice(non_zero_actions)
+            # More aggressive attempt to avoid "keep unchanged" for "how" questions
+            if best_action_id == 0 and self.has_keep_unchanged:
+                avoid_chance = 0.7 if question_type == "how" else 0.5
+                if random.random() < avoid_chance:
+                    # Create a list of non-zero actions and randomly select one
+                    non_zero_actions = list(range(1, self.action_counts[question_type]))
+                    if non_zero_actions:  # If there are any non-zero actions
+                        old_action = best_action_id
+                        best_action_id = random.choice(non_zero_actions)
+                        logger.debug(f"Avoiding 'keep unchanged': changed action from {old_action} to {best_action_id}")
 
+            # Get action description and validate it exists
             best_action_desc = self.get_action_description(best_action_id, question_type)
+            if best_action_desc == "Unknown action":
+                logger.warning(f"Invalid action ID {best_action_id} for {question_type} question")
+                # Fallback to a known valid action
+                best_action_id = 0 if self.has_keep_unchanged else 1
+                best_action_desc = self.get_action_description(best_action_id, question_type)
+                logger.info(f"Falling back to safe action: {best_action_id} ({best_action_desc})")
+
             action_probs = probs.cpu().numpy()[0]
 
         return best_action_id, best_action_desc, action_probs
@@ -1167,7 +1215,7 @@ class DPOTrainer:
         plt.xlabel('Epoch')
         plt.ylabel('Loss')
         plt.grid(True, alpha=0.3)
-        plt.savefig(os.path.join(output_dir, "dpo_loss_curve.png"))
+        plt.savefig(os.path.join(output_dir, "action_minimal_dpo_loss_curve.png"))
         plt.close()
 
         # Plot validation accuracy curve
@@ -1177,7 +1225,7 @@ class DPOTrainer:
         plt.xlabel('Epoch')
         plt.ylabel('Accuracy (%)')
         plt.grid(True, alpha=0.3)
-        plt.savefig(os.path.join(output_dir, "dpo_accuracy_curve.png"))
+        plt.savefig(os.path.join(output_dir, "action_minimal_dpo_accuracy_curve.png"))
         plt.close()
 
         logger.info(f"Training curves plotted and saved to '{output_dir}' directory")
@@ -1461,7 +1509,7 @@ def main():
     results = trainer.evaluate(test_dataset, tokenizer)
 
     # Save results
-    results_path = os.path.join(args.output_dir, "evaluation_results.json")
+    results_path = os.path.join(args.output_dir, "action_minimal_evaluation_results.json")
     with open(results_path, 'w', encoding='utf-8') as f:
         json.dump(results, f, indent=2)
 

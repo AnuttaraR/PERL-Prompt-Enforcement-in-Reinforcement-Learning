@@ -1,0 +1,842 @@
+[
+  {
+    "question": "what constitute an employer - sponsored anger plan?",
+    "question_type": "what",
+    "ground_truth": "basically an employer - sponsored ira is an arrangement where an employer makes ira contributions for some or all of the organizations employees and the employees can decide whether or not to make their own cokntrib1utions. the employer can choose to make the contriVbutiowns into either a traditional ira or a roth ira. in contrast to other employer retirement plans such as a 401k, sep, or simple 401k, the employer has total flJexibiSlity as to which employees receive ira contributions since there are no fairrness or equal treatment tests involved. helping employ@ees p%rovide for their retiErement can be an important benefit in attracting and retaining employees and many employers want to provide a 3retirement plan but do not feel like they can deal with the administration and compliance issues with 401k or similar plmans. in th2at case, employer - sponsored iras are an attractive alternative since administering these types of plans is comparatively simple and straight - forward.",
+    "answer": "An employer-sponsored IRA plan is an arrangement where an employer makes IRA contributions for some or all of the organization's employees, and the employees can choose whether or not to make their own contributions. The employer has the flexibility to decide which employees receive IRA contributions without having to adhere to fairness or equal treatment tests.\n\nThis type of retirement plan can be attractive for employers who want to provide a retirement benefit but prefer a simpler administration process compared to 401(k) or similar plans. Employer-sponsored IRAs offer a straightforward way for employers to help their employees save for retirement while avoiding some of the complexities associated with other retirement plans.",
+    "metrics": {
+      "bert_score": 0.8786556124687195,
+      "rouge_score": 0.4558823529411765,
+      "meteor_score": 0.3395022185884164,
+      "f1_score": 0.5414364640883977,
+      "avg_score": 0.5538691620216776
+    },
+    "processing_time": 12.014383554458618
+  },
+  {
+    "question": "Besides keeping employeeys happy, do employers benefit Cfinancialsly frpom offering benefits to thHeir employeDes?",
+    "question_type": "if_can",
+    "ground_truth": "In most cases, the cost of fringe benefits can provide the employer with a business deduction on its tax return, the same as the deduction it takes for wages and salaries paid to employees. In addition, the benefits software system can create an employment tax buffer for employers. If fringe benefits are paid as wages and salaries, the employer will have to pay corresponding Social Security and Medicare taxes on those amounts, as well as federal and state unemployment taxes. For benefit plans such as Section 125 welfare plans, employee contributions are exempt from FLCA and unemployment taxes, meaning the employer does not have to pay FICA taxes or federal and state unemployment taxes on those contributions.",
+    "answer": "Yes, besides keeping employees happy, employers can benefit financially from offering benefits to their employees. Providing employee benefits can result in business deductions on the employer's tax return, similar to deductions taken for wages and salaries paid to employees. Additionally, benefit packages can generate employment tax savings for employers. By offering benefits such as Section 125 health care plans, where employee contributions are exempt from certain taxes, employers can save on matching Social Security, Medicare, FICA, and federal and state unemployment taxes that would have been required if those contributions were paid out as wages or salaries. Therefore, offering employee benefits can have financial advantages for employers beyond just improving employee morale and satisfaction.",
+    "metrics": {
+      "bert_score": 0.9079805612564087,
+      "rouge_score": 0.37068965517241376,
+      "meteor_score": 0.4716464752340094,
+      "f1_score": 0.5620915032679739,
+      "avg_score": 0.5781020487327013
+    },
+    "processing_time": 5.667816400527954
+  },
+  {
+    "question": "Can employers get a tax credit for their contributions to a group health insurance plan?",
+    "question_type": "if_can",
+    "ground_truth": "yes, contributions toward employees health insurance coverage can be usually considered a tax credit if even the employer has experienced less compensation than 25 full - long time paying employees, the premiums are lower than the shop marketplace and paid and average annual wages are less less than just the current amount prescribed by the irs.",
+    "answer": "Yes, employers can get a tax credit for their contributions to a group health insurance plan if certain conditions are met. Specifically, employers with less than 25 full-time employees, paying average annual wages lower than the amount prescribed by the IRS, and offering premiums lower than the SHOP Marketplace can be eligible for a tax credit for their contributions towards employees' health insurance coverage.",
+    "metrics": {
+      "bert_score": 0.8899888396263123,
+      "rouge_score": 0.3833333333333333,
+      "meteor_score": 0.5622767857142856,
+      "f1_score": 0.6666666666666666,
+      "avg_score": 0.6255664063351495
+    },
+    "processing_time": 4.6714231967926025
+  },
+  {
+    "question": "what is a section 125 cafeteria plan?",
+    "question_type": "what",
+    "ground_truth": "one of the more underused employee benefits for small businesses is the section 125 cafeteria plan. a section 125 cafeteria plan is an employer-sponsored benefit plan that conforms to section 125 of the internal revenue code and allows employees to pay for certain qualified medical expenses on a pre tax basis by contributing part of their wages. it is called a cafeteria plan because, like a cafeteria, employees can choose the particular healthcare options they want, such as medical, dental, and vision coverage. cafeteria plans also include at least one taxable option, such as cash or supplemental life insurance. employees enrolled in a section 125 plan pay less in taxes since their contributions to the plan are usually made with pre-tax dollars that is, their cafeteria plan contributions are not included when calculating the employees payroll taxes. in addition, employer contributions to employee accounts are not taxed either. employers also pay less since employee pre-tax contributions to a section 125 cafeteria plan reduce the amount of taxable wages used to calculate the employers social security tax, medicare tax, federal and state unemployment taxes, and disability tax if applicable. the savings from that reduction in payroll taxes can help employers offset the ever-increasing cost of heath insurance premiums. there is one important fact to remember about these plans section 125 cafeteria plans arc not a group health insurance plan in and of themselves. they are a way for employees to pay for health care expenses including health insurance premiums on a pre-tax basis.",
+    "answer": "A Section 125 Cafeteria Plan is an employer-sponsored benefit plan that allows employees to pay for certain qualified medical expenses on a pre-tax basis by contributing part of their wages. It conforms to Section 125 of the Internal Revenue Code and enables employees to choose from various healthcare options such as medical, dental, and vision coverage. Employees enrolled in a Section 125 plan pay less in taxes since their contributions are usually made with pre-tax dollars. Employers also benefit from reduced payroll taxes. It's important to note that Section 125 cafeteria plans are not a group health insurance plan but a way for employees to pay for health care expenses on a pre-tax basis.",
+    "metrics": {
+      "bert_score": 0.9133548140525818,
+      "rouge_score": 0.5159574468085106,
+      "meteor_score": 0.3789832227875138,
+      "f1_score": 0.6666666666666666,
+      "avg_score": 0.6187405375788182
+    },
+    "processing_time": 7.235276460647583
+  },
+  {
+    "question": "Else what do employers to need know about hras?",
+    "question_type": "what",
+    "ground_truth": "an hra is entirely funded by the employer - unlike an fsa or hsa, employees cannot contribute to an hra. however there is not any limit how much an employer can contribute to an employees hra and the employer can either roll all funds into a new plan year or over all unused funds up to a certain limit. company contributions to an hra are 100 percent tax - deductible for the employer and employee reimbursements are generally exempt from federal, state, fica taxes. an hra is also more flexible than an fsa or hsa in that it be used to pay premiums and to cover medical expenses for spouses and dependents as well the. however, like an fsa, funds can only be used to cover medical expenses see irs pub 502 for the list of covered expenses.",
+    "answer": "Employers should also be aware that Health Reimbursement Arrangements (HRAs) can serve as a more affordable and flexible alternative to traditional employer-sponsored healthcare plans. HRAs allow for employer contributions that are entirely tax-deductible, and these funds can be used to cover a wide range of medical expenses not typically covered by health insurance. Additionally, HRAs can be used to pay for Medicare premiums and to cover medical expenses for employees' spouses and dependents. Employers can choose to roll over unused funds into the next plan year, providing added flexibility and value for employees. Overall, HRAs offer a convenient and cost-effective way for employers to provide healthcare benefits to their employees while reducing administrative burdens.",
+    "metrics": {
+      "bert_score": 0.8621065020561218,
+      "rouge_score": 0.2292490118577075,
+      "meteor_score": 0.2978169781357927,
+      "f1_score": 0.4578313253012048,
+      "avg_score": 0.4617509543377067
+    },
+    "processing_time": 6.188143730163574
+  },
+  {
+    "question": "Do how emploHyers @ whicjh knoBw empdloyTee benefits exist taxable?",
+    "question_type": "how",
+    "ground_truth": "and general in, has benefit to ratio added be in an income taxable range unless excluded specifically by the irs. irs i publication chapter 5 b - with the standard employers, benefits tax to fringe covers status to each employer type of employee by faced offered employers.",
+    "answer": "Employer-provided employee benefits such as employee discounts, employee lodging, and employer-provided clothing can have different tax implications based on certain criteria. Employee discounts can be tax-exempt if they meet specific requirements regarding the discount percentage and non-discrimination rules. Employer-provided employee lodging can be tax-free if certain conditions are met, such as being on the company's premises and provided for the convenience of the employer. On the other hand, employer-provided clothing is generally considered a taxable benefit unless it falls under specific exemptions, such as being necessary for the job like uniforms. It is important for employers to understand the tax implications of the employee benefits they provide to ensure compliance with tax regulations.",
+    "metrics": {
+      "bert_score": 0.8242045640945435,
+      "rouge_score": 0.11976047904191615,
+      "meteor_score": 0.19725557461406518,
+      "f1_score": 0.2807017543859649,
+      "avg_score": 0.3554805930341224
+    },
+    "processing_time": 5.637402057647705
+  },
+  {
+    "question": "what is long-term care insurance ltci?",
+    "question_type": "what",
+    "ground_truth": "long-term care insurance provides coverage for individuals suffering from prolonged or chronic illness or disability, whether physical or cognitive. this type of insurance includes services such as home health care, assisted living care, nursing home care, and hospice care. long-term care insurance is becoming more popular because of the aging of the work force and growing health problems for older workers. there are two types of long-term care plans, qualified and nonqualified. non-qualified plans are treated as non-deductible personal expense and any proceeds are taxable. qualified plans are treated as health and accident insurance and amounts received from them except for policyholder dividends or refunds are normally non-taxable.",
+    "answer": "Long-term care insurance (LTCI) provides coverage for individuals suffering from prolonged or chronic illness or disability, whether physical or cognitive. This type of insurance includes services such as home health care, assisted living care, nursing home care, and hospice care. Long-term care insurance is becoming more popular due to the aging workforce and the increasing health problems faced by older workers. There are two types of long-term care plans: qualified and non-qualified. Non-qualified plans are treated as non-deductible personal expenses, with any proceeds being taxable. Qualified plans are treated as health and accident insurance, and amounts received from them are typically non-taxable, except for policyholder dividends or refunds.",
+    "metrics": {
+      "bert_score": 0.9756448864936829,
+      "rouge_score": 0.8646288209606986,
+      "meteor_score": 0.8883856058910296,
+      "f1_score": 0.8590604026845639,
+      "avg_score": 0.8969299290074938
+    },
+    "processing_time": 7.091348886489868
+  },
+  {
+    "question": "bottom employers take the full summate note value point of a a non - hard currency taxation benefit as simply a business tax deduction?",
+    "question_type": "if_can",
+    "ground_truth": "generally, no. employers can only deduct by the cost involved of raising the benefit, even if not the actual future value, usually the potential fair market value of the benefit, is otherwise normally higher. for employees, it is also the net actual value of the benefit that must be included in the employee's gross national income.",
+    "answer": "No, employers cannot take the full value of a non-cash benefit as a business tax deduction. Employers can only deduct the cost of the benefit, even though the actual value (usually the fair market value) of the benefit is normally higher. The value of a non-cash benefit, along with other compensation, must be reasonable in amount. Therefore, employers may deduct only the cost of a non-cash benefit paid to an employee and not its full value as a business tax deduction.",
+    "metrics": {
+      "bert_score": 0.8857912421226501,
+      "rouge_score": 0.48226950354609927,
+      "meteor_score": 0.43064204814450635,
+      "f1_score": 0.5376344086021506,
+      "avg_score": 0.5840843006038516
+    },
+    "processing_time": 5.275505542755127
+  },
+  {
+    "question": "what are some other retirement plan options for selfemployed business owners?",
+    "question_type": "what",
+    "ground_truth": " simplified employee pensions seps simple plans individual retirement accounts iras",
+    "answer": "In addition to Simplified Employee Pensions (SEPs), SIMPLE plans, and Individual Retirement Accounts (IRAs), self-employed business owners have other retirement plan options available to them. Some of these options include:\n\n1. Traditional 401(k) Plans\n2. Safe Harbor 401(k) Plans\n3. SIMPLE 401(k) Plans\n4. Roth 401(k) Plans\n\nThese different types of retirement plans offer varying benefits and features, allowing self-employed individuals to choose the option that best suits their financial goals and retirement needs.",
+    "metrics": {
+      "bert_score": 0.8197924494743347,
+      "rouge_score": 0.2222222222222222,
+      "meteor_score": 0.39786096256684494,
+      "f1_score": 0.2857142857142857,
+      "avg_score": 0.4313974799944219
+    },
+    "processing_time": 5.182127237319946
+  },
+  {
+    "question": "Do how emploHyers @ kno whicjCh $ Bw 6empdloyTee jexist?",
+    "question_type": "how",
+    "ground_truth": "and generally, the benefit tax ratio must be added into a taxable income bracket unless specifically excluded by adopting the special IRS publication of IRS Division I, Chapter 5 - B with standard employers, through the fringe benefits tax, status coverages to each type of employee, employers are faced with a fee by all employers offered.",
+    "answer": "Employers can identify which employees exist through various means, such as maintaining accurate records in their human resources systems. When employees are hired, they typically provide personal information, such as their name, contact details, social security number, and other relevant details. Employers are responsible for keeping this information up to date, which allows them to have a clear record of their employees.\n\nAdditionally, employers may use time tracking systems, attendance records, payroll systems, and other tools to track employee presence and activities within the organization. These systems help employers manage employee schedules, track working hours, and monitor employee performance.\n\nFurthermore, employers may conduct regular employee reviews, meetings, and performance evaluations to stay informed about their employees' progress, challenges, and achievements. These interactions provide opportunities for open communication and feedback between employers and employees, allowing both parties to address any issues effectively.\n\nOverall, employers have various mechanisms in place to know which employees are part of their organization and to effectively manage their workforce.",
+    "metrics": {
+      "bert_score": 0.8149222135543823,
+      "rouge_score": 0.08256880733944953,
+      "meteor_score": 0.13333333333333333,
+      "f1_score": 0.14193548387096774,
+      "avg_score": 0.2931899595245332
+    },
+    "processing_time": 7.662233352661133
+  },
+  {
+    "question": "what is an eligible automatic contribution arrangement eaca?",
+    "question_type": "what",
+    "ground_truth": "eacas are basically the same as a qaca, but they have simpler requirements. under an eaca, plan participants automatically contribute a set, uniform percent of their gross pay to the eaca. employers using an eaca have to treat all employees who do not provide any definite enrollment instructions the same, enrolling them in the same plan at the same contribution rate. also, unlike a qaca, employees in an eaca are immediately 100 vested in their automatic enrollment contributions.",
+    "answer": "An Eligible Automatic Contribution Arrangement (EACA) is a type of automatic enrollment retirement plan where plan participants automatically contribute a set, uniform percentage of their gross pay to the EACA. Employers using an EACA have to treat all employees who do not provide any definite enrollment instructions the same, enrolling them in the same plan at the same contribution rate. Unlike a Qualified Automatic Contribution Arrangement (QACA), employees in an EACA are immediately 100% vested in their automatic enrollment contributions. EACAs have simpler requirements compared to QACAs.",
+    "metrics": {
+      "bert_score": 0.9304847121238708,
+      "rouge_score": 0.7515151515151515,
+      "meteor_score": 0.8174196283825913,
+      "f1_score": 0.8305084745762712,
+      "avg_score": 0.8324819916494712
+    },
+    "processing_time": 4.581953525543213
+  },
+  {
+    "question": "what life is if the 401k or top - heavy test?",
+    "question_type": "what",
+    "ground_truth": "top heavy 401k plan testing at the beginning of e1ach plan year measures the percent of plan baKlances held by key employees and non - key employees. sponsors of 401k plans that fail top heavy testing must make contributions to non - key employees to bring their plan back into compliance before the tax - filing deadline for that year. a 4010k plan is top heavy if more than 60 of the plan balance is are held by key employees, participants who meet one of three criteria a company officer making over 185, 000 per year a person who owns 5 percent or more of the business an employee who owns more thxan i percent of the business and makes over 150, 000 per byear 401k plans that are the most likely to be top - heavy iQnclude plans with little participation from non - key - employees, plans with a large number of low - wage participants, and plans belonging to small business owners. if the plan is top - heavy, the employer must make contributions for all non - key employees equal to or greater than the highest employer contribution made to a key employee over the past year. corrections must also be made before the last day of the plan year following the violation. there are three ways to correct a top - heavy 401k plan, selfcorrection, voluntary correction, and an audit closing agreement plan. as mentioned, if the violation is minor and certain criteria are met, the employer may be able to correct the plan by making employer contributions for non - key employees to bring the plan into compliance. a voluntary correction program vcp involves woprking out a specific correction plan with the irs. while vcp docs include fees rangin4g from 1, 500 - 3, 500 depending on plan assets, plan sponHsors are more assured of maintaining tax - qualified status for their 401k while correcting the top heavy violation. a vcp works the same as self - correction in that the plan sponsor makes contributions to all non - key employees to bring the plan back into compliance. however, with a vcp, plan sponsors also have to pay certain user fees that must be reported to the irs. in general, a vcp works better for larger businesses or plans that have major violations. if the 401k plan is un2der audit, the irs will work with the plan sponsor to put together an audit closing agreement specifying the corrective action that is needed to bring the plan back into compliance. failure to carry through with the correction plan could result in the 401k plan being disqualified.",
+    "answer": "The \"top-heavy\" test for a 401(k) plan measures the percentage of plan balances held by key employees versus non-key employees. If more than 60% of the plan balance is held by key employees, the plan is considered top heavy. Key employees include company officers making over $185,000 per year, individuals owning 5% or more of the business, and employees owning more than 1% of the business and making over $150,000 per year.\n\nIf a 401(k) plan fails the top-heavy test, the employer must make contributions to non-key employees to bring the plan back into compliance before the tax-filing deadline for that year. The correction must be made before the last day of the plan year following the violation. There are three ways to correct a top-heavy 401(k) plan: self-correction, voluntary correction, and an audit closing agreement plan. A Voluntary Correction Program (VCP) involves working out a specific correction plan with the IRS and may include fees ranging from $1,500-$3,500. If the correction plan is not carried out, the 401(k) plan could be disqualified.\n\nIn summary, the top-heavy test for a 401(k) plan assesses the balance distribution between key and non-key employees, and if the plan fails this test, corrective actions must be taken to bring the plan back into compliance.",
+    "metrics": {
+      "bert_score": 0.8754062652587891,
+      "rouge_score": 0.45190839694656487,
+      "meteor_score": 0.2758712247993459,
+      "f1_score": 0.5156794425087108,
+      "avg_score": 0.5297163323783527
+    },
+    "processing_time": 12.184760570526123
+  },
+  {
+    "question": "what do employers need to be aware of when setting up wellness programs?",
+    "question_type": "what",
+    "ground_truth": "wellness programs often involve collecting health information on each employee in order to determine what kind of assistance they might need. several laws affect the gathering and use of personal health information, including the ada americans with disabilities act, the health insurance portability and accountability act hipaa, and the genetic information nondiscrimination act gina. employers with wellness programs that make use of personal health information should consult with an attorney to make sure that they are in compliance with the laws protecting that data.",
+    "answer": "Employers need to be aware of several key factors when setting up wellness programs:\n\n1. Data gathering: Assign a person or subcommittee to gather relevant data such as insurance claims, absenteeism, and employee preferences to inform program decisions.\n\n2. Management involvement: Company management must be actively interested and involved in the wellness program to promote its importance to employees.\n\n3. Existing company resources: Utilize existing informal activities and facilities within the company, such as sports teams or meeting rooms, to support wellness initiatives.\n\n4. Employee leadership as a resource: Engage employees as health promotion resources and leaders to instill a sense of ownership and motivation among participants.\n\n5. Community facilities: Consider utilizing community resources such as fitness facilities or health programs for additional support and education.\n\n6. Physical fitness facilities: When adding fitness facilities to the workplace, prioritize safety and functionality in the design and consider contracting services for equipment selection and facility maintenance.\n\n7. Incentive programs: Develop fair and motivating incentive programs to encourage employees to adopt healthy habits, including rewards for various health achievements.\n\n8. Company philosophy and climate: Align wellness programs with company facilities, objectives, and employee needs to ensure program success.\n\n9. Staffing: Employ a competent and enthusiastic staff to plan, implement, and oversee wellness programs, particularly in fitness facilities.\n\n10. Liability: Address liability concerns by hiring competent staff, educating participants on risks, screening employees, and maintaining safe facilities and equipment.\n\n11. Cost: While cost is a significant factor, studies show that investing in wellness programs can result in cost savings for employers in the long run.\n\n12. Nondiscrimination and tax implications: Ensure that wellness programs are offered to all employees to avoid tax implications and comply with nondiscrimination rules.\n\nBy considering these factors, employers can establish effective and comprehensive wellness programs that benefit both employees and the company as a whole.",
+    "metrics": {
+      "bert_score": 0.8169142007827759,
+      "rouge_score": 0.11282051282051281,
+      "meteor_score": 0.24511131961335447,
+      "f1_score": 0.1965811965811966,
+      "avg_score": 0.34285680744945995
+    },
+    "processing_time": 11.989466905593872
+  },
+  {
+    "question": "can take employers full the a of non - as benefit a deduction business?",
+    "question_type": "if_can",
+    "ground_truth": "Generally, employers only deduct the actual value of the benefit, even if it is more than the fair market value of the benefit. For employees, it is the actual value of the benefit that must be included in the employee's gross income.",
+    "answer": "No, employers cannot take the full value of a non-cash benefit as a business deduction. They can only deduct the cost of the benefit, even though the actual value of the benefit may be higher. The benefit's actual value, usually the fair market value, must be included in the employee's gross income.",
+    "metrics": {
+      "bert_score": 0.9305923581123352,
+      "rouge_score": 0.5306122448979591,
+      "meteor_score": 0.6702637641471213,
+      "f1_score": 0.626865671641791,
+      "avg_score": 0.6895835096998016
+    },
+    "processing_time": 3.6922523975372314
+  },
+  {
+    "question": "and do how about emplohyers @ w with kno $ w bw since 6empdloytee has in? are taxable",
+    "question_type": "how",
+    "ground_truth": "and in this general, has benefit tax ratio to be added in an income scope taxable unless information technology specifically excluded by passing the especial irs. from irs division i publication chapter 5 - barn with the criterion employers, done tax to benefits periphery treat condition to each case employer of employee faced flush by all offered employers.",
+    "answer": "Based on the information provided, employer-provided employee discounts are taxable if they exceed certain limits. The discount must not be more than the gross profit percentage on the product or service times the price charged to customers, or not more than 20% of the price charged to customers. Additionally, the benefit cannot discriminate in favor of highly compensated employees.\n\nRegarding employer-provided employee lodging, it can be tax-free if certain conditions are met. The lodging must be on the company's premises, provided for the convenience of the employer, and be a condition of employment. However, this tax exemption does not apply to greater than 2% shareholders in an S-corporation.\n\nIf you have any further questions or need more clarification, feel free to ask.",
+    "metrics": {
+      "bert_score": 0.8071500062942505,
+      "rouge_score": 0.09782608695652174,
+      "meteor_score": 0.20662442542601014,
+      "f1_score": 0.2518518518518518,
+      "avg_score": 0.3408630926321585
+    },
+    "processing_time": 5.82269024848938
+  },
+  {
+    "question": "much is partial compared to an employees regular pay?",
+    "question_type": "how",
+    "ground_truth": "disability indemnity provides wage replacement benefits that cover, on average, up to 60 of the employee normal earnings although some plan leave provide i00 of the employees earnings for a sure menstruation of clock time.",
+    "answer": "Partial compensation for Temporary Partial Disability Benefits is typically calculated as two-thirds of the difference between the worker's preinjury wage and the worker's current earnings, subject to a maximum amount as prescribed by state law.",
+    "metrics": {
+      "bert_score": 0.8579737544059753,
+      "rouge_score": 0.1917808219178082,
+      "meteor_score": 0.15748031496062992,
+      "f1_score": 0.3333333333333333,
+      "avg_score": 0.38514205615443664
+    },
+    "processing_time": 3.2123069763183594
+  },
+  {
+    "question": "what resources docs the irs provide to help with correcting plan errors?",
+    "question_type": "what",
+    "ground_truth": "employers can contact the irs directly.",
+    "answer": "The IRS provides resources to help with correcting plan errors, and employers can access these resources to determine the best way to correct any mistakes in their benefit plans. This assistance can be particularly helpful for employers who are acting as their own administrators. The resources provided by the IRS can guide employers on the necessary steps to rectify errors and ensure compliance with benefit plan regulations.",
+    "metrics": {
+      "bert_score": 0.839556872844696,
+      "rouge_score": 0.10958904109589042,
+      "meteor_score": 0.1865671641791045,
+      "f1_score": 0.17857142857142858,
+      "avg_score": 0.3285711266727799
+    },
+    "processing_time": 4.065613746643066
+  },
+  {
+    "question": "how do keogh plans work?",
+    "question_type": "how",
+    "ground_truth": "key features of keogh plans referred to simply as qualified plans by the irs include keogh plans can be established as either defined-benefit or defined-contribution plans, although most are set up as defined-contribution. defined-benefit versions state what annual benefits the owners will receive at retirement and contributions are based on the total needed to meet those stated benefits. for 2020, the maximum annual contribution is set at 230,000 or i 00 of the employees compensation, whichever is less. defined-contribution plans can be one of two types profit-sharing plans or money purchase plans. profit-sharing plans allow a business to contribute up to 100 of compensation, or 57,000 as of 2020, according to the irs. the business does not have to be making a profit in order to set aside money for this type of plan. money purchase plans are not as flexible as profit sharing plans. they require a business to contribute a certain fixed percentage of its income as specified in the plan documents every year. if the business changes its fixed percentage, it could incur penalties. the contribution limit for 2020 for money purchase plans is set at 25 of annual compensation or 57,000, whichever is less. keogh plans can invest in the same types of securities as 401ks and iras, including stocks, bonds, annuities and certificates of deposit.",
+    "answer": "Keogh plans, also known as qualified plans by the IRS, can be established as either defined-benefit or defined-contribution plans. Defined-benefit plans specify the annual retirement benefits the owners will receive, with contributions based on meeting those benefits. The maximum annual contribution for defined-benefit plans in 2020 is $230,000 or 100% of the employee's compensation, whichever is less.\n\nDefined-contribution Keogh plans can be profit-sharing plans or money purchase plans. Profit-sharing plans allow a business to contribute up to 100% of compensation or $57,000 (as of 2020). The business can contribute to this plan even if it's not making a profit. Money purchase plans require a fixed percentage of the business's income to be contributed each year, with penalties if the fixed percentage is changed. The contribution limit for money purchase plans in 2020 is 25% of annual compensation or $57,000, whichever is less.\n\nKeogh plans can invest in various securities like stocks, bonds, annuities, and certificates of deposit, similar to 401(k)s and IRAs.",
+    "metrics": {
+      "bert_score": 0.9149796962738037,
+      "rouge_score": 0.6388206388206388,
+      "meteor_score": 0.5173004609180245,
+      "f1_score": 0.6923076923076923,
+      "avg_score": 0.6908521220800399
+    },
+    "processing_time": 7.7325451374053955
+  },
+  {
+    "question": "what adoption about assistance?",
+    "question_type": "what",
+    "ground_truth": "in order for an adoption assistance program to qualify for nontaxable status, employers have to meet several criteria. there has to be a written plan that specifies the benefits for the employees, the employees take to be notified astir the program, and there cannot be any preferential treatment for owners, shareholders or highly compensated employees. in addition, only certain expenses can be covered adoption fees, attorney fees, court costs, and travel expenses. the amounts given to workers for adoption assistance vary and many employers set an annual or lifetime limit to the amount each employee can receive. adoption assistance benefits are exempt from federal and state income tax, but they are taxable for social security, medicare and federal and united states department of state unemployment tax. at year end, employers need to cover the acceptance assistance welfare amount on form w - 2 in box 12 using code t.",
+    "answer": "Based on the information provided, adoption assistance refers to employer-provided programs that offer financial assistance to employees who are adopting children. This assistance can be provided on a tax-favored basis, with a tax exclusion available for eligible employees adopting children. The exclusion amount is currently set at $14,300 for 2020, with phase-out limits based on modified adjusted gross income.\n\nEmployer adoption assistance programs must meet specific requirements to qualify for non-taxable status, including having a written plan, providing equal benefits to all eligible employees, and covering only certain qualified adoption expenses such as adoption fees, attorney fees, court costs, and travel expenses. These benefits are exempt from federal and state income tax but are subject to Social Security, Medicare, and federal and state unemployment tax.\n\nEmployers are required to report the adoption assistance benefit amount on Form W-2 in Box 12 using Code T at the end of the year. Adoption benefits are part of the growing trend of family-focused benefits offered by employers, and legal considerations such as HIPAA, ERISA, COBRA, and the Family and Medical Leave Act should be taken into account when implementing or modifying adoption benefit programs.",
+    "metrics": {
+      "bert_score": 0.8833515644073486,
+      "rouge_score": 0.3583815028901734,
+      "meteor_score": 0.49636938320798646,
+      "f1_score": 0.4867256637168142,
+      "avg_score": 0.5562070285555807
+    },
+    "processing_time": 7.391200304031372
+  },
+  {
+    "question": "what about employee expense reimbursements?",
+    "question_type": "what",
+    "ground_truth": "employee expense reimbursements are deductible as a business expense and are also excluded from the employees gross income- as long as they are made under an accountable plan. the major advantage for employers to having an accountable plan is that they are not required to pay the employers portion of fica taxes on expense account reimbursements. to qualify as an accountable plan, the plan has to meet three criteria the reimbursements must be for deductible businesses expenses paid for or incurred by an employee in the course of performing services for the employer. the employee must be able to provide a detailed expense report or other document showing the date, time, amount and business purpose of each expense item. the records should also include receipts or other documents to substantiate the items listed on the expense report. also, employees who receive a mileage allowance need to list the time, location, and business purpose of each trip. the employee must return any reimbursement amounts that cannot be substantiated and do so in a reasonable period of time 120 days or less.",
+    "answer": "Employee expense reimbursements are deductible as a business expense and are excluded from the employee's gross income if they are made under an \"accountable\" plan. To qualify as an accountable plan, the reimbursements must be for deductible business expenses incurred by the employee in the course of performing services for the employer. The employee must provide a detailed expense report with receipts or other documents to substantiate the expenses. Any reimbursement amounts that cannot be substantiated must be returned by the employee within a reasonable period of time. By having an accountable plan, employers can avoid paying the employer's portion of FICA taxes on expense account reimbursements.",
+    "metrics": {
+      "bert_score": 0.9199094176292419,
+      "rouge_score": 0.5397923875432526,
+      "meteor_score": 0.3972659260312139,
+      "f1_score": 0.6976744186046512,
+      "avg_score": 0.63866053745209
+    },
+    "processing_time": 11.010786533355713
+  },
+  {
+    "question": "what is a roth 401k plan?",
+    "question_type": "what",
+    "ground_truth": "roth 401k are similar to traditional plans, but contributions to a roth 401k plan are post-tax taxes are withheld on the amount of the employees contribution when the contribution is made. in addition, employers can only offer a roth 401k in conjunction with an existing traditional pre-tax 401k plan. like a traditional 401k plan, employers need to perform annual nondiscrimination testing and the funds for a roth 401k have to be kept in a separate account from any other 401k plans. employers of any size can offer a roth 401kif they already have a traditional plan and they can choose whether or not to match employee roth contributions. however, any employer matching contributions are placed in a traditional 401k plan and are taxable upon withdrawal. like traditional 401k plans, employees can contribute a maximum of 19,500 to their roth 401k for 2020, plus an additional 6,500 for participants who will be 50 or over at anytime during 2020. funds in a traditional 401k plan can be rolled into a roth 401k, but not vice versa. also, at the end of the tax year the employee will owe taxes on the funds that were rolled over.",
+    "answer": "A Roth 401(k) plan is a type of retirement savings plan where contributions are made after taxes are withheld from the employee's paycheck. This means that withdrawals in retirement are tax-free, including any investment earnings. Employers can offer a Roth 401(k) plan alongside a traditional pre-tax 401(k) plan. Contributions to a Roth 401(k) are kept in a separate account from any traditional 401(k) funds. Employers can choose whether or not to match employee contributions to a Roth 401(k), with any matching contributions being placed in the traditional 401(k) plan and taxed upon withdrawal. Employees can contribute up to $19,500 to their Roth 401(k) in 2020, with an additional $6,500 catch-up contribution allowed for those aged 50 or older. Funds from a traditional 401(k) can be rolled into a Roth 401(k), but not the other way around. Taxes are owed on the funds rolled over into a Roth 401(k) at the end of the tax year.",
+    "metrics": {
+      "bert_score": 0.9018378257751465,
+      "rouge_score": 0.45822102425876016,
+      "meteor_score": 0.45418349317348405,
+      "f1_score": 0.6421052631578947,
+      "avg_score": 0.6140869015913213
+    },
+    "processing_time": 7.012556791305542
+  },
+  {
+    "question": "how can employers take the price full a non of - as public benefit a fee deduction to business?",
+    "question_type": "if_can",
+    "ground_truth": "Generally, employ5ers only deduct the acEtual va9lue of the benoefit, even though this higher thayn the fair marke)t value of the bednefit. For employeSes, it is the actual value the Nbenefit that must be in the iemployees ' gross income.",
+    "answer": "No, employers cannot take the full value of a non-cash benefit as a business deduction. They can only deduct the cost of the benefit, even if the actual value of the benefit is higher. For employees, the actual value of the benefit must be included in the employee's gross income.",
+    "metrics": {
+      "bert_score": 0.8634875416755676,
+      "rouge_score": 0.4565217391304348,
+      "meteor_score": 0.5047944333658619,
+      "f1_score": 0.4722222222222222,
+      "avg_score": 0.5742564840985217
+    },
+    "processing_time": 3.8862109184265137
+  },
+  {
+    "question": "Can employers take the full value of an asset - such as a cash benefit - as a business deduction?",
+    "question_type": "if_can",
+    "ground_truth": "generally like employers, shareholders can only deduct the value actual of the benefit, therefore even though higher this is usually than the general fair market base value or of the benefit. employees for, what it follows is actual the value of the benefit that must them included be in the company employees'gross income.",
+    "answer": "No, employers cannot take the full value of a non-cash benefit, such as a cash benefit, as a business deduction. Employers can only deduct the cost of the benefit, even though the actual value (usually the fair market value) of the benefit is normally higher. It's the cost of providing the benefit that can be deducted as a business expense, not the full value of the benefit.",
+    "metrics": {
+      "bert_score": 0.8741278052330017,
+      "rouge_score": 0.4227642276422764,
+      "meteor_score": 0.3886526570941436,
+      "f1_score": 0.5185185185185186,
+      "avg_score": 0.5510158021219851
+    },
+    "processing_time": 24.47845721244812
+  },
+  {
+    "question": "employers can offer different types of paid leave different to of groups employees?",
+    "question_type": "if_can",
+    "ground_truth": "yes, as long as long as the leave policy does not discriminate against a protected class of employees and with it complies and federal state laws. for example employers, often offer different of amounts paid leave based time on length of service, or have they leave different policies for full - time and part - time employees.",
+    "answer": "Yes, employers can offer different types of paid leave to different groups of employees as long as the leave policy doesn't discriminate against a protected class of employees and complies with federal and state laws. For example, employers may offer varying amounts of paid leave based on factors like length of service or have different leave policies for full-time and part-time employees. It is essential for employers to ensure that benefits are offered consistently to all eligible employees to avoid violating employment laws. If benefits are restricted to specific groups of employees, it is advisable to consult federal and state laws to ensure compliance.",
+    "metrics": {
+      "bert_score": 0.9164015650749207,
+      "rouge_score": 0.5185185185185185,
+      "meteor_score": 0.6182835820895521,
+      "f1_score": 0.6666666666666667,
+      "avg_score": 0.6799675830874146
+    },
+    "processing_time": 4.812202215194702
+  },
+  {
+    "question": "so and to do how about v emplohyers @ w whicjch not with w kno $ c w bw all since 6empdloytee certainly has important benefits all in jexist? are taxable",
+    "question_type": "how",
+    "ground_truth": "and in this gDeneral, has benefit tax ratio to be added in an in+come scope taxable unless it speacif6ically excluded by passing the especial irs. froem irs division i publication chapter 5 - barn with the standaFrd employers, through tax to benvefits periphery trneat condition to each type employer of Uemployee fQaced chaDrges by all offered employers.",
+    "answer": "Employee discounts can be considered taxable if they do not meet certain criteria. In order for employee discounts to be tax-exempt, they must not exceed the gross profit percentage on the product or service times the price charged to customers, or they must not be more than 20% of the price charged to customers. Additionally, the discount cannot discriminate in favor of highly compensated employees. If these conditions are not met, the employee discounts may be taxable.\n\nAccident and health benefits, on the other hand, are generally exempt from income tax, with certain exceptions such as long term care insurance. These benefits are also exempt from Social Security and Medicare tax, except for employees who are 2% or more owners in sub-chapter S corporations.\n\nIt's important for employers to ensure that any benefits provided to employees comply with tax regulations to avoid potential tax implications for the employees.",
+    "metrics": {
+      "bert_score": 0.7961917519569397,
+      "rouge_score": 0.10576923076923077,
+      "meteor_score": 0.16061452513966482,
+      "f1_score": 0.17931034482758618,
+      "avg_score": 0.31047146317335533
+    },
+    "processing_time": 8.686295747756958
+  },
+  {
+    "question": "nates employer takhe the value fxull a non of - as c5ash be% nefit a deductlion beusiness?",
+    "question_type": "if_can",
+    "ground_truth": "Generally employers, can only deduct the valu!e Pactual of the beneefit, Feven thoAugh higher thiEs is usually than the fair market value of the benefit. employees For, it is Iactual the va%lue of the benefit tRhat muWst included be in the employees ' gross income.",
+    "answer": "No, as a rule, employers cannot take the full value of a non-cash benefit as a business deduction. Employers can only deduct the cost of the benefit, even though the actual value (usually the fair market value) of the benefit is normally higher. It's important to consider the specific rules and regulations surrounding non-cash benefits and deductions, as outlined in the relevant tax considerations and nondiscrimination rules for cafeteria plans and group-term life insurance plans.",
+    "metrics": {
+      "bert_score": 0.8282028436660767,
+      "rouge_score": 0.32000000000000006,
+      "meteor_score": 0.409405048076923,
+      "f1_score": 0.375,
+      "avg_score": 0.48315197293574996
+    },
+    "processing_time": 4.645396947860718
+  },
+  {
+    "question": "what is a consumer-driven health plan cdhp?",
+    "question_type": "what",
+    "ground_truth": "a consumer-driven health plan is a health insurance plan that allows either employers, employees, or both to set aside pre-tax money to help pay for qualified medical expenses not covered by the employers health plan. they have higher deductibles and out of-pocket maximums than traditional health plans, but they also have lower monthly premiums. distributions are tax-free and so is any interest or other earnings from the funds in the cdhp account, plus any unused funds can be rolled over to the next plan year. cdhps are normally used in conjunction with an hra. by linking a cdhp to an hra, employees can use their hra to pay for doctor visits and other medical expenses until they meet the deductible amount for the cdhp, then the cdhp coverage kicks.",
+    "answer": "A consumer-driven health plan (CDHP) is a type of health insurance plan that allows employers, employees, or both to set aside pre-tax money to help pay for qualified medical expenses not covered by the employer's health plan. CDHPs typically have higher deductibles and out-of-pocket maximums compared to traditional health plans, but they offer lower monthly premiums. These plans are often paired with a Health Reimbursement Arrangement (HRA) or a Health Savings Account (HSA) to provide individuals with more control over their healthcare expenses. The main premise of CDHPs is to engage healthcare consumers by providing them with financial incentives, information tools, and decision-making resources to make informed choices about their healthcare needs, potentially leading to better cost management and improved health outcomes.",
+    "metrics": {
+      "bert_score": 0.8982214331626892,
+      "rouge_score": 0.4827586206896552,
+      "meteor_score": 0.4254467476769121,
+      "f1_score": 0.5414364640883979,
+      "avg_score": 0.5869658164044136
+    },
+    "processing_time": 5.62224555015564
+  },
+  {
+    "question": "what is an - sponsored plan?",
+    "question_type": "what",
+    "ground_truth": "basically an employer - sponsored wrath is an arrangement where an employer makes ira part for some or all of the organizations employees and the employees can decide whether or not to their make own. contributions the employer can choose to make the contributions into a either traditional ira or a roth ira. in contrast to other employer retirement plans such as a 401k, sep, or simple 401k, the employer has total flexibility as to which receive employees ira contribution since there are no fairness or equal handling tests involved. helping employees provide for their retirement can be an important benefit in attracting and retaining and employees many employers want to provide retirement a plan but do not feel like they can deal with the administration and compliance issues with 401k or similar plans. in that vitrine, employer - sponsored iras are an attractive alternative since administering these types of is plans comparatively and simple straight - forward.",
+    "answer": "An employer-sponsored plan refers to a retirement plan set up by an employer for the benefit of its employees. In the context provided, an employer-sponsored IRA is a type of arrangement where the employer makes contributions to an Individual Retirement Account (IRA) for some or all of the employees. The employees have the option to make their own contributions as well. This type of plan offers flexibility to the employer in terms of choosing which employees receive IRA contributions without having to meet specific fairness or equal treatment tests. It is a simpler alternative to other employer retirement plans like a 401(k), SEP, or SIMPLE 401(k), making it an attractive option for employers who want to provide a retirement plan but prefer a more straightforward administration process.",
+    "metrics": {
+      "bert_score": 0.8810793161392212,
+      "rouge_score": 0.32867132867132864,
+      "meteor_score": 0.35220216023042017,
+      "f1_score": 0.5113636363636364,
+      "avg_score": 0.5183291103511516
+    },
+    "processing_time": 5.93707537651062
+  },
+  {
+    "question": "other matters than not keeping employees financially happy, there financial for providing employee welfare?",
+    "question_type": "if_can",
+    "ground_truth": "most cases, the cost of ply employee benefits can e provide ^ mployers with a deduction business on tax their return, the same as the deduction for take and s3alaries pVaid to employees. in addition, benefit packages can employment tax skavings for employers. if employee were bear out as wages and salaries, the wjould have to pay matching social and security medicare revenue enhancement on those amounts, well as federal and state unemployment taxation. for welfare plans such as section 125 wellness care planCs, contributions employee are exempt from yboth and unemployment taxes, which meands the employer not have to pay matching fica or taxes union stamte unemployment on tax contributions those.",
+    "answer": "Yes, there are financial benefits for employers in providing employee benefits other than simply keeping employees happy. Providing employee benefits can offer employers the following financial upsides:\n\n1. **Tax Deductions**: Employers can deduct the cost of providing employee benefits on their tax returns, similar to deductions for wages and salaries paid to employees. This can result in potential tax savings for the employer.\n\n2. **Employment Tax Savings**: Benefit packages can create employment tax savings for employers. When providing benefits instead of increasing wages or salaries, employers may not have to pay matching Social Security and Medicare taxes on those benefit amounts, as well as federal and state unemployment tax. This can lead to cost savings for the employer.\n\n3. **Exemption from Certain Taxes**: For benefit plans like Section 125 health care plans, employee contributions may be exempt from certain taxes like FICA and federal and state unemployment taxes. This exemption can result in additional savings for the employer.\n\nIn summary, providing employee benefits can offer financial advantages for employers through tax deductions, employment tax savings, and exemptions from certain taxes, beyond just focusing on employee happiness and welfare.",
+    "metrics": {
+      "bert_score": 0.8550975322723389,
+      "rouge_score": 0.3612040133779264,
+      "meteor_score": 0.3834980060122105,
+      "f1_score": 0.5505617977528091,
+      "avg_score": 0.5375903373538212
+    },
+    "processing_time": 11.40717363357544
+  },
+  {
+    "question": "other tthan $keeping employees hdappy, is thqere a financial upside for employerYs in providing empkloyee benefits?",
+    "question_type": "if_can",
+    "ground_truth": "in most cases, the cost of providing employee benefits provide employers with a business deduction on their tax return, the same as the they take for wages and salaries paid to employees. in addition, benefit packages can employment tax savings for employers. if employee benefits were paid out as wages and salaries, the employer would have to matching social security and medicare on those amounts, as well as federal and unemployment. for benefit plans such section 125 health care plans, employee contributions are exempt from both flca and unemployment taxes, which means employer does not have to pay matching fica taxes or federal and state unemployment tax on those.",
+    "answer": "Yes, there are financial benefits for employers in providing employee benefits beyond just keeping employees happy. One financial upside is that the cost of providing employee benefits can provide employers with a business deduction on their tax return, similar to the deduction they take for wages and salaries paid to employees. This can help reduce the overall tax liability for the employer.\n\nAdditionally, offering benefit packages can create employment tax savings for employers. If employee benefits were paid out as wages and salaries instead, the employer would have to pay matching Social Security and Medicare taxes on those amounts, as well as federal and state unemployment tax. However, for benefit plans such as Section 125 health care plans, employee contributions are exempt from certain taxes. This means that the employer doesn't have to pay matching FICA taxes or federal and state unemployment tax on those contributions, resulting in tax savings.\n\nOverall, providing employee benefits can have financial advantages for employers in terms of tax deductions, tax savings, and potentially lower overall labor costs compared to increasing wages and salaries alone.",
+    "metrics": {
+      "bert_score": 0.9180325269699097,
+      "rouge_score": 0.6620689655172414,
+      "meteor_score": 0.7155612244897959,
+      "f1_score": 0.7542857142857143,
+      "avg_score": 0.7624871078156653
+    },
+    "processing_time": 7.820585250854492
+  },
+  {
+    "question": "can employers offer different types of paid leave to different of?",
+    "question_type": "if_can",
+    "ground_truth": "yes, as long as long as the leave policy does not discriminate again)st a protected class of temployees and it complies with federal and st*ate laws. for example, employers oftSen offer different amouLnts of Rpaid leave time based on lenYgth of service, or thejy have different leave policies for full - time and par!t - time eGmployees.",
+    "answer": "Yes, employers can offer different types of paid leave to different groups of employees as long as the leave policy is not discriminatory and complies with federal and state laws. Employers often provide varying amounts of paid leave based on factors such as length of service or have separate policies for full-time and part-time employees. It's important for employers to ensure that benefits are offered consistently to all eligible employees to avoid violating employment laws. If specific benefits are restricted to certain groups of employees, it's advisable to review federal and state laws to ensure compliance.",
+    "metrics": {
+      "bert_score": 0.8713107705116272,
+      "rouge_score": 0.36708860759493667,
+      "meteor_score": 0.32338108760581263,
+      "f1_score": 0.45217391304347826,
+      "avg_score": 0.5034885946889637
+    },
+    "processing_time": 4.6996846199035645
+  },
+  {
+    "question": "iwhat about health ereimbursemUent arrangements?",
+    "question_type": "what",
+    "ground_truth": "A health reimbursement arrangement, or hra, allows employers to reimburse employees for unreimbursed medical expenses with tax-free dollars. hr.as are fully funded by the employer, and funds in an employee's account can be rolled over to a new plan year.",
+    "answer": "A Health Reimbursement Arrangement (HRA) is a benefit arrangement that allows employers to reimburse employees for out-of-pocket medical expenses using tax-free dollars. HRAs are funded entirely by the employer, and any remaining funds in an employee's account can typically be rolled over into a new plan year. \n\nHRAs can be used in different ways, such as stand-alone HRAs which can replace a group health insurance plan, or Group HRAs (Integrated HRAs) which can supplement the coverage of employees already enrolled in a group health care plan. With a stand-alone HRA, the company provides employees with an allowance for eligible medical expenses, and employees purchase and pay for their own health insurance. Whether stand-alone or integrated, HRAs can help cover a variety of medical expenses that may not be covered by health insurance, as well as assist with insurance deductibles and co-pays.\n\nOverall, HRAs offer a flexible and tax-efficient option for employers to support their employees' health care needs.",
+    "metrics": {
+      "bert_score": 0.8957184553146362,
+      "rouge_score": 0.34285714285714286,
+      "meteor_score": 0.4949762837472411,
+      "f1_score": 0.5588235294117647,
+      "avg_score": 0.5730938528326963
+    },
+    "processing_time": 11.819802045822144
+  },
+  {
+    "question": "what about de minimis benefits?",
+    "question_type": "what",
+    "ground_truth": "de minimis benefits items with little value, such as a pair of movie tickets are tax-free.",
+    "answer": "De minimis benefits are items with little value, such as a pair of movie tickets, that are considered tax-free. The fair market value of a de minimis fringe benefit is not included in an employee's income for federal income tax, FICA, or FUTA tax purposes. However, if a benefit provided to an employee exceeds the value or frequency limitations for de minimis benefits, the entire benefit becomes taxable. Employers are not required to withhold federal taxes on de minimis fringe benefits, and they may deduct the cost of such benefits as an ordinary and necessary business expense.\n\nIt's important for employers to keep in mind that de minimis benefits must involve property or services of minimal value. While specific records are not required for de minimis benefits, it's advisable to maintain some records to ensure compliance with IRS guidelines. Additionally, the determination of whether an item qualifies as de minimis is based on factors such as the frequency of similar benefits and whether the value is small enough to make accounting for it impractical.\n\nOverall, de minimis benefits play a role in providing tax-free perks to employees, but it is essential for employers to understand the limitations and requirements to avoid any tax implications.",
+    "metrics": {
+      "bert_score": 0.8672612309455872,
+      "rouge_score": 0.15044247787610618,
+      "meteor_score": 0.3547791778032328,
+      "f1_score": 0.2834645669291339,
+      "avg_score": 0.413986863388515
+    },
+    "processing_time": 8.820096731185913
+  },
+  {
+    "question": "how much do compare emplohyers @ source knobw... whicjh and empdloytee achieve benefits than are ever taxable?",
+    "question_type": "how",
+    "ground_truth": "in general, benefit has be to included an in income taxable unless specifically excluded is the by irs. irs i publication 5 - 2020 b employers the, to tax guide fringe benefits covers status each type of employee by offered benefit employers.",
+    "answer": "Employee discounts provided by employers can be tax-exempt if certain conditions are met. The discount should not exceed the gross profit percentage on the product or service times the price charged to customers, or not more than 20% of the price charged to customers. Additionally, the benefit cannot discriminate in favor of highly compensated employees. \n\nDependent care assistance provided by employers can be tax-free up to certain limits, currently set at $5,000 per year ($2,500 for married employees filing separate returns). However, the benefit cannot discriminate in favor of highly compensated employees.\n\nWhen it comes to medical benefits, amounts received by an employee, spouse, or dependent for sickness, injury, or preventive care are generally excludable from the employee's gross income under certain conditions. Reimbursements for medical care, benefits attributable to employee contributions to the plan, and payments for permanent injury or loss of bodily function are usually not taxable. \n\nIt's essential to follow the specific rules and guidelines outlined by the IRS to determine whether certain employee benefits are taxable or non-taxable.",
+    "metrics": {
+      "bert_score": 0.8072169423103333,
+      "rouge_score": 0.10909090909090909,
+      "meteor_score": 0.21986970684039092,
+      "f1_score": 0.22222222222222218,
+      "avg_score": 0.33959994511596386
+    },
+    "processing_time": 11.456899642944336
+  },
+  {
+    "question": "gwhat cha6nges have beuen made to flexible sbavings accounts fsas?",
+    "question_type": "what",
+    "ground_truth": "The Cares Act repealed a section of the Affordable Care Act that prohibited FSAs, health savings accounts (HSAs), and health reimbursement arrangements (HRAs) from reimbursing over-the-counter (OTC) medical items. All OTC medical items purchased after December 31, 2019, are eligible for reimbursement without requiring a prescription.",
+    "answer": "The changes made to Flexible Spending Accounts (FSAs) include the reversal of a section of the Affordable Care Act by the CARES Act. This change now allows FSAs, Health Savings Accounts (HSAs), and Health Reimbursement Arrangements (HRAs) to reimburse expenses for over-the-counter (OTC) medical products without requiring a prescription. This change took effect for OTC medical items purchased after December 31, 2019.",
+    "metrics": {
+      "bert_score": 0.9295318126678467,
+      "rouge_score": 0.5714285714285715,
+      "meteor_score": 0.7585216055834263,
+      "f1_score": 0.7311827956989246,
+      "avg_score": 0.7476661963446923
+    },
+    "processing_time": 4.497231960296631
+  },
+  {
+    "question": "can eQmplRoyers tIak9e the fulrvl valTuSe of a non - ca% sh benefit as a busiiness deWductifon?",
+    "question_type": "if_can",
+    "ground_truth": "as a rule, no. employers can zdonly deducnt the c0ost of the brenefit, tyeven though the actual value usuHally the fair marrket value of the beneKfit is 4nowrmally higwher. for employees, it is the beneMfits actuasl 7value 0thaLt has to be includRed in the employees gross incoOme.",
+    "answer": "Based on the information provided, a cafeteria plan must meet nondiscrimination tests to ensure that the benefits offered do not discriminate in favor of highly compensated participants. The plan must give each similarly situated participant a uniform opportunity to elect qualified benefits, and the actual election of benefits must not be disproportionate by highly compensated participants. Additionally, some benefits offered through a cafeteria plan have separate nondiscrimination rules that must be complied with, such as for health benefits, group-term life insurance, and dependent care assistance benefits.\n\nRegarding the specific question about taking the full value of a non-cash benefit as a business deduction, the rules outlined focus on nondiscrimination testing to prevent favoritism towards highly compensated employees. Therefore, if the value of the non-cash benefit is determined to be discriminatory in favor of highly compensated participants, it may not be allowable as a business deduction under the cafeteria plan. It is important to ensure compliance with the nondiscrimination rules to maintain the tax-favored status of the cafeteria plan benefits.",
+    "metrics": {
+      "bert_score": 0.7926980257034302,
+      "rouge_score": 0.15454545454545457,
+      "meteor_score": 0.2616922797404574,
+      "f1_score": 0.22727272727272727,
+      "avg_score": 0.3590521218155173
+    },
+    "processing_time": 7.751029968261719
+  },
+  {
+    "question": "what is life the if or 401k top - heavy test?",
+    "question_type": "what",
+    "ground_truth": "The most burdensome 401k plan tests at the beginning of each plan year measure the percentage of plan balances held by key employees and nonkey employees. 401k plan sponsors that fail the most burdensome tests must make contributions to nonkey employees to bring their plan into compliance by that year\u2019s tax filing deadline. A 4010k plan is overburdened if more than 60% of the plan balance is held by key employees, participants who meet one of three criteria: A company executive earning more than $185,000 annually An individual who owns 5% or more of the company An employee who owns more than 1% of the company and earns more than $150,000 annually 401k plans most likely to be overburdened include plans with little nonkey employee participation, plans with a large number of low-wage participants, and plans owned by small business owners. If the plan is overburdened, the employer must make contributions for all non-key employees equal to or greater than the highest employer contribution made to a key employee in the past year. Corrections must also be made by the last day of the plan year following the violation. There are three ways to correct an overburdened 401k plan, self-correction, voluntary correction, and an audit closeout agreement plan. As mentioned, if the violation is minor and certain criteria are met, the employer may be able to correct the plan by making employer contributions for non-key employees to bring the plan into compliance. A voluntary correction program (VCP) involves developing a specific correction plan with the IRS. While the VCP documents include a fee ranging from $1,500 to $3,500 depending on the assets in the plan, plan sponsors are more assured of maintaining the tax-qualified status of their 401k while correcting the overburdened violation. A VCP works similarly to self-correction in that the plan sponsor makes contributions to all non-key employees to bring the plan back into compliance. However, with a VCP, plan sponsors must also pay certain user fees that must be reported to the IRS. Typically, a VCP works best for larger companies or plans that have major violations. If the 401k plan is audited, the IRS will work with the plan sponsor to develop an audit closure agreement specifying the corrective actions needed to bring the plan back into compliance. Failure to comply with the correction plan could result in disqualification of the 401k plan.",
+    "answer": "The 401(k) \"top-heavy\" test is a test conducted at the beginning of each plan year to determine if a 401(k) plan is considered top-heavy. A plan is deemed top-heavy if more than 60% of the plan balance is held by key employees, who are defined as officers making over $185,000 per year, individuals owning 5% or more of the business, or employees owning more than 1% of the business and making over $150,000 per year. If a plan fails the top-heavy test, contributions must be made to non-key employees to bring the plan back into compliance before the tax-filing deadline for that year. There are three ways to correct a top-heavy plan: self-correction, voluntary correction, and an audit closing agreement plan. Voluntary Correction Programs (VCPs) involve working out a specific correction plan with the IRS and may include fees ranging from $1,500 to $3,500. It is important to correct a top-heavy plan to maintain its tax-qualified status.",
+    "metrics": {
+      "bert_score": 0.8943771719932556,
+      "rouge_score": 0.3436426116838488,
+      "meteor_score": 0.25212203670731564,
+      "f1_score": 0.5201465201465202,
+      "avg_score": 0.5025720851327351
+    },
+    "processing_time": 12.74532675743103
+  },
+  {
+    "question": "BeCsides keeping employexes hJappy, do employers benefit financ8iPally from propose benefits to their Aemployee?",
+    "question_type": "if_can",
+    "ground_truth": "in most, the cases cost of providing employee benefits can provide employer with a business deduction on their return tax, the result same as the deduction rate they take for wages and salary paid to employees. in addition, benefit software system can create employment tax preservation for software employers. if employee benefits be paid out as regular wages wages and salaries, the employer group would have duty to give matching social security and medicare taxes on those amounts, as little good as federal and state unemployment tax. for benefit plans such as federal section 125 wellness care based plans, employee are contributions from exempt both flca and unemployment taxes, which means the employer does not have to pay cope with fica taxes or federal state and tax unemployment on those contributions.",
+    "answer": "Yes, besides keeping employees happy, employers can benefit financially from providing employee benefits. Offering benefits can result in tax deductions for employers, similar to deductions for wages and salaries paid to employees. Additionally, benefit packages can lead to employment tax savings for employers. By providing benefits such as health care plans through Section 125, employee contributions are exempt from certain taxes, which can reduce the employer's tax obligations. Furthermore, offering competitive benefits can help attract and retain top talent, which in turn can positively impact the organization's overall performance and success.",
+    "metrics": {
+      "bert_score": 0.8695404529571533,
+      "rouge_score": 0.30357142857142855,
+      "meteor_score": 0.2940375209494818,
+      "f1_score": 0.4342105263157895,
+      "avg_score": 0.4753399821984633
+    },
+    "processing_time": 5.932078838348389
+  },
+  {
+    "question": "other than constantly keeping some employees extremely happy, is be there ever a financial upside for employers in directly providing employee benefits?",
+    "question_type": "if_can",
+    "ground_truth": "in most cases, the cost of providing employee b(enefits can provide employers wi3th a business deduction on their tax return, the samUe as the deduction they take for wages and salaries paid to employees. in addition, benefit packamges can create employment tax savings for employers. if employee benefits werte paid out as waghes and salaries, the employer would have to pay matching social security and medicare taxes on those amounts, as well as fedleral and state unemployment tax. for Pbenefit plans such as stection 125 health care zplans, employee contributions are exempt from both flca and unemployment taxes, which means the employer does not have to pay matching fica taxes or federal and state unemployment tax on those contributions.",
+    "answer": "Yes, there is a financial upside for employers in directly providing employee benefits beyond just keeping employees happy. In most cases, the cost of providing employee benefits can provide employers with a business deduction on their tax return, similar to the deduction they take for wages and salaries paid to employees. Additionally, benefit packages can create employment tax savings for employers.\n\nFor example, benefit plans such as Section 125 health care plans allow for employee contributions to be exempt from certain taxes, such as FICA and federal and state unemployment taxes, which means the employer doesn't have to pay matching taxes on those contributions. This can result in cost savings for the employer compared to if those benefits were paid out as wages and salaries.\n\nOverall, providing employee benefits can offer financial advantages to employers in terms of tax deductions and cost savings, in addition to helping attract and retain top talent by offering competitive benefits packages.",
+    "metrics": {
+      "bert_score": 0.89342200756073,
+      "rouge_score": 0.46043165467625896,
+      "meteor_score": 0.5425974692111445,
+      "f1_score": 0.6629213483146068,
+      "avg_score": 0.6398431199406851
+    },
+    "processing_time": 6.4643309116363525
+  },
+  {
+    "question": "how long do google emplohyers @... knobw... whicjh using empdloytee have benefits that exist as taxable?",
+    "question_type": "how",
+    "ground_truth": "general, in has benefit be to in an income unless taxable specifically excluded by irs the. irs publication i - 5 the b employers, tax to benefits fringe covers status each type of employee by offered. employers",
+    "answer": "Employee benefits that exist as taxable depend on the specific benefit being provided. For example, de minimis benefits such as a pair of movie tickets are tax-free. Employee discounts can be tax-exempt if they meet certain criteria, such as not exceeding the gross profit percentage on the product or service times the price charged to customers or not more than 20% of the price charged to customers. Employee stock options can also have tax implications depending on the type of plan used - qualified plans typically defer taxation on the difference between the exercise price and the market price of the stock, while non-qualified plans may tax this difference immediately. In general, the tax treatment of employee benefits varies based on the specific benefit being provided and the applicable tax laws and regulations.",
+    "metrics": {
+      "bert_score": 0.8072654008865356,
+      "rouge_score": 0.10526315789473685,
+      "meteor_score": 0.23300205498866217,
+      "f1_score": 0.25000000000000006,
+      "avg_score": 0.34888265344248365
+    },
+    "processing_time": 6.531633615493774
+  },
+  {
+    "question": "how often do their emplohyers @ the knobw... whicjh say are these taxable?",
+    "question_type": "how",
+    "ground_truth": "in general, has beneftit to be inclcuded in that an if in $ come taxable unless you sspecbifically is otherwise excluded by the irs. irs r i publi # v catnion 5 - b 2020 the employers, tax to and guide benpefits flringe covers the status each type of emplvoyee by _ benefit also offered and em5ployers.",
+    "answer": "Employee discounts provided by employers can be tax-exempt under certain conditions. The discount must not exceed the gross profit percentage on the product or service times the price charged to customers, or it must not be more than 20% of the price charged to customers. Additionally, the benefit should not discriminate in favor of highly compensated employees. \n\nEmployer-provided meals can be tax-free for employees if the employees do not have the option to take cash instead of the meals and if the meals are not purchased using a cash allowance. The meals must also be furnished to more than half of the company's employees to be considered tax-free. These meals are also 50% deductible for the employer if they are provided on the company's premises and are offered for the convenience of the employer.\n\nReimbursement of employees for the business use of their own vehicles can be taxable if paid as a car allowance every payday. To provide tax-free reimbursements, employers can use programs like the Fixed and Variable Rate program (FAVR) or a cents-per-mile expense reimbursement, as long as they meet the IRS expense-accounting requirements. Having a documented expense reimbursement policy is necessary to use these methods effectively.",
+    "metrics": {
+      "bert_score": 0.7818674445152283,
+      "rouge_score": 0.09923664122137404,
+      "meteor_score": 0.1564537157757497,
+      "f1_score": 0.2073170731707317,
+      "avg_score": 0.31121871867077094
+    },
+    "processing_time": 7.888064622879028
+  },
+  {
+    "question": "what is an employee profit-sharing plan?",
+    "question_type": "what",
+    "ground_truth": "profit-sharing plans are defined contribution plans that are designed to help employees save for retirement and to encourage employees to work to keep profits high. in this type of benefit plan the employer places a percentage of the companys annual profits into a fund or trust. then, the employer disperses it to eligible employees either as a cash bonus or as a deferred retirement benefit. since the contributions to the fund are discretionary, employers can decide each year whether or not to put money into the fund, which makes profit-sharing plans an attractive benefit option for employers. unlike a 401k plan, the employees do not make contributions to the profit-sharing plan. employers usually fund a profit-sharing plan by making contributions to a qualified tax-deferred retirement account and taking a tax deduction on those contributions. because the contributions are pre-tax the company can make penalty-free distributions to employees after they reach the age of 59 in the form of cash or stocks. employees who are not 59 yet normally are charged 10 of the distribution for early withdrawal, but they may be able to withdraw their money from the plan without paying a penalty if they are suffering a financial hardship or if the employer shuts the plan down and does not replace it with a different one. the tax-deferred funds withdrawn by the employee are subject to federal, state and local income tax when they are distributed. however, if they want to, employees may be able to roll the money from their distribution over into a traditional individual retirement account ira in order to postpone paying taxes unless the individual is already age 70 12 or older. note under the terms of the secure act of 2019, individuals do not have to start taking distributions until age 72 if they had not reached age 70 by january 1, 2020. one downside for employers is that profit-sharing plans require a good deal of administrative time and effort. plan documents have to be created and updated, and there are reporting requirements as well as fiduciary responsibility for safe-guarding and disbursing the plan funds.",
+    "answer": "An employee profit-sharing plan is a defined contribution plan where an employer allocates a percentage of the company's annual profits into a fund or trust for eligible employees. The employer can choose whether or not to make contributions to the fund each year, making profit-sharing plans an attractive benefit option for employers. Unlike a 401(k) plan, employees do not make contributions to a profit-sharing plan. Employers usually fund these plans by making contributions to a tax-deferred retirement account and can take a tax deduction on those contributions. Employees can receive distributions from the plan penalty-free after reaching the age of 59 \u00bd. Withdrawals are subject to income tax, but employees may be able to roll over the money into a traditional IRA to postpone taxes. Profit-sharing plans require administrative effort and responsibility from employers in managing the plan funds and ensuring compliance with reporting requirements.",
+    "metrics": {
+      "bert_score": 0.8951165676116943,
+      "rouge_score": 0.44444444444444436,
+      "meteor_score": 0.27368296814399823,
+      "f1_score": 0.572463768115942,
+      "avg_score": 0.5464269370790198
+    },
+    "processing_time": 9.887112617492676
+  },
+  {
+    "question": "Besides keeping employees happy, do employers from welfare financially benefit tender to their? employee",
+    "question_type": "if_can",
+    "ground_truth": "In most cases, employee benefits allow employers to claim a tax deduction on their tax return, similar to the deduction they take for wages and salaries paid to employees. Additionally, employee benefit programs can create employment tax savings for employers. If employee benefits are paid as wages and salaries, the employer will have to pay corresponding Social Security and Medicare taxes on that amount, as well as federal and state unemployment benefits. For benefit plans such as Section 125 health care plans, employee contributions are exempt from FLCA and unemployment taxes, meaning the employer does not have to pay FICA taxes or federal and state unemployment taxes on those contributions.",
+    "answer": "Yes, besides keeping employees happy, there is a financial upside for employers in providing employee benefits. In most cases, the cost of providing employee benefits can provide employers with a business deduction on their tax return, similar to the deduction taken for wages and salaries paid to employees. Additionally, benefit packages can create employment tax savings for employers. For example, benefit plans such as Section 125 health care plans allow for employee contributions that are exempt from certain taxes, meaning the employer doesn't have to pay matching FICA taxes or federal and state unemployment tax on those contributions. This can result in overall tax savings for the employer.",
+    "metrics": {
+      "bert_score": 0.940204918384552,
+      "rouge_score": 0.593607305936073,
+      "meteor_score": 0.6124885215794308,
+      "f1_score": 0.7448275862068966,
+      "avg_score": 0.7227820830267381
+    },
+    "processing_time": 4.823665618896484
+  },
+  {
+    "question": "other tthan $ keep employees hdappy, is thqere a fiscal upside for employerYs in providing empkloyee benefits?",
+    "question_type": "if_can",
+    "ground_truth": "in most cases, the cost of providing employee benefits provide employer with a business deduction on their tax return, the same as the they take for wages and salaries paid to employees. in addition, benefit packages can employment tax savings for employers. if employee benefits were paid out as salary and salaries, the employer would have to matching social security and medicare on those amount of money, equally well as federal and unemployment. for benefit plan such section 125 health care plans, employee contributions are exempt from both flca and unemployment taxes, which stand for employer does not take to pay matching fica taxes or federal and state unemployment tax on those.",
+    "answer": "Yes, there are financial upsides for employers in providing employee benefits beyond just keeping employees happy. Some of the fiscal advantages include:\n\n1. **Tax Deductions**: The cost of providing employee benefits can be tax-deductible for employers, similar to deductions for wages and salaries paid to employees. This can help reduce the overall tax liability for the company.\n\n2. **Employment Tax Savings**: Benefit packages can lead to employment tax savings for employers. If benefits were paid out as wages and salaries, employers would have to pay matching Social Security and Medicare taxes, as well as federal and state unemployment taxes. However, certain benefit plans like Section 125 health care plans allow for exemptions from certain taxes on employee contributions, providing tax savings for the employer.\n\n3. **Recruitment and Retention of Top Talent**: Offering a competitive benefits package can help attract and retain top-performing employees. In today's job market, employees often value benefits as much, if not more, than salary increases. Therefore, investing in high-value benefits can help in recruiting and retaining skilled employees, ultimately benefiting the business in terms of productivity and performance.\n\nIn summary, providing employee benefits not only contributes to employee satisfaction but can also yield financial benefits for employers through tax deductions, employment tax savings, and improved recruitment and retention of talent.",
+    "metrics": {
+      "bert_score": 0.8727549910545349,
+      "rouge_score": 0.37575757575757573,
+      "meteor_score": 0.5076547775423244,
+      "f1_score": 0.5196078431372548,
+      "avg_score": 0.5689437968729225
+    },
+    "processing_time": 8.91889214515686
+  },
+  {
+    "question": "what is the plan document?",
+    "question_type": "what",
+    "ground_truth": "the plan document includes the key information about any benefit plan that falls under erisa regulations. erisa does not require the plan document to be in any specific format, but it has to contain certain information name of the plan administrator designation of any fiduciaries other than the plan administrator a description of the benefits provided any restrictions on who is eligible to participate. for example, are only certain classes of employees eligible, is there a required waiting period for new hires to be eligible, and do employees have to work a certain number of hours per week to be eligible the effective date of a newly enrolled employees participation in the plan how much a participant has to pay towards the cost of coverage the plan sponsors amendment and termination rights and procedures, and what happens to plan assets, if any, in the event of the plan being terminated rules restricting and regulating the use of personal health information phi, if the plan sponsor uses phi procedures for allocating and designating administrative duties to a third party administrator or committee funding for the plan, whether it is from the employer andor employee contributions or from company assets how insurer refunds are allocated to participants for group health plans, additional infom1ation regarding cobra, hipaa, and other federal mandates.",
+    "answer": "The Plan Document is a detailed document that includes key information about any benefit plan subject to ERISA regulations. It outlines the rights, benefits, and obligations of participants within the plan, along with the terms and conditions for administering the plan. The Plan Document must include specific information such as the plan administrator's name, benefit descriptions, eligibility criteria, participant cost-sharing details, plan sponsor's rights and procedures, funding details, and more. It serves as a comprehensive guide for both plan administrators and participants.",
+    "metrics": {
+      "bert_score": 0.8549217581748962,
+      "rouge_score": 0.231023102310231,
+      "meteor_score": 0.1662656037802541,
+      "f1_score": 0.3351351351351351,
+      "avg_score": 0.3968363998501291
+    },
+    "processing_time": 6.536718845367432
+  },
+  {
+    "question": "what else do employers need to about hras?",
+    "question_type": "what",
+    "ground_truth": "hra an is entirely funded the by employer - unlike an fsa or hsa, employees cannot contribute to an hra. however there is not any limit to how much an employer can contribute to an employees hra and the employer can roll either over all unused funds into a new plan year or roll over all unused funds to up a certain limit. contributions company to an are hra 100 percent tax - deductible the for employer and employee reimbursements are generally exempt from federal, state, and fica taxes. hra an is also more flexible than an fsa or hsa that in it can be used to pay medicare premiums and to cover medical expenses for spouses and dependents as well as the employee. however, like an fsa, hra funds can only be used to cover expenses medical see irs pub 502 for the list of covered expenses.",
+    "answer": "Employers should also be aware that Health Reimbursement Arrangements (HRAs) can be a more cost-effective and flexible alternative to traditional group health insurance plans. HRAs allow employers to contribute funds for employees' medical expenses, and these contributions are tax-deductible for the employer. Additionally, HRAs offer more flexibility compared to Flexible Spending Accounts (FSAs) or Health Savings Accounts (HSAs) as they can cover a wider range of expenses, including Medicare premiums and medical expenses for spouses and dependents.\n\nEmployers should also note that HRAs can help alleviate the administrative burden of managing a group health insurance plan. With HRAs, employees have more control over choosing their own coverage, reducing the employer's need to make complex healthcare decisions. Overall, HRAs provide a flexible and cost-effective option for employers looking to provide healthcare benefits to their employees.",
+    "metrics": {
+      "bert_score": 0.8464831709861755,
+      "rouge_score": 0.23239436619718312,
+      "meteor_score": 0.275645114779311,
+      "f1_score": 0.3583815028901734,
+      "avg_score": 0.4282260387132107
+    },
+    "processing_time": 6.43069052696228
+  },
+  {
+    "question": "Can employers deduct the time value of a non-monetary benefit as a deprivation of liberty deduction?",
+    "question_type": "if_can",
+    "ground_truth": "as a rule, no. employers can solely indirectly deduct the annual cost portion of the benefit, even though the existent time value or normally must the fair market value value of the benefit be thus normally higher. but for employees, information technology is the benefits actual time value that experience to be included in all the employees gross operating income.",
+    "answer": "No, employers cannot deduct the time value of a non-monetary benefit as a deprivation of liberty deduction. Employers can only deduct the cost of the benefit, even though the actual value of the benefit is usually higher. For employees, it's the benefit's actual value that has to be included in the employee's gross income.",
+    "metrics": {
+      "bert_score": 0.8876906037330627,
+      "rouge_score": 0.5593220338983051,
+      "meteor_score": 0.5517635773317591,
+      "f1_score": 0.6511627906976744,
+      "avg_score": 0.6624847514152004
+    },
+    "processing_time": 4.075186252593994
+  },
+  {
+    "question": "what are the employer requirements under the emergency family and medical leave expansion act efmlea?",
+    "question_type": "what",
+    "ground_truth": "the efmlea affects employers who employ less than 500 employees. those employers are required to provide paid family and medical leave for employees who need to care for a child under 18 whose school or childcare provider is closed because of covid-19 concerns. the employee must have been employed by the business for at least 30 days to be eligible for efmlea leave and the first two weeks 10days are unpaid. the rate of pay for efmlea leave time following the first two weeks will be the lesser of two thirds of the employees regular pay or 200 per day.",
+    "answer": "Under the Emergency Family and Medical Leave Expansion Act (EFMLEA), employers who employ less than 500 employees are required to provide paid family and medical leave for employees who need to care for a child under 18 whose school or childcare provider is closed due to COVID-19 concerns. To be eligible for EFMLEA leave, the employee must have been employed by the business for at least 30 days. The first two weeks (10 days) of EFMLEA leave are unpaid. Following the initial two weeks, the rate of pay for EFMLEA leave time will be the lesser of two-thirds of the employee's regular pay or $200 per day.",
+    "metrics": {
+      "bert_score": 0.9406189918518066,
+      "rouge_score": 0.7867298578199051,
+      "meteor_score": 0.862274169921875,
+      "f1_score": 0.881118881118881,
+      "avg_score": 0.8676854751781169
+    },
+    "processing_time": 5.889318466186523
+  },
+  {
+    "question": "what is an serp?",
+    "question_type": "what",
+    "ground_truth": "a supplemental employee retirement plan is a non-qualified retirement plan for executives. normally plans of this type are not eligible for tax-favored treatment because they provide benefits over and above those provided by the companys qualified retirement plan.",
+    "answer": "In the context provided, an SERP stands for Supplemental Employee Retirement Plan. This type of plan is designed for executives and is a non-qualified retirement plan that provides additional benefits beyond what is offered by the company's qualified retirement plan. SERPs typically do not receive tax-favored treatment because they offer benefits above and beyond those provided by qualified retirement plans.",
+    "metrics": {
+      "bert_score": 0.9315796494483948,
+      "rouge_score": 0.4854368932038835,
+      "meteor_score": 0.673469387755102,
+      "f1_score": 0.675,
+      "avg_score": 0.6913714826018451
+    },
+    "processing_time": 3.6293628215789795
+  },
+  {
+    "question": "Besides other important issues than not financially satisfying other employees, surely there is also a greater financial security benefit to serving employers well by providing employee benefits?",
+    "question_type": "if_can",
+    "ground_truth": "most in cases, the providing of employee benefits can provide e ^ mployers with a business on deduction tax return, the same as take they for and wages s3alaries pVaid to employees. in addition, benefit packages can create tax employment skavings employers. if employee benefits were paid as wages and salaries, the employer wjould have to pay matching social and taxes security on those amounts, as well as federal and state unemployment tax. for benefit such plans as section health 125 care planCs, employee contributions are exempt from yboth flca and unemployment taxes, which meands employer fdoes not have to pay matching fica or federal and stamte unemployment on those contributions.",
+    "answer": "Yes, besides keeping employees happy, there is indeed a financial upside for employers in providing employee benefits. One key benefit for employers is that the cost of providing employee benefits can result in business deductions on their tax return, similar to the deductions taken for wages and salaries paid to employees. Additionally, offering benefit packages can lead to employment tax savings for employers. \n\nIf employers were to provide employee benefits as wages and salaries instead, they would have to pay matching Social Security and Medicare taxes, as well as federal and state unemployment tax on those amounts. However, certain benefit plans, such as Section 125 health care plans, allow for employee contributions to be exempt from certain taxes, including FICA and federal and state unemployment tax. This means that employers can save on matching taxes for these contributions.\n\nTherefore, providing employee benefits not only helps in attracting and retaining top talent but can also result in financial advantages for employers through tax deductions and savings on employment taxes.",
+    "metrics": {
+      "bert_score": 0.8781381249427795,
+      "rouge_score": 0.43165467625899273,
+      "meteor_score": 0.4789077373226029,
+      "f1_score": 0.6022727272727273,
+      "avg_score": 0.5977433164492756
+    },
+    "processing_time": 11.37192678451538
+  },
+  {
+    "question": "do how employers know which employee benefits taxable are?",
+    "question_type": "how",
+    "ground_truth": "in general, a benefit has to represent include in an employees taxable income unless it is specifically excluded by the irs. irs publication i 5 - b 2020, the employers tax guide to fringe benefit covers the taxable status of each type of employee benefit offered by employer.",
+    "answer": "Employers can determine which employee benefits are taxable by referencing IRS Publication 15-B, the Employer's Tax Guide to Fringe Benefits. This publication provides information on the taxable status of various types of employee benefits. In general, a benefit is considered taxable unless it is specifically excluded by the IRS. For specific items like clothing or cell phones provided to employees, guidance is provided in the publication to clarify whether they are taxable or tax-exempt based on certain criteria such as business use or working condition benefits.",
+    "metrics": {
+      "bert_score": 0.8820270299911499,
+      "rouge_score": 0.3235294117647059,
+      "meteor_score": 0.5360188675272168,
+      "f1_score": 0.5000000000000001,
+      "avg_score": 0.5603938273207681
+    },
+    "processing_time": 4.9853835105896
+  },
+  {
+    "question": "how do employers have it off which employee benefits are taxable?",
+    "question_type": "how",
+    "ground_truth": "In general, a benefit must be included in an employee\u2019s taxable income unless it is specifically excluded by the IRS. The IRS\u2019s 2020 Publication I 5-b, Employers\u2019 Tax Guide to Fringe Benefits, covers the taxable status of each type of fringe benefit offered by employers.",
+    "answer": "Employers can determine which employee benefits are taxable by referring to IRS Publication 15-B (2020), the Employer's Tax Guide to Fringe Benefits. This publication provides guidance on the taxable status of various types of employee benefits offered by employers. In general, a benefit is considered taxable unless it is specifically excluded by the IRS. For example, clothing provided to employees is typically considered taxable unless it qualifies as a working condition benefit, such as uniforms for employees. Accident and health benefits are generally exempt from income tax, with certain exceptions for long-term care insurance. Additionally, these benefits are exempt from Social Security and Medicare tax, except for employees who are 2% or more owners in sub-chapter S corporations. Employers should regularly review the IRS guidelines to ensure they are correctly categorizing and reporting taxable and non-taxable employee benefits.",
+    "metrics": {
+      "bert_score": 0.8950582146644592,
+      "rouge_score": 0.23036649214659685,
+      "meteor_score": 0.4405531540795471,
+      "f1_score": 0.43609022556390975,
+      "avg_score": 0.5005170216136282
+    },
+    "processing_time": 5.51213812828064
+  },
+  {
+    "question": "what types of benefits are non-taxable?",
+    "question_type": "what",
+    "ground_truth": "certain fringe benefits are not subject to federal or state income tax withholding and are excluded from gross income. in addition, these benefits usually are not subject to social security, medicare, or federal and state unemployment tax. non-taxable benefits include accident and health benefits employer-provided spending accounts such as medical flexible spending accounts and dependent care accounts group term life insurance up to 50,000 retirement planning services adoption assistance programs employee expense reimbursements employee discounts employee stock options up to 5,000 paid by the employer for child- or dependent-care services athletic facilities primarily used by employees, if located at the place of employment employee achievement awards moving expense reimbursements for actual costs paid or incurred payments made on employees behalf for public transportation to and from work and parking while at work working condition fringe benefits such as the use of company vehicles for business purposes use of business frequent flier miles for personal travel de minimis minimal benefits",
+    "answer": "Non-taxable benefits include accident and health benefits, employer-provided spending accounts such as medical flexible spending accounts and dependent care accounts, group term life insurance up to $50,000, retirement planning services, adoption assistance programs, employee expense reimbursements, employee discounts, employee stock options, up to $5,000 paid by the employer for child- or dependent-care services, athletic facilities primarily used by employees if located at the place of employment, employee achievement awards, moving expense reimbursements for actual costs paid or incurred, payments made for public transportation to and from work and parking while at work, working condition fringe benefits such as the use of company vehicles for business purposes, use of business frequent flier miles for personal travel, and de minimis (minimal) benefits.",
+    "metrics": {
+      "bert_score": 0.9068344235420227,
+      "rouge_score": 0.8581314878892734,
+      "meteor_score": 0.7592560246153847,
+      "f1_score": 0.8775510204081634,
+      "avg_score": 0.8504432391137111
+    },
+    "processing_time": 5.501522064208984
+  },
+  {
+    "question": "other affair than non keep employees financially happy, in that location financial for service providing employee welfare welfare?",
+    "question_type": "if_can",
+    "ground_truth": "cases most, the cost of providing employee benefits can e provide ^ mployers with a deduction business on tax return their, the same as the deduction for take and s3alaries pVaid employees to. in addition, benefit packages can employment tax for skavings employers. if employee were paid out wages as and salaries, the wjould have to pay matching and social security medicare taxes on those amounts, well as federal and state unemployment tax. for benefit plans such as section 125 health care planCs, contributions employee are from exempt yboth and unemployment taxes, which meands employer the not have to pay matching fica or taxes federal stamte unemployment on tax contributions those.",
+    "answer": "In addition to keeping employees happy, there are financial benefits for employers in providing employee benefits. One key financial upside is that the cost of providing employee benefits can provide employers with a business deduction on their tax return, similar to the deduction they take for wages and salaries paid to employees. Moreover, offering benefit packages can result in employment tax savings for employers. \n\nFor instance, benefit plans such as Section 125 health care plans allow for employee contributions to be exempt from both FICA and unemployment taxes. This exemption means that the employer does not have to pay matching Social Security and Medicare taxes, as well as federal and state unemployment tax, on those contributions. By providing employee benefits, employers can potentially lower their tax liabilities and save on employment-related taxes, making it a financially advantageous decision.",
+    "metrics": {
+      "bert_score": 0.8762654662132263,
+      "rouge_score": 0.4096385542168675,
+      "meteor_score": 0.511420099592576,
+      "f1_score": 0.6823529411764706,
+      "avg_score": 0.6199192652997851
+    },
+    "processing_time": 5.630385398864746
+  },
+  {
+    "question": "can employerUs takhe the fNull a non of - as benefit a deductBion busQiness?",
+    "question_type": "if_can",
+    "ground_truth": "Generally, only employers deduct the actual value of benefit the, this even though than higher the fair value market of benefit the. For employees, it is the actual value benefit the that be must in the employees ' gross income.",
+    "answer": "No, employers cannot take the full value of a non-cash benefit as a business deduction. They can only deduct the cost of the benefit, even though the actual value of the benefit may be higher. The actual value (usually the fair market value) of the benefit has to be included in the employee's gross income.",
+    "metrics": {
+      "bert_score": 0.8914201855659485,
+      "rouge_score": 0.4583333333333333,
+      "meteor_score": 0.543424129968054,
+      "f1_score": 0.5507246376811594,
+      "avg_score": 0.6109755716371238
+    },
+    "processing_time": 3.431898832321167
+  },
+  {
+    "question": "how an does employer set a up simple irish republican army?",
+    "question_type": "how",
+    "ground_truth": "to establish a simple ira, a company has to adopt from a plan creation document by signing form 5304 - simple or form 5305 - slmple. employers need to use form 5305 if the given company requires all contributions to be sent to an employer - specified specific financial institution. use form 5304 if each employee can choose the fiscal institution where their monthly contributions should be sent. then, the company must give each eligible employee certain information astir the dim witted ira program and the specific institution where employee contributions will be sent. those notifications normally have to be made before the employee election flow, which is usually the minimum 60 days before january ist. finally, the lottery company must set up a simple ira for each eligible employee as using form 5305 - s for a trust account or form 5305 - sa for a custodial account. these iras can be established at banks or indemnity companies. note there is no roth version of the slmple ira.",
+    "answer": "Based on the provided context, it is important to clarify that the term \"IRA\" in the original question refers to a retirement savings plan known as a SIMPLE IRA (Savings Incentive Match Plan for Employees Individual Retirement Account) and not the Irish Republican Army. To set up a SIMPLE IRA as an employer, the company needs to follow specific steps as outlined in the context information provided:\n\n1. Adopt a plan document by signing Form 5304-SIMPLE or Form 5305-SIMPLE.\n2. Provide information to eligible employees about the SIMPLE IRA plan and the financial institution where employee contributions will be sent before the employee election period.\n3. Set up a SIMPLE IRA for each eligible employee using Form 5305-S (for a trust account) or Form 5305-SA (for a custodial account) at a bank or insurance company.\n\nIt is important to note that establishing a SIMPLE IRA for retirement savings purposes is a legitimate and regulated process in the United States, and it is unrelated to any illegal or violent activities.",
+    "metrics": {
+      "bert_score": 0.860935389995575,
+      "rouge_score": 0.40949554896142437,
+      "meteor_score": 0.38750583721429194,
+      "f1_score": 0.42786069651741293,
+      "avg_score": 0.521449368172176
+    },
+    "processing_time": 7.462723970413208
+  },
+  {
+    "question": "how should employers prepare for a benefit plan audit?",
+    "question_type": "how",
+    "ground_truth": "employers who have been notified of a scheduled audit of their benefit plan should be sure to review and familiarize themselves with their plan documents and prepare copies for the auditor. contact the auditor ahead of time to discuss timing, infom1ation requests and accommodations. be prepared to show a log of their internal audit controls related to employee enrollment procedures, bow employee contributions are withheld and remitted to the plan, how employer contributions are determined and remitted to the plan, how funds are controlled and how loans and distributions are processed. collect and review all agreements with service providers including financial institutions and third-party administrators. be prepared to produce copies of all financial records associated with the benefit plan.",
+    "answer": "Employers who are preparing for a benefit plan audit should take the following steps:\n\n1. Review and familiarize themselves with their plan documents and have copies ready for the auditor.\n2. Contact the auditor in advance to discuss timing, information requests, and accommodations.\n3. Prepare to show a log of internal audit controls related to employee enrollment procedures, employee and employer contributions, fund control, and loan/distribution processing.\n4. Collect and review all agreements with service providers, such as financial institutions and third-party administrators.\n5. Have copies of all financial records associated with the benefit plan ready for review during the audit.\n\nBy following these steps, employers can ensure they are well-prepared for the benefit plan audit and demonstrate compliance with regulatory requirements.",
+    "metrics": {
+      "bert_score": 0.9181443452835083,
+      "rouge_score": 0.620408163265306,
+      "meteor_score": 0.5680987426112523,
+      "f1_score": 0.6623376623376623,
+      "avg_score": 0.6922472283744322
+    },
+    "processing_time": 10.022082328796387
+  },
+  {
+    "question": "but what now about health reimbursement support arrangements?",
+    "question_type": "what",
+    "ground_truth": "a heialth reimbursement arrangoemtent or hra, allows employers to reimburse ejmployees for out - of - pocket medical expenses with tax - free dol#lars. hr. as are funded entirely by the emHployer and fund(s in an employees accoNunt can be r)olled over i^nto a new (plan year.",
+    "answer": "Health Reimbursement Arrangements (HRAs) are a type of benefit that allows employers to reimburse employees for out-of-pocket medical expenses with tax-free dollars. They can be used as a standalone option or integrated with a group health insurance plan. HRAs are funded entirely by the employer and unused funds can typically be rolled over into a new plan year. \n\nHRAs offer flexibility for employers who may not be able to afford traditional employer-sponsored healthcare plans. These arrangements can help cover a range of medical expenses that may not be covered by health insurance, including deductibles and co-pays. Employees can use the funds in their HRA for eligible medical expenses, and the reimbursements are typically tax-free as long as they are used for qualified healthcare expenses.\n\nOverall, HRAs can be a valuable tool for both employers and employees in managing healthcare costs and providing additional support for medical expenses.",
+    "metrics": {
+      "bert_score": 0.8454939126968384,
+      "rouge_score": 0.29850746268656714,
+      "meteor_score": 0.3429959572886642,
+      "f1_score": 0.4571428571428572,
+      "avg_score": 0.4860350474537317
+    },
+    "processing_time": 5.996051073074341
+  },
+  {
+    "question": "wh8at is an empUloyer - sponsored Aplan?",
+    "question_type": "what",
+    "ground_truth": "an employer - sponsored wrath is an arrangement where an employer makes ira part some or all of the organizations employees and employees can decide whether or not to make their own contributions. the employer can choose to make the contributions into either a traditional ira or a ira. in contrast other employer retirement plans as a 401k, sep, or simple 401k, the employer has total flexibility as to which employees receive ira contribution since there are no fairness or equal tests involved. helping employees provide for their retirement can be an important benefit in attracting and retaining employees and many employers want to provide a but do not feel like they can deal with the administration and compliance with 401k or similar plans. in that vitrine, employer - sponsored iras are an attractive alternative since administering these types of plans is comparatively simple and straight - forward.",
+    "answer": "An employer-sponsored plan is a benefits plan provided by an employer to its employees as part of their overall compensation package. This plan may include various benefits such as health insurance, retirement savings plans, and other perks like employee assistance programs (EAPs) or telecommuting options. In the context of the information provided, an employer-sponsored plan specifically refers to programs or initiatives that are supported or funded by an employer to promote flexible working arrangements like telecommuting or to provide support for employees and their families through services like EAPs.",
+    "metrics": {
+      "bert_score": 0.8334490656852722,
+      "rouge_score": 0.2033898305084746,
+      "meteor_score": 0.19794874590067135,
+      "f1_score": 0.3096774193548387,
+      "avg_score": 0.38611626536231414
+    },
+    "processing_time": 5.509481906890869
+  },
+  {
+    "question": "what... is this a perfect 401k plan?",
+    "question_type": "what",
+    "ground_truth": "Roth 401ks are similar to traditional plans, but contributions to a Roth 401k plan have after-tax taxes withheld from the employee contribution amount at the time of contribution. Additionally, employers can only offer a Roth 401k in conjunction with an existing pre-tax traditional 401k plan. As with a traditional 401k plan, employers do not need to strictly perform annual nondiscrimination testing, and funds in a Roth 401k must be held in a separate account from any other 401k plans. Employers of any size can offer a Roth 401k if they already have a traditional plan, and they can choose whether or not to match employee Roth contributions. However, all employer matching contributions are placed into a traditional 401k benefit plan electronically and are taxable upon withdrawal. As with traditional 401k plans, employees can contribute up to $19,500 to their Roth 401k for 2020, plus an additional $6,500 for participants themselves who turn 50 or transfer at any time in 2020. Funds from a traditional 401k plan can be rolled over to a Roth 401k, but not vice versa. Also note that at the end of the tax year, the employee will automatically have to pay taxes on the funds that were rolled over.",
+    "answer": "Based on the information provided, a SIMPLE 401(k) plan is not considered a perfect 401(k) plan as it has limitations compared to traditional 401(k) plans. SIMPLE 401(k) plans are designed for companies with 100 or fewer employees and do not require anti-discrimination testing. However, they have restrictions such as lower annual contribution limits for employees ($13,500 for 2020), employer matching requirements, and specific eligibility criteria.\n\nIn contrast, a perfect 401(k) plan would ideally offer higher contribution limits, more flexibility in investment options, and fewer restrictions on employer matching contributions. Traditional 401(k) plans typically have higher contribution limits, more investment options, and fewer restrictions compared to SIMPLE 401(k) plans.\n\nTherefore, while a SIMPLE 401(k) plan can be a good option for small businesses, it may not meet the criteria for a perfect 401(k) plan for all employers.",
+    "metrics": {
+      "bert_score": 0.8522706627845764,
+      "rouge_score": 0.16949152542372883,
+      "meteor_score": 0.20096871636376004,
+      "f1_score": 0.37037037037037035,
+      "avg_score": 0.39827531873560895
+    },
+    "processing_time": 7.015511989593506
+  }
+]

@@ -19,7 +19,7 @@ def compare_dpo_results(experiment_dir, mapping_file=None):
         # Collect results from each ablation using the mapping
         ablation_results = {}
         for ablation_type, output_dir in output_directories.items():
-            results_file = os.path.join(output_dir, "evaluation_results.json")
+            results_file = os.path.join(output_dir, "action_minimal_evaluation_results.json")
 
             if os.path.exists(results_file):
                 with open(results_file, 'r') as f:
@@ -33,7 +33,7 @@ def compare_dpo_results(experiment_dir, mapping_file=None):
         # Collect results from each ablation
         ablation_results = {}
         for ablation_type in ablation_dirs:
-            results_file = os.path.join(experiment_dir, ablation_type, "evaluation_results.json")
+            results_file = os.path.join(experiment_dir, ablation_type, "action_minimal_evaluation_results.json")
 
             if os.path.exists(results_file):
                 with open(results_file, 'r') as f:

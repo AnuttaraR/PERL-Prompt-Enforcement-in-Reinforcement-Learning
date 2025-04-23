@@ -1,0 +1,34 @@
+==================================================
+DPO MODEL PERFORMANCE SUMMARY
+==================================================
+
+OVERALL PERFORMANCE
+- Accuracy: 58.33%
+- Total examples: 60
+- Correct predictions: 35
+
+PERFORMANCE BY QUESTION TYPE
+- WHAT Questions
+  * Accuracy: 55.56%
+  * Total examples: 27
+  * Correct predictions: 15
+  * Top actions:
+    - Keep the following prompt unchanged.: 100.0%
+
+- HOW Questions
+  * Accuracy: 23.08%
+  * Total examples: 13
+  * Correct predictions: 3
+  * Top actions:
+    - Keep the following prompt unchanged.: 100.0%
+
+- IF_CAN Questions
+  * Accuracy: 85.00%
+  * Total examples: 20
+  * Correct predictions: 17
+  * Top actions:
+    - Keep the following prompt unchanged.: 100.0%
+
+TRAINING INFORMATION
+- Final training loss: 0.6931
+- No validation data available

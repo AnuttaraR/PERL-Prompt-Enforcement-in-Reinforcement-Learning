@@ -1,0 +1,23 @@
+{
+  "general_actions": {
+    "0": "Keep the following prompt unchanged."
+  },
+  "what_question_actions": {
+    "1": "Add specific conditional parameters to the 'if/can' question.",
+    "2": "Request exploration of both positive and negative outcomes in the 'if/can' scenario.",
+    "3": "Add a request for statistical likelihood in the 'if/can' question.",
+    "4": "Transform the 'if/can' question to give a yes/no response first before answering."
+  },
+  "how_question_actions": {
+    "1": "Add specific conditional parameters to the 'if/can' question.",
+    "2": "Request exploration of both positive and negative outcomes in the 'if/can' scenario.",
+    "3": "Add a request for statistical likelihood in the 'if/can' question.",
+    "4": "Transform the 'if/can' question to give a yes/no response first before answering."
+  },
+  "if_can_question_actions": {
+    "1": "Add specific conditional parameters to the 'if/can' question.",
+    "2": "Request exploration of both positive and negative outcomes in the 'if/can' scenario.",
+    "3": "Add a request for statistical likelihood in the 'if/can' question.",
+    "4": "Transform the 'if/can' question to give a yes/no response first before answering."
+  }
+}

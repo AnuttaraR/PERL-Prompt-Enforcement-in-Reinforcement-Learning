@@ -1,0 +1,43 @@
+{
+  "what": {
+    "accuracy": 55.55555555555556,
+    "total": 27,
+    "correct": 15,
+    "top_actions": [
+      {
+        "action_id": 0,
+        "description": "Keep the following prompt unchanged.",
+        "percentage": 100.0
+      }
+    ]
+  },
+  "how": {
+    "accuracy": 23.076923076923077,
+    "total": 13,
+    "correct": 3,
+    "top_actions": [
+      {
+        "action_id": 0,
+        "description": "Keep the following prompt unchanged.",
+        "percentage": 100.0
+      }
+    ]
+  },
+  "if_can": {
+    "accuracy": 85.0,
+    "total": 20,
+    "correct": 17,
+    "top_actions": [
+      {
+        "action_id": 0,
+        "description": "Keep the following prompt unchanged.",
+        "percentage": 100.0
+      }
+    ]
+  },
+  "overall": {
+    "accuracy": 58.333333333333336,
+    "total": 60,
+    "correct": 35
+  }
+}

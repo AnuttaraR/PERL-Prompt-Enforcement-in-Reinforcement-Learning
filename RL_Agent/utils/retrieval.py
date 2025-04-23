@@ -5,7 +5,7 @@ from sentence_transformers import SentenceTransformer
 
 # Logging Configuration
 logging.basicConfig(
-    level=logging.INFO
+    level=print
 )
 
 # Pinecone Configuration
@@ -17,44 +17,45 @@ PINECONE_INDEX_NAME = "rnd-kb-e5-base"
 try:
     pc = Pinecone(api_key=PINECONE_API_KEY, environment=PINECONE_ENV)
     index = pc.Index(PINECONE_INDEX_NAME)
-    logging.info("Pinecone connection established.")
+    print("Pinecone connection established.")
 except Exception as e:
-    logging.error(f"Pinecone connection failed: {e}")
+    print(f"Pinecone connection failed: {e}")
 
 # Load the E5 Base model for embeddings
 try:
     embedding_model = SentenceTransformer("intfloat/e5-base-v2")
-    logging.info("SentenceTransformer E5-Base model loaded successfully.")
+    print("SentenceTransformer E5-Base model loaded successfully.")
 except Exception as e:
-    logging.error(f"Failed to load SentenceTransformer model: {e}")
+    print(f"Failed to load SentenceTransformer model: {e}")
 
 
 def encode_texts_e5(texts):
     """Encode text queries into embeddings using E5-Base."""
     try:
         embeddings = embedding_model.encode(["query: " + text for text in texts]).tolist()
-        logging.info(f"Encoded {len(texts)} text(s) into embeddings.")
+        print(f"Encoded {len(texts)} text(s) into embeddings.")
         return embeddings
     except Exception as e:
-        logging.error(f"Error during text encoding: {e}")
+        print(f"Error during text encoding: {e}")
         return []
 
 
 def retrieve_context(query, top_k=3):
     """Retrieve the top-k most relevant context chunks from Pinecone."""
-    logging.info(f"Retrieving context for query: '{query}' with top_k={top_k}")
+    print(f"Retrieving context for query: '{query[:10]}' with top_k={top_k}")
 
     try:
         query_embedding = encode_texts_e5([query])[0]
         res = index.query(vector=query_embedding, top_k=top_k, include_metadata=True)
 
         contexts = [x['metadata']['text'] for x in res['matches']]
-        combined_context = " ".join(contexts)
+        combined_context = "\n ".join(contexts)
+        print("COMBINED CONTEXT: ", combined_context)
 
-        logging.info(f"Retrieved {len(contexts)} relevant context chunk(s) from Pinecone.")
+        print(f"Retrieved {len(contexts)} relevant context chunk(s) from Pinecone.")
         return combined_context
     except Exception as e:
-        logging.error(f"Error during retrieval: {e}")
+        print(f"Error during retrieval: {e}")
         return ""
 
 
@@ -63,10 +64,10 @@ def load_questions_from_json(filepath):
     try:
         with open(filepath, "r") as f:
             data = json.load(f)
-        logging.info(f"Successfully loaded {len(data)} question(s) from {filepath}")
+        print(f"Successfully loaded {len(data)} question(s) from {filepath}")
         return data
     except Exception as e:
-        logging.error(f"Failed to load JSON file {filepath}: {e}")
+        print(f"Failed to load JSON file {filepath}: {e}")
         return []
 
 

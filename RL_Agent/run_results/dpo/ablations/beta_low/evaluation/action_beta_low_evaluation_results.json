@@ -1,0 +1,73 @@
+{
+  "what": {
+    "accuracy": 44.44444444444444,
+    "total": 27,
+    "correct": 12,
+    "top_actions": [
+      {
+        "action_id": 0,
+        "description": "Keep the following prompt unchanged.",
+        "percentage": 51.85185185185185
+      },
+      {
+        "action_id": 2,
+        "description": "Restructure the 'what' question to request concrete examples of the concept.",
+        "percentage": 18.51851851851852
+      },
+      {
+        "action_id": 3,
+        "description": "Narrow the scope of the 'what' question by adding contextual constraints.",
+        "percentage": 11.11111111111111
+      }
+    ]
+  },
+  "how": {
+    "accuracy": 23.076923076923077,
+    "total": 13,
+    "correct": 3,
+    "top_actions": [
+      {
+        "action_id": 3,
+        "description": "Incorporate regulatory considerations into the 'how' question.",
+        "percentage": 53.84615384615385
+      },
+      {
+        "action_id": 2,
+        "description": "Add a request for implementation timeline to the 'how' question.",
+        "percentage": 30.76923076923077
+      },
+      {
+        "action_id": 4,
+        "description": "Reframe the 'how' question to focus on potential challenges and solutions.",
+        "percentage": 15.384615384615385
+      }
+    ]
+  },
+  "if_can": {
+    "accuracy": 80.0,
+    "total": 20,
+    "correct": 16,
+    "top_actions": [
+      {
+        "action_id": 0,
+        "description": "Keep the following prompt unchanged.",
+        "percentage": 65.0
+      },
+      {
+        "action_id": 2,
+        "description": "Request exploration of both positive and negative outcomes in the 'if/can' scenario.",
+        "percentage": 10.0
+      },
+      {
+        "action_id": 4,
+        "description": "Transform the 'if/can' question to give a yes/no response first before answering.",
+        "percentage": 10.0
+      }
+    ]
+  },
+  "overall": {
+    "accuracy": 51.66666666666667,
+    "total": 60,
+    "correct": 31
+  }
+}

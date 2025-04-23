@@ -1,0 +1,200 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- Title -->
+  <text x="600" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#333">
+    Comparison of LLM Enhancement Approaches
+  </text>
+  
+  <!-- Headers -->
+  <text x="200" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#FF5722">No RAG</text>
+  <text x="450" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFC107">Vanilla RAG</text>
+  <text x="750" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2196F3">PPO-Enhanced RAG</text>
+  <text x="1050" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#9C27B0">DPO-Enhanced RAG</text>
+  
+  <!-- Pipeline separators -->
+  <line x1="325" y1="70" x2="325" y2="740" stroke="#ddd" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="600" y1="70" x2="600" y2="740" stroke="#ddd" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="900" y1="70" x2="900" y2="740" stroke="#ddd" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- NO RAG PIPELINE -->
+  
+  <!-- User query -->
+  <rect x="100" y="120" width="200" height="60" rx="10" ry="10" fill="#FF5722" fill-opacity="0.2" stroke="#FF5722" stroke-width="2"/>
+  <text x="200" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#333">User Query</text>
+  
+  <!-- Direct to LLM -->
+  <rect x="100" y="230" width="200" height="60" rx="10" ry="10" fill="#FF5722" fill-opacity="0.2" stroke="#FF5722" stroke-width="2"/>
+  <text x="200" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#333">Direct to LLM</text>
+  
+  <!-- LLM Response -->
+  <rect x="100" y="340" width="200" height="60" rx="10" ry="10" fill="#FF5722" fill-opacity="0.2" stroke="#FF5722" stroke-width="2"/>
+  <text x="200" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#333">LLM Response</text>
+  
+  <!-- Output -->
+  <rect x="100" y="450" width="200" height="60" rx="10" ry="10" fill="#FF5722" fill-opacity="0.2" stroke="#FF5722" stroke-width="2"/>
+  <text x="200" y="485" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#333">Output</text>
+  
+  <!-- Arrows -->
+  <path d="M200,180 L200,230" stroke="#FF5722" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <path d="M200,290 L200,340" stroke="#FF5722" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <path d="M200,400 L200,450" stroke="#FF5722" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- VANILLA RAG PIPELINE -->
+  
+  <!-- User query -->
+  <rect x="350" y="120" width="200" height="60" rx="10" ry="10" fill="#FFC107" fill-opacity="0.2" stroke="#FFC107" stroke-width="2"/>
+  <text x="450" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#333">User Query</text>
+  
+  <!-- Vector DB lookup -->
+  <rect x="350" y="230" width="200" height="60" rx="10" ry="10" fill="#FFC107" fill-opacity="0.2" stroke="#FFC107" stroke-width="2"/>
+  <text x="450" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#333">Context Retrieval</text>
+  
+  <!-- Context+Query -->
+  <rect x="350" y="340" width="200" height="60" rx="10" ry="10" fill="#FFC107" fill-opacity="0.2" stroke="#FFC107" stroke-width="2"/>
+  <text x="450" y="365" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#333">Context + Query</text>
+  <text x="450" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#666">(Unmodified)</text>
+  
+  <!-- LLM Response -->
+  <rect x="350" y="450" width="200" height="60" rx="10" ry="10" fill="#FFC107" fill-opacity="0.2" stroke="#FFC107" stroke-width="2"/>
+  <text x="450" y="485" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#333">LLM Response</text>
+  
+  <!-- Output -->
+  <rect x="350" y="560" width="200" height="60" rx="10" ry="10" fill="#FFC107" fill-opacity="0.2" stroke="#FFC107" stroke-width="2"/>
+  <text x="450" y="595" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#333">Output</text>
+  
+  <!-- Arrows -->
+  <path d="M450,180 L450,230" stroke="#FFC107" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <path d="M450,290 L450,340" stroke="#FFC107" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <path d="M450,400 L450,450" stroke="#FFC107" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <path d="M450,510 L450,560" stroke="#FFC107" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- PPO-ENHANCED PIPELINE -->
+  
+  <!-- User query -->
+  <rect x="650" y="120" width="200" height="60" rx="10" ry="10" fill="#2196F3" fill-opacity="0.2" stroke="#2196F3" stroke-width="2"/>
+  <text x="750" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#333">User Query</text>
+  
+  <!-- PPO Model -->
+  <rect x="650" y="230" width="200" height="60" rx="10" ry="10" fill="#2196F3" fill-opacity="0.2" stroke="#2196F3" stroke-width="2"/>
+  <text x="750" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#333">PPO Model</text>
+  <text x="750" y="275" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#666">(Action Selection)</text>
+  
+  <!-- Query Modification -->
+  <rect x="650" y="340" width="200" height="60" rx="10" ry="10" fill="#2196F3" fill-opacity="0.2" stroke="#2196F3" stroke-width="2"/>
+  <text x="750" y="365" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#333">Query Modification</text>
+  <text x="750" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#666">(Via LLM)</text>
+  
+  <!-- Vector DB lookup -->
+  <rect x="650" y="450" width="200" height="60" rx="10" ry="10" fill="#2196F3" fill-opacity="0.2" stroke="#2196F3" stroke-width="2"/>
+  <text x="750" y="485" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#333">Context Retrieval</text>
+  
+  <!-- Context+Modified Query -->
+  <rect x="650" y="560" width="200" height="60" rx="10" ry="10" fill="#2196F3" fill-opacity="0.2" stroke="#2196F3" stroke-width="2"/>
+  <text x="750" y="585" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#333">Context + Query</text>
+  <text x="750" y="605" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#666">(PPO-Optimized)</text>
+  
+  <!-- LLM Response -->
+  <rect x="650" y="670" width="200" height="60" rx="10" ry="10" fill="#2196F3" fill-opacity="0.2" stroke="#2196F3" stroke-width="2"/>
+  <text x="750" y="705" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#333">Enhanced Output</text>
+  
+  <!-- Arrows -->
+  <path d="M750,180 L750,230" stroke="#2196F3" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <path d="M750,290 L750,340" stroke="#2196F3" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <path d="M750,400 L750,450" stroke="#2196F3" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <path d="M750,510 L750,560" stroke="#2196F3" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <path d="M750,620 L750,670" stroke="#2196F3" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- DPO-ENHANCED PIPELINE -->
+  
+  <!-- User query -->
+  <rect x="950" y="120" width="200" height="60" rx="10" ry="10" fill="#9C27B0" fill-opacity="0.2" stroke="#9C27B0" stroke-width="2"/>
+  <text x="1050" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#333">User Query</text>
+  
+  <!-- DPO Model -->
+  <rect x="950" y="230" width="200" height="60" rx="10" ry="10" fill="#9C27B0" fill-opacity="0.2" stroke="#9C27B0" stroke-width="2"/>
+  <text x="1050" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#333">DPO Model</text>
+  <text x="1050" y="275" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#666">(Preference-Based Selection)</text>
+  
+  <!-- Query Modification -->
+  <rect x="950" y="340" width="200" height="60" rx="10" ry="10" fill="#9C27B0" fill-opacity="0.2" stroke="#9C27B0" stroke-width="2"/>
+  <text x="1050" y="365" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#333">Query Modification</text>
+  <text x="1050" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#666">(Via LLM)</text>
+  
+  <!-- Vector DB lookup -->
+  <rect x="950" y="450" width="200" height="60" rx="10" ry="10" fill="#9C27B0" fill-opacity="0.2" stroke="#9C27B0" stroke-width="2"/>
+  <text x="1050" y="485" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#333">Context Retrieval</text>
+  
+  <!-- Context+Modified Query -->
+  <rect x="950" y="560" width="200" height="60" rx="10" ry="10" fill="#9C27B0" fill-opacity="0.2" stroke="#9C27B0" stroke-width="2"/>
+  <text x="1050" y="585" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#333">Context + Query</text>
+  <text x="1050" y="605" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#666">(DPO-Optimized)</text>
+  
+  <!-- LLM Response -->
+  <rect x="950" y="670" width="200" height="60" rx="10" ry="10" fill="#9C27B0" fill-opacity="0.2" stroke="#9C27B0" stroke-width="2"/>
+  <text x="1050" y="705" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#333">Enhanced Output</text>
+  
+  <!-- Arrows -->
+  <path d="M1050,180 L1050,230" stroke="#9C27B0" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <path d="M1050,290 L1050,340" stroke="#9C27B0" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <path d="M1050,400 L1050,450" stroke="#9C27B0" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <path d="M1050,510 L1050,560" stroke="#9C27B0" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <path d="M1050,620 L1050,670" stroke="#9C27B0" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- CORRECTED: Dotted annotation boxes placed next to each pipeline header -->
+  <rect x="650" y="85" width="240" height="30" fill="#f8f9fa" rx="5" ry="5" stroke="#2196F3" stroke-width="1" stroke-dasharray="5,5"/>
+  <text x="770" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2196F3" font-style="italic">
+    PPO learns to select optimal actions via reinforcement
+  </text>
+  
+  <rect x="950" y="85" width="220" height="30" fill="#f8f9fa" rx="5" ry="5" stroke="#9C27B0" stroke-width="1" stroke-dasharray="5,5"/>
+  <text x="1060" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#9C27B0" font-style="italic">
+    DPO learns from human preference pairs
+  </text>
+  
+  <!-- Define arrow marker -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#333"/>
+    </marker>
+  </defs>
+
+  <!-- CORRECTED: Performance comparison boxes at the bottom of each pipeline -->
+  <rect x="100" y="550" width="200" height="80" rx="10" ry="10" fill="#f8f9fa" stroke="#FF5722" stroke-width="1"/>
+  <text x="200" y="575" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">No RAG Performance</text>
+  <text x="200" y="600" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">
+    • Relies only on parametric knowledge
+  </text>
+  <text x="200" y="620" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">
+    • Prone to hallucination
+  </text>
+
+  <rect x="350" y="660" width="200" height="80" rx="10" ry="10" fill="#f8f9fa" stroke="#FFC107" stroke-width="1"/>
+  <text x="450" y="685" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">RAG Performance</text>
+  <text x="450" y="710" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">
+    • Better factual accuracy
+  </text>
+  <text x="450" y="730" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">
+    • Limited by original query quality
+  </text>
+  
+  <!-- Additional Performance boxes for completeness -->
+  <rect x="650" y="750" width="200" height="80" rx="10" ry="10" fill="#f8f9fa" stroke="#2196F3" stroke-width="1"/>
+  <text x="750" y="775" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">PPO Performance</text>
+  <text x="750" y="800" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">
+    • Optimized query structure
+  </text>
+  <text x="750" y="820" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">
+    • Learned from reward signals
+  </text>
+  
+  <rect x="950" y="750" width="200" height="80" rx="10" ry="10" fill="#f8f9fa" stroke="#9C27B0" stroke-width="1"/>
+  <text x="1050" y="775" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">DPO Performance</text>
+  <text x="1050" y="800" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">
+    • Human preference alignment
+  </text>
+  <text x="1050" y="820" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">
+    • Best for complex queries
+  </text>
+</svg>

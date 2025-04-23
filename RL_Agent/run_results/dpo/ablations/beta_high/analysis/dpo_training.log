@@ -1,0 +1,208 @@
+2025-03-17 19:48:53,146 - DPO_model - INFO - ============================================================
+2025-03-17 19:48:53,147 - DPO_model - INFO - Starting DPO Training
+2025-03-17 19:48:53,147 - DPO_model - INFO - Arguments: Namespace(ablation=None, action_space='C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent\\config/action_space_config.json', batch_size=32, beta=1.0, diversity_weight=0.0, epochs=10, load_pairs='C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/dpo_run_20250306_165600/preference_pairs.json', lr=0.0001, model_variant=None, num_pairs=1000, output_dir='C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent\\dpo_ablation_study_20250317_175222\\beta_high_20250317_194835', seed=42, temperature=1.0, test_data='C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent\\data/test_data.json', train_data='C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent\\data/train_data.json', weighted_loss=False)
+2025-03-17 19:48:53,157 - DPO_model - INFO - Config saved to C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent\dpo_ablation_study_20250317_175222\beta_high_20250317_194835\config.json
+2025-03-17 19:48:53,157 - DPO_model - INFO - Loading dataset from C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent\data/train_data.json
+2025-03-17 19:48:53,257 - DPO_model - INFO - Loaded dataset with 540 items in 0.10s
+2025-03-17 19:48:53,258 - DPO_model - INFO - Loading dataset from C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent\data/test_data.json
+2025-03-17 19:48:53,269 - DPO_model - INFO - Loaded dataset with 60 items in 0.01s
+2025-03-17 19:48:53,298 - DPO_model - INFO - Loaded 1095 preference pairs from C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/dpo_run_20250306_165600/preference_pairs.json
+2025-03-17 19:48:53,724 - DPO_model - INFO - Initializing DPO Trainer with input_dim=768, lr=0.0001, beta=1.0
+2025-03-17 19:48:53,724 - DPO_model - INFO - Using device: cpu, ablation=None, model_variant=None
+2025-03-17 19:48:53,724 - DPO_model - INFO - Temperature=1.0, diversity_weight=0.0, weighted_loss=False
+2025-03-17 19:48:53,724 - DPO_model - INFO - Action space has 'keep unchanged': True
+2025-03-17 19:48:53,724 - DPO_model - INFO - Found 1 general actions
+2025-03-17 19:48:53,724 - DPO_model - INFO - Found 4 specific actions for what questions (total: 5)
+2025-03-17 19:48:53,724 - DPO_model - INFO - Found 4 specific actions for how questions (total: 5)
+2025-03-17 19:48:53,724 - DPO_model - INFO - Found 4 specific actions for if_can questions (total: 5)
+2025-03-17 19:48:53,730 - DPO_model - INFO - DPO Trainer initialized successfully
+2025-03-17 19:48:53,731 - DPO_model - INFO - Starting DPO training for 10 epochs with batch_size=32
+2025-03-17 19:48:53,731 - DPO_model - INFO - Training on 986 pairs, validating on 109 pairs
+2025-03-17 19:48:54,077 - DPO_model - INFO - Preprocessing 986 preference pairs
+2025-03-17 19:48:54,078 - DPO_model - INFO - Maximum action ID in preference pairs: 4
+2025-03-17 19:48:54,079 - DPO_model - INFO - Model expected action counts: {'what': 5, 'how': 5, 'if_can': 5}
+2025-03-17 19:48:54,079 - DPO_model - INFO - Action ID distribution for what questions:
+2025-03-17 19:48:54,079 - DPO_model - INFO -   Chosen actions: [(0, 63), (1, 101), (2, 59), (3, 107), (4, 31)]
+2025-03-17 19:48:54,079 - DPO_model - INFO - Action ID distribution for how questions:
+2025-03-17 19:48:54,079 - DPO_model - INFO -   Chosen actions: [(0, 56), (1, 73), (2, 52), (3, 65), (4, 17)]
+2025-03-17 19:48:54,079 - DPO_model - INFO - Action ID distribution for if_can questions:
+2025-03-17 19:48:54,079 - DPO_model - INFO -   Chosen actions: [(0, 64), (1, 119), (2, 15), (3, 86), (4, 78)]
+2025-03-17 19:48:54,079 - DPO_model - INFO - Action ID analysis:
+2025-03-17 19:48:54,079 - DPO_model - INFO - Question type: what
+2025-03-17 19:48:54,079 - DPO_model - INFO -   Chosen action ID: 1, desc: Add specific insurance terminology to define the 'what' concept more clearly.
+2025-03-17 19:48:54,079 - DPO_model - INFO -   Rejected action ID: 2, desc: Restructure the 'what' question to request concrete examples of the concept.
+2025-03-17 19:48:54,079 - DPO_model - INFO - Question type: what
+2025-03-17 19:48:54,079 - DPO_model - INFO -   Chosen action ID: 2, desc: Restructure the 'what' question to request concrete examples of the concept.
+2025-03-17 19:48:54,079 - DPO_model - INFO -   Rejected action ID: 4, desc: Convert the 'what' question into a comparative format (e.g., 'what is X compared to Y').
+2025-03-17 19:48:54,079 - DPO_model - INFO - Question type: what
+2025-03-17 19:48:54,079 - DPO_model - INFO -   Chosen action ID: 3, desc: Narrow the scope of the 'what' question by adding contextual constraints.
+2025-03-17 19:48:54,079 - DPO_model - INFO -   Rejected action ID: 4, desc: Convert the 'what' question into a comparative format (e.g., 'what is X compared to Y').
+2025-03-17 19:48:54,079 - DPO_model - INFO - Question type: what
+2025-03-17 19:48:54,079 - DPO_model - INFO -   Chosen action ID: 1, desc: Add specific insurance terminology to define the 'what' concept more clearly.
+2025-03-17 19:48:54,079 - DPO_model - INFO -   Rejected action ID: 4, desc: Convert the 'what' question into a comparative format (e.g., 'what is X compared to Y').
+2025-03-17 19:48:54,079 - DPO_model - INFO - Question type: how
+2025-03-17 19:48:54,079 - DPO_model - INFO -   Chosen action ID: 0, desc: Keep the following prompt unchanged.
+2025-03-17 19:48:54,079 - DPO_model - INFO -   Rejected action ID: 1, desc: Transform the 'how' question into a numbered step-by-step request format.
+2025-03-17 19:48:54,741 - DPO_model - INFO - preprocessing... 0  of  986
+2025-03-17 19:49:04,822 - DPO_model - INFO - preprocessing... 32  of  986
+2025-03-17 19:49:14,949 - DPO_model - INFO - preprocessing... 64  of  986
+2025-03-17 19:49:25,389 - DPO_model - INFO - preprocessing... 96  of  986
+2025-03-17 19:49:35,935 - DPO_model - INFO - preprocessing... 128  of  986
+2025-03-17 19:49:46,426 - DPO_model - INFO - Preprocessed 160 valid preference pairs (skipped 0 with out-of-range actions)
+2025-03-17 19:49:46,426 - DPO_model - INFO - preprocessing... 160  of  986
+2025-03-17 19:49:56,910 - DPO_model - INFO - preprocessing... 192  of  986
+2025-03-17 19:50:07,382 - DPO_model - INFO - preprocessing... 224  of  986
+2025-03-17 19:50:17,872 - DPO_model - INFO - preprocessing... 256  of  986
+2025-03-17 19:50:28,284 - DPO_model - INFO - preprocessing... 288  of  986
+2025-03-17 19:50:38,875 - DPO_model - INFO - Preprocessed 320 valid preference pairs (skipped 0 with out-of-range actions)
+2025-03-17 19:50:38,875 - DPO_model - INFO - preprocessing... 320  of  986
+2025-03-17 19:50:49,637 - DPO_model - INFO - preprocessing... 352  of  986
+2025-03-17 19:51:00,171 - DPO_model - INFO - preprocessing... 384  of  986
+2025-03-17 19:51:10,837 - DPO_model - INFO - preprocessing... 416  of  986
+2025-03-17 19:51:21,386 - DPO_model - INFO - preprocessing... 448  of  986
+2025-03-17 19:51:31,850 - DPO_model - INFO - Preprocessed 480 valid preference pairs (skipped 0 with out-of-range actions)
+2025-03-17 19:51:31,850 - DPO_model - INFO - preprocessing... 480  of  986
+2025-03-17 19:51:42,417 - DPO_model - INFO - preprocessing... 512  of  986
+2025-03-17 19:51:53,131 - DPO_model - INFO - preprocessing... 544  of  986
+2025-03-17 19:52:03,824 - DPO_model - INFO - preprocessing... 576  of  986
+2025-03-17 19:52:14,382 - DPO_model - INFO - preprocessing... 608  of  986
+2025-03-17 19:52:24,941 - DPO_model - INFO - Preprocessed 640 valid preference pairs (skipped 0 with out-of-range actions)
+2025-03-17 19:52:24,941 - DPO_model - INFO - preprocessing... 640  of  986
+2025-03-17 19:52:35,407 - DPO_model - INFO - preprocessing... 672  of  986
+2025-03-17 19:52:45,906 - DPO_model - INFO - preprocessing... 704  of  986
+2025-03-17 19:52:56,498 - DPO_model - INFO - preprocessing... 736  of  986
+2025-03-17 19:53:07,035 - DPO_model - INFO - preprocessing... 768  of  986
+2025-03-17 19:53:17,518 - DPO_model - INFO - Preprocessed 800 valid preference pairs (skipped 0 with out-of-range actions)
+2025-03-17 19:53:17,518 - DPO_model - INFO - preprocessing... 800  of  986
+2025-03-17 19:53:28,012 - DPO_model - INFO - preprocessing... 832  of  986
+2025-03-17 19:53:38,557 - DPO_model - INFO - preprocessing... 864  of  986
+2025-03-17 19:53:49,497 - DPO_model - INFO - preprocessing... 896  of  986
+2025-03-17 19:53:59,993 - DPO_model - INFO - preprocessing... 928  of  986
+2025-03-17 19:54:10,484 - DPO_model - INFO - Preprocessed 960 valid preference pairs (skipped 0 with out-of-range actions)
+2025-03-17 19:54:10,484 - DPO_model - INFO - preprocessing... 960  of  986
+2025-03-17 19:54:19,018 - DPO_model - INFO - Preprocessed 986 valid preference pairs (skipped 0 with out-of-range actions)
+2025-03-17 19:54:19,065 - DPO_model - INFO - Preprocessing 109 preference pairs
+2025-03-17 19:54:19,065 - DPO_model - INFO - Maximum action ID in preference pairs: 4
+2025-03-17 19:54:19,065 - DPO_model - INFO - Model expected action counts: {'what': 5, 'how': 5, 'if_can': 5}
+2025-03-17 19:54:19,065 - DPO_model - INFO - Action ID distribution for what questions:
+2025-03-17 19:54:19,065 - DPO_model - INFO -   Chosen actions: [(0, 7), (1, 14), (2, 6), (3, 12)]
+2025-03-17 19:54:19,065 - DPO_model - INFO - Action ID distribution for how questions:
+2025-03-17 19:54:19,065 - DPO_model - INFO -   Chosen actions: [(0, 8), (1, 11), (2, 4), (3, 5), (4, 4)]
+2025-03-17 19:54:19,065 - DPO_model - INFO - Action ID distribution for if_can questions:
+2025-03-17 19:54:19,065 - DPO_model - INFO -   Chosen actions: [(0, 12), (1, 11), (2, 2), (3, 7), (4, 6)]
+2025-03-17 19:54:19,065 - DPO_model - INFO - Action ID analysis:
+2025-03-17 19:54:19,065 - DPO_model - INFO - Question type: what
+2025-03-17 19:54:19,065 - DPO_model - INFO -   Chosen action ID: 3, desc: Narrow the scope of the 'what' question by adding contextual constraints.
+2025-03-17 19:54:19,065 - DPO_model - INFO -   Rejected action ID: 2, desc: Restructure the 'what' question to request concrete examples of the concept.
+2025-03-17 19:54:19,065 - DPO_model - INFO - Question type: what
+2025-03-17 19:54:19,065 - DPO_model - INFO -   Chosen action ID: 2, desc: Restructure the 'what' question to request concrete examples of the concept.
+2025-03-17 19:54:19,065 - DPO_model - INFO -   Rejected action ID: 4, desc: Convert the 'what' question into a comparative format (e.g., 'what is X compared to Y').
+2025-03-17 19:54:19,065 - DPO_model - INFO - Question type: what
+2025-03-17 19:54:19,065 - DPO_model - INFO -   Chosen action ID: 3, desc: Narrow the scope of the 'what' question by adding contextual constraints.
+2025-03-17 19:54:19,066 - DPO_model - INFO -   Rejected action ID: 2, desc: Restructure the 'what' question to request concrete examples of the concept.
+2025-03-17 19:54:19,066 - DPO_model - INFO - Question type: how
+2025-03-17 19:54:19,066 - DPO_model - INFO -   Chosen action ID: 0, desc: Keep the following prompt unchanged.
+2025-03-17 19:54:19,066 - DPO_model - INFO -   Rejected action ID: 2, desc: Add a request for implementation timeline to the 'how' question.
+2025-03-17 19:54:19,066 - DPO_model - INFO - Question type: how
+2025-03-17 19:54:19,066 - DPO_model - INFO -   Chosen action ID: 4, desc: Reframe the 'how' question to focus on potential challenges and solutions.
+2025-03-17 19:54:19,066 - DPO_model - INFO -   Rejected action ID: 2, desc: Add a request for implementation timeline to the 'how' question.
+2025-03-17 19:54:20,293 - DPO_model - INFO - preprocessing... 0  of  109
+2025-03-17 19:54:30,758 - DPO_model - INFO - preprocessing... 32  of  109
+2025-03-17 19:54:41,681 - DPO_model - INFO - preprocessing... 64  of  109
+2025-03-17 19:54:52,308 - DPO_model - INFO - preprocessing... 96  of  109
+2025-03-17 19:54:56,697 - DPO_model - INFO - Preprocessed 109 valid preference pairs (skipped 0 with out-of-range actions)
+2025-03-17 19:54:57,224 - DPO_model - INFO - Model saved to C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent\dpo_ablation_study_20250317_175222\beta_high_20250317_194835\best_model
+2025-03-17 19:54:57,224 - DPO_model - INFO - New best model saved with validation accuracy: 80.73%
+2025-03-17 19:54:57,225 - DPO_model - INFO - Epoch 1/10 completed in 0.49s - Loss: 0.6521, Val Accuracy: 80.73%
+2025-03-17 19:54:57,736 - DPO_model - INFO - Model saved to C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent\dpo_ablation_study_20250317_175222\beta_high_20250317_194835\best_model
+2025-03-17 19:54:57,736 - DPO_model - INFO - New best model saved with validation accuracy: 84.40%
+2025-03-17 19:54:57,736 - DPO_model - INFO - Epoch 2/10 completed in 0.51s - Loss: 0.5457, Val Accuracy: 84.40%
+2025-03-17 19:54:58,247 - DPO_model - INFO - Model saved to C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent\dpo_ablation_study_20250317_175222\beta_high_20250317_194835\best_model
+2025-03-17 19:54:58,247 - DPO_model - INFO - New best model saved with validation accuracy: 85.32%
+2025-03-17 19:54:58,247 - DPO_model - INFO - Epoch 3/10 completed in 0.51s - Loss: 0.4593, Val Accuracy: 85.32%
+2025-03-17 19:54:58,751 - DPO_model - INFO - Model saved to C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent\dpo_ablation_study_20250317_175222\beta_high_20250317_194835\best_model
+2025-03-17 19:54:58,751 - DPO_model - INFO - New best model saved with validation accuracy: 84.40%
+2025-03-17 19:54:58,751 - DPO_model - INFO - Epoch 4/10 completed in 0.50s - Loss: 0.4284, Val Accuracy: 84.40%
+2025-03-17 19:54:59,261 - DPO_model - INFO - Model saved to C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent\dpo_ablation_study_20250317_175222\beta_high_20250317_194835\best_model
+2025-03-17 19:54:59,261 - DPO_model - INFO - New best model saved with validation accuracy: 84.40%
+2025-03-17 19:54:59,261 - DPO_model - INFO - Epoch 5/10 completed in 0.51s - Loss: 0.4185, Val Accuracy: 84.40%
+2025-03-17 19:54:59,264 - DPO_model - INFO - Model saved to dpo_model_epoch_5
+2025-03-17 19:54:59,787 - DPO_model - INFO - Model saved to C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent\dpo_ablation_study_20250317_175222\beta_high_20250317_194835\best_model
+2025-03-17 19:54:59,787 - DPO_model - INFO - New best model saved with validation accuracy: 83.49%
+2025-03-17 19:54:59,787 - DPO_model - INFO - Epoch 6/10 completed in 0.52s - Loss: 0.4135, Val Accuracy: 83.49%
+2025-03-17 19:55:00,317 - DPO_model - INFO - Model saved to C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent\dpo_ablation_study_20250317_175222\beta_high_20250317_194835\best_model
+2025-03-17 19:55:00,317 - DPO_model - INFO - New best model saved with validation accuracy: 83.49%
+2025-03-17 19:55:00,317 - DPO_model - INFO - Epoch 7/10 completed in 0.53s - Loss: 0.4093, Val Accuracy: 83.49%
+2025-03-17 19:55:00,844 - DPO_model - INFO - Model saved to C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent\dpo_ablation_study_20250317_175222\beta_high_20250317_194835\best_model
+2025-03-17 19:55:00,844 - DPO_model - INFO - New best model saved with validation accuracy: 83.49%
+2025-03-17 19:55:00,844 - DPO_model - INFO - Epoch 8/10 completed in 0.53s - Loss: 0.4059, Val Accuracy: 83.49%
+2025-03-17 19:55:01,348 - DPO_model - INFO - Model saved to C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent\dpo_ablation_study_20250317_175222\beta_high_20250317_194835\best_model
+2025-03-17 19:55:01,348 - DPO_model - INFO - New best model saved with validation accuracy: 83.49%
+2025-03-17 19:55:01,348 - DPO_model - INFO - Epoch 9/10 completed in 0.50s - Loss: 0.4014, Val Accuracy: 83.49%
+2025-03-17 19:55:01,856 - DPO_model - INFO - Model saved to C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent\dpo_ablation_study_20250317_175222\beta_high_20250317_194835\best_model
+2025-03-17 19:55:01,856 - DPO_model - INFO - New best model saved with validation accuracy: 83.49%
+2025-03-17 19:55:01,856 - DPO_model - INFO - Epoch 10/10 completed in 0.51s - Loss: 0.3981, Val Accuracy: 83.49%
+2025-03-17 19:55:01,859 - DPO_model - INFO - Model saved to dpo_model_epoch_10
+2025-03-17 19:55:01,859 - DPO_model - INFO - Training completed in 368.13s (6.14m)
+2025-03-17 19:55:02,092 - DPO_model - INFO - Training curves plotted and saved to 'C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent\dpo_ablation_study_20250317_175222\beta_high_20250317_194835' directory
+2025-03-17 19:55:02,104 - DPO_model - INFO - Model saved to C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent\dpo_ablation_study_20250317_175222\beta_high_20250317_194835\final_model
+2025-03-17 19:55:02,105 - DPO_model - INFO - Evaluating DPO model on 60 test examples
+2025-03-17 19:55:02,105 - DPO_model - INFO - DEBUG - Question 1: what constitute an employer - sponsored anger plan?
+2025-03-17 19:55:02,105 - DPO_model - INFO - DEBUG - Question type: what
+2025-03-17 19:55:03,161 - DPO_model - INFO - DEBUG - Raw logits: [[ 1.510128    0.25630048 -0.94378114  0.3909983  -1.8023497 ]]
+2025-03-17 19:55:03,162 - DPO_model - INFO - DEBUG - Action probabilities: [0.5765826  0.16456261 0.04956126 0.18829106 0.02100249]
+2025-03-17 19:55:03,162 - DPO_model - INFO - DEBUG - Available actions for what questions:
+2025-03-17 19:55:03,162 - DPO_model - INFO - DEBUG -   Action 0: Keep the following prompt unchanged. (Prob: 0.5766)
+2025-03-17 19:55:03,162 - DPO_model - INFO - DEBUG -   Action 1: Add specific insurance terminology to define the 'what' concept more clearly. (Prob: 0.1646)
+2025-03-17 19:55:03,162 - DPO_model - INFO - DEBUG -   Action 2: Restructure the 'what' question to request concrete examples of the concept. (Prob: 0.0496)
+2025-03-17 19:55:03,162 - DPO_model - INFO - DEBUG -   Action 3: Narrow the scope of the 'what' question by adding contextual constraints. (Prob: 0.1883)
+2025-03-17 19:55:03,162 - DPO_model - INFO - DEBUG -   Action 4: Convert the 'what' question into a comparative format (e.g., 'what is X compared to Y'). (Prob: 0.0210)
+2025-03-17 19:55:03,162 - DPO_model - INFO - DEBUG - Selected action 0: Keep the following prompt unchanged.
+2025-03-17 19:55:15,779 - DPO_model - INFO - DEBUG - Question 2: Besides keeping employeeys happy, do employers benefit Cfinancialsly frpom offering benefits to thHeir employeDes?
+2025-03-17 19:55:15,779 - DPO_model - INFO - DEBUG - Question type: if_can
+2025-03-17 19:55:19,082 - DPO_model - INFO - DEBUG - Raw logits: [[ 1.9472402   0.45967865 -2.5305383  -0.14577375 -0.12741415]]
+2025-03-17 19:55:19,082 - DPO_model - INFO - DEBUG - Action probabilities: [0.6728587  0.15201418 0.00764275 0.08297351 0.08451094]
+2025-03-17 19:55:19,082 - DPO_model - INFO - DEBUG - Available actions for if_can questions:
+2025-03-17 19:55:19,082 - DPO_model - INFO - DEBUG -   Action 0: Keep the following prompt unchanged. (Prob: 0.6729)
+2025-03-17 19:55:19,082 - DPO_model - INFO - DEBUG -   Action 1: Add specific conditional parameters to the 'if/can' question. (Prob: 0.1520)
+2025-03-17 19:55:19,082 - DPO_model - INFO - DEBUG -   Action 2: Request exploration of both positive and negative outcomes in the 'if/can' scenario. (Prob: 0.0076)
+2025-03-17 19:55:19,082 - DPO_model - INFO - DEBUG -   Action 3: Add a request for statistical likelihood in the 'if/can' question. (Prob: 0.0830)
+2025-03-17 19:55:19,082 - DPO_model - INFO - DEBUG -   Action 4: Transform the 'if/can' question to give a yes/no response first before answering. (Prob: 0.0845)
+2025-03-17 19:55:19,082 - DPO_model - INFO - DEBUG - Selected action 0: Keep the following prompt unchanged.
+2025-03-17 19:55:25,910 - DPO_model - INFO - DEBUG - Question 3: Can employers get a tax credit for their contributions to a group health insurance plan?
+2025-03-17 19:55:25,910 - DPO_model - INFO - DEBUG - Question type: if_can
+2025-03-17 19:55:27,039 - DPO_model - INFO - DEBUG - Raw logits: [[ 2.4411159   0.7185636  -2.807025    0.24645159 -1.0712887 ]]
+2025-03-17 19:55:27,039 - DPO_model - INFO - DEBUG - Action probabilities: [0.75466686 0.13479082 0.0039675  0.08406684 0.02250803]
+2025-03-17 19:55:27,039 - DPO_model - INFO - DEBUG - Available actions for if_can questions:
+2025-03-17 19:55:27,039 - DPO_model - INFO - DEBUG -   Action 0: Keep the following prompt unchanged. (Prob: 0.7547)
+2025-03-17 19:55:27,039 - DPO_model - INFO - DEBUG -   Action 1: Add specific conditional parameters to the 'if/can' question. (Prob: 0.1348)
+2025-03-17 19:55:27,039 - DPO_model - INFO - DEBUG -   Action 2: Request exploration of both positive and negative outcomes in the 'if/can' scenario. (Prob: 0.0040)
+2025-03-17 19:55:27,040 - DPO_model - INFO - DEBUG -   Action 3: Add a request for statistical likelihood in the 'if/can' question. (Prob: 0.0841)
+2025-03-17 19:55:27,040 - DPO_model - INFO - DEBUG -   Action 4: Transform the 'if/can' question to give a yes/no response first before answering. (Prob: 0.0225)
+2025-03-17 19:55:27,040 - DPO_model - INFO - DEBUG - Selected action 0: Keep the following prompt unchanged.
+2025-03-17 19:55:34,618 - DPO_model - INFO - DEBUG - Question 4: what is a section 125 cafeteria plan?
+2025-03-17 19:55:34,618 - DPO_model - INFO - DEBUG - Question type: what
+2025-03-17 19:55:35,774 - DPO_model - INFO - DEBUG - Raw logits: [[ 1.6346645   0.38892093 -1.1349089   0.6049054  -2.1190271 ]]
+2025-03-17 19:55:35,774 - DPO_model - INFO - DEBUG - Action probabilities: [0.5777209  0.16622582 0.03621659 0.20630005 0.01353663]
+2025-03-17 19:55:35,774 - DPO_model - INFO - DEBUG - Available actions for what questions:
+2025-03-17 19:55:35,775 - DPO_model - INFO - DEBUG -   Action 0: Keep the following prompt unchanged. (Prob: 0.5777)
+2025-03-17 19:55:35,775 - DPO_model - INFO - DEBUG -   Action 1: Add specific insurance terminology to define the 'what' concept more clearly. (Prob: 0.1662)
+2025-03-17 19:55:35,775 - DPO_model - INFO - DEBUG -   Action 2: Restructure the 'what' question to request concrete examples of the concept. (Prob: 0.0362)
+2025-03-17 19:55:35,775 - DPO_model - INFO - DEBUG -   Action 3: Narrow the scope of the 'what' question by adding contextual constraints. (Prob: 0.2063)
+2025-03-17 19:55:35,775 - DPO_model - INFO - DEBUG -   Action 4: Convert the 'what' question into a comparative format (e.g., 'what is X compared to Y'). (Prob: 0.0135)
+2025-03-17 19:55:35,775 - DPO_model - INFO - DEBUG - Selected action 0: Keep the following prompt unchanged.
+2025-03-17 19:55:45,573 - DPO_model - INFO - DEBUG - Question 5: Else what do employers to need know about hras?
+2025-03-17 19:55:45,573 - DPO_model - INFO - DEBUG - Question type: what
+2025-03-17 19:55:46,855 - DPO_model - INFO - DEBUG - Raw logits: [[ 1.3017595   0.16178493 -0.6216657   0.08218797 -1.3773805 ]]
+2025-03-17 19:55:46,855 - DPO_model - INFO - DEBUG - Action probabilities: [0.5464745  0.17477739 0.07984302 0.16140492 0.03750025]
+2025-03-17 19:55:46,855 - DPO_model - INFO - DEBUG - Available actions for what questions:
+2025-03-17 19:55:46,855 - DPO_model - INFO - DEBUG -   Action 0: Keep the following prompt unchanged. (Prob: 0.5465)
+2025-03-17 19:55:46,855 - DPO_model - INFO - DEBUG -   Action 1: Add specific insurance terminology to define the 'what' concept more clearly. (Prob: 0.1748)
+2025-03-17 19:55:46,855 - DPO_model - INFO - DEBUG -   Action 2: Restructure the 'what' question to request concrete examples of the concept. (Prob: 0.0798)
+2025-03-17 19:55:46,855 - DPO_model - INFO - DEBUG -   Action 3: Narrow the scope of the 'what' question by adding contextual constraints. (Prob: 0.1614)
+2025-03-17 19:55:46,855 - DPO_model - INFO - DEBUG -   Action 4: Convert the 'what' question into a comparative format (e.g., 'what is X compared to Y'). (Prob: 0.0375)
+2025-03-17 19:55:46,855 - DPO_model - INFO - DEBUG - Selected action 0: Keep the following prompt unchanged.
+2025-03-17 20:03:44,134 - DPO_model - INFO - Evaluation completed with overall accuracy: 43.33%
+2025-03-17 20:03:44,175 - DPO_model - INFO - Training and evaluation completed. Results saved to C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent\dpo_ablation_study_20250317_175222\beta_high_20250317_194835
+2025-03-17 20:03:44,175 - DPO_model - INFO - ============================================================
+2025-03-17 20:03:44,176 - DPO_model - INFO - Training metrics saved to C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent\dpo_ablation_study_20250317_175222\beta_high_20250317_194835\training_metrics.json

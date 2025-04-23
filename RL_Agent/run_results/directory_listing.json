@@ -1,0 +1,1660 @@
+{
+  "run_results": [],
+  "baseline": [],
+  "baseline\\gpt-3.5-turbo": [
+    {
+      "filename": "baseline_rag_gpt_3.5_turbo_questions.json",
+      "size_bytes": 116698,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\baseline\\gpt-3.5-turbo\\baseline_rag_gpt_3.5_turbo_questions.json"
+    },
+    {
+      "filename": "baseline_rag_gpt_3.5_turbo_results.json",
+      "size_bytes": 59123,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\baseline\\gpt-3.5-turbo\\baseline_rag_gpt_3.5_turbo_results.json"
+    }
+  ],
+  "baseline\\gpt-4": [
+    {
+      "filename": "baseline_rag_gpt_4_questions.json",
+      "size_bytes": 117832,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\baseline\\gpt-4\\baseline_rag_gpt_4_questions.json"
+    },
+    {
+      "filename": "baseline_rag_gpt_4_results.json",
+      "size_bytes": 60244,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\baseline\\gpt-4\\baseline_rag_gpt_4_results.json"
+    }
+  ],
+  "dpo": [],
+  "dpo\\ablations": [],
+  "dpo\\ablations\\action_diversity_reward": [],
+  "dpo\\ablations\\action_diversity_reward\\analysis": [
+    {
+      "filename": "action_distribution_how.png",
+      "size_bytes": 43968,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\action_diversity_reward\\analysis\\action_distribution_how.png"
+    },
+    {
+      "filename": "action_distribution_if_can.png",
+      "size_bytes": 44024,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\action_diversity_reward\\analysis\\action_distribution_if_can.png"
+    },
+    {
+      "filename": "action_distribution_what.png",
+      "size_bytes": 43812,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\action_diversity_reward\\analysis\\action_distribution_what.png"
+    },
+    {
+      "filename": "action_diversity_reward_dpo_accuracy_curve.png",
+      "size_bytes": 31634,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\action_diversity_reward\\analysis\\action_diversity_reward_dpo_accuracy_curve.png"
+    },
+    {
+      "filename": "action_diversity_reward_dpo_loss_curve.png",
+      "size_bytes": 32986,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\action_diversity_reward\\analysis\\action_diversity_reward_dpo_loss_curve.png"
+    },
+    {
+      "filename": "analysis.log",
+      "size_bytes": 2041,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\action_diversity_reward\\analysis\\analysis.log"
+    },
+    {
+      "filename": "config.json",
+      "size_bytes": 771,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\action_diversity_reward\\analysis\\config.json"
+    },
+    {
+      "filename": "dpo_training.log",
+      "size_bytes": 24690,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\action_diversity_reward\\analysis\\dpo_training.log"
+    },
+    {
+      "filename": "question_type_accuracy.png",
+      "size_bytes": 28088,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\action_diversity_reward\\analysis\\question_type_accuracy.png"
+    },
+    {
+      "filename": "summary_report.txt",
+      "size_bytes": 1469,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\action_diversity_reward\\analysis\\summary_report.txt"
+    },
+    {
+      "filename": "training_metrics.json",
+      "size_bytes": 662,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\action_diversity_reward\\analysis\\training_metrics.json"
+    }
+  ],
+  "dpo\\ablations\\action_diversity_reward\\evaluation": [
+    {
+      "filename": "action_diversity_reward_evaluation_results.json",
+      "size_bytes": 2075,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\action_diversity_reward\\evaluation\\action_diversity_reward_evaluation_results.json"
+    }
+  ],
+  "dpo\\ablations\\action_diversity_reward\\model": [],
+  "dpo\\ablations\\action_diversity_reward\\model\\best_model": [
+    {
+      "filename": "actor.pth",
+      "size_bytes": 930263,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\action_diversity_reward\\model\\best_model\\actor.pth"
+    },
+    {
+      "filename": "metadata.json",
+      "size_bytes": 792,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\action_diversity_reward\\model\\best_model\\metadata.json"
+    }
+  ],
+  "dpo\\ablations\\action_diversity_reward\\model\\final_model": [
+    {
+      "filename": "actor.pth",
+      "size_bytes": 930263,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\action_diversity_reward\\model\\final_model\\actor.pth"
+    },
+    {
+      "filename": "metadata.json",
+      "size_bytes": 792,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\action_diversity_reward\\model\\final_model\\metadata.json"
+    }
+  ],
+  "dpo\\ablations\\action_minimal": [],
+  "dpo\\ablations\\action_minimal\\analysis": [
+    {
+      "filename": "action_distribution_how.png",
+      "size_bytes": 29652,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\action_minimal\\analysis\\action_distribution_how.png"
+    },
+    {
+      "filename": "action_distribution_if_can.png",
+      "size_bytes": 29185,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\action_minimal\\analysis\\action_distribution_if_can.png"
+    },
+    {
+      "filename": "action_distribution_what.png",
+      "size_bytes": 29783,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\action_minimal\\analysis\\action_distribution_what.png"
+    },
+    {
+      "filename": "action_minimal_dpo_accuracy_curve.png",
+      "size_bytes": 20610,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\action_minimal\\analysis\\action_minimal_dpo_accuracy_curve.png"
+    },
+    {
+      "filename": "action_minimal_dpo_loss_curve.png",
+      "size_bytes": 20522,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\action_minimal\\analysis\\action_minimal_dpo_loss_curve.png"
+    },
+    {
+      "filename": "analysis.log",
+      "size_bytes": 1978,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\action_minimal\\analysis\\analysis.log"
+    },
+    {
+      "filename": "config.json",
+      "size_bytes": 774,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\action_minimal\\analysis\\config.json"
+    },
+    {
+      "filename": "dpo_training.log",
+      "size_bytes": 26432,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\action_minimal\\analysis\\dpo_training.log"
+    },
+    {
+      "filename": "question_type_accuracy.png",
+      "size_bytes": 27416,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\action_minimal\\analysis\\question_type_accuracy.png"
+    },
+    {
+      "filename": "summary_report.txt",
+      "size_bytes": 839,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\action_minimal\\analysis\\summary_report.txt"
+    },
+    {
+      "filename": "training_metrics.json",
+      "size_bytes": 245,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\action_minimal\\analysis\\training_metrics.json"
+    }
+  ],
+  "dpo\\ablations\\action_minimal\\evaluation": [
+    {
+      "filename": "action_minimal_evaluation_results.json",
+      "size_bytes": 861,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\action_minimal\\evaluation\\action_minimal_evaluation_results.json"
+    }
+  ],
+  "dpo\\ablations\\action_minimal\\model": [],
+  "dpo\\ablations\\action_minimal\\model\\final_model": [
+    {
+      "filename": "actor.pth",
+      "size_bytes": 924119,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\action_minimal\\model\\final_model\\actor.pth"
+    },
+    {
+      "filename": "metadata.json",
+      "size_bytes": 333,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\action_minimal\\model\\final_model\\metadata.json"
+    }
+  ],
+  "dpo\\ablations\\balanced_pairs": [],
+  "dpo\\ablations\\balanced_pairs\\analysis": [
+    {
+      "filename": "action_balanced_pairs_dpo_accuracy_curve.png",
+      "size_bytes": 29249,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\balanced_pairs\\analysis\\action_balanced_pairs_dpo_accuracy_curve.png"
+    },
+    {
+      "filename": "action_balanced_pairs_dpo_loss_curve.png",
+      "size_bytes": 29925,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\balanced_pairs\\analysis\\action_balanced_pairs_dpo_loss_curve.png"
+    },
+    {
+      "filename": "action_distribution_how.png",
+      "size_bytes": 44984,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\balanced_pairs\\analysis\\action_distribution_how.png"
+    },
+    {
+      "filename": "action_distribution_if_can.png",
+      "size_bytes": 44341,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\balanced_pairs\\analysis\\action_distribution_if_can.png"
+    },
+    {
+      "filename": "action_distribution_what.png",
+      "size_bytes": 43818,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\balanced_pairs\\analysis\\action_distribution_what.png"
+    },
+    {
+      "filename": "analysis.log",
+      "size_bytes": 1978,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\balanced_pairs\\analysis\\analysis.log"
+    },
+    {
+      "filename": "config.json",
+      "size_bytes": 740,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\balanced_pairs\\analysis\\config.json"
+    },
+    {
+      "filename": "dpo_training.log",
+      "size_bytes": 22706,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\balanced_pairs\\analysis\\dpo_training.log"
+    },
+    {
+      "filename": "question_type_accuracy.png",
+      "size_bytes": 29458,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\balanced_pairs\\analysis\\question_type_accuracy.png"
+    },
+    {
+      "filename": "summary_report.txt",
+      "size_bytes": 1363,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\balanced_pairs\\analysis\\summary_report.txt"
+    },
+    {
+      "filename": "training_metrics.json",
+      "size_bytes": 631,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\balanced_pairs\\analysis\\training_metrics.json"
+    }
+  ],
+  "dpo\\ablations\\balanced_pairs\\evaluation": [
+    {
+      "filename": "action_balanced_pairs_evaluation_results.json",
+      "size_bytes": 1969,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\balanced_pairs\\evaluation\\action_balanced_pairs_evaluation_results.json"
+    }
+  ],
+  "dpo\\ablations\\balanced_pairs\\model": [],
+  "dpo\\ablations\\balanced_pairs\\model\\best_model": [
+    {
+      "filename": "actor.pth",
+      "size_bytes": 930263,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\balanced_pairs\\model\\best_model\\actor.pth"
+    },
+    {
+      "filename": "metadata.json",
+      "size_bytes": 761,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\balanced_pairs\\model\\best_model\\metadata.json"
+    }
+  ],
+  "dpo\\ablations\\balanced_pairs\\model\\final_model": [
+    {
+      "filename": "actor.pth",
+      "size_bytes": 930263,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\balanced_pairs\\model\\final_model\\actor.pth"
+    },
+    {
+      "filename": "metadata.json",
+      "size_bytes": 761,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\balanced_pairs\\model\\final_model\\metadata.json"
+    }
+  ],
+  "dpo\\ablations\\baseline": [],
+  "dpo\\ablations\\baseline\\analysis": [
+    {
+      "filename": "action_baseline_dpo_accuracy_curve.png",
+      "size_bytes": 26757,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\baseline\\analysis\\action_baseline_dpo_accuracy_curve.png"
+    },
+    {
+      "filename": "action_baseline_dpo_loss_curve.png",
+      "size_bytes": 29089,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\baseline\\analysis\\action_baseline_dpo_loss_curve.png"
+    },
+    {
+      "filename": "action_distribution_how.png",
+      "size_bytes": 45259,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\baseline\\analysis\\action_distribution_how.png"
+    },
+    {
+      "filename": "action_distribution_if_can.png",
+      "size_bytes": 44514,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\baseline\\analysis\\action_distribution_if_can.png"
+    },
+    {
+      "filename": "action_distribution_what.png",
+      "size_bytes": 44938,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\baseline\\analysis\\action_distribution_what.png"
+    },
+    {
+      "filename": "analysis.log",
+      "size_bytes": 1936,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\baseline\\analysis\\analysis.log"
+    },
+    {
+      "filename": "config.json",
+      "size_bytes": 756,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\baseline\\analysis\\config.json"
+    },
+    {
+      "filename": "dpo_training.log",
+      "size_bytes": 24349,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\baseline\\analysis\\dpo_training.log"
+    },
+    {
+      "filename": "question_type_accuracy.png",
+      "size_bytes": 27298,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\baseline\\analysis\\question_type_accuracy.png"
+    },
+    {
+      "filename": "summary_report.txt",
+      "size_bytes": 1408,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\baseline\\analysis\\summary_report.txt"
+    },
+    {
+      "filename": "training_metrics.json",
+      "size_bytes": 641,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\baseline\\analysis\\training_metrics.json"
+    }
+  ],
+  "dpo\\ablations\\baseline\\evaluation": [
+    {
+      "filename": "action_baseline_evaluation_results.json",
+      "size_bytes": 1986,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\baseline\\evaluation\\action_baseline_evaluation_results.json"
+    }
+  ],
+  "dpo\\ablations\\baseline\\model": [],
+  "dpo\\ablations\\baseline\\model\\best_model": [
+    {
+      "filename": "actor.pth",
+      "size_bytes": 930263,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\baseline\\model\\best_model\\actor.pth"
+    },
+    {
+      "filename": "metadata.json",
+      "size_bytes": 771,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\baseline\\model\\best_model\\metadata.json"
+    }
+  ],
+  "dpo\\ablations\\baseline\\model\\final_model": [
+    {
+      "filename": "actor.pth",
+      "size_bytes": 930263,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\baseline\\model\\final_model\\actor.pth"
+    },
+    {
+      "filename": "metadata.json",
+      "size_bytes": 771,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\baseline\\model\\final_model\\metadata.json"
+    }
+  ],
+  "dpo\\ablations\\beta_high": [],
+  "dpo\\ablations\\beta_high\\analysis": [
+    {
+      "filename": "action_beta_high_dpo_accuracy_curve.png",
+      "size_bytes": 28146,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\beta_high\\analysis\\action_beta_high_dpo_accuracy_curve.png"
+    },
+    {
+      "filename": "action_beta_high_dpo_loss_curve.png",
+      "size_bytes": 27750,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\beta_high\\analysis\\action_beta_high_dpo_loss_curve.png"
+    },
+    {
+      "filename": "action_distribution_how.png",
+      "size_bytes": 43875,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\beta_high\\analysis\\action_distribution_how.png"
+    },
+    {
+      "filename": "action_distribution_if_can.png",
+      "size_bytes": 43300,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\beta_high\\analysis\\action_distribution_if_can.png"
+    },
+    {
+      "filename": "action_distribution_what.png",
+      "size_bytes": 43733,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\beta_high\\analysis\\action_distribution_what.png"
+    },
+    {
+      "filename": "analysis.log",
+      "size_bytes": 1943,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\beta_high\\analysis\\analysis.log"
+    },
+    {
+      "filename": "config.json",
+      "size_bytes": 757,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\beta_high\\analysis\\config.json"
+    },
+    {
+      "filename": "dpo_training.log",
+      "size_bytes": 24295,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\beta_high\\analysis\\dpo_training.log"
+    },
+    {
+      "filename": "question_type_accuracy.png",
+      "size_bytes": 29128,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\beta_high\\analysis\\question_type_accuracy.png"
+    },
+    {
+      "filename": "summary_report.txt",
+      "size_bytes": 1392,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\beta_high\\analysis\\summary_report.txt"
+    },
+    {
+      "filename": "training_metrics.json",
+      "size_bytes": 639,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\beta_high\\analysis\\training_metrics.json"
+    }
+  ],
+  "dpo\\ablations\\beta_high\\evaluation": [
+    {
+      "filename": "action_beta_high_evaluation_results.json",
+      "size_bytes": 2000,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\beta_high\\evaluation\\action_beta_high_evaluation_results.json"
+    }
+  ],
+  "dpo\\ablations\\beta_high\\model": [],
+  "dpo\\ablations\\beta_high\\model\\best_model": [
+    {
+      "filename": "actor.pth",
+      "size_bytes": 930263,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\beta_high\\model\\best_model\\actor.pth"
+    },
+    {
+      "filename": "metadata.json",
+      "size_bytes": 771,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\beta_high\\model\\best_model\\metadata.json"
+    }
+  ],
+  "dpo\\ablations\\beta_high\\model\\final_model": [
+    {
+      "filename": "actor.pth",
+      "size_bytes": 930263,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\beta_high\\model\\final_model\\actor.pth"
+    },
+    {
+      "filename": "metadata.json",
+      "size_bytes": 771,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\beta_high\\model\\final_model\\metadata.json"
+    }
+  ],
+  "dpo\\ablations\\beta_low": [],
+  "dpo\\ablations\\beta_low\\analysis": [
+    {
+      "filename": "action_beta_low_dpo_accuracy_curve.png",
+      "size_bytes": 27870,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\beta_low\\analysis\\action_beta_low_dpo_accuracy_curve.png"
+    },
+    {
+      "filename": "action_beta_low_dpo_loss_curve.png",
+      "size_bytes": 29447,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\beta_low\\analysis\\action_beta_low_dpo_loss_curve.png"
+    },
+    {
+      "filename": "action_distribution_how.png",
+      "size_bytes": 45259,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\beta_low\\analysis\\action_distribution_how.png"
+    },
+    {
+      "filename": "action_distribution_if_can.png",
+      "size_bytes": 44514,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\beta_low\\analysis\\action_distribution_if_can.png"
+    },
+    {
+      "filename": "action_distribution_what.png",
+      "size_bytes": 44938,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\beta_low\\analysis\\action_distribution_what.png"
+    },
+    {
+      "filename": "analysis.log",
+      "size_bytes": 1936,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\beta_low\\analysis\\analysis.log"
+    },
+    {
+      "filename": "config.json",
+      "size_bytes": 757,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\beta_low\\analysis\\config.json"
+    },
+    {
+      "filename": "dpo_training.log",
+      "size_bytes": 24356,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\beta_low\\analysis\\dpo_training.log"
+    },
+    {
+      "filename": "question_type_accuracy.png",
+      "size_bytes": 26292,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\beta_low\\analysis\\question_type_accuracy.png"
+    },
+    {
+      "filename": "summary_report.txt",
+      "size_bytes": 1409,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\beta_low\\analysis\\summary_report.txt"
+    },
+    {
+      "filename": "training_metrics.json",
+      "size_bytes": 638,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\beta_low\\analysis\\training_metrics.json"
+    }
+  ],
+  "dpo\\ablations\\beta_low\\evaluation": [
+    {
+      "filename": "action_beta_low_evaluation_results.json",
+      "size_bytes": 2014,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\beta_low\\evaluation\\action_beta_low_evaluation_results.json"
+    }
+  ],
+  "dpo\\ablations\\beta_low\\model": [],
+  "dpo\\ablations\\beta_low\\model\\best_model": [
+    {
+      "filename": "actor.pth",
+      "size_bytes": 930263,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\beta_low\\model\\best_model\\actor.pth"
+    },
+    {
+      "filename": "metadata.json",
+      "size_bytes": 769,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\beta_low\\model\\best_model\\metadata.json"
+    }
+  ],
+  "dpo\\ablations\\beta_low\\model\\final_model": [
+    {
+      "filename": "actor.pth",
+      "size_bytes": 930263,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\beta_low\\model\\final_model\\actor.pth"
+    },
+    {
+      "filename": "metadata.json",
+      "size_bytes": 769,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\beta_low\\model\\final_model\\metadata.json"
+    }
+  ],
+  "dpo\\ablations\\comparisons": [
+    {
+      "filename": "accuracy_comparison.png",
+      "size_bytes": 272519,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\comparisons\\accuracy_comparison.png"
+    },
+    {
+      "filename": "comparison_summary.txt",
+      "size_bytes": 8434,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\comparisons\\comparison_summary.txt"
+    },
+    {
+      "filename": "top_actions_how.png",
+      "size_bytes": 343709,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\comparisons\\top_actions_how.png"
+    },
+    {
+      "filename": "top_actions_if_can.png",
+      "size_bytes": 332998,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\comparisons\\top_actions_if_can.png"
+    },
+    {
+      "filename": "top_actions_what.png",
+      "size_bytes": 342687,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\comparisons\\top_actions_what.png"
+    }
+  ],
+  "dpo\\ablations\\higher_temperature": [],
+  "dpo\\ablations\\higher_temperature\\analysis": [
+    {
+      "filename": "action_distribution_how.png",
+      "size_bytes": 43179,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\higher_temperature\\analysis\\action_distribution_how.png"
+    },
+    {
+      "filename": "action_distribution_if_can.png",
+      "size_bytes": 43218,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\higher_temperature\\analysis\\action_distribution_if_can.png"
+    },
+    {
+      "filename": "action_distribution_what.png",
+      "size_bytes": 44504,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\higher_temperature\\analysis\\action_distribution_what.png"
+    },
+    {
+      "filename": "action_higher_temperature_dpo_accuracy_curve.png",
+      "size_bytes": 26757,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\higher_temperature\\analysis\\action_higher_temperature_dpo_accuracy_curve.png"
+    },
+    {
+      "filename": "action_higher_temperature_dpo_loss_curve.png",
+      "size_bytes": 29089,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\higher_temperature\\analysis\\action_higher_temperature_dpo_loss_curve.png"
+    },
+    {
+      "filename": "analysis.log",
+      "size_bytes": 2006,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\higher_temperature\\analysis\\analysis.log"
+    },
+    {
+      "filename": "config.json",
+      "size_bytes": 767,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\higher_temperature\\analysis\\config.json"
+    },
+    {
+      "filename": "dpo_training.log",
+      "size_bytes": 24511,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\higher_temperature\\analysis\\dpo_training.log"
+    },
+    {
+      "filename": "question_type_accuracy.png",
+      "size_bytes": 27485,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\higher_temperature\\analysis\\question_type_accuracy.png"
+    },
+    {
+      "filename": "summary_report.txt",
+      "size_bytes": 1379,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\higher_temperature\\analysis\\summary_report.txt"
+    },
+    {
+      "filename": "training_metrics.json",
+      "size_bytes": 641,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\higher_temperature\\analysis\\training_metrics.json"
+    }
+  ],
+  "dpo\\ablations\\higher_temperature\\evaluation": [
+    {
+      "filename": "action_higher_temperature_evaluation_results.json",
+      "size_bytes": 1989,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\higher_temperature\\evaluation\\action_higher_temperature_evaluation_results.json"
+    }
+  ],
+  "dpo\\ablations\\higher_temperature\\model": [],
+  "dpo\\ablations\\higher_temperature\\model\\best_model": [
+    {
+      "filename": "actor.pth",
+      "size_bytes": 930263,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\higher_temperature\\model\\best_model\\actor.pth"
+    },
+    {
+      "filename": "metadata.json",
+      "size_bytes": 771,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\higher_temperature\\model\\best_model\\metadata.json"
+    }
+  ],
+  "dpo\\ablations\\higher_temperature\\model\\final_model": [
+    {
+      "filename": "actor.pth",
+      "size_bytes": 930263,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\higher_temperature\\model\\final_model\\actor.pth"
+    },
+    {
+      "filename": "metadata.json",
+      "size_bytes": 771,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\higher_temperature\\model\\final_model\\metadata.json"
+    }
+  ],
+  "dpo\\ablations\\no_keep_unchanged": [],
+  "dpo\\ablations\\no_keep_unchanged\\analysis": [
+    {
+      "filename": "action_distribution_how.png",
+      "size_bytes": 36762,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\no_keep_unchanged\\analysis\\action_distribution_how.png"
+    },
+    {
+      "filename": "action_distribution_if_can.png",
+      "size_bytes": 28988,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\no_keep_unchanged\\analysis\\action_distribution_if_can.png"
+    },
+    {
+      "filename": "action_distribution_what.png",
+      "size_bytes": 36310,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\no_keep_unchanged\\analysis\\action_distribution_what.png"
+    },
+    {
+      "filename": "action_no_keep_unchanged_dpo_accuracy_curve.png",
+      "size_bytes": 33263,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\no_keep_unchanged\\analysis\\action_no_keep_unchanged_dpo_accuracy_curve.png"
+    },
+    {
+      "filename": "action_no_keep_unchanged_dpo_loss_curve.png",
+      "size_bytes": 28823,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\no_keep_unchanged\\analysis\\action_no_keep_unchanged_dpo_loss_curve.png"
+    },
+    {
+      "filename": "analysis.log",
+      "size_bytes": 1999,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\no_keep_unchanged\\analysis\\analysis.log"
+    },
+    {
+      "filename": "config.json",
+      "size_bytes": 772,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\no_keep_unchanged\\analysis\\config.json"
+    },
+    {
+      "filename": "dpo_training.log",
+      "size_bytes": 22907,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\no_keep_unchanged\\analysis\\dpo_training.log"
+    },
+    {
+      "filename": "question_type_accuracy.png",
+      "size_bytes": 24763,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\no_keep_unchanged\\analysis\\question_type_accuracy.png"
+    },
+    {
+      "filename": "summary_report.txt",
+      "size_bytes": 1142,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\no_keep_unchanged\\analysis\\summary_report.txt"
+    },
+    {
+      "filename": "training_metrics.json",
+      "size_bytes": 645,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\no_keep_unchanged\\analysis\\training_metrics.json"
+    }
+  ],
+  "dpo\\ablations\\no_keep_unchanged\\evaluation": [
+    {
+      "filename": "action_no_keep_unchanged_evaluation_results.json",
+      "size_bytes": 1373,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\no_keep_unchanged\\evaluation\\action_no_keep_unchanged_evaluation_results.json"
+    }
+  ],
+  "dpo\\ablations\\no_keep_unchanged\\model": [],
+  "dpo\\ablations\\no_keep_unchanged\\model\\best_model": [
+    {
+      "filename": "actor.pth",
+      "size_bytes": 928727,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\no_keep_unchanged\\model\\best_model\\actor.pth"
+    },
+    {
+      "filename": "metadata.json",
+      "size_bytes": 775,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\no_keep_unchanged\\model\\best_model\\metadata.json"
+    }
+  ],
+  "dpo\\ablations\\no_keep_unchanged\\model\\final_model": [
+    {
+      "filename": "actor.pth",
+      "size_bytes": 928727,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\no_keep_unchanged\\model\\final_model\\actor.pth"
+    },
+    {
+      "filename": "metadata.json",
+      "size_bytes": 775,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\no_keep_unchanged\\model\\final_model\\metadata.json"
+    }
+  ],
+  "dpo\\ablations\\question_weighted_loss": [],
+  "dpo\\ablations\\question_weighted_loss\\analysis": [
+    {
+      "filename": "action_distribution_how.png",
+      "size_bytes": 45259,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\question_weighted_loss\\analysis\\action_distribution_how.png"
+    },
+    {
+      "filename": "action_distribution_if_can.png",
+      "size_bytes": 44514,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\question_weighted_loss\\analysis\\action_distribution_if_can.png"
+    },
+    {
+      "filename": "action_distribution_what.png",
+      "size_bytes": 44938,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\question_weighted_loss\\analysis\\action_distribution_what.png"
+    },
+    {
+      "filename": "action_question_weighted_loss_dpo_accuracy_curve.png",
+      "size_bytes": 32204,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\question_weighted_loss\\analysis\\action_question_weighted_loss_dpo_accuracy_curve.png"
+    },
+    {
+      "filename": "action_question_weighted_loss_dpo_loss_curve.png",
+      "size_bytes": 29097,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\question_weighted_loss\\analysis\\action_question_weighted_loss_dpo_loss_curve.png"
+    },
+    {
+      "filename": "analysis.log",
+      "size_bytes": 2034,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\question_weighted_loss\\analysis\\analysis.log"
+    },
+    {
+      "filename": "config.json",
+      "size_bytes": 769,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\question_weighted_loss\\analysis\\config.json"
+    },
+    {
+      "filename": "dpo_training.log",
+      "size_bytes": 24738,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\question_weighted_loss\\analysis\\dpo_training.log"
+    },
+    {
+      "filename": "question_type_accuracy.png",
+      "size_bytes": 27668,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\question_weighted_loss\\analysis\\question_type_accuracy.png"
+    },
+    {
+      "filename": "summary_report.txt",
+      "size_bytes": 1408,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\question_weighted_loss\\analysis\\summary_report.txt"
+    },
+    {
+      "filename": "training_metrics.json",
+      "size_bytes": 644,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\question_weighted_loss\\analysis\\training_metrics.json"
+    }
+  ],
+  "dpo\\ablations\\question_weighted_loss\\evaluation": [
+    {
+      "filename": "action_question_weighted_loss_evaluation_results.json",
+      "size_bytes": 2000,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\question_weighted_loss\\evaluation\\action_question_weighted_loss_evaluation_results.json"
+    }
+  ],
+  "dpo\\ablations\\question_weighted_loss\\model": [],
+  "dpo\\ablations\\question_weighted_loss\\model\\best_model": [
+    {
+      "filename": "actor.pth",
+      "size_bytes": 930263,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\question_weighted_loss\\model\\best_model\\actor.pth"
+    },
+    {
+      "filename": "metadata.json",
+      "size_bytes": 775,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\question_weighted_loss\\model\\best_model\\metadata.json"
+    }
+  ],
+  "dpo\\ablations\\question_weighted_loss\\model\\final_model": [
+    {
+      "filename": "actor.pth",
+      "size_bytes": 930263,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\question_weighted_loss\\model\\final_model\\actor.pth"
+    },
+    {
+      "filename": "metadata.json",
+      "size_bytes": 775,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\ablations\\question_weighted_loss\\model\\final_model\\metadata.json"
+    }
+  ],
+  "dpo\\main": [],
+  "dpo\\main\\evaluation": [
+    {
+      "filename": "config.json",
+      "size_bytes": 510,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\main\\evaluation\\config.json"
+    },
+    {
+      "filename": "dpo_run.log",
+      "size_bytes": 3236,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\main\\evaluation\\dpo_run.log"
+    },
+    {
+      "filename": "evaluation_results.json",
+      "size_bytes": 1988,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\main\\evaluation\\evaluation_results.json"
+    },
+    {
+      "filename": "training_metrics.json",
+      "size_bytes": 641,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\main\\evaluation\\training_metrics.json"
+    }
+  ],
+  "dpo\\main\\model": [],
+  "dpo\\main\\model\\dpo_model": [
+    {
+      "filename": "actor.pth",
+      "size_bytes": 930263,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\main\\model\\dpo_model\\actor.pth"
+    },
+    {
+      "filename": "metadata.json",
+      "size_bytes": 771,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\dpo\\main\\model\\dpo_model\\metadata.json"
+    }
+  ],
+  "ppo": [],
+  "ppo\\ablations": [],
+  "ppo\\ablations\\action_how_only": [],
+  "ppo\\ablations\\action_how_only\\analysis": [
+    {
+      "filename": "ablated_action_space.json",
+      "size_bytes": 1175,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_how_only\\analysis\\ablated_action_space.json"
+    },
+    {
+      "filename": "ablated_reward_config.json",
+      "size_bytes": 1309,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_how_only\\analysis\\ablated_reward_config.json"
+    },
+    {
+      "filename": "action_distribution_how.png",
+      "size_bytes": 98778,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_how_only\\analysis\\action_distribution_how.png"
+    },
+    {
+      "filename": "action_distribution_if_can.png",
+      "size_bytes": 100923,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_how_only\\analysis\\action_distribution_if_can.png"
+    },
+    {
+      "filename": "action_distribution_what.png",
+      "size_bytes": 86923,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_how_only\\analysis\\action_distribution_what.png"
+    },
+    {
+      "filename": "analysis.log",
+      "size_bytes": 4552,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_how_only\\analysis\\analysis.log"
+    },
+    {
+      "filename": "evaluation_metrics.json",
+      "size_bytes": 18056,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_how_only\\analysis\\evaluation_metrics.json"
+    },
+    {
+      "filename": "losses.png",
+      "size_bytes": 0,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_how_only\\analysis\\losses.png"
+    },
+    {
+      "filename": "question_type_progression.png",
+      "size_bytes": 419466,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_how_only\\analysis\\question_type_progression.png"
+    },
+    {
+      "filename": "question_type_rewards.png",
+      "size_bytes": 0,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_how_only\\analysis\\question_type_rewards.png"
+    },
+    {
+      "filename": "rewards.png",
+      "size_bytes": 77298,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_how_only\\analysis\\rewards.png"
+    },
+    {
+      "filename": "reward_comparison.png",
+      "size_bytes": 99718,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_how_only\\analysis\\reward_comparison.png"
+    },
+    {
+      "filename": "run.log",
+      "size_bytes": 3756,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_how_only\\analysis\\run.log"
+    },
+    {
+      "filename": "score_comparison.png",
+      "size_bytes": 0,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_how_only\\analysis\\score_comparison.png"
+    },
+    {
+      "filename": "smoothed_losses.png",
+      "size_bytes": 171504,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_how_only\\analysis\\smoothed_losses.png"
+    },
+    {
+      "filename": "smoothed_rewards.png",
+      "size_bytes": 273782,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_how_only\\analysis\\smoothed_rewards.png"
+    },
+    {
+      "filename": "summary_report.txt",
+      "size_bytes": 1231,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_how_only\\analysis\\summary_report.txt"
+    }
+  ],
+  "ppo\\ablations\\action_how_only\\evaluation": [
+    {
+      "filename": "metrics.json",
+      "size_bytes": 18056,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_how_only\\evaluation\\metrics.json"
+    }
+  ],
+  "ppo\\ablations\\action_how_only\\model": [],
+  "ppo\\ablations\\action_how_only\\model\\final_model": [
+    {
+      "filename": "actor.pth",
+      "size_bytes": 543528,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_how_only\\model\\final_model\\actor.pth"
+    },
+    {
+      "filename": "critic.pth",
+      "size_bytes": 531252,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_how_only\\model\\final_model\\critic.pth"
+    },
+    {
+      "filename": "metadata.json",
+      "size_bytes": 2248,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_how_only\\model\\final_model\\metadata.json"
+    }
+  ],
+  "ppo\\ablations\\action_if_can_only": [],
+  "ppo\\ablations\\action_if_can_only\\analysis": [
+    {
+      "filename": "ablated_action_space.json",
+      "size_bytes": 1232,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_if_can_only\\analysis\\ablated_action_space.json"
+    },
+    {
+      "filename": "ablated_reward_config.json",
+      "size_bytes": 1309,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_if_can_only\\analysis\\ablated_reward_config.json"
+    },
+    {
+      "filename": "action_distribution_how.png",
+      "size_bytes": 0,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_if_can_only\\analysis\\action_distribution_how.png"
+    },
+    {
+      "filename": "action_distribution_if_can.png",
+      "size_bytes": 0,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_if_can_only\\analysis\\action_distribution_if_can.png"
+    },
+    {
+      "filename": "action_distribution_what.png",
+      "size_bytes": 0,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_if_can_only\\analysis\\action_distribution_what.png"
+    },
+    {
+      "filename": "analysis.log",
+      "size_bytes": 4591,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_if_can_only\\analysis\\analysis.log"
+    },
+    {
+      "filename": "evaluation_metrics.json",
+      "size_bytes": 18018,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_if_can_only\\analysis\\evaluation_metrics.json"
+    },
+    {
+      "filename": "losses.png",
+      "size_bytes": 48325,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_if_can_only\\analysis\\losses.png"
+    },
+    {
+      "filename": "question_type_progression.png",
+      "size_bytes": 0,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_if_can_only\\analysis\\question_type_progression.png"
+    },
+    {
+      "filename": "question_type_rewards.png",
+      "size_bytes": 0,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_if_can_only\\analysis\\question_type_rewards.png"
+    },
+    {
+      "filename": "rewards.png",
+      "size_bytes": 0,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_if_can_only\\analysis\\rewards.png"
+    },
+    {
+      "filename": "reward_comparison.png",
+      "size_bytes": 0,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_if_can_only\\analysis\\reward_comparison.png"
+    },
+    {
+      "filename": "run.log",
+      "size_bytes": 3783,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_if_can_only\\analysis\\run.log"
+    },
+    {
+      "filename": "score_comparison.png",
+      "size_bytes": 0,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_if_can_only\\analysis\\score_comparison.png"
+    },
+    {
+      "filename": "smoothed_losses.png",
+      "size_bytes": 193740,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_if_can_only\\analysis\\smoothed_losses.png"
+    },
+    {
+      "filename": "smoothed_rewards.png",
+      "size_bytes": 0,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_if_can_only\\analysis\\smoothed_rewards.png"
+    },
+    {
+      "filename": "summary_report.txt",
+      "size_bytes": 1234,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_if_can_only\\analysis\\summary_report.txt"
+    }
+  ],
+  "ppo\\ablations\\action_if_can_only\\evaluation": [
+    {
+      "filename": "metrics.json",
+      "size_bytes": 18018,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_if_can_only\\evaluation\\metrics.json"
+    }
+  ],
+  "ppo\\ablations\\action_if_can_only\\model": [],
+  "ppo\\ablations\\action_if_can_only\\model\\final_model": [
+    {
+      "filename": "actor.pth",
+      "size_bytes": 543528,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_if_can_only\\model\\final_model\\actor.pth"
+    },
+    {
+      "filename": "critic.pth",
+      "size_bytes": 531252,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_if_can_only\\model\\final_model\\critic.pth"
+    },
+    {
+      "filename": "metadata.json",
+      "size_bytes": 2232,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_if_can_only\\model\\final_model\\metadata.json"
+    }
+  ],
+  "ppo\\ablations\\action_minimal": [],
+  "ppo\\ablations\\action_minimal\\more_general_actions": [],
+  "ppo\\ablations\\action_minimal\\more_general_actions\\analysis": [
+    {
+      "filename": "ablated_action_space.json",
+      "size_bytes": 418,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_minimal\\more_general_actions\\analysis\\ablated_action_space.json"
+    },
+    {
+      "filename": "ablated_reward_config.json",
+      "size_bytes": 1309,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_minimal\\more_general_actions\\analysis\\ablated_reward_config.json"
+    },
+    {
+      "filename": "losses.png",
+      "size_bytes": 48240,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_minimal\\more_general_actions\\analysis\\losses.png"
+    },
+    {
+      "filename": "question_type_rewards.png",
+      "size_bytes": 126019,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_minimal\\more_general_actions\\analysis\\question_type_rewards.png"
+    },
+    {
+      "filename": "rewards.png",
+      "size_bytes": 82931,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_minimal\\more_general_actions\\analysis\\rewards.png"
+    },
+    {
+      "filename": "run.log",
+      "size_bytes": 3747,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_minimal\\more_general_actions\\analysis\\run.log"
+    }
+  ],
+  "ppo\\ablations\\action_minimal\\more_general_actions\\evaluation": [],
+  "ppo\\ablations\\action_minimal\\more_general_actions\\model": [],
+  "ppo\\ablations\\action_minimal\\more_general_actions\\model\\final_model": [
+    {
+      "filename": "actor.pth",
+      "size_bytes": 552744,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_minimal\\more_general_actions\\model\\final_model\\actor.pth"
+    },
+    {
+      "filename": "critic.pth",
+      "size_bytes": 531252,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_minimal\\more_general_actions\\model\\final_model\\critic.pth"
+    },
+    {
+      "filename": "metadata.json",
+      "size_bytes": 2251,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_minimal\\more_general_actions\\model\\final_model\\metadata.json"
+    }
+  ],
+  "ppo\\ablations\\action_minimal\\one_general_action": [],
+  "ppo\\ablations\\action_minimal\\one_general_action\\analysis": [
+    {
+      "filename": "ablated_action_space.json",
+      "size_bytes": 179,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_minimal\\one_general_action\\analysis\\ablated_action_space.json"
+    },
+    {
+      "filename": "ablated_reward_config.json",
+      "size_bytes": 1309,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_minimal\\one_general_action\\analysis\\ablated_reward_config.json"
+    },
+    {
+      "filename": "action_distribution_how.png",
+      "size_bytes": 93535,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_minimal\\one_general_action\\analysis\\action_distribution_how.png"
+    },
+    {
+      "filename": "action_distribution_if_can.png",
+      "size_bytes": 89911,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_minimal\\one_general_action\\analysis\\action_distribution_if_can.png"
+    },
+    {
+      "filename": "action_distribution_what.png",
+      "size_bytes": 93658,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_minimal\\one_general_action\\analysis\\action_distribution_what.png"
+    },
+    {
+      "filename": "analysis.log",
+      "size_bytes": 4539,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_minimal\\one_general_action\\analysis\\analysis.log"
+    },
+    {
+      "filename": "evaluation_metrics.json",
+      "size_bytes": 18053,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_minimal\\one_general_action\\analysis\\evaluation_metrics.json"
+    },
+    {
+      "filename": "losses.png",
+      "size_bytes": 0,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_minimal\\one_general_action\\analysis\\losses.png"
+    },
+    {
+      "filename": "question_type_progression.png",
+      "size_bytes": 432856,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_minimal\\one_general_action\\analysis\\question_type_progression.png"
+    },
+    {
+      "filename": "question_type_rewards.png",
+      "size_bytes": 0,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_minimal\\one_general_action\\analysis\\question_type_rewards.png"
+    },
+    {
+      "filename": "rewards.png",
+      "size_bytes": 0,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_minimal\\one_general_action\\analysis\\rewards.png"
+    },
+    {
+      "filename": "reward_comparison.png",
+      "size_bytes": 109848,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_minimal\\one_general_action\\analysis\\reward_comparison.png"
+    },
+    {
+      "filename": "run.log",
+      "size_bytes": 3747,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_minimal\\one_general_action\\analysis\\run.log"
+    },
+    {
+      "filename": "score_comparison.png",
+      "size_bytes": 123620,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_minimal\\one_general_action\\analysis\\score_comparison.png"
+    },
+    {
+      "filename": "smoothed_losses.png",
+      "size_bytes": 194589,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_minimal\\one_general_action\\analysis\\smoothed_losses.png"
+    },
+    {
+      "filename": "smoothed_rewards.png",
+      "size_bytes": 292172,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_minimal\\one_general_action\\analysis\\smoothed_rewards.png"
+    },
+    {
+      "filename": "summary_report.txt",
+      "size_bytes": 1230,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_minimal\\one_general_action\\analysis\\summary_report.txt"
+    }
+  ],
+  "ppo\\ablations\\action_minimal\\one_general_action\\evaluation": [
+    {
+      "filename": "evaluation_metrics.json",
+      "size_bytes": 18066,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_minimal\\one_general_action\\evaluation\\evaluation_metrics.json"
+    },
+    {
+      "filename": "metrics.json",
+      "size_bytes": 18066,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_minimal\\one_general_action\\evaluation\\metrics.json"
+    }
+  ],
+  "ppo\\ablations\\action_minimal\\one_general_action\\model": [],
+  "ppo\\ablations\\action_minimal\\one_general_action\\model\\final_model": [
+    {
+      "filename": "actor.pth",
+      "size_bytes": 531240,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_minimal\\one_general_action\\model\\final_model\\actor.pth"
+    },
+    {
+      "filename": "critic.pth",
+      "size_bytes": 531252,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_minimal\\one_general_action\\model\\final_model\\critic.pth"
+    },
+    {
+      "filename": "metadata.json",
+      "size_bytes": 2282,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_minimal\\one_general_action\\model\\final_model\\metadata.json"
+    }
+  ],
+  "ppo\\ablations\\action_unified": [],
+  "ppo\\ablations\\action_unified\\analysis": [
+    {
+      "filename": "ablated_action_space.json",
+      "size_bytes": 3338,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_unified\\analysis\\ablated_action_space.json"
+    },
+    {
+      "filename": "ablated_reward_config.json",
+      "size_bytes": 1309,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_unified\\analysis\\ablated_reward_config.json"
+    },
+    {
+      "filename": "action_distribution_how.png",
+      "size_bytes": 0,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_unified\\analysis\\action_distribution_how.png"
+    },
+    {
+      "filename": "action_distribution_if_can.png",
+      "size_bytes": 0,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_unified\\analysis\\action_distribution_if_can.png"
+    },
+    {
+      "filename": "action_distribution_what.png",
+      "size_bytes": 0,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_unified\\analysis\\action_distribution_what.png"
+    },
+    {
+      "filename": "analysis.log",
+      "size_bytes": 4539,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_unified\\analysis\\analysis.log"
+    },
+    {
+      "filename": "evaluation_metrics.json",
+      "size_bytes": 18230,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_unified\\analysis\\evaluation_metrics.json"
+    },
+    {
+      "filename": "losses.png",
+      "size_bytes": 0,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_unified\\analysis\\losses.png"
+    },
+    {
+      "filename": "question_type_progression.png",
+      "size_bytes": 0,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_unified\\analysis\\question_type_progression.png"
+    },
+    {
+      "filename": "question_type_rewards.png",
+      "size_bytes": 0,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_unified\\analysis\\question_type_rewards.png"
+    },
+    {
+      "filename": "rewards.png",
+      "size_bytes": 0,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_unified\\analysis\\rewards.png"
+    },
+    {
+      "filename": "reward_comparison.png",
+      "size_bytes": 0,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_unified\\analysis\\reward_comparison.png"
+    },
+    {
+      "filename": "run.log",
+      "size_bytes": 3747,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_unified\\analysis\\run.log"
+    },
+    {
+      "filename": "score_comparison.png",
+      "size_bytes": 0,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_unified\\analysis\\score_comparison.png"
+    },
+    {
+      "filename": "smoothed_losses.png",
+      "size_bytes": 0,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_unified\\analysis\\smoothed_losses.png"
+    },
+    {
+      "filename": "smoothed_rewards.png",
+      "size_bytes": 0,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_unified\\analysis\\smoothed_rewards.png"
+    },
+    {
+      "filename": "summary_report.txt",
+      "size_bytes": 1230,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_unified\\analysis\\summary_report.txt"
+    }
+  ],
+  "ppo\\ablations\\action_unified\\evaluation": [
+    {
+      "filename": "metrics.json",
+      "size_bytes": 18230,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_unified\\evaluation\\metrics.json"
+    }
+  ],
+  "ppo\\ablations\\action_unified\\model": [],
+  "ppo\\ablations\\action_unified\\model\\final_model": [
+    {
+      "filename": "actor.pth",
+      "size_bytes": 568104,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_unified\\model\\final_model\\actor.pth"
+    },
+    {
+      "filename": "critic.pth",
+      "size_bytes": 531252,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_unified\\model\\final_model\\critic.pth"
+    },
+    {
+      "filename": "metadata.json",
+      "size_bytes": 2261,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_unified\\model\\final_model\\metadata.json"
+    }
+  ],
+  "ppo\\ablations\\action_what_only": [],
+  "ppo\\ablations\\action_what_only\\analysis": [
+    {
+      "filename": "ablated_action_space.json",
+      "size_bytes": 1298,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_what_only\\analysis\\ablated_action_space.json"
+    },
+    {
+      "filename": "ablated_reward_config.json",
+      "size_bytes": 1309,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_what_only\\analysis\\ablated_reward_config.json"
+    },
+    {
+      "filename": "action_distribution_how.png",
+      "size_bytes": 0,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_what_only\\analysis\\action_distribution_how.png"
+    },
+    {
+      "filename": "action_distribution_if_can.png",
+      "size_bytes": 0,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_what_only\\analysis\\action_distribution_if_can.png"
+    },
+    {
+      "filename": "action_distribution_what.png",
+      "size_bytes": 0,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_what_only\\analysis\\action_distribution_what.png"
+    },
+    {
+      "filename": "analysis.log",
+      "size_bytes": 4565,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_what_only\\analysis\\analysis.log"
+    },
+    {
+      "filename": "evaluation_metrics.json",
+      "size_bytes": 18051,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_what_only\\analysis\\evaluation_metrics.json"
+    },
+    {
+      "filename": "losses.png",
+      "size_bytes": 0,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_what_only\\analysis\\losses.png"
+    },
+    {
+      "filename": "question_type_progression.png",
+      "size_bytes": 0,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_what_only\\analysis\\question_type_progression.png"
+    },
+    {
+      "filename": "question_type_rewards.png",
+      "size_bytes": 0,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_what_only\\analysis\\question_type_rewards.png"
+    },
+    {
+      "filename": "rewards.png",
+      "size_bytes": 0,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_what_only\\analysis\\rewards.png"
+    },
+    {
+      "filename": "reward_comparison.png",
+      "size_bytes": 0,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_what_only\\analysis\\reward_comparison.png"
+    },
+    {
+      "filename": "run.log",
+      "size_bytes": 3765,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_what_only\\analysis\\run.log"
+    },
+    {
+      "filename": "score_comparison.png",
+      "size_bytes": 0,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_what_only\\analysis\\score_comparison.png"
+    },
+    {
+      "filename": "smoothed_losses.png",
+      "size_bytes": 178877,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_what_only\\analysis\\smoothed_losses.png"
+    },
+    {
+      "filename": "smoothed_rewards.png",
+      "size_bytes": 0,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_what_only\\analysis\\smoothed_rewards.png"
+    },
+    {
+      "filename": "summary_report.txt",
+      "size_bytes": 1232,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_what_only\\analysis\\summary_report.txt"
+    }
+  ],
+  "ppo\\ablations\\action_what_only\\evaluation": [
+    {
+      "filename": "metrics.json",
+      "size_bytes": 18051,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_what_only\\evaluation\\metrics.json"
+    }
+  ],
+  "ppo\\ablations\\action_what_only\\model": [],
+  "ppo\\ablations\\action_what_only\\model\\final_model": [
+    {
+      "filename": "actor.pth",
+      "size_bytes": 543528,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_what_only\\model\\final_model\\actor.pth"
+    },
+    {
+      "filename": "critic.pth",
+      "size_bytes": 531252,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_what_only\\model\\final_model\\critic.pth"
+    },
+    {
+      "filename": "metadata.json",
+      "size_bytes": 2258,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\action_what_only\\model\\final_model\\metadata.json"
+    }
+  ],
+  "ppo\\ablations\\baseline": [],
+  "ppo\\ablations\\baseline\\analysis": [
+    {
+      "filename": "action_distribution_how.png",
+      "size_bytes": 0,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\baseline\\analysis\\action_distribution_how.png"
+    },
+    {
+      "filename": "action_distribution_if_can.png",
+      "size_bytes": 0,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\baseline\\analysis\\action_distribution_if_can.png"
+    },
+    {
+      "filename": "action_distribution_what.png",
+      "size_bytes": 0,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\baseline\\analysis\\action_distribution_what.png"
+    },
+    {
+      "filename": "analysis.log",
+      "size_bytes": 4461,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\baseline\\analysis\\analysis.log"
+    },
+    {
+      "filename": "evaluation_metrics.json",
+      "size_bytes": 18096,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\baseline\\analysis\\evaluation_metrics.json"
+    },
+    {
+      "filename": "losses.png",
+      "size_bytes": 0,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\baseline\\analysis\\losses.png"
+    },
+    {
+      "filename": "question_type_progression.png",
+      "size_bytes": 0,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\baseline\\analysis\\question_type_progression.png"
+    },
+    {
+      "filename": "question_type_rewards.png",
+      "size_bytes": 0,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\baseline\\analysis\\question_type_rewards.png"
+    },
+    {
+      "filename": "rewards.png",
+      "size_bytes": 0,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\baseline\\analysis\\rewards.png"
+    },
+    {
+      "filename": "reward_comparison.png",
+      "size_bytes": 0,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\baseline\\analysis\\reward_comparison.png"
+    },
+    {
+      "filename": "run.log",
+      "size_bytes": 3522,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\baseline\\analysis\\run.log"
+    },
+    {
+      "filename": "score_comparison.png",
+      "size_bytes": 0,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\baseline\\analysis\\score_comparison.png"
+    },
+    {
+      "filename": "smoothed_losses.png",
+      "size_bytes": 0,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\baseline\\analysis\\smoothed_losses.png"
+    },
+    {
+      "filename": "smoothed_rewards.png",
+      "size_bytes": 0,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\baseline\\analysis\\smoothed_rewards.png"
+    },
+    {
+      "filename": "summary_report.txt",
+      "size_bytes": 1220,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\baseline\\analysis\\summary_report.txt"
+    }
+  ],
+  "ppo\\ablations\\baseline\\evaluation": [
+    {
+      "filename": "metrics.json",
+      "size_bytes": 18096,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\baseline\\evaluation\\metrics.json"
+    }
+  ],
+  "ppo\\ablations\\baseline\\model": [],
+  "ppo\\ablations\\baseline\\model\\final_model": [
+    {
+      "filename": "actor.pth",
+      "size_bytes": 543528,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\baseline\\model\\final_model\\actor.pth"
+    },
+    {
+      "filename": "critic.pth",
+      "size_bytes": 531252,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\baseline\\model\\final_model\\critic.pth"
+    },
+    {
+      "filename": "metadata.json",
+      "size_bytes": 2240,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\ablations\\baseline\\model\\final_model\\metadata.json"
+    }
+  ],
+  "ppo\\main": [],
+  "ppo\\main\\evaluation": [
+    {
+      "filename": "losses.png",
+      "size_bytes": 48857,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\main\\evaluation\\losses.png"
+    },
+    {
+      "filename": "metrics.json",
+      "size_bytes": 99870,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\main\\evaluation\\metrics.json"
+    },
+    {
+      "filename": "question_type_rewards.png",
+      "size_bytes": 188611,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\main\\evaluation\\question_type_rewards.png"
+    },
+    {
+      "filename": "rewards.png",
+      "size_bytes": 86759,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\main\\evaluation\\rewards.png"
+    }
+  ],
+  "ppo\\main\\model": [],
+  "ppo\\main\\model\\final_ppo_model": [
+    {
+      "filename": "actor.pth",
+      "size_bytes": 543528,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\main\\model\\final_ppo_model\\actor.pth"
+    },
+    {
+      "filename": "critic.pth",
+      "size_bytes": 531252,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\main\\model\\final_ppo_model\\critic.pth"
+    },
+    {
+      "filename": "metadata.json",
+      "size_bytes": 2258,
+      "full_path": "C:\\Users\\USER\\PycharmProjects\\fyp-rnd\\RL_Agent\\run_results\\ppo\\main\\model\\final_ppo_model\\metadata.json"
+    }
+  ]
+}

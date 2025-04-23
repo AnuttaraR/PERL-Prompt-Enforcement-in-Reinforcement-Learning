@@ -1,0 +1,75 @@
+{
+  "final_model": {
+    "what": {
+      "accuracy": 37.03703703703704,
+      "total": 27,
+      "correct": 10,
+      "top_actions": [
+        {
+          "action_id": 0,
+          "description": "Keep the following prompt unchanged.",
+          "percentage": 51.85185185185185
+        },
+        {
+          "action_id": 4,
+          "description": "Convert the 'what' question into a comparative format (e.g., 'what is X compared to Y').",
+          "percentage": 14.814814814814813
+        },
+        {
+          "action_id": 1,
+          "description": "Add specific insurance terminology to define the 'what' concept more clearly.",
+          "percentage": 14.814814814814813
+        }
+      ]
+    },
+    "how": {
+      "accuracy": 23.076923076923077,
+      "total": 13,
+      "correct": 3,
+      "top_actions": [
+        {
+          "action_id": 1,
+          "description": "Transform the 'how' question into a numbered step-by-step request format.",
+          "percentage": 30.76923076923077
+        },
+        {
+          "action_id": 4,
+          "description": "Reframe the 'how' question to focus on potential challenges and solutions.",
+          "percentage": 30.76923076923077
+        },
+        {
+          "action_id": 3,
+          "description": "Incorporate regulatory considerations into the 'how' question.",
+          "percentage": 23.076923076923077
+        }
+      ]
+    },
+    "if_can": {
+      "accuracy": 65.0,
+      "total": 20,
+      "correct": 13,
+      "top_actions": [
+        {
+          "action_id": 0,
+          "description": "Keep the following prompt unchanged.",
+          "percentage": 65.0
+        },
+        {
+          "action_id": 4,
+          "description": "Transform the 'if/can' question to give a yes/no response first before answering.",
+          "percentage": 10.0
+        },
+        {
+          "action_id": 2,
+          "description": "Request exploration of both positive and negative outcomes in the 'if/can' scenario.",
+          "percentage": 10.0
+        }
+      ]
+    },
+    "overall": {
+      "accuracy": 43.333333333333336,
+      "total": 60,
+      "correct": 26
+    }
+  }
+}

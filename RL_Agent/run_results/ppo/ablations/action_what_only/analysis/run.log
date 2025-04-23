@@ -1,0 +1,26 @@
+2025-03-01 05:19:09,181 - train_script - INFO - ==================================================
+2025-03-01 05:19:09,181 - train_script - INFO - Starting training run at 20250301_051909
+2025-03-01 05:19:09,181 - train_script - INFO - Arguments: Namespace(ablation='action_what_only', action_space='C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/config/action_space_config.json', batch_size=64, checkpoint_freq=50, episodes=100, eval_freq=100, lr=0.0003, output_dir='C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\\action_ablation_study_20250228_200743\\action_what_only_20250301_051829', reward_config='C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/config/reward_config.json', seed=42, test_data='C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/test_data.json', train_data='C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/train_data.json')
+2025-03-01 05:19:09,187 - train_script - INFO - Device: cpu
+2025-03-01 05:19:09,187 - train_script - INFO - Loading action space from C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/config/action_space_config.json
+2025-03-01 05:19:09,189 - train_script - INFO - Action space contains 13 total actions
+2025-03-01 05:19:09,189 - train_script - INFO - Loading reward config from C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/config/reward_config.json
+2025-03-01 05:19:09,191 - train_script - INFO - Applying ablation study: action_what_only
+2025-03-01 05:19:09,191 - train_script - INFO - Applied action space ablation: what_only
+2025-03-01 05:19:09,195 - train_script - INFO - Loading training dataset from C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/train_data.json
+2025-03-01 05:19:09,414 - train_script - INFO - Loading test dataset from C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/data/test_data.json
+2025-03-01 05:19:09,447 - train_script - INFO - Datasets loaded in 0.25s
+2025-03-01 05:19:09,448 - train_script - INFO - Input dimension: 512
+2025-03-01 05:19:09,455 - train_script - INFO - Starting training for 100 episodes...
+2025-03-01 10:03:08,398 - train_script - INFO - Training completed in 17038.94s (283.98 minutes)
+2025-03-01 10:03:08,406 - train_script - INFO - Final model saved to C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\action_ablation_study_20250228_200743\action_what_only_20250301_051829_20250301_051909/final_model
+2025-03-01 10:03:08,406 - train_script - INFO - Generating training visualizations...
+2025-03-01 10:03:08,406 - train_script - INFO - Generating training plots in C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\action_ablation_study_20250228_200743\action_what_only_20250301_051829_20250301_051909
+2025-03-01 10:03:09,042 - train_script - INFO - Training plots saved to C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\action_ablation_study_20250228_200743\action_what_only_20250301_051829_20250301_051909
+2025-03-01 10:03:09,042 - train_script - INFO - Evaluating on test set...
+2025-03-01 10:36:03,027 - train_script - INFO - Evaluation completed in 1973.98s (32.90 minutes)
+2025-03-01 10:36:03,027 - train_script - INFO - Saving metrics to C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\action_ablation_study_20250228_200743\action_what_only_20250301_051829_20250301_051909/evaluation_metrics.json
+2025-03-01 10:36:03,033 - train_script - INFO - Metrics saved successfully
+2025-03-01 10:36:03,038 - train_script - INFO - Total run time: 19013.85s (316.90 minutes)
+2025-03-01 10:36:03,038 - train_script - INFO - Results saved to C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/experiments\action_ablation_study_20250228_200743\action_what_only_20250301_051829_20250301_051909
+2025-03-01 10:36:03,038 - train_script - INFO - ==================================================

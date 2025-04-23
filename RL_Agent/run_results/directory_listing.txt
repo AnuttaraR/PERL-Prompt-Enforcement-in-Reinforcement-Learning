@@ -1,0 +1,722 @@
+
+DIRECTORY: run_results
+================================================================================
+
+
+DIRECTORY: baseline
+================================================================================
+
+
+DIRECTORY: baseline\gpt-3.5-turbo
+================================================================================
+  - baseline_rag_gpt_3.5_turbo_questions.json (116698 bytes)
+  - baseline_rag_gpt_3.5_turbo_results.json (59123 bytes)
+
+
+DIRECTORY: baseline\gpt-4
+================================================================================
+  - baseline_rag_gpt_4_questions.json (117832 bytes)
+  - baseline_rag_gpt_4_results.json (60244 bytes)
+
+
+DIRECTORY: dpo
+================================================================================
+
+
+DIRECTORY: dpo\ablations
+================================================================================
+
+
+DIRECTORY: dpo\ablations\action_diversity_reward
+================================================================================
+
+
+DIRECTORY: dpo\ablations\action_diversity_reward\analysis
+================================================================================
+  - action_distribution_how.png (43968 bytes)
+  - action_distribution_if_can.png (44024 bytes)
+  - action_distribution_what.png (43812 bytes)
+  - action_diversity_reward_dpo_accuracy_curve.png (31634 bytes)
+  - action_diversity_reward_dpo_loss_curve.png (32986 bytes)
+  - analysis.log (2041 bytes)
+  - config.json (771 bytes)
+  - dpo_training.log (24690 bytes)
+  - question_type_accuracy.png (28088 bytes)
+  - summary_report.txt (1469 bytes)
+  - training_metrics.json (662 bytes)
+
+
+DIRECTORY: dpo\ablations\action_diversity_reward\evaluation
+================================================================================
+  - action_diversity_reward_evaluation_results.json (2075 bytes)
+
+
+DIRECTORY: dpo\ablations\action_diversity_reward\model
+================================================================================
+
+
+DIRECTORY: dpo\ablations\action_diversity_reward\model\best_model
+================================================================================
+  - actor.pth (930263 bytes)
+  - metadata.json (792 bytes)
+
+
+DIRECTORY: dpo\ablations\action_diversity_reward\model\final_model
+================================================================================
+  - actor.pth (930263 bytes)
+  - metadata.json (792 bytes)
+
+
+DIRECTORY: dpo\ablations\action_minimal
+================================================================================
+
+
+DIRECTORY: dpo\ablations\action_minimal\analysis
+================================================================================
+  - action_distribution_how.png (29652 bytes)
+  - action_distribution_if_can.png (29185 bytes)
+  - action_distribution_what.png (29783 bytes)
+  - action_minimal_dpo_accuracy_curve.png (20610 bytes)
+  - action_minimal_dpo_loss_curve.png (20522 bytes)
+  - analysis.log (1978 bytes)
+  - config.json (774 bytes)
+  - dpo_training.log (26432 bytes)
+  - question_type_accuracy.png (27416 bytes)
+  - summary_report.txt (839 bytes)
+  - training_metrics.json (245 bytes)
+
+
+DIRECTORY: dpo\ablations\action_minimal\evaluation
+================================================================================
+  - action_minimal_evaluation_results.json (861 bytes)
+
+
+DIRECTORY: dpo\ablations\action_minimal\model
+================================================================================
+
+
+DIRECTORY: dpo\ablations\action_minimal\model\final_model
+================================================================================
+  - actor.pth (924119 bytes)
+  - metadata.json (333 bytes)
+
+
+DIRECTORY: dpo\ablations\balanced_pairs
+================================================================================
+
+
+DIRECTORY: dpo\ablations\balanced_pairs\analysis
+================================================================================
+  - action_balanced_pairs_dpo_accuracy_curve.png (29249 bytes)
+  - action_balanced_pairs_dpo_loss_curve.png (29925 bytes)
+  - action_distribution_how.png (44984 bytes)
+  - action_distribution_if_can.png (44341 bytes)
+  - action_distribution_what.png (43818 bytes)
+  - analysis.log (1978 bytes)
+  - config.json (740 bytes)
+  - dpo_training.log (22706 bytes)
+  - question_type_accuracy.png (29458 bytes)
+  - summary_report.txt (1363 bytes)
+  - training_metrics.json (631 bytes)
+
+
+DIRECTORY: dpo\ablations\balanced_pairs\evaluation
+================================================================================
+  - action_balanced_pairs_evaluation_results.json (1969 bytes)
+
+
+DIRECTORY: dpo\ablations\balanced_pairs\model
+================================================================================
+
+
+DIRECTORY: dpo\ablations\balanced_pairs\model\best_model
+================================================================================
+  - actor.pth (930263 bytes)
+  - metadata.json (761 bytes)
+
+
+DIRECTORY: dpo\ablations\balanced_pairs\model\final_model
+================================================================================
+  - actor.pth (930263 bytes)
+  - metadata.json (761 bytes)
+
+
+DIRECTORY: dpo\ablations\baseline
+================================================================================
+
+
+DIRECTORY: dpo\ablations\baseline\analysis
+================================================================================
+  - action_baseline_dpo_accuracy_curve.png (26757 bytes)
+  - action_baseline_dpo_loss_curve.png (29089 bytes)
+  - action_distribution_how.png (45259 bytes)
+  - action_distribution_if_can.png (44514 bytes)
+  - action_distribution_what.png (44938 bytes)
+  - analysis.log (1936 bytes)
+  - config.json (756 bytes)
+  - dpo_training.log (24349 bytes)
+  - question_type_accuracy.png (27298 bytes)
+  - summary_report.txt (1408 bytes)
+  - training_metrics.json (641 bytes)
+
+
+DIRECTORY: dpo\ablations\baseline\evaluation
+================================================================================
+  - action_baseline_evaluation_results.json (1986 bytes)
+
+
+DIRECTORY: dpo\ablations\baseline\model
+================================================================================
+
+
+DIRECTORY: dpo\ablations\baseline\model\best_model
+================================================================================
+  - actor.pth (930263 bytes)
+  - metadata.json (771 bytes)
+
+
+DIRECTORY: dpo\ablations\baseline\model\final_model
+================================================================================
+  - actor.pth (930263 bytes)
+  - metadata.json (771 bytes)
+
+
+DIRECTORY: dpo\ablations\beta_high
+================================================================================
+
+
+DIRECTORY: dpo\ablations\beta_high\analysis
+================================================================================
+  - action_beta_high_dpo_accuracy_curve.png (28146 bytes)
+  - action_beta_high_dpo_loss_curve.png (27750 bytes)
+  - action_distribution_how.png (43875 bytes)
+  - action_distribution_if_can.png (43300 bytes)
+  - action_distribution_what.png (43733 bytes)
+  - analysis.log (1943 bytes)
+  - config.json (757 bytes)
+  - dpo_training.log (24295 bytes)
+  - question_type_accuracy.png (29128 bytes)
+  - summary_report.txt (1392 bytes)
+  - training_metrics.json (639 bytes)
+
+
+DIRECTORY: dpo\ablations\beta_high\evaluation
+================================================================================
+  - action_beta_high_evaluation_results.json (2000 bytes)
+
+
+DIRECTORY: dpo\ablations\beta_high\model
+================================================================================
+
+
+DIRECTORY: dpo\ablations\beta_high\model\best_model
+================================================================================
+  - actor.pth (930263 bytes)
+  - metadata.json (771 bytes)
+
+
+DIRECTORY: dpo\ablations\beta_high\model\final_model
+================================================================================
+  - actor.pth (930263 bytes)
+  - metadata.json (771 bytes)
+
+
+DIRECTORY: dpo\ablations\beta_low
+================================================================================
+
+
+DIRECTORY: dpo\ablations\beta_low\analysis
+================================================================================
+  - action_beta_low_dpo_accuracy_curve.png (27870 bytes)
+  - action_beta_low_dpo_loss_curve.png (29447 bytes)
+  - action_distribution_how.png (45259 bytes)
+  - action_distribution_if_can.png (44514 bytes)
+  - action_distribution_what.png (44938 bytes)
+  - analysis.log (1936 bytes)
+  - config.json (757 bytes)
+  - dpo_training.log (24356 bytes)
+  - question_type_accuracy.png (26292 bytes)
+  - summary_report.txt (1409 bytes)
+  - training_metrics.json (638 bytes)
+
+
+DIRECTORY: dpo\ablations\beta_low\evaluation
+================================================================================
+  - action_beta_low_evaluation_results.json (2014 bytes)
+
+
+DIRECTORY: dpo\ablations\beta_low\model
+================================================================================
+
+
+DIRECTORY: dpo\ablations\beta_low\model\best_model
+================================================================================
+  - actor.pth (930263 bytes)
+  - metadata.json (769 bytes)
+
+
+DIRECTORY: dpo\ablations\beta_low\model\final_model
+================================================================================
+  - actor.pth (930263 bytes)
+  - metadata.json (769 bytes)
+
+
+DIRECTORY: dpo\ablations\comparisons
+================================================================================
+  - accuracy_comparison.png (272519 bytes)
+  - comparison_summary.txt (8434 bytes)
+  - top_actions_how.png (343709 bytes)
+  - top_actions_if_can.png (332998 bytes)
+  - top_actions_what.png (342687 bytes)
+
+
+DIRECTORY: dpo\ablations\higher_temperature
+================================================================================
+
+
+DIRECTORY: dpo\ablations\higher_temperature\analysis
+================================================================================
+  - action_distribution_how.png (43179 bytes)
+  - action_distribution_if_can.png (43218 bytes)
+  - action_distribution_what.png (44504 bytes)
+  - action_higher_temperature_dpo_accuracy_curve.png (26757 bytes)
+  - action_higher_temperature_dpo_loss_curve.png (29089 bytes)
+  - analysis.log (2006 bytes)
+  - config.json (767 bytes)
+  - dpo_training.log (24511 bytes)
+  - question_type_accuracy.png (27485 bytes)
+  - summary_report.txt (1379 bytes)
+  - training_metrics.json (641 bytes)
+
+
+DIRECTORY: dpo\ablations\higher_temperature\evaluation
+================================================================================
+  - action_higher_temperature_evaluation_results.json (1989 bytes)
+
+
+DIRECTORY: dpo\ablations\higher_temperature\model
+================================================================================
+
+
+DIRECTORY: dpo\ablations\higher_temperature\model\best_model
+================================================================================
+  - actor.pth (930263 bytes)
+  - metadata.json (771 bytes)
+
+
+DIRECTORY: dpo\ablations\higher_temperature\model\final_model
+================================================================================
+  - actor.pth (930263 bytes)
+  - metadata.json (771 bytes)
+
+
+DIRECTORY: dpo\ablations\no_keep_unchanged
+================================================================================
+
+
+DIRECTORY: dpo\ablations\no_keep_unchanged\analysis
+================================================================================
+  - action_distribution_how.png (36762 bytes)
+  - action_distribution_if_can.png (28988 bytes)
+  - action_distribution_what.png (36310 bytes)
+  - action_no_keep_unchanged_dpo_accuracy_curve.png (33263 bytes)
+  - action_no_keep_unchanged_dpo_loss_curve.png (28823 bytes)
+  - analysis.log (1999 bytes)
+  - config.json (772 bytes)
+  - dpo_training.log (22907 bytes)
+  - question_type_accuracy.png (24763 bytes)
+  - summary_report.txt (1142 bytes)
+  - training_metrics.json (645 bytes)
+
+
+DIRECTORY: dpo\ablations\no_keep_unchanged\evaluation
+================================================================================
+  - action_no_keep_unchanged_evaluation_results.json (1373 bytes)
+
+
+DIRECTORY: dpo\ablations\no_keep_unchanged\model
+================================================================================
+
+
+DIRECTORY: dpo\ablations\no_keep_unchanged\model\best_model
+================================================================================
+  - actor.pth (928727 bytes)
+  - metadata.json (775 bytes)
+
+
+DIRECTORY: dpo\ablations\no_keep_unchanged\model\final_model
+================================================================================
+  - actor.pth (928727 bytes)
+  - metadata.json (775 bytes)
+
+
+DIRECTORY: dpo\ablations\question_weighted_loss
+================================================================================
+
+
+DIRECTORY: dpo\ablations\question_weighted_loss\analysis
+================================================================================
+  - action_distribution_how.png (45259 bytes)
+  - action_distribution_if_can.png (44514 bytes)
+  - action_distribution_what.png (44938 bytes)
+  - action_question_weighted_loss_dpo_accuracy_curve.png (32204 bytes)
+  - action_question_weighted_loss_dpo_loss_curve.png (29097 bytes)
+  - analysis.log (2034 bytes)
+  - config.json (769 bytes)
+  - dpo_training.log (24738 bytes)
+  - question_type_accuracy.png (27668 bytes)
+  - summary_report.txt (1408 bytes)
+  - training_metrics.json (644 bytes)
+
+
+DIRECTORY: dpo\ablations\question_weighted_loss\evaluation
+================================================================================
+  - action_question_weighted_loss_evaluation_results.json (2000 bytes)
+
+
+DIRECTORY: dpo\ablations\question_weighted_loss\model
+================================================================================
+
+
+DIRECTORY: dpo\ablations\question_weighted_loss\model\best_model
+================================================================================
+  - actor.pth (930263 bytes)
+  - metadata.json (775 bytes)
+
+
+DIRECTORY: dpo\ablations\question_weighted_loss\model\final_model
+================================================================================
+  - actor.pth (930263 bytes)
+  - metadata.json (775 bytes)
+
+
+DIRECTORY: dpo\main
+================================================================================
+
+
+DIRECTORY: dpo\main\evaluation
+================================================================================
+  - config.json (510 bytes)
+  - dpo_run.log (3236 bytes)
+  - evaluation_results.json (1988 bytes)
+  - training_metrics.json (641 bytes)
+
+
+DIRECTORY: dpo\main\model
+================================================================================
+
+
+DIRECTORY: dpo\main\model\dpo_model
+================================================================================
+  - actor.pth (930263 bytes)
+  - metadata.json (771 bytes)
+
+
+DIRECTORY: ppo
+================================================================================
+
+
+DIRECTORY: ppo\ablations
+================================================================================
+
+
+DIRECTORY: ppo\ablations\action_how_only
+================================================================================
+
+
+DIRECTORY: ppo\ablations\action_how_only\analysis
+================================================================================
+  - ablated_action_space.json (1175 bytes)
+  - ablated_reward_config.json (1309 bytes)
+  - action_distribution_how.png (98778 bytes)
+  - action_distribution_if_can.png (100923 bytes)
+  - action_distribution_what.png (86923 bytes)
+  - analysis.log (4552 bytes)
+  - evaluation_metrics.json (18056 bytes)
+  - losses.png (0 bytes)
+  - question_type_progression.png (419466 bytes)
+  - question_type_rewards.png (0 bytes)
+  - rewards.png (77298 bytes)
+  - reward_comparison.png (99718 bytes)
+  - run.log (3756 bytes)
+  - score_comparison.png (0 bytes)
+  - smoothed_losses.png (171504 bytes)
+  - smoothed_rewards.png (273782 bytes)
+  - summary_report.txt (1231 bytes)
+
+
+DIRECTORY: ppo\ablations\action_how_only\evaluation
+================================================================================
+  - metrics.json (18056 bytes)
+
+
+DIRECTORY: ppo\ablations\action_how_only\model
+================================================================================
+
+
+DIRECTORY: ppo\ablations\action_how_only\model\final_model
+================================================================================
+  - actor.pth (543528 bytes)
+  - critic.pth (531252 bytes)
+  - metadata.json (2248 bytes)
+
+
+DIRECTORY: ppo\ablations\action_if_can_only
+================================================================================
+
+
+DIRECTORY: ppo\ablations\action_if_can_only\analysis
+================================================================================
+  - ablated_action_space.json (1232 bytes)
+  - ablated_reward_config.json (1309 bytes)
+  - action_distribution_how.png (0 bytes)
+  - action_distribution_if_can.png (0 bytes)
+  - action_distribution_what.png (0 bytes)
+  - analysis.log (4591 bytes)
+  - evaluation_metrics.json (18018 bytes)
+  - losses.png (48325 bytes)
+  - question_type_progression.png (0 bytes)
+  - question_type_rewards.png (0 bytes)
+  - rewards.png (0 bytes)
+  - reward_comparison.png (0 bytes)
+  - run.log (3783 bytes)
+  - score_comparison.png (0 bytes)
+  - smoothed_losses.png (193740 bytes)
+  - smoothed_rewards.png (0 bytes)
+  - summary_report.txt (1234 bytes)
+
+
+DIRECTORY: ppo\ablations\action_if_can_only\evaluation
+================================================================================
+  - metrics.json (18018 bytes)
+
+
+DIRECTORY: ppo\ablations\action_if_can_only\model
+================================================================================
+
+
+DIRECTORY: ppo\ablations\action_if_can_only\model\final_model
+================================================================================
+  - actor.pth (543528 bytes)
+  - critic.pth (531252 bytes)
+  - metadata.json (2232 bytes)
+
+
+DIRECTORY: ppo\ablations\action_minimal
+================================================================================
+
+
+DIRECTORY: ppo\ablations\action_minimal\more_general_actions
+================================================================================
+
+
+DIRECTORY: ppo\ablations\action_minimal\more_general_actions\analysis
+================================================================================
+  - ablated_action_space.json (418 bytes)
+  - ablated_reward_config.json (1309 bytes)
+  - losses.png (48240 bytes)
+  - question_type_rewards.png (126019 bytes)
+  - rewards.png (82931 bytes)
+  - run.log (3747 bytes)
+
+
+DIRECTORY: ppo\ablations\action_minimal\more_general_actions\evaluation
+================================================================================
+
+
+DIRECTORY: ppo\ablations\action_minimal\more_general_actions\model
+================================================================================
+
+
+DIRECTORY: ppo\ablations\action_minimal\more_general_actions\model\final_model
+================================================================================
+  - actor.pth (552744 bytes)
+  - critic.pth (531252 bytes)
+  - metadata.json (2251 bytes)
+
+
+DIRECTORY: ppo\ablations\action_minimal\one_general_action
+================================================================================
+
+
+DIRECTORY: ppo\ablations\action_minimal\one_general_action\analysis
+================================================================================
+  - ablated_action_space.json (179 bytes)
+  - ablated_reward_config.json (1309 bytes)
+  - action_distribution_how.png (93535 bytes)
+  - action_distribution_if_can.png (89911 bytes)
+  - action_distribution_what.png (93658 bytes)
+  - analysis.log (4539 bytes)
+  - evaluation_metrics.json (18053 bytes)
+  - losses.png (0 bytes)
+  - question_type_progression.png (432856 bytes)
+  - question_type_rewards.png (0 bytes)
+  - rewards.png (0 bytes)
+  - reward_comparison.png (109848 bytes)
+  - run.log (3747 bytes)
+  - score_comparison.png (123620 bytes)
+  - smoothed_losses.png (194589 bytes)
+  - smoothed_rewards.png (292172 bytes)
+  - summary_report.txt (1230 bytes)
+
+
+DIRECTORY: ppo\ablations\action_minimal\one_general_action\evaluation
+================================================================================
+  - evaluation_metrics.json (18066 bytes)
+  - metrics.json (18066 bytes)
+
+
+DIRECTORY: ppo\ablations\action_minimal\one_general_action\model
+================================================================================
+
+
+DIRECTORY: ppo\ablations\action_minimal\one_general_action\model\final_model
+================================================================================
+  - actor.pth (531240 bytes)
+  - critic.pth (531252 bytes)
+  - metadata.json (2282 bytes)
+
+
+DIRECTORY: ppo\ablations\action_unified
+================================================================================
+
+
+DIRECTORY: ppo\ablations\action_unified\analysis
+================================================================================
+  - ablated_action_space.json (3338 bytes)
+  - ablated_reward_config.json (1309 bytes)
+  - action_distribution_how.png (0 bytes)
+  - action_distribution_if_can.png (0 bytes)
+  - action_distribution_what.png (0 bytes)
+  - analysis.log (4539 bytes)
+  - evaluation_metrics.json (18230 bytes)
+  - losses.png (0 bytes)
+  - question_type_progression.png (0 bytes)
+  - question_type_rewards.png (0 bytes)
+  - rewards.png (0 bytes)
+  - reward_comparison.png (0 bytes)
+  - run.log (3747 bytes)
+  - score_comparison.png (0 bytes)
+  - smoothed_losses.png (0 bytes)
+  - smoothed_rewards.png (0 bytes)
+  - summary_report.txt (1230 bytes)
+
+
+DIRECTORY: ppo\ablations\action_unified\evaluation
+================================================================================
+  - metrics.json (18230 bytes)
+
+
+DIRECTORY: ppo\ablations\action_unified\model
+================================================================================
+
+
+DIRECTORY: ppo\ablations\action_unified\model\final_model
+================================================================================
+  - actor.pth (568104 bytes)
+  - critic.pth (531252 bytes)
+  - metadata.json (2261 bytes)
+
+
+DIRECTORY: ppo\ablations\action_what_only
+================================================================================
+
+
+DIRECTORY: ppo\ablations\action_what_only\analysis
+================================================================================
+  - ablated_action_space.json (1298 bytes)
+  - ablated_reward_config.json (1309 bytes)
+  - action_distribution_how.png (0 bytes)
+  - action_distribution_if_can.png (0 bytes)
+  - action_distribution_what.png (0 bytes)
+  - analysis.log (4565 bytes)
+  - evaluation_metrics.json (18051 bytes)
+  - losses.png (0 bytes)
+  - question_type_progression.png (0 bytes)
+  - question_type_rewards.png (0 bytes)
+  - rewards.png (0 bytes)
+  - reward_comparison.png (0 bytes)
+  - run.log (3765 bytes)
+  - score_comparison.png (0 bytes)
+  - smoothed_losses.png (178877 bytes)
+  - smoothed_rewards.png (0 bytes)
+  - summary_report.txt (1232 bytes)
+
+
+DIRECTORY: ppo\ablations\action_what_only\evaluation
+================================================================================
+  - metrics.json (18051 bytes)
+
+
+DIRECTORY: ppo\ablations\action_what_only\model
+================================================================================
+
+
+DIRECTORY: ppo\ablations\action_what_only\model\final_model
+================================================================================
+  - actor.pth (543528 bytes)
+  - critic.pth (531252 bytes)
+  - metadata.json (2258 bytes)
+
+
+DIRECTORY: ppo\ablations\baseline
+================================================================================
+
+
+DIRECTORY: ppo\ablations\baseline\analysis
+================================================================================
+  - action_distribution_how.png (0 bytes)
+  - action_distribution_if_can.png (0 bytes)
+  - action_distribution_what.png (0 bytes)
+  - analysis.log (4461 bytes)
+  - evaluation_metrics.json (18096 bytes)
+  - losses.png (0 bytes)
+  - question_type_progression.png (0 bytes)
+  - question_type_rewards.png (0 bytes)
+  - rewards.png (0 bytes)
+  - reward_comparison.png (0 bytes)
+  - run.log (3522 bytes)
+  - score_comparison.png (0 bytes)
+  - smoothed_losses.png (0 bytes)
+  - smoothed_rewards.png (0 bytes)
+  - summary_report.txt (1220 bytes)
+
+
+DIRECTORY: ppo\ablations\baseline\evaluation
+================================================================================
+  - metrics.json (18096 bytes)
+
+
+DIRECTORY: ppo\ablations\baseline\model
+================================================================================
+
+
+DIRECTORY: ppo\ablations\baseline\model\final_model
+================================================================================
+  - actor.pth (543528 bytes)
+  - critic.pth (531252 bytes)
+  - metadata.json (2240 bytes)
+
+
+DIRECTORY: ppo\main
+================================================================================
+
+
+DIRECTORY: ppo\main\evaluation
+================================================================================
+  - losses.png (48857 bytes)
+  - metrics.json (99870 bytes)
+  - question_type_rewards.png (188611 bytes)
+  - rewards.png (86759 bytes)
+
+
+DIRECTORY: ppo\main\model
+================================================================================
+
+
+DIRECTORY: ppo\main\model\final_ppo_model
+================================================================================
+  - actor.pth (543528 bytes)
+  - critic.pth (531252 bytes)
+  - metadata.json (2258 bytes)
+

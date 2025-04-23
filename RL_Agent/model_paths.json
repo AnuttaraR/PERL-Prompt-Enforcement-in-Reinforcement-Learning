@@ -1,0 +1,19 @@
+{
+  "ppo_models": {
+    "main_ppo_model": "C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/ppo_results/experiments\\experiment_20250226_220826\\training_output_20250226_220853\\final_model",
+    "ppo_action_what_only": "C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/ppo_results/experiments\\action_ablation_study_20250228_200743\\action_what_only_20250301_051829_20250301_051909\\final_model",
+    "ppo_action_how_only": "C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/ppo_results/experiments\\action_ablation_study_20250228_200743\\action_how_only_20250301_103619_20250301_103700\\final_model",
+    "ppo_action_if_can_only": "C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/ppo_results/experiments\\action_ablation_study_20250228_200743\\action_if_can_only_20250301_152222_20250301_152253\\final_model",
+    "ppo_action_minimal": "C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/ppo_results/experiments\\action_ablation_study_20250302_162746\\action_minimal_20250302_162746_20250302_162811\\final_model",
+    "ppo_action_unified": "C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/ppo_results/experiments\\action_ablation_study_20250228_200743\\action_unified_20250301_001719_20250301_001755\\final_model",
+    "ppo_baseline": "C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent/ppo_results/experiments\\action_ablation_study_20250228_200743\\baseline_20250228_200743_20250228_200817\\final_model"
+  },
+  "dpo_models": {
+    "main_dpo_model": "C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent\\dpo_run_20250307_155639\\dpo_model",
+    "dpo_action_diversity_reward": "C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent\\dpo_ablation_study_20250317_175222\\action_diversity_reward_20250317_184230\\final_model",
+    "dpo_balanced_pairs": "C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent\\dpo_ablation_study_20250317_175222\\balanced_pairs_20250317_181101\\final_model",
+    "dpo_higher_temperature": "C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent\\dpo_ablation_study_20250317_175222\\higher_temperature_20250317_182452\\final_model",
+    "dpo_beta_low": "C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent\\dpo_ablation_study_20250317_175222\\beta_low_20250317_193242\\final_model",
+    "dpo_beta_high": "C:/Users/USER/PycharmProjects/fyp-rnd/RL_Agent\\dpo_ablation_study_20250317_175222\\beta_high_20250317_194835\\final_model"
+  }
+}

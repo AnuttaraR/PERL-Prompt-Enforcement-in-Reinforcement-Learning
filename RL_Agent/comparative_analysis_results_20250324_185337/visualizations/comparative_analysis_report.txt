@@ -1,0 +1,23 @@
+============================================================
+COMPARATIVE ANALYSIS SUMMARY REPORT
+============================================================
+
+OVERALL PERFORMANCE COMPARISON
+----------------------------------------
+Model                          | What       | How        | If/Can     | Overall   
+----------------------------------------------------------------------------------
+
+ANALYSIS FOR WHAT QUESTIONS
+----------------------------------------
+Model: DPO (final_model)
+  - accuracy: 37.0370
+
+ANALYSIS FOR HOW QUESTIONS
+----------------------------------------
+Model: DPO (final_model)
+  - accuracy: 23.0769
+
+ANALYSIS FOR IF_CAN QUESTIONS
+----------------------------------------
+Model: DPO (final_model)
+  - accuracy: 65.0000

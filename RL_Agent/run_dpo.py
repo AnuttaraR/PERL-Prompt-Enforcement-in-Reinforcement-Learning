@@ -267,7 +267,7 @@ def main():
     logger.info(f"Evaluation completed in {eval_time:.2f}s ({eval_time / 60:.2f}m)")
 
     # Step 7: Save results
-    results_path = os.path.join(output_dir, "evaluation_results.json")
+    results_path = os.path.join(output_dir, "action_minimal_evaluation_results.json")
     with open(results_path, 'w') as f:
         json.dump(results, f, indent=2)
     logger.info(f"Evaluation results saved to {results_path}")

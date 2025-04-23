@@ -101,11 +101,11 @@ for ablation_type in ablation_types:
     subprocess.run(cmd)
 
     # Find and copy the evaluation results
-    eval_results_path = os.path.join(output_dir, "evaluation_results.json")
+    eval_results_path = os.path.join(output_dir, "action_minimal_evaluation_results.json")
 
     if os.path.exists(eval_results_path):
         # Copy to standard location for analysis
-        results_file = os.path.join(ablation_base_dir, "evaluation_results.json")
+        results_file = os.path.join(ablation_base_dir, "action_minimal_evaluation_results.json")
         shutil.copy2(eval_results_path, results_file)
         print(f"✓ Copied evaluation results to {results_file}")
 

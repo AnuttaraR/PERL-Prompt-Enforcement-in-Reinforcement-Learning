@@ -1,0 +1,23 @@
+================================================================================
+CROSS-MODEL COMPARISON: PPO vs DPO
+================================================================================
+
+PPO APPROACH SUMMARY
+----------------------------------------
+Best configuration: action_if_can_only (Avg reward: 0.3028)
+Worst configuration: action_minimal_one_general_action (Avg reward: 0.1648)
+Performance range: 0.1381
+
+DPO APPROACH SUMMARY
+----------------------------------------
+Best configuration: action_minimal (Accuracy: 58.33%)
+Worst configuration: no_keep_unchanged (Accuracy: 3.33%)
+Performance range: 55.00%
+
+QUESTION TYPE PERFORMANCE COMPARISON
+----------------------------------------
+Question Type | PPO (reward)    | DPO (accuracy)      
+------------------------------------------------------
+what       | 0.4466          | 55.56               %
+how        | 0.1644          | 23.08               %
+if_can     | 0.2975          | 85.00               %

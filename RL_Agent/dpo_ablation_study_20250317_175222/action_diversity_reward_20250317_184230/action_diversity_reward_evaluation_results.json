@@ -1,0 +1,73 @@
+{
+  "what": {
+    "accuracy": 40.74074074074074,
+    "total": 27,
+    "correct": 11,
+    "top_actions": [
+      {
+        "action_id": 3,
+        "description": "Narrow the scope of the 'what' question by adding contextual constraints.",
+        "percentage": 44.44444444444444
+      },
+      {
+        "action_id": 1,
+        "description": "Add specific insurance terminology to define the 'what' concept more clearly.",
+        "percentage": 25.925925925925924
+      },
+      {
+        "action_id": 4,
+        "description": "Convert the 'what' question into a comparative format (e.g., 'what is X compared to Y').",
+        "percentage": 14.814814814814813
+      }
+    ]
+  },
+  "how": {
+    "accuracy": 38.46153846153847,
+    "total": 13,
+    "correct": 5,
+    "top_actions": [
+      {
+        "action_id": 3,
+        "description": "Incorporate regulatory considerations into the 'how' question.",
+        "percentage": 38.46153846153847
+      },
+      {
+        "action_id": 1,
+        "description": "Transform the 'how' question into a numbered step-by-step request format.",
+        "percentage": 30.76923076923077
+      },
+      {
+        "action_id": 2,
+        "description": "Add a request for implementation timeline to the 'how' question.",
+        "percentage": 23.076923076923077
+      }
+    ]
+  },
+  "if_can": {
+    "accuracy": 60.0,
+    "total": 20,
+    "correct": 12,
+    "top_actions": [
+      {
+        "action_id": 1,
+        "description": "Add specific conditional parameters to the 'if/can' question.",
+        "percentage": 70.0
+      },
+      {
+        "action_id": 4,
+        "description": "Transform the 'if/can' question to give a yes/no response first before answering.",
+        "percentage": 10.0
+      },
+      {
+        "action_id": 3,
+        "description": "Add a request for statistical likelihood in the 'if/can' question.",
+        "percentage": 10.0
+      }
+    ]
+  },
+  "overall": {
+    "accuracy": 46.666666666666664,
+    "total": 60,
+    "correct": 28
+  }
+}
